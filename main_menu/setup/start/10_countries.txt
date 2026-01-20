@@ -31,5 +31,759 @@ countries = {
 			dynasty = ottilian_dynasty
 			capital = testprovince1
 		}
-	}
+
+
+        BLL = {	#Ballenhof part of solland
+            own_control_core = {
+                Ballenhof
+                Gestratz
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Ballenhof
+        }
+
+        SOL = {	#Solland
+            own_control_core = {
+                Hornfen
+                Pucheim
+                Obenheidenland
+                Sussenquelle
+                Sussenthal
+                Ost_Obernwald
+                Taalszahne
+                Huttenhugel
+                Marscheidenland
+                Raggelvorgebirge
+                Kazad_Zhum
+                Oberreikquelle
+                Raggelhugel
+                Diehlendorf
+                Mecklenthal
+                Hochsleben
+                Damulwald
+                Kleine_Raggelhugel
+
+                Zemenhugel
+                Zemenvorgebirge
+                Penzthal
+                Dergevorgebirge
+                Dergehugel
+                West_Obernwald
+                Aschwald
+                Ichenhugel
+                Hofstentten
+                Purnhugel
+                Delbruckschloss
+                Rookburg
+                Pfalzhugel
+                Atzwald
+                Dergenhof
+                Gunnertag
+                Nordkolberhugel
+                Castle_Greymane
+                Sudkolberhugel
+                Lohnswald
+                Engelhugel
+                Teisenheindenland
+                Einsamhugel
+                Gnaldenwald
+
+                Kleinwilden
+                Oberwildenhugel
+                Elzach
+                Tannau
+                Pfeildorf
+                Wildenhugel
+                Rosenhausen
+                Sollweg
+                Neukirch
+                Bernau
+                Achenwald
+                Ost_kleinwilden
+                Ostbeuerhugel
+                Achenfinwald
+                Ostfinwald
+                Finnwald
+                Ellwagen
+                Schonwald
+                Hagenwald
+                Habichtwald
+                Sulzhugel
+                Rusch
+                Marschwald
+                Gestratz
+                Ballenhof
+                Hagenhugel
+                Westbeuerhugel
+                Haugothal
+                Finnweg
+                Westen_Finnwald
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        MCK = {	#Mecklenburg freistadt
+            own_control_core = {
+                Mecklenburg
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        WTT = {	#Wittenhausen
+            own_control_core = {
+                Wittenhausen
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        WLD = {	#Waldbach
+            own_control_core = {
+                Waldbach
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+
+        UMM = {	#Ummenbach
+            own_control_core = {
+                Ummenbach
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        STE = {	#Steingart
+            own_control_core = {
+                Steingart
+                Krossbach
+                Vals
+                Ollersbach
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        STA = {	#Staig
+            own_control_core = {
+                Staig
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        SOC = {	#Sochtenau
+            own_control_core = {
+                Sochtenau
+                Leogang
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        SEX = {	#Sexau
+            own_control_core = {
+                Sexau
+                Diepolz
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+        ROH = {	#Rohrhof
+            own_control_core = {
+                Rohrhof
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        HVZ = {	#Pforzen
+            own_control_core = {
+                Haverz
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        PHL = {	#Pahl
+            own_control_core = {
+                Ranalt
+                Torrach
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        OTZ = {	#Osterzell
+            own_control_core = {
+                Osterzell
+                Kauns
+                Wenns
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        MOS = {	#Moosach
+            own_control_core = {
+                Moosach
+                Aitrang
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        MND = {	#Mendelhofe
+            own_control_core = {
+                Mendelhofe
+                Hochsolden
+                Schmirn
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        MAU = {	#Mauchen
+            own_control_core = {
+                Mauchen
+                Wilhams
+                Wolfurt
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        LGU = {	#Legau
+            own_control_core = {
+                Legau
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        KRO = {	#Mecklenburg freistadt
+            own_control_core = {
+                Kroppenleben
+                Ottakring
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        KOL = {	#Kolbhugel
+            own_control_core = {
+                Kolbhugel
+                Mandling
+                Volders
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+        JEN = {	#Jengen
+            own_control_core = {
+                Mathon
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        HUR = {	#Hurlach
+            own_control_core = {
+                Kislegg
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+        HRN = {	#Hornfurt
+            own_control_core = {
+                Hornfurt
+                Affing
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        GSC = {	#Geschburg
+            own_control_core = {
+                Geschburg
+                Althausen
+                Fluorin
+                Puchheim
+                Zoblen
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+        ERB = {	#Mecklenburg freistadt
+            own_control_core = {
+                Erbshausen
+                Madau
+                Rushc
+
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+
+        EPP = {	#Eppiswald
+            own_control_core = {
+                Gutach
+                Kluftern
+            }
+
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
+
+            discovered_regions = {
+                southern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_kingdom
+            dynasty = ottilian_dynasty
+            capital = Pfeildorf
+        }
+
+
+
+
+    }
 }
+

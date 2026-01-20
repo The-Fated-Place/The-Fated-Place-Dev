@@ -1,42 +1,13 @@
-locations={
+locations= {
 
-	testprovince1 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-	}
-	testprovince2 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-        define_pop = {    type = mages	size = 10.000	culture = taleuten	religion = sigmarian_heresy }
-        define_pop = {    type = undead	size = 5.000	culture = taleuten	religion = sigmarian_heresy }
-	}
-	testprovince3 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten 	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-	}
-	testprovince4 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-	}
-	testprovince5 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-	}
-	testprovince6 = {
-		define_pop = {	type = nobles	size = 0.012	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = clergy	size = 0.057	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = burghers	size = 1.776	culture = taleuten	religion = sigmarian_heresy }
-		define_pop = {	type = peasants	size = 35.598	culture = taleuten	religion = sigmarian_heresy }
-	}
-	
+    testprovince1 = {
+        define_pop = { type = nobles size = 0.031 culture = taleuten religion = sigmarian_heresy }
+        define_pop = { type = clergy size = 0.096 culture = taleuten religion = sigmarian_heresy }
+        define_pop = { type = burghers size = 0.910 culture = taleuten religion = sigmarian_heresy }
+        define_pop = { type = peasants size = 18.908 culture = taleuten religion = sigmarian_heresy }
+    }
+    Pfeildorf = {
+        define_pop = { type = clergy size = 0.008 culture = menogoth religion = imperial_cults }
+        define_pop = { type = peasants size = 12.762 culture = menogoth religion = imperial_cults }
+    }
 }

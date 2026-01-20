@@ -3356,6 +3356,13 @@ diplomatic_annexation_cost={
 	}
 }
 
+hostile_diplomatic_annexation_cost={
+    percent=yes
+    game_data={
+        category=country
+    }
+}
+
 merchant_maintenance_cost={
 	color=bad
 	percent=yes
@@ -5695,6 +5702,13 @@ global_levy_size_modifier={
 	game_data={
 		category=country
 	}
+}
+
+levy_recovery_modifier={
+    percent=yes
+    game_data={
+        category=unit
+    }
 }
 
 levy_combat_efficiency={
@@ -9249,6 +9263,14 @@ blocked_from_declaring_war={
 	}
 }
 
+union_blocked_from_declaring_war={
+    color=bad
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
 trade_range={
 	decimals=0
 	game_data={
@@ -9414,6 +9436,23 @@ global_disease_resistance={
 	game_data={
 		category=country
 	}
+}
+
+local_prosperity_decay={
+    percent=yes
+    color=bad
+
+    game_data={
+        category=location
+    }
+}
+
+global_prosperity_decay={
+    percent=yes
+    color = bad
+    game_data={
+        category=country
+    }
 }
 
 local_devastation_recovery={

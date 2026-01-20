@@ -15,7 +15,7 @@ character_db={
         birth = testprovince1
         dynasty = ottilian_dynasty
         fertility = 95
-        tag = OTT
+        tag = TAL
         ruler_trait = lawgiver
     }
 }

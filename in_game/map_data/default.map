@@ -27,6 +27,11 @@ earthquakes = {
 # European Seas
 sea_zones = { 
 	my_sea_zone
+	seas1
+	seas2
+	seas3
+	seas4
+	seas5
 } 
 
 ###############
@@ -37,8 +42,9 @@ sea_zones = {
 ########
 # LAKES
 ########
-lakes = { 
-} 
+lakes = {
+
+}
 
 #####################
 # IMPASSABLE TERRAIN
@@ -55,8 +61,6 @@ impassable_mountains = {
 	wasteland6
 	wasteland7
 	wasteland8
-	wasteland9
-	wasteland10
 	wasteland_blocker
 }
 

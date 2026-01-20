@@ -1,506 +1,241 @@
 ﻿custom_continent = {
-	custom_subcontintent = {	
-		custom_region = {
-			#always have at least 256 normal non-wasteland locations on the map and code!!!
-			my_land_area = {
-				my_land_province = {
+   custom_subcontintent = {
+      custom_region = {
+         my_land_area = {
+            my_land_province = {
+                reiklandlocation4
+               reiklandlocation3 reiklandlocation2 reiklandlocation1 reiklanddontknow schilderweg altprie testprovince1
+               testprovince2 testprovince3 testprovince4 testprovince5 testprovince6 testprovince7 testprovince8
+               testprovince9 testprovince10 testprovince11 testprovince12 testprovince13 testprovince14 testprovince15
+               testprovince16 testprovince17 testprovince18 testprovince19 testprovince20 testprovince21 testprovince22
+               testprovince23 testprovince24 testprovince25 testprovince26 testprovince27 testprovince28 testprovince29
+               testprovince30 testprovince31 testprovince32 testprovince33 testprovince34 testprovince35 testprovince36
+               testprovince37 testprovince38 testprovince39 testprovince40 testprovince41 testprovince42 testprovince43
+               testprovince44 testprovince45 testprovince46 testprovince47 testprovince48 testprovince49 testprovince50
+               testprovince51 testprovince52 testprovince53 testprovince54 testprovince55 testprovince56 testprovince57
+               testprovince58 testprovince59 testprovince60 testprovince61 testprovince62 testprovince63 testprovince64
+               testprovince65 testprovince66 testprovince67 testprovince68 testprovince69 testprovince70 testprovince71
+               testprovince72 testprovince73 testprovince74 testprovince75 testprovince76 testprovince77 testprovince78
+               testprovince79 testprovince80 testprovince81 testprovince82 testprovince83 testprovince84 testprovince85
+               testprovince86 testprovince87 testprovince88 testprovince89 testprovince90 testprovince91 testprovince92
+               testprovince93 testprovince94 testprovince95 testprovince96 testprovince97 testprovince98 testprovince99
+               testprovince100 testprovince101 testprovince102 testprovince103 testprovince104 testprovince105 testprovince106
+               testprovince107 testprovince108 testprovince109 testprovince110 testprovince111 testprovince112 testprovince113
+               testprovince114 testprovince115 testprovince116 testprovince117 testprovince118 testprovince119 testprovince120
+               testprovince121 testprovince122 testprovince123 testprovince124 testprovince125 testprovince126 testprovince127
+               testprovince128 testprovince129 testprovince130 testprovince131 testprovince132 testprovince133 testprovince134
+               testprovince135 testprovince136 testprovince137 testprovince138 testprovince139 testprovince140 testprovince141
+               testprovince142 testprovince143 testprovince144 testprovince145 testprovince146 testprovince147 testprovince148
+               testprovince149 testprovince150 testprovince151 testprovince152 testprovince153 testprovince154 testprovince155
+               testprovince156 testprovince157 testprovince158 testprovince159 testprovince160 testprovince161 testprovince162
+               testprovince163 testprovince164 testprovince165 testprovince166 testprovince167 testprovince168 testprovince169
+               testprovince170 testprovince171 testprovince172 testprovince173 testprovince174 testprovince175 testprovince176
+               testprovince177 testprovince178 testprovince179 testprovince180 testprovince181 testprovince182 testprovince183
+               testprovince184 testprovince185 testprovince186 testprovince187 testprovince188 testprovince189 testprovince190
+               testprovince191 testprovince192 testprovince193 testprovince194 testprovince195 testprovince196 testprovince197
+               testprovince198 testprovince199 testprovince200 testprovince201 testprovince202 testprovince203 testprovince204
+               testprovince205 testprovince206 testprovince207 testprovince208 testprovince209 testprovince210 testprovince211
+               testprovince212 testprovince213 testprovince214 testprovince215 testprovince216 testprovince217 testprovince218
+               testprovince219 testprovince220 testprovince221 testprovince222 testprovince223 testprovince224 testprovince225
+               testprovince226 testprovince227 testprovince228 testprovince229 testprovince230 testprovince231 testprovince232
+               testprovince233 testprovince234 testprovince235 testprovince236 testprovince237 testprovince238 testprovince239
+               testprovince240 testprovince241 testprovince242 testprovince243 testprovince244 testprovince245 testprovince246
+               testprovince247 testprovince248 testprovince249 testprovince250 testprovince251 testprovince252 testprovince253
+               testprovince254 testprovince255 testprovince256
+            }
 
-                    Pfeildorf
-                    Finnwald
+         }
+         my_sea_area = {
+            my_sea_province = {
+               my_sea_zone
+            }
 
-                    Kreutzhofen
-                    Geistwald
-                    Boashügel
-                    Brenzwald
-                    Tierhügel
-                    Michelfurt
-                    Sonnefurt
+         }
+         wasteland_area = {
+            wasteland_province = {
+               wasteland1 wasteland2 wasteland3 wasteland4 wasteland5 wasteland6 wasteland7
+               wasteland8 wasteland_blocker mountains1 mountains2 mountains3 mountains4 seas1
+               seas2 seas3 seas4 seas5
+            }
 
-                    Hardtenau
-                    Bezauhügel
-                    Ostrach
-                    Lederfeld
-                    Alpirswald
-                    Bezauwald
+         }
+         dummy1_area = {
 
-                    Geltensumpf
-                    Kell
-                    Thalfang
-                    Oshausen
-                    Legau
-                    Hornfeld
+         }
+         dummy2_area = {
 
-                    Wusteburg
-                    Wundtwald
-                    Serrig
-                    Ertigen
-                    Melkenfeld
-                    Hitisau
+         }
+         dummy3_area = {
 
-                    Ellhügel
-                    Ziertwald
-                    Tannhügel
+         }
+         dummy4_area = {
 
-                    Merogenfeld
-                    Dietenwald
-                    Trulben
+         }
+         dummy5_area = {
 
-                    Salmhügel
-                    Nehren
-                    Salmfähre
-                    Ostsalmwald
+         }
 
-                    Salmwald
-                    Geschberg
-                    Auggen
-                    Lauben
-                    Kazad_Tark
+      }
 
-                    Meissen
-                    Kazad_Almon
-                    Schwarzweidesumpf
-                    Heisenberg
-                    Rundstedt
-                    Oberharrachwald
+   }
 
-                    Unterharrachwald
-                    Harrachhügel
-                    Allach
-                    Wurmgrube
+}
+old_world = {
+   empire_and_kislev = {
+      southern_empire = {
+         sudenland = {
+            upper_wisenland = {
+               Kreutzhofen Boashugel Geistwald Brenzwald Tierhugel Michelfurt Sonnefurt
+            }
+            sonnethal = {
+               Alpirswald Lederfeld Bezauhugel Bezauwald Hardtenau Mittleresdorf
+            }
+            hornthal = {
+               Thalfang Kell Hornfeld Legau Oshausen Geltensumpf
+            }
+            melkenfelde = {
+               Melkenfeld Hitisau Ertigen Serrig Wundtwald Wusteburg
+            }
+            elthal = {
+               Tannhugel Ziertwald Ellhugel
+            }
+            merogenfeld = {
+               Dietenwald Trulben Merogenfeld
+            }
+            ostersalmthal = {
+               Salmhugel Ostsalmwald Nehren Salmfahre
+            }
 
-                    Aying
-                    Hikend
-                    Moonsen
-                    Oberhaigenhügel
+         }
+         mittelwissen = {
+            westsalmthal = {
+               Geschburg Geschberg Lauben Salmwald Kazad_Tark Auggen
+            }
+            silburweg = {
+               Rundstedt Heisenberg Schwarzweidesumpf Oberharrachwald Kazad_Almon Meissen
+            }
+            harrach_river_valley = {
+               Harrachhugel Allach Wurmgrube Unterharrachwald
+            }
+            herbolzthal = {
+               Oberhaigenhugel Moonsen Hikend Aying
+            }
+            haigenhugel = {
+               Haigenbach Unterhaigenhugel Dottrahof Holswang
+            }
 
-                    Unterhaigenhügel
-                    Haigenbach
-                    Holswang
-                    Dottrahof
+         }
+         niederwissen = {
+            schwarzgipfel = {
+               Ambostein Schwarzgipfel Grissenwald
+            }
+            wissenburg = {
+               Segeldorf Wissenhugel Dakarhaus Maselwald Khazid_Agruli Wissenburg
+            }
+            dotternhugel = {
+               Dottervorgebirge Gratz Dotternhugel Dotternbach
+            }
+            grissenquelle = {
+               Lenkahugel Lenkawald Kroning Grissenquelle Blood_Keep
+            }
+            grissenvorgebirge = {
+               Gorsumthal Hendorf Windisch Rohrhausen
+            }
 
-                    Grissenwald
-                    Ambostein
-                    Schwarzgipfel
+         }
+         nuln = {
+            niederstadt = {
+               Industrielplatz Faulestadt
+            }
+            nulnthal = {
+               Briberdorf Wilkenhausen Arschel
+            }
+            neuestadt = {
+               Handelbezirk Universitat Westen Neustadt
+            }
+            mittelreiksthal = {
+               Wurstheim Furtzhausen Eschedorf Ambosstein
+            }
+            nulnhugel = {
+               Kaufmannbezirk Aldig Tempelbezirk
+            }
+            avermark = {
+               Kotzenheim Braundorf Halbinsel
+            }
 
-                    Segeldorf
-                    Wissenburg
-                    Khazid_Agruli
-                    Wissenhügel
-                    Dakarhaus
-                    Maselwald
+         }
+         pfeildorf_kessel = {
+            wildenthal = {
+               Kleinwilden Oberwildenhugel Sexau Diepolz
+            }
+            pfeildorf = {
+               Elzach Tannau Pfeildorf Wildenhugel Rosenhausen Sollweg Mecklenburg
+               Neukirch Bernau
+            }
+            wolfeld = {
+               Achenwald Wolfurt Mauchen Wilhams Ost_kleinwilden
+            }
+            ostfinwald = {
+               Ostbeuerhugel Achenfinwald Ostfinwald Finnwald Staig
+            }
+            schonwald = {
+               Ellwagen Schonwald Hagenwald Habichtwald
+            }
+            pedlars_paths = {
+               Moosach Aitrang Kislegg Waldbach Sulzhugel Rusch
+            }
+            marshmark = {
+               Marschwald Gestratz Ballenhof Hagenhugel
+            }
+            Niederkofer = {
+               Westbeuerhugel Haugothal Haverz Finnweg Westen_Finnwald
+            }
 
-                    Dotternhügel
-                    Grätz
-                    Dotternbach
-                    Dottervorgebirge
+         }
+         vennland = {
+            obernfels = {
+               Obenheidenland Sussenquelle Sussenthal Ost_Obernwald Ummenbach
+            }
+            steingart = {
+               Steingart Krossbach Vals Taalszahne Ollersbach Huttenhugel
+            }
+            oggelthal = {
+               Marscheidenland Rushc Erbshausen Madau
+            }
+            raggelhugel = {
+               Raggelvorgebirge Kazad_Zhum Oberreikquelle Raggelhugel Diehlendorf Mecklenthal Hochsolden
+               Schmirn Mendelhofe
+            }
+            ostmark = {
+               Hochsleben Osterzell Damulwald Mathon Kleine_Raggelhugel Kauns Wenns
+            }
 
-                    Blood_Keep
-                    Kröning
-                    Lenkawald
-                    Grissenquelle
-                    Lenkahügel
+         }
+         upland = {
+            sollandische_vorgebirge = {
+               Zemenhugel Zemenvorgebirge Penzthal Dergevorgebirge Dergehugel West_Obernwald Hornfen
+            }
+            osthornthal = {
+               Aschwald Ottakring Kroppenleben Ichenhugel Hornfurt Affing
+            }
+            tegerthal = {
+               Hofstentten Purnhugel Delbruckschloss Rookburg
+            }
+            eppiswald = {
+               Pfalzhugel Atzwald Kluftern Dergenhof Gutach Rohrhof
+            }
+            koferfeld = {
+               Wittenhausen Fluorin Pucheim Zoblen Althausen Gunnertag
+            }
+            langwasser = {
+               Volders Ranalt Castle_Greymane Nordkolberhugel Leogang Sochtenau Sudkolberhugel
+               Lohnswald Engelhugel Kolbhugel Mandling Teisenheindenland Einsamhugel Gnaldenwald Torrach
+            }
 
-                    Rohrhausen
-                    Windisch
-                    Gorsumthal
-                    Gorsum_Vale
+         }
 
-                    Oberwildenhügel
-                    Kleinwilden
-                    Diepolz
-                    Sexau
+      }
 
-                    Pfeildorf
-                    Mecklenburg
-                    Rosenhausen
-                    Sollweg
-                    Neukirch
-                    Elzach
-                    Tannau
-                    Bernau
-                    Wildenhügel
+   }
 
-                    Wittenhausen
-                    Westen_Finnwald
-                    Westbeuerhügel
-                    Haugothal
-                    Haverz
-
-                    Wolfurt
-                    East_kleinwilden
-                    Wilhams
-                    Mauchen
-                    Achenwald
-
-                    Staig
-                    Finning
-                    Ostfinwald
-                    Achenfinwald
-                    East_Beuer_Hills
-
-                    Habichtwald
-                    Hagenwald
-                    Ellwagen
-                    Schönwald
-
-                    Kislegg
-                    Moosach
-                    Aitrang
-
-                    Waldbach
-                    Rusch
-                    Sulz_Hills
-
-                    Hagen_Hills
-                    Gestratz
-                    Ballenhof
-                    Marschwald
-
-                    Sussenthal
-                    East_Obernwald
-                    Ummenbach
-                    Obenheidenland
-                    Sussenquelle
-
-                    Hutten_Hills
-                    Taals_Fangs
-                    Ollersbach
-                    Vals
-                    Krossbach
-                    Steingart
-
-                    Marscheidenland
-                    Madau
-                    Rushc
-                    Erbshausen
-
-                    Mendelhofe
-                    Schmirn
-                    Hochsölden
-
-                    Raggel_Hills
-                    Raggel_FootHills
-                    Kazad_Zhum
-                    Diehlendorf
-                    Mecklenthal
-                    Oberreikquelle
-
-                    Wenns
-                    Mathon
-                    Damulwald
-                    Hochsleben
-                    Kauns
-                    Minor_Raggel_Hills
-                    Osterzell
-
-					testprovince1
-					testprovince2
-					testprovince3
-					testprovince4
-					testprovince5
-					testprovince6
-					testprovince7
-					testprovince8
-					testprovince9
-					testprovince10
-					testprovince11
-					testprovince12
-					testprovince13
-					testprovince14
-					testprovince15
-					testprovince16
-					testprovince17
-					testprovince18
-					testprovince19
-					testprovince20
-					testprovince21
-					testprovince22
-					testprovince23
-					testprovince24
-					testprovince25
-					testprovince26
-					testprovince27
-					testprovince28
-					testprovince29
-					testprovince30
-					testprovince31
-					testprovince32
-					testprovince33
-					testprovince34
-					testprovince35
-					testprovince36
-					testprovince37
-					testprovince38
-					testprovince39
-					testprovince40
-					testprovince41
-					testprovince42
-					testprovince43
-					testprovince44
-					testprovince45
-					testprovince46
-					testprovince47
-					testprovince48
-					testprovince49
-					testprovince50
-					testprovince51
-					testprovince52
-					testprovince53
-					testprovince54
-					testprovince55
-					testprovince56
-					testprovince57
-					testprovince58
-					testprovince59
-					testprovince60
-					testprovince61
-					testprovince62
-					testprovince63
-					testprovince64
-					testprovince65
-					testprovince66
-					testprovince67
-					testprovince68
-					testprovince69
-					testprovince70
-					testprovince71
-					testprovince72
-					testprovince73
-					testprovince74
-					testprovince75
-					testprovince76
-					testprovince77
-					testprovince78
-					testprovince79
-					testprovince80
-					testprovince81
-					testprovince82
-					testprovince83
-					testprovince84
-					testprovince85
-					testprovince86
-					testprovince87
-					testprovince88
-					testprovince89
-					testprovince90
-					testprovince91
-					testprovince92
-					testprovince93
-					testprovince94
-					testprovince95
-					testprovince96
-					testprovince97
-					testprovince98
-					testprovince99
-					testprovince100
-					testprovince101
-					testprovince102
-					testprovince103
-					testprovince104
-					testprovince105
-					testprovince106
-					testprovince107
-					testprovince108
-					testprovince109
-					testprovince110
-					testprovince111
-					testprovince112
-					testprovince113
-					testprovince114
-					testprovince115
-					testprovince116
-					testprovince117
-					testprovince118
-					testprovince119
-					testprovince120
-					testprovince121
-					testprovince122
-					testprovince123
-					testprovince124
-					testprovince125
-					testprovince126
-					testprovince127
-					testprovince128
-					testprovince129
-					testprovince130
-					testprovince131
-					testprovince132
-					testprovince133
-					testprovince134
-					testprovince135
-					testprovince136
-					testprovince137
-					testprovince138
-					testprovince139
-					testprovince140
-					testprovince141
-					testprovince142
-					testprovince143
-					testprovince144
-					testprovince145
-					testprovince146
-					testprovince147
-					testprovince148
-					testprovince149
-					testprovince150
-					testprovince151
-					testprovince152
-					testprovince153
-					testprovince154
-					testprovince155
-					testprovince156
-					testprovince157
-					testprovince158
-					testprovince159
-					testprovince160
-					testprovince161
-					testprovince162
-					testprovince163
-					testprovince164
-					testprovince165
-					testprovince166
-					testprovince167
-					testprovince168
-					testprovince169
-					testprovince170
-					testprovince171
-					testprovince172
-					testprovince173
-					testprovince174
-					testprovince175
-					testprovince176
-					testprovince177
-					testprovince178
-					testprovince179
-					testprovince180
-					testprovince181
-					testprovince182
-					testprovince183
-					testprovince184
-					testprovince185
-					testprovince186
-					testprovince187
-					testprovince188
-					testprovince189
-					testprovince190
-					testprovince191
-					testprovince192
-					testprovince193
-					testprovince194
-					testprovince195
-					testprovince196
-					testprovince197
-					testprovince198
-					testprovince199
-					testprovince200
-					testprovince201
-					testprovince202
-					testprovince203
-					testprovince204
-					testprovince205
-					testprovince206
-					testprovince207
-					testprovince208
-					testprovince209
-					testprovince210
-					testprovince211
-					testprovince212
-					testprovince213
-					testprovince214
-					testprovince215
-					testprovince216
-					testprovince217
-					testprovince218
-					testprovince219
-					testprovince220
-					testprovince221
-					testprovince222
-					testprovince223
-					testprovince224
-					testprovince225
-					testprovince226
-					testprovince227
-					testprovince228
-					testprovince229
-					testprovince230
-					testprovince231
-					testprovince232
-					testprovince233
-					testprovince234
-					testprovince235
-					testprovince236
-					testprovince237
-					testprovince238
-					testprovince239
-					testprovince240
-					testprovince241
-					testprovince242
-					testprovince243
-					testprovince244
-					testprovince245
-					testprovince246
-					testprovince247
-					testprovince248
-					testprovince249
-					testprovince250
-					testprovince251
-					testprovince252
-					testprovince253
-					testprovince254
-					testprovince255
-					testprovince256
-				}
-			}
-
-			#always have at least 1 sea zone & 1 port on your map and code!!!
-			#don't forget to define them in default.map and ports.csv
-			my_sea_area = {
-				my_sea_province = {
-					my_sea_zone 
-				}
-			}
-
-			wasteland_area = {
-				wasteland_province = {
-					wasteland1
-					wasteland2
-					wasteland3
-					wasteland4
-					wasteland5
-					wasteland6
-					wasteland7
-					wasteland8
-					wasteland9
-					wasteland10
-					wasteland_blocker
-                    mountains1
-                    mountains2
-                    mountains3
-                    mountains4
-                    seas1
-                    seas2
-                    seas3
-                    seas4
-                    seas5
-				}
-			}
-			
-			#always have at least 8 areas defined!!!
-			#they may be empty though
-			dummy1_area = {
-			}
-
-			dummy2_area = {
-			}
-			
-			dummy3_area = {	
-			}
-
-			dummy4_area = {
-			}
-			
-			dummy5_area = {
-			}
-		}
-	}
 }
