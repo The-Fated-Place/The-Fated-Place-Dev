@@ -1,6 +1,6 @@
 human_group = {}
 
-imperial_group = {}
+imperial_group = {menogoth}
 
 dwarf_group = {}
 

@@ -555,9 +555,6 @@ slave_market = {
 	city = yes
 
 
-	country_potential = {
-		religion.group != religion_group:christian
-	}
 
 
 	allow = {

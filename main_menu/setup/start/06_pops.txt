@@ -1,13 +1,50 @@
-locations= {
-
-    testprovince1 = {
-        define_pop = { type = nobles size = 0.031 culture = taleuten religion = sigmarian_heresy }
-        define_pop = { type = clergy size = 0.096 culture = taleuten religion = sigmarian_heresy }
-        define_pop = { type = burghers size = 0.910 culture = taleuten religion = sigmarian_heresy }
-        define_pop = { type = peasants size = 18.908 culture = taleuten religion = sigmarian_heresy }
+locations = {
+    Marienburg = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 50
+            type = peasants
+        }
     }
-    Pfeildorf = {
-        define_pop = { type = clergy size = 0.008 culture = menogoth religion = imperial_cults }
-        define_pop = { type = peasants size = 12.762 culture = menogoth religion = imperial_cults }
-    }
+   Pfeildorf = {
+      define_pop = {
+         culture = menogoth
+         religion = imperial_cults
+         size = 0.008
+         type = clergy
+      }
+      define_pop = {
+         culture = menogoth
+         religion = imperial_cults
+         size = 12.762
+         type = peasants
+      }
+   }
+   testprovince1 = {
+      define_pop = {
+         culture = taleuten
+         religion = sigmarian_heresy
+         size = 0.031
+         type = nobles
+      }
+      define_pop = {
+         culture = taleuten
+         religion = sigmarian_heresy
+         size = 0.096
+         type = clergy
+      }
+      define_pop = {
+         culture = taleuten
+         religion = sigmarian_heresy
+         size = 0.910
+         type = burghers
+      }
+      define_pop = {
+         culture = taleuten
+         religion = sigmarian_heresy
+         size = 18.908
+         type = peasants
+      }
+   }
 }

@@ -215,3 +215,86 @@ EPP = { #Jarwanids
     culture_definition = menogoth
     religion_definition = imperial_cults
 }
+
+MRB = { #Marienburg
+    color = rgb { 210 203 60 }
+
+    unit_color0 = rgb { 14 213 220 }
+    unit_color1 = rgb {	210 203 60	}
+    unit_color2 = rgb { 237 2 2 }
+
+    culture_definition = jutones
+    religion_definition = imperial_cults
+}
+
+AAR = { #Aarnau
+    color = rgb { 40 180 190 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+GRR = { #Gorrsel
+    color = rgb { 70 230 240 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+KLE = { #Klessen
+    color = rgb { 0 160 170 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+KAL = { #Kalkaat
+    color = rgb { 180 170 40 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+ZAN = { #Zandt
+    color = rgb { 240 230 100 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+LEY = { #Leydenhoven
+    color = rgb { 160 150 30 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+BRO = { #Broekwater
+    color = rgb { 200 40 30 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+ALM= { #Almshoven
+    color = rgb { 255 80 60 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+SLF= { #Salfen
+    color = rgb { 180 20 20 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+LEH= { #Lehmbruck
+    color = rgb { 210 90 70 }
+
+    culture_definition = endal
+    religion_definition = imperial_cults
+}
+
+

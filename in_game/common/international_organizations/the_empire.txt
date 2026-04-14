@@ -1,0 +1,93 @@
+﻿the_empire = {
+	has_target = no
+    unique = yes
+
+    has_dynastic_power = yes
+    should_show_ruler_history = yes
+    has_parliament = yes
+    parliament_type = the_imperial_assembly
+    land_ownership_rule = the_empire_land_ownership
+
+    subject_limited = no
+
+    can_leave_trigger = {
+        always = no
+    }
+
+    invite_visible_trigger = {
+        always = no
+    }
+
+    has_leader_country = yes
+    leader_title_key = "HRE_LEADER"
+    use_regnal_number = yes
+    leader_type = character
+    leader = {
+        leader_country ?= {
+            if = {
+                limit = {
+                    has_regent = yes
+                    has_heir = yes
+                }
+                heir ?= {
+                    add_to_list = leaders
+                }
+            }
+            else_if = {
+                limit = {
+                    has_ruler = yes
+                    ruler ?= { is_alive = yes }
+                }
+                ruler ?= {
+                    add_to_list = leaders
+                }
+            }
+        }
+    }
+    leader_change_trigger_type = rulerchange
+    leader_change_method = vote
+    leadership_election_resolution = imperial_election
+    disband_if_no_leader = no #can have no leader while there's a power battle to get enough votes
+    override_ruler_title = yes
+
+    special_statuses_implemented = {
+        Emperor
+        Elector_Count
+        Elector
+        Free_City
+    }
+    show_on_diplomatic_map = yes
+
+
+    gives_food_access_to_members = yes
+
+	create_visible_trigger = {
+		always = no
+	}
+
+    modifier = {
+        block_from_change_to_kingdom_rank = yes
+        reject_subjugation_reasons = 25
+    }
+
+    #ai_desire_to_attack_other_members
+
+    #leader_modifier = {  }
+    #non_leader_modifier = {}
+    #international_organization_modifier
+
+    auto_disband_trigger = {
+        # If there are no more members, disband the organization.
+    }
+
+    join_defensive_wars_auto_call = {
+        always = yes
+    }
+    only_leader_country_joins_defensive_wars = yes
+    joins_defensive_wars_as_co_belligerent = yes
+    gives_military_access_to_all_when_at_war = yes
+    can_build_roads_in_members = yes
+
+    antagonism_modifier_for_taking_land_from_member_as_outsider = 10.0
+
+}

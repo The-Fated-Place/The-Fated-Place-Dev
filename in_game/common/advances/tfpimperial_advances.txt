@@ -1,0 +1,551 @@
+﻿
+medieval_administration  = {
+	age = age_1_traditions
+	icon = scholasticism
+
+	requires = city_building_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	government_reform_slots = 1
+}
+
+pest_house_advance = {
+	age = age_1_traditions
+	requires = medieval_administration
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = pest_house
+}
+
+banking_country_traditions = {
+	potential = {
+		has_reform =government_reform:banking_country
+	}
+
+	age = age_1_traditions
+	icon = banking_advance
+
+
+	unlock_country_interaction = take_over_loan
+	minting_income_factor = 0.10
+	total_loan_capacity_modifier = 0.5
+
+	requires = medieval_administration
+
+}
+
+hospital_advance = {
+	age = age_1_traditions
+	requires = pest_house_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = hospital
+}
+
+
+windmills_advance = {
+	age = age_1_traditions
+	unlock_building = windmill
+	requires = agriculture_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+alchemy_advance = {
+	age = age_1_traditions
+	icon = alchemy_advance
+	requires = windmills_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	global_life_expectancy = 3
+	global_disease_resistance = 0.05
+
+	starting_technology_level = 3
+}
+
+apothecary_advance = {
+	age = age_1_traditions
+	requires = alchemy_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	unlock_building = apothecary
+}
+
+
+ranching = {
+	age = age_1_traditions
+	icon = finest_of_horses
+	starting_technology_level = 1
+	requires = windmills_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	allow = {
+		OR = {
+			has_embraced_institution = institution:feudalism
+			original_capital ?= { continent = continent:europe }
+			original_capital ?= { continent = continent:asia }
+			original_capital ?= { sub_continent = sub_continent:north_africa }
+			original_capital ?= { sub_continent = sub_continent:west_africa }
+
+			original_capital ?= {
+				market ?= {
+					OR = {
+						is_produced_in_market = goods:horses
+						is_traded_in_market = goods:horses
+					}
+				}
+			}
+		}
+	}
+	can_extract_horses = yes
+}
+
+horse_riding_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+	requires = ranching
+
+	unlock_levy = levy_noble_cavalry
+	unlock_levy = levy_tribal_cavalry
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+
+	starting_technology_level = 1
+}
+
+#####################################
+# Feudalism
+#####################################
+
+feudalism_advance = {
+	age = age_1_traditions
+	icon = feudalism_advance
+
+	unlock_subject_type = fiefdom
+	unlock_government_reform = feudal_nobility
+	unlock_government_reform = margraviate
+	requires = horse_riding_advance
+
+	global_nobles_max_literacy = 20
+	allow_estate_parliament = yes
+	military_tactics = 1.0
+
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+scholasticism = {
+	age = age_1_traditions
+	icon = scholasticism
+	requires = organized_religion
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	global_institution_growth_modifier = 0.20
+
+	ai_weight = { add = 2 }
+}
+
+guilds = {
+	age = age_1_traditions
+	icon = guilds
+	requires = organized_religion
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	global_burghers_city_desired_pop = 0.1
+	global_burghers_max_literacy = 5
+}
+
+peasant_connections_advance = {
+	age = age_1_traditions
+	icon = road_building
+
+	requires = guilds
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	food_purchase_cost = -0.1
+}
+
+construction_speed_traditions = {
+	age = age_1_traditions
+	icon = legalism_advance
+
+
+    requires = peasant_connections_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	global_construction_speed = 0.05
+}
+
+diplomatic_capacity_traditions = {
+	age = age_1_traditions
+	icon = diplomatic_influence
+
+	requires = guilds
+	diplomatic_capacity_modifier = 0.2
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+rural_rgo_traditions = {
+	age = age_1_traditions
+	icon = laws
+
+	requires = peasant_connections_advance
+	global_max_rgo_size_modifier_in_rural = 0.1
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+
+royal_court_advance = {
+	age = age_1_traditions
+
+	requires = castle_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = royal_court
+}
+
+republican_assembly_advance = {
+	age = age_1_traditions
+
+	requires = castle_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = republican_assembly
+}
+
+order_headquarters_advance = {
+	age = age_1_traditions
+
+	potential = {
+		has_reform = government_reform:military_order_reform
+	}
+	requires = castle_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = order_headquarters
+}
+
+
+weapon_guild_advance = {
+	age = age_1_traditions
+
+	requires = mining_law_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_building = weapon_guild
+}
+
+chancery_advance = {
+	age = age_1_traditions
+
+	requires = codified_laws
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	unlock_building = chancery
+}
+
+unlock_footmen_advance = {
+	age = age_1_traditions
+	unlock_unit = a_footmen
+	unlock_levy = levy_a_footmen
+	unlock_policy = aristocratic_court_policy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	requires = iron_working
+
+	ai_weight = {
+		add = "ai_unlock_unit_score(a_footmen)"
+	}
+}
+
+
+unlock_archers_advance = {
+	age = age_1_traditions
+	unlock_unit = a_archers
+
+
+	requires = unlock_footmen_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	ai_weight = {
+		add = "ai_unlock_unit_score(a_archers)"
+	}
+}
+
+unlock_feudal_levy_advance = {
+	age = age_1_traditions
+	unlock_levy = levy_a_feudal_levy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	requires = feudalism_advance
+}
+
+
+
+unlock_horsemen_advance = {
+	age = age_1_traditions
+	unlock_unit = a_horsemen
+
+	requires = horse_riding_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	ai_weight = {
+		add = "ai_unlock_unit_score(a_horsemen)"
+	}
+}
+
+unlock_armored_horsemen_advance = {
+	age = age_1_traditions
+	unlock_unit = a_armored_horsemen
+
+	allow = {
+		any_market_present_in_country = {
+			OR = {
+				is_produced_in_market = goods:tools
+				is_traded_in_market = goods:tools
+			}
+		}
+	}
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	ai_weight = {
+		add = "ai_unlock_unit_score(a_armored_horsemen)"
+	}
+
+	requires = unlock_horsemen_advance
+
+}
+
+
+paper_guild_fiber_pulp_maintenance_advance = {
+	age = age_1_traditions
+
+	unlock_production_method = paper_guild_fiber_pulp_maintenance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	requires = paper_guild_advance
+ }
+
+monarchy_reform_traditions_advance = {
+	age = age_1_traditions
+	government = monarchy
+	requires = codified_laws
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_government_reform = autocracy
+}
+
+
+republic_reform_traditions_advance = {
+	age = age_1_traditions
+	government = republic
+	requires = codified_laws
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	unlock_government_reform = noble_elite
+	unlock_government_reform = sortition
+
+}
+
+
+monarchy_royal_court_advance = {
+	age = age_1_traditions
+	government = monarchy
+	requires = codified_laws
+	unlock_law = royal_court_customs_law
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+theocracy_divine_cause_law_advance = {
+	age = age_1_traditions
+	government = theocracy
+	requires = codified_laws
+	unlock_law = divine_cause_law
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+
+tribal_religious_values_law_advance = {
+	icon = laws
+	age = age_1_traditions
+	government = tribe
+	requires = codified_laws
+	unlock_law = tribal_religious_values_law
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+}
+
+
+noble_knights = {
+	age = age_1_traditions
+	government = monarchy
+
+	requires = feudalism_advance
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	unlock_levy = levy_mailed_knights
+}
+
+serfdom = {
+	age = age_1_traditions
+	government = monarchy
+	requires = noble_knights
+
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	global_monthly_food_modifier = 0.05
+	peasants_estate_satisfaction_recovery = 0.001
+}
+
+feudal_de_jure_law_advance = {
+	age = age_1_traditions
+	government = monarchy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	requires = medieval_administration
+	unlock_law = feudal_de_jure_law
+}
+
+salic_law_advance = {
+	age = age_1_traditions
+	government = monarchy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	requires = feudal_de_jure_law_advance
+	unlock_heir_selection = salic_law
+}
+
+semi_salic_law_advance = {
+	age = age_1_traditions
+	government = monarchy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	requires = salic_law_advance
+	unlock_heir_selection = semi_salic_law
+}
+
+partition_inheritance_advance = {
+
+	age = age_1_traditions
+	government = monarchy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	requires = feudal_de_jure_law_advance
+	unlock_heir_selection = partition_inheritance
+}
+
+
+############################
+# age_1_traditions  2/2
+############################
+bill_of_rights = {
+	age = age_1_traditions
+	government = republic
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+
+	pop_join_rebel_threshold = -0.05
+}
+
+
+republican_foundation_law_advance = {
+	age = age_1_traditions
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	government = republic
+	requires = medieval_administration
+	unlock_law = republican_foundation_law
+}
+
+
+servants_of_god = {
+	age = age_1_traditions
+	government = theocracy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	peasants_estate_target_satisfaction = small_permanent_target_satisfaction
+	global_clergy_desired_pop = 0.02
+}
+
+by_the_grace_of_god = {
+	age = age_1_traditions
+	government = theocracy
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	military_tactics = 0.025
+}
+
+
+state_of_clerics = {
+	age = age_1_traditions
+	government = theocracy
+	requires = medieval_administration
+	clergy_estate_target_satisfaction = small_permanent_target_satisfaction
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	legislative_efficiency = 0.05
+}
+
+

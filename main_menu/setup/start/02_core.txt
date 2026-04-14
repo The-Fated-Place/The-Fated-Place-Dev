@@ -1,16 +1,16 @@
 institution_manager = {
 	institutions = {
-		feudalism = {
+		civilization = {
 			active = yes
-			birth_place = testprovince1
+			birth_place = Altdorf
 		}
-		legalism = {
+		black_powder = {
 			active = yes
-			birth_place = testprovince2
+			birth_place = Nuln
 		}
-		meritocracy = {
+		organised_mages = {
 			active = yes
-			birth_place = testprovince3
+			birth_place = Middenheim
 		}
 	}
 }

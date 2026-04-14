@@ -1,4 +1,53 @@
 international_organization_manager = {
+    #The empire of man
+
+    add_international_organization = { #manaan
+        type = the_empire
+        creation_date = 1.1.1
+        members = {
+            MRB
+            AAR
+            GRR
+            KLE
+            KAL
+            ZAN
+            LEY
+            BRO
+            ALM
+            SLF
+            LEH
+        }
+
+        leader = MRB
+        icon = cult_icon_manaan
+        variables = {
+
+        }
+        areas = {
+            bitter_moors_area
+            tumble_downs_area
+        }
+        provinces = {
+            west_little_country_province
+            east_little_country_province
+            south_little_country_province
+
+        }
+        locations = {
+            Fauligmere
+            Klauperdorf
+            Smerigwaard
+            Stapelhugel
+            Tobenamedleydenhoven3
+            Leydenhoven
+            Tobenamedleydenhoven2
+            Weteringh
+
+        }
+
+    }
+
+    #cults
     add_international_organization = { #manaan
         type = cult
         creation_date = 1.1.1
@@ -57,6 +106,51 @@ international_organization_manager = {
             testprovince4
             testprovince5
             testprovince6
+        }
+
+    }
+
+    # imperial provinces
+    add_international_organization = { #Westerland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            MRB
+            AAR
+            GRR
+            KLE
+            KAL
+            ZAN
+            LEY
+            BRO
+            ALM
+            SLF
+            LEH
+
+        }
+        leader = MRB
+        icon = cult_icon_manaan
+
+        areas = {
+            bitter_moors_area
+            tumble_downs_area
+        }
+        provinces = {
+            west_little_country_province
+            east_little_country_province
+            south_little_country_province
+
+        }
+        locations = {
+            Fauligmere
+            Klauperdorf
+            Smerigwaard
+            Stapelhugel
+            Tobenamedleydenhoven3
+            Leydenhoven
+            Tobenamedleydenhoven2
+            Weteringh
+
         }
 
     }

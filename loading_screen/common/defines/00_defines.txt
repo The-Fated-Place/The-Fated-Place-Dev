@@ -452,8 +452,8 @@ NAI = {
 	AI_UTILITY_PER_CAPITA_BASE_EMPLOYMENT = 0.3 # employment number to normalize against, employing more is penalized and employing less is encouraged
 	AI_CULTURE_CONVERSION_UTIL = 0.5 # score when converting pops in our cores
 	AI_CULTURE_CONVERSION_CORE_FACTOR = 5.0 # AI score for promoting primary culture to make a location into a core, normalized by tax base of location
-	AI_GLOBAL_ASSIMILATION_SPEED_UTIL = 0.25 # modifier score multiplied by inverse accepted culture ratio
-	AI_GLOBAL_ASSIMILATION_SPEED_MODIFIER_UTIL = 0.25 # modifier score multiplied by inverse accepted culture ratio
+	AI_GLOBAL_ASSIMILATION_SPEED_UTIL = 0 # modifier score multiplied by inverse accepted culture ratio
+	AI_GLOBAL_ASSIMILATION_SPEED_MODIFIER_UTIL = 0 # modifier score multiplied by inverse accepted culture ratio
 
 	AI_INTEGRATION_IMPORTANCE_MULT = 0.5 # overall importance of integrating provinces
 	AI_INTEGRATION_ACCEPTED_CULTURE_MULT = 1 # bonus multiplier of importance for locations of accepted culture

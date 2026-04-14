@@ -1,0 +1,11 @@
+﻿
+
+vloedmuur_advance = {
+	age = age_1_traditions
+
+	requires = castle_advance
+    potential = {
+        has_or_had_tag = MRB
+    }
+	unlock_building = vloedmuur
+}

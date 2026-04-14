@@ -1,0 +1,63 @@
+﻿imperial_province = {
+	has_target = no
+    unique = no
+	has_leader_country = yes
+	leader_type = character
+
+    has_dynastic_power = yes
+    has_parliament = yes
+
+    subject_limited = no
+
+	land_ownership_rule = imperial_province_land_ownership # it owns land that its members own on start. conquering land and subject land needs to be added by imperial approval.
+    custom_name = imperial_province_name #Grand if they have an electorate in the empire. name depending on the leader. ie Grand Duchy or Grand Barony
+
+    join_visible_trigger = {
+        always = no
+    }
+    can_leave_trigger = {
+        always = no
+    }
+    invite_visible_trigger = {
+        always = no
+    }
+
+    leader_change_trigger_type = rulerchange
+    disband_if_no_leader = no
+
+    show_on_diplomatic_map = yes
+
+
+    gives_food_access_to_members = yes
+
+
+	create_visible_trigger = {
+		always = no
+	}
+
+    modifier = {
+        block_from_change_to_kingdom_rank = yes
+        reject_subjugation_reasons = 25
+    }
+
+    #ai_desire_to_attack_other_members
+
+    #leader_modifier = {  }
+    #non_leader_modifier = {}
+    #international_organization_modifier
+
+    auto_disband_trigger = {
+        # If there are no more members, disband the organization.
+    }
+
+    join_defensive_wars_can_call = {
+        always = yes
+    }
+    only_leader_country_joins_defensive_wars = yes
+    gives_military_access_to_all_when_at_war = yes
+    can_build_roads_in_members = yes
+
+    antagonism_modifier_for_taking_land_from_fellow_member = 1.5
+    antagonism_modifier_for_taking_land_from_member_as_outsider = 2.0
+
+}

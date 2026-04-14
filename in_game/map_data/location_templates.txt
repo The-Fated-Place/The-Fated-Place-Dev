@@ -7,90 +7,91 @@ testprovince4 = { topography = wetlands vegetation = grasslands climate = subtro
 testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = sigmarian_heresy culture = taleuten raw_material = wheat}
 testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = sigmarian_heresy culture = taleuten raw_material = wheat}
 
-Kreutzhofen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = forest }
-Geistwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Kreutzhofen = { climate = continental culture = taleuten raw_material = lumber religion = sigmarian_heresy topography = hills vegetation = forest }
+Geistwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = spirit_forest }
 Boashugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Brenzwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Tierhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Michelfurt = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Sonnefurt = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
+Brenzwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = deep_forest }
+Tierhugel = { climate = continental culture = taleuten raw_material = coal religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Michelfurt = { climate = continental culture = taleuten raw_material = fish religion = sigmarian_heresy topography = flatland vegetation = forest }
+Sonnefurt = { climate = continental culture = taleuten raw_material = wool religion = sigmarian_heresy topography = flatland vegetation = woods }
 
-Hardtenau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
+Hardtenau = { climate = continental culture = taleuten raw_material = alum religion = sigmarian_heresy topography = hills vegetation = woods }
 Bezauhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = forest }
 Mittleresdorf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 Lederfeld = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Alpirswald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Alpirswald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = deep_forest }
 Bezauwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 
 Geltensumpf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
 Kell = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
-Thalfang = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = forest }
+Thalfang = { climate = continental culture = taleuten raw_material = wine religion = sigmarian_heresy topography = hills vegetation = forest }
 Oshausen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 Legau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
 Hornfeld = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Lehmburg = { climate = continental culture = endal raw_material = wheat religion = imperial_cults topography = flatland vegetation = forest }
 
 Wusteburg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Wundtwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Wundtwald = { climate = continental culture = taleuten raw_material = horses religion = sigmarian_heresy topography = flatland vegetation = deep_forest }
 Serrig = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Ertigen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Ertigen = { climate = continental culture = taleuten raw_material = horses religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 Melkenfeld = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 Hitisau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 
 Ellhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Ziertwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Ziertwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = deep_forest }
 Tannhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 
 Merogenfeld = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 Dietenwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 Trulben = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
 
-Salmhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Nehren = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Salmfahre = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Ostsalmwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Salmhugel = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Nehren = { climate = continental culture = taleuten raw_material = millet religion = sigmarian_heresy topography = hills vegetation = woods }
+Salmfahre = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wine  }
+Ostsalmwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Salmwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Geschberg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Auggen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Lauben = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
+Salmwald = { topography = hills vegetation = deep_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lumber  }
+Geschberg = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Auggen = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = livestock  }
+Lauben = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = clay  }
 Kazad_Tark = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
 
-Meissen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Meissen = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 Kazad_Almon = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Schwarzweidesumpf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
-Heisenberg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = woods }
-Rundstedt = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Oberharrachwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Schwarzweidesumpf = { topography = wetlands vegetation = spirit_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Heisenberg = { topography = plateau vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wine  }
+Rundstedt = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = silver  }
+Oberharrachwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Unterharrachwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Harrachhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Allach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Wurmgrube = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
+Unterharrachwald = { topography = hills vegetation = deep_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lead  }
+Harrachhugel = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Allach = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fiber_crops  }
+Wurmgrube = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Aying = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Hikend = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Moonsen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Oberhaigenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Aying = { climate = continental culture = taleuten raw_material = iron religion = sigmarian_heresy topography = hills vegetation = woods }
+Hikend = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Moonsen = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = legumes  }
+Oberhaigenhugel = { climate = continental culture = taleuten raw_material = stone religion = sigmarian_heresy topography = hills vegetation = grasslands }
 
-Unterhaigenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Unterhaigenhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 Haigenbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Holswang = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Dottrahof = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
+Holswang = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Dottrahof = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = clay  }
 
-Grissenwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Grissenwald = { climate = continental culture = taleuten raw_material = lumber religion = sigmarian_heresy topography = flatland vegetation = forest }
 Ambostein = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 Schwarzgipfel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = mountains vegetation = woods }
 
 Segeldorf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Wissenburg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Khazid_Agruli = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Wissenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
+Wissenburg = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = clay  }
+Khazid_Agruli = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Wissenhugel = { climate = continental culture = taleuten raw_material = copper religion = sigmarian_heresy topography = hills vegetation = woods }
 Dakarhaus = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
 Maselwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
 
 Dotternhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Gratz = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = grasslands }
-Dotternbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Gratz = { climate = continental culture = taleuten raw_material = livestock religion = sigmarian_heresy topography = plateau vegetation = grasslands }
+Dotternbach = { climate = continental culture = taleuten raw_material = wool religion = sigmarian_heresy topography = hills vegetation = grasslands }
 Dottervorgebirge = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
 
 Blood_Keep = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = grasslands }
@@ -99,102 +100,99 @@ Lenkawald = { climate = continental culture = taleuten raw_material = wheat reli
 Grissenquelle = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
 Lenkahugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
 
-Rohrhausen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Windisch = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = grasslands }
+Rohrhausen = { climate = continental culture = taleuten raw_material = wine religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Windisch = { climate = continental culture = taleuten raw_material = stone religion = sigmarian_heresy topography = plateau vegetation = grasslands }
 Gorsumthal = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = woods }
 
-Oberwildenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Kleinwilden = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Diepolz = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Sexau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Oberwildenhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Kleinwilden = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Diepolz = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Sexau = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wine  }
 
-Pfeildorf = { climate = continental culture = menogoth raw_material = wheat religion = imperial_cults topography = flatland vegetation = grasslands }
-Mecklenburg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Rosenhausen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Sollweg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Neukirch = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Elzach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Tannau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Bernau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Wildenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Pfeildorf = { topography = flatland vegetation = grasslands climate = continental religion = imperial_cults culture = menogoth raw_material = fish  }
+Mecklenburg = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Rosenhausen = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Sollweg = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Neukirch = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Elzach = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fish  }
+Tannau = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Bernau = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Wildenhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Wittenhausen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Westen_Finnwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = forest }
-Westbeuerhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Haugothal = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Haverz = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Wittenhausen = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wine  }
+Westen_Finnwald = { topography = hills vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Westbeuerhugel = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Haugothal = { topography = flatland vegetation = deep_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Haverz = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lumber  }
 
-Wolfurt = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Ost_kleinwilden = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Wilhams = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Mauchen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Achenwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Wolfurt = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Ost_kleinwilden = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Wilhams = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Mauchen = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Achenwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lumber  }
 
-Staig = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Ostfinwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Achenfinwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Staig = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Ostfinwald = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Achenfinwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Habichtwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Hagenwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Ellwagen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Schonwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
+Habichtwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Hagenwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lumber  }
+Ellwagen = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Schonwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Kislegg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Moosach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
-Aitrang = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
+Kislegg = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Moosach = { topography = wetlands vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Aitrang = { topography = wetlands vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Waldbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Rusch = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Gestratz = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Ballenhof = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Marschwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = forest }
+Waldbach = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Rusch = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Gestratz = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = legumes  }
+Ballenhof = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fish  }
+Marschwald = { topography = wetlands vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Sussenthal = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Ummenbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Obenheidenland = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Sussenquelle = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
+Sussenthal = { climate = continental culture = taleuten raw_material = wool religion = sigmarian_heresy topography = hills vegetation = spirit_forest }
+Ummenbach = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Obenheidenland = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Sussenquelle = { climate = continental culture = taleuten raw_material = wool religion = sigmarian_heresy topography = hills vegetation = woods }
 
-Ollersbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Vals = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Krossbach = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Steingart = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Ollersbach = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Vals = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fish  }
+Krossbach = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Steingart = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
 
-Marscheidenland = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = forest }
-Madau = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Rushc = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Erbshausen = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
+Marscheidenland = { topography = wetlands vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Madau = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lumber  }
+Rushc = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = legumes  }
+Erbshausen = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wine  }
 
-Mendelhofe = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Schmirn = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = woods }
-Hochsolden = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
+Mendelhofe = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Schmirn = { topography = flatland vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Hochsolden = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = iron  }
 
-Kazad_Zhum = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = plateau vegetation = woods }
-Diehlendorf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Mecklenthal = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Oberreikquelle = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Kazad_Zhum = { climate = continental culture = taleuten raw_material = wool religion = sigmarian_heresy topography = plateau vegetation = woods }
+Diehlendorf = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = iron  }
+Mecklenthal = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Oberreikquelle = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lead  }
 
-Wenns = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Mathon = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Damulwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Hochsleben = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = forest }
-Kauns = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Osterzell = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Finnwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Wenns = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fish  }
+Mathon = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = iron  }
+Damulwald = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Hochsleben = { topography = flatland vegetation = forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Kauns = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = silver  }
+Osterzell = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = fish  }
+Finnwald = { topography = hills vegetation = deep_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
 
-Raggelvorgebirge = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-reiklandlocation2 = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-reiklandlocation3 = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = wetlands vegetation = grasslands }
-Ost_Obernwald = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Raggelhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Huttenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Taalszahne = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-reiklandlocation4 = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Sulzhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Kleine_Raggelhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
-Hagenhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Ostbeuerhugel = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = woods }
-Finnweg = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = flatland vegetation = grasslands }
-Hendorf = { climate = continental culture = taleuten raw_material = wheat religion = sigmarian_heresy topography = hills vegetation = grasslands }
+Raggelvorgebirge = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = lead  }
+Ost_Obernwald = { topography = hills vegetation = spirit_forest climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Raggelhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = tin  }
+Huttenhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Taalszahne = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Sulzhugel = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Kleine_Raggelhugel = { topography = hills vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Hagenhugel = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Ostbeuerhugel = { topography = hills vegetation = woods climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wool  }
+Finnweg = { topography = flatland vegetation = grasslands climate = continental religion = sigmarian_heresy culture = taleuten raw_material = wheat  }
+Hendorf = { climate = continental culture = taleuten raw_material = stone religion = sigmarian_heresy topography = hills vegetation = grasslands }
 
 wasteland1 = { topography = flatland_wasteland vegetation = woods climate = arctic}
 wasteland2 = { topography = flatland_wasteland vegetation = woods climate = arctic}
@@ -214,3 +212,837 @@ seas2 = { climate = arctic topography = ocean vegetation = woods }
 seas3 = { climate = arctic topography = ocean vegetation = woods }
 seas4 = { climate = arctic topography = ocean vegetation = woods }
 seas5 = { climate = arctic topography = ocean vegetation = woods }
+West_Obernwald = { topography = hills vegetation = spirit_forest climate = continental raw_material = wheat  }
+Teisenheindenland = { topography = hills vegetation = forest climate = continental raw_material = wheat  }
+Volders = { topography = flatland vegetation = woods climate = continental raw_material = wheat  }
+Ranalt = { topography = flatland vegetation = forest climate = continental raw_material = wheat  }
+Castle_Greymane = { topography = flatland vegetation = grasslands climate = continental raw_material = wheat  }
+Einsamhugel = { topography = flatland vegetation = woods climate = continental raw_material = wheat  }
+Gnaldenwald = { topography = hills vegetation = deep_forest climate = continental raw_material = wheat  }
+Hofstentten = { topography = flatland vegetation = woods climate = continental raw_material = wine  }
+Pfalzhugel = { topography = hills vegetation = deep_forest climate = continental raw_material = wool  }
+Gutach = { topography = flatland vegetation = forest climate = continental raw_material = lumber  }
+Rohrhof = { topography = flatland vegetation = woods climate = continental raw_material = wine  }
+Zoblen = { topography = flatland vegetation = grasslands climate = continental raw_material = wool  }
+Pucheim = { topography = flatland vegetation = grasslands climate = continental raw_material = wool  }
+Fluorin = { topography = flatland vegetation = grasslands climate = continental raw_material = wheat  }
+Lohnswald = { topography = hills vegetation = deep_forest climate = continental raw_material = wheat  }
+Nordkolberhugel = { topography = hills vegetation = forest climate = continental raw_material = wheat  }
+Torrach = { topography = flatland vegetation = woods climate = continental raw_material = wheat  }
+Mandling = { topography = plateau vegetation = woods climate = continental raw_material = wheat  }
+Engelhugel = { topography = hills vegetation = woods climate = continental raw_material = wheat  }
+Leogang = { topography = flatland vegetation = forest climate = continental raw_material = wheat  }
+Kolbhugel = { topography = hills vegetation = forest climate = continental raw_material = wheat  }
+Purnhugel = { topography = hills vegetation = woods climate = continental raw_material = wheat  }
+Sochtenau = { topography = flatland vegetation = forest climate = continental raw_material = wool  }
+Delbruckschloss = { climate = continental raw_material = wheat topography = flatland vegetation = grasslands }
+Hornfen = { climate = continental raw_material = wheat topography = plateau vegetation = forest }
+Gunnertag = { topography = hills vegetation = grasslands climate = continental raw_material = wheat  }
+Althausen = { topography = flatland vegetation = woods climate = continental raw_material = wine  }
+Sudkolberhugel = { topography = hills vegetation = forest climate = continental raw_material = wheat  }
+Atzwald = { climate = continental raw_material = lumber topography = hills vegetation = forest }
+Zemenhugel = { climate = continental raw_material = wheat topography = hills vegetation = woods }
+Dergenhof = { topography = hills vegetation = forest climate = continental raw_material = fish  }
+Rookburg = { climate = continental raw_material = wheat topography = flatland vegetation = grasslands }
+Hornfurt = { climate = continental raw_material = wheat topography = flatland vegetation = grasslands }
+Affing = { climate = continental raw_material = wheat topography = flatland vegetation = woods }
+Geschburg = { topography = flatland vegetation = woods climate = continental }
+Penzthal = { climate = continental raw_material = wheat topography = plateau vegetation = grasslands }
+Zemenvorgebirge = { climate = continental raw_material = wheat topography = hills vegetation = grasslands }
+Ichenhugel = { climate = continental raw_material = wheat topography = hills vegetation = grasslands }
+Aschwald = { climate = continental raw_material = wheat topography = plateau vegetation = forest }
+Ottakring = { climate = continental raw_material = lumber topography = flatland vegetation = woods }
+Dergehugel = { climate = continental raw_material = wheat topography = hills vegetation = woods }
+Kroppenleben = { climate = continental raw_material = fur topography = flatland vegetation = woods }
+Dergevorgebirge = { climate = continental raw_material = wheat topography = hills vegetation = grasslands }
+Wurstheim = { topography = hills vegetation = forest climate = continental raw_material = legumes  }
+
+Kluftern = { topography = lakes vegetation = sparse climate = continental raw_material = wine  }
+Ellsee = { climate = continental topography = lakes vegetation = sparse }
+Teisenwald = { topography = flatland vegetation = forest climate = continental raw_material = wheat  }
+Susswasser = { topography = lakes vegetation = sparse climate = continental }
+Fieberwasser = { topography = lakes vegetation = sparse climate = continental }
+Taufsee = { topography = lakes vegetation = sparse climate = continental }
+Langwasser = { topography = lakes vegetation = sparse climate = continental }
+Oberkiensee = { topography = lakes vegetation = sparse climate = continental }
+Niederkiensee = { topography = lakes vegetation = sparse climate = continental }
+Riffelsee = { climate = continental raw_material = wool topography = lakes vegetation = sparse }
+
+
+Altdorf = { topography = wetlands vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Halt = { topography = flatland vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Mittlevorberg = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Eilhart = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Gerlbach = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Maissen = { topography = hills vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Hartenwald = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Mellerwald = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Mellerfelden = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Garmdek = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Zahmer = { topography = hills vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Maiswald = { topography = hills vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Penzkirchen = { topography = flatland vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Zahmstadt = { topography = flatland vegetation = grasslands climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Wallenwald = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Garmhof = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Morrshome = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Kotzdam = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Schilderheim = { topography = wetlands vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Wallenimhugel = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Wallenholt = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Kotzsee = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Hartzroch = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Trosreut = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Freistern = { topography = hills vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Schnital = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Skaggerdorf = { topography = hills vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Schadelhelm = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Klauenschloss = { topography = hills vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Ewigstadt = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Klauendorf = { topography = hills vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Prie = { topography = hills vegetation = forest climate = continental religion = imperial_cults culture = unberogen raw_material = tobacco  }
+Gieterberg = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Weidmarkt = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Essel = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Worlin = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Lechheim = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Sinz = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Heiliger_wortwald = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Schattenlas = { climate = continental culture = unberogen raw_material = tobacco religion = imperial_cults topography = flatland vegetation = forest }
+Hallerholt = { topography = hills vegetation = desert climate = continental religion = imperial_cults culture = unberogen raw_material = iron  }
+Ohlhofen = { topography = wetlands vegetation = desert climate = continental religion = imperial_cults culture = unberogen raw_material = iron  }
+Gientheligen = { topography = wetlands vegetation = desert climate = continental religion = imperial_cults culture = unberogen raw_material = iron  }
+Kolbeck = { climate = continental culture = unberogen raw_material = iron religion = imperial_cults topography = flatland vegetation = desert }
+Ottzel = { topography = hills vegetation = desert climate = continental religion = imperial_cults culture = unberogen raw_material = iron  }
+Gient = { climate = continental culture = unberogen raw_material = iron religion = imperial_cults topography = flatland vegetation = desert }
+Felden = { climate = continental culture = unberogen raw_material = iron religion = imperial_cults topography = flatland vegetation = desert }
+river_reik1 = { topography = narrows climate = oceanic }
+
+
+Wendenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Gotzendorf = { topography = flatland vegetation = grasslands climate = continental }
+Bylorvash = { topography = flatland vegetation = grasslands climate = continental }
+Wolderitz = { topography = flatland vegetation = grasslands climate = continental }
+Fennonwald = { topography = hills vegetation = forest climate = continental }
+Baumwolle = { topography = flatland vegetation = grasslands climate = continental }
+Kleeblatt = { topography = flatland vegetation = grasslands climate = continental }
+Kellerbier = { topography = flatland vegetation = grasslands climate = continental }
+Albenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Herzinhand = { topography = hills vegetation = grasslands climate = continental }
+Gipfel = { topography = flatland vegetation = grasslands climate = continental }
+Gipfelhugel = { topography = hills vegetation = sparse climate = continental }
+Speck = { topography = hills vegetation = grasslands climate = continental }
+Fallenblatt = { topography = flatland vegetation = grasslands climate = continental }
+Brachlandfeld = { topography = flatland vegetation = grasslands climate = continental }
+Stoodhof = { topography = flatland vegetation = woods climate = continental }
+Albenmoor = { topography = wetlands vegetation = sparse climate = continental }
+Dreiflussen = { topography = hills vegetation = grasslands climate = continental }
+Kleinsdorf = { topography = flatland vegetation = grasslands climate = continental }
+Pfunzig = { topography = hills vegetation = grasslands climate = continental }
+Hammelfels = { topography = hills vegetation = grasslands climate = continental }
+Solnhofen = { topography = hills vegetation = grasslands climate = continental }
+Dietfurt = { topography = hills vegetation = sparse climate = continental }
+Riednitz = { topography = flatland vegetation = grasslands climate = continental }
+Maylhof = { topography = flatland vegetation = woods climate = continental }
+Ryding = { topography = flatland vegetation = grasslands climate = continental }
+Quasselfurt = { topography = hills vegetation = grasslands climate = continental }
+Hutten = { topography = hills vegetation = sparse climate = continental }
+Essing = { topography = hills vegetation = grasslands climate = continental }
+Fallberg = { topography = hills vegetation = grasslands climate = continental }
+Obergaddhugel = { topography = hills vegetation = sparse climate = continental }
+Gaddfeld = { topography = hills vegetation = grasslands climate = continental }
+Untergaddhugel = { topography = hills vegetation = grasslands climate = continental }
+Gaddwald = { topography = hills vegetation = forest climate = continental }
+Mantel = { topography = flatland vegetation = sparse climate = continental }
+Lengenfeld = { topography = flatland vegetation = sparse climate = continental }
+Dachbach = { topography = flatland vegetation = woods climate = continental }
+Siegenhausen = { topography = flatland vegetation = woods climate = continental }
+Gebenbach = { topography = flatland vegetation = sparse climate = continental }
+Nenzenheim = { topography = flatland vegetation = sparse climate = continental }
+Wollestadt = { topography = flatland vegetation = woods climate = continental }
+Eining = { topography = flatland vegetation = woods climate = continental }
+Unterwald = { topography = flatland vegetation = woods climate = continental }
+Kyffhausen = { topography = flatland vegetation = grasslands climate = continental }
+Borsenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Pilsach = { topography = flatland vegetation = woods climate = continental }
+Wangfeld = { topography = flatland vegetation = woods climate = continental }
+Vilgaun = { topography = flatland vegetation = grasslands climate = continental }
+Streissen = { topography = flatland vegetation = woods climate = continental }
+Gryfenheim = { topography = flatland vegetation = woods climate = continental }
+Gottesdorf = { topography = flatland vegetation = woods climate = continental }
+Tannfeld = { topography = flatland vegetation = woods climate = continental }
+Averhafen = { topography = flatland vegetation = woods climate = continental }
+Weltenhof = { topography = flatland vegetation = grasslands climate = continental }
+Schroben = { topography = flatland vegetation = grasslands climate = continental }
+Colmerstand = { topography = flatland vegetation = grasslands climate = continental }
+Averheim = { topography = flatland vegetation = grasslands climate = continental }
+Sorghof = { topography = flatland vegetation = grasslands climate = continental }
+Pearun = { topography = flatland vegetation = grasslands climate = continental }
+Einsamholz = { topography = flatland vegetation = grasslands climate = continental }
+Wustenhofenwald = { topography = flatland vegetation = forest climate = continental }
+Bieswang = { topography = flatland vegetation = grasslands climate = continental }
+Kaltbach = { topography = flatland vegetation = sparse climate = continental }
+Colmfahre = { topography = flatland vegetation = grasslands climate = continental }
+Obervolshof = { topography = flatland vegetation = forest climate = continental }
+Volsbach = { topography = flatland vegetation = grasslands climate = continental }
+Sempscheid = { topography = flatland vegetation = forest climate = continental }
+Kessel = { topography = flatland vegetation = forest climate = continental }
+Gamsreuth = { topography = flatland vegetation = sparse climate = continental }
+Utharhof = { topography = flatland vegetation = woods climate = continental }
+Murrlingen = { topography = flatland vegetation = grasslands climate = continental }
+Lebendorf = { topography = flatland vegetation = grasslands climate = continental }
+Sonnenriedt = { topography = flatland vegetation = grasslands climate = continental }
+Pferdingen = { topography = flatland vegetation = grasslands climate = continental }
+Ruhgsdorf = { topography = flatland vegetation = grasslands climate = continental }
+Sarheim = { topography = flatland vegetation = sparse climate = continental }
+Golbach = { topography = flatland vegetation = grasslands climate = continental }
+Pferstadt = { topography = flatland vegetation = grasslands climate = continental }
+Flensburgwald = { topography = flatland vegetation = woods climate = continental }
+Burg_Kleindorf = { topography = hills vegetation = grasslands climate = continental }
+Vellach = { topography = flatland vegetation = woods climate = continental }
+Heideck = { topography = flatland vegetation = grasslands climate = continental }
+Heiligenbronnwald = { topography = flatland vegetation = grasslands climate = continental }
+Willenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Radring = { topography = flatland vegetation = grasslands climate = continental }
+Riedenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Bockenhof = { topography = flatland vegetation = sparse climate = continental }
+Zappermark = { topography = flatland vegetation = grasslands climate = continental }
+Mertzenrode = { topography = flatland vegetation = woods climate = continental }
+Klaunfeld = { topography = flatland vegetation = grasslands climate = continental }
+Gernthalingen = { topography = flatland vegetation = grasslands climate = continental }
+Egenburg = { topography = flatland vegetation = grasslands climate = continental }
+Gerningen = { topography = flatland vegetation = grasslands climate = continental }
+Zartbitterhof = { topography = flatland vegetation = grasslands climate = continental }
+Juttlingen = { topography = hills vegetation = grasslands climate = continental }
+Zorje = { topography = hills vegetation = grasslands climate = continental }
+Rieden = { topography = hills vegetation = sparse climate = continental }
+Bernloch = { topography = flatland vegetation = grasslands climate = continental }
+Staffelfeld = { topography = flatland vegetation = grasslands climate = continental }
+Theinhof = { topography = hills vegetation = grasslands climate = continental }
+Grosshammerstett = { topography = hills vegetation = grasslands climate = continental }
+Neustein = { topography = flatland vegetation = woods climate = continental }
+Agbeiten = { topography = flatland vegetation = grasslands climate = continental }
+Fredricksburg = { topography = hills vegetation = grasslands climate = continental }
+Felsenhof = { topography = flatland vegetation = grasslands climate = continental }
+Staffelhugel = { topography = hills vegetation = sparse climate = continental }
+Steinkirchen = { topography = flatland vegetation = grasslands climate = continental }
+Bartenfeld = { topography = hills vegetation = grasslands climate = continental }
+Sugenheim = { topography = hills vegetation = sparse climate = continental }
+Turmwache = { topography = hills vegetation = grasslands climate = continental }
+Seckbachwald = { topography = flatland vegetation = woods climate = continental }
+Brunshof = { topography = hills vegetation = grasslands climate = continental }
+Obernzen = { topography = hills vegetation = sparse climate = continental }
+Grenzstadt = { topography = hills vegetation = grasslands climate = continental }
+Siegplatz = { topography = plateau vegetation = grasslands climate = continental }
+Viehbach = { topography = flatland vegetation = grasslands climate = continental }
+Sigmaringen = { topography = flatland vegetation = sparse climate = continental }
+Schramleben = { topography = hills vegetation = grasslands climate = continental }
+Sigmaringenfeld = { topography = hills vegetation = grasslands climate = continental }
+Sigmaringenwald = { topography = hills vegetation = forest climate = continental }
+Sigmaringenhugel = { topography = hills vegetation = sparse climate = continental }
+Blaubachwald = { topography = hills vegetation = forest climate = continental }
+Treffenheim = { topography = hills vegetation = grasslands climate = continental }
+Reikwald_placeholder = { topography = flatland vegetation = forest climate = continental }
+Schevinger = { topography = flatland vegetation = forest climate = continental }
+Tahme = { topography = flatland vegetation = forest climate = continental }
+Blutroch = { topography = flatland vegetation = forest climate = continental }
+Midfurt = { topography = flatland vegetation = forest climate = continental }
+Schieffelen = { topography = flatland vegetation = forest climate = continental }
+Stust = { topography = flatland vegetation = forest climate = continental }
+Drakenburg = { topography = flatland vegetation = grasslands climate = continental }
+Oberhoven = { topography = flatland vegetation = grasslands climate = continental }
+Bogensee = { topography = mountains vegetation = grasslands climate = continental }
+Bogenhafen = { topography = flatland vegetation = grasslands climate = continental }
+Amchensee = { topography = flatland vegetation = grasslands climate = continental }
+Havelfurt = { topography = flatland vegetation = forest climate = continental }
+Jettenburg = { topography = flatland vegetation = forest climate = continental }
+Schwachhof = { topography = hills vegetation = grasslands climate = continental }
+Schrabwald = { topography = flatland vegetation = grasslands climate = continental }
+Siedlung = { topography = flatland vegetation = grasslands climate = continental }
+Ranzig = { topography = flatland vegetation = forest climate = continental }
+Neufaljung = { topography = hills vegetation = grasslands climate = continental }
+Schutterbach = { topography = hills vegetation = grasslands climate = continental }
+Grunwacht = { topography = hills vegetation = grasslands climate = continental }
+Hupeberg = { topography = hills vegetation = grasslands climate = continental }
+Lilahalle = { topography = hills vegetation = grasslands climate = continental }
+Dunkelburg = { topography = flatland vegetation = grasslands climate = continental }
+Stimmigen = { topography = flatland vegetation = grasslands climate = continental }
+Dunkelgard = { topography = flatland vegetation = grasslands climate = continental }
+Fahrendel = { topography = flatland vegetation = grasslands climate = continental }
+Graustadt = { topography = flatland vegetation = grasslands climate = continental }
+Ubersreik = { topography = flatland vegetation = grasslands climate = continental }
+Waldesaule = { topography = flatland vegetation = forest climate = continental }
+Stromdorf = { topography = flatland vegetation = forest climate = continental }
+Holgau = { topography = flatland vegetation = grasslands climate = continental }
+Auerswald = { topography = flatland vegetation = forest climate = continental }
+Walfen = { topography = flatland vegetation = forest climate = continental }
+Stirgau = { topography = flatland vegetation = forest climate = continental }
+Achern = { topography = flatland vegetation = forest climate = continental }
+Oberwald = { topography = flatland vegetation = forest climate = continental }
+Hahnbrandt = { topography = flatland vegetation = forest climate = continental }
+Enzwacht = { topography = flatland vegetation = forest climate = continental }
+Mackenstein = { topography = flatland vegetation = forest climate = continental }
+Brandenburg = { topography = flatland vegetation = forest climate = continental }
+Diesdorf = { topography = flatland vegetation = forest climate = continental }
+Kemperbad = { topography = flatland vegetation = forest climate = continental }
+Oberonl = { topography = flatland vegetation = forest climate = continental }
+Onling = { topography = flatland vegetation = forest climate = continental }
+Lengern = { topography = flatland vegetation = forest climate = continental }
+Grunburg = { topography = flatland vegetation = forest climate = continental }
+Badenborn = { topography = flatland vegetation = forest climate = continental }
+Dabernick = { topography = hills vegetation = forest climate = continental }
+Grosslin = { topography = hills vegetation = forest climate = continental }
+Fielbach = { topography = flatland vegetation = forest climate = continental }
+Teufelfeuer = { topography = flatland vegetation = forest climate = continental }
+Buxhead = { topography = flatland vegetation = forest climate = continental }
+Prieze = { topography = flatland vegetation = forest climate = continental }
+Bitter_Moors_1 = { topography = flatland vegetation = grasslands climate = oceanic }
+
+Broekwater = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish }
+Almshoven = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Antorpe = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+La_Neuferte = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Swartenmeer = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+
+Biiter_Moors_3 = { topography = flatland vegetation = grasslands climate = oceanic }
+
+Zandt = { raw_material = wine topography = wetlands vegetation = grasslands climate = oceanic }
+Klessen = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }
+Kalkaat = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }
+Marienburg = { topography = wetlands vegetation = grasslands climate = oceanic religion = imperial_cults culture = jutones raw_material = fish  }
+Zompveen = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+Ongediertefort = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Rutten = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }
+
+Wijkersdijk = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Brakwaterdam = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+Heppeldorf = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Westerfort = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Buitenkaag = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+Halsdorp = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game }
+
+
+Weteringh = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+Fauligmere = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Klauperdorf = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Leydenhoven = { raw_material = fish topography = wetlands vegetation = grasslands climate = oceanic }
+Smerigwaard = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Stapelhugel = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedleydenhoven2 = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedleydenhoven3 = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Westerfast = { topography = wetlands vegetation = grasslands climate = oceanic }
+Scheinfeld = { topography = wetlands vegetation = grasslands climate = oceanic }
+Uder = { topography = wetlands vegetation = grasslands climate = oceanic }
+Hupstedt = { topography = wetlands vegetation = grasslands climate = oceanic }
+Nupstedt = { topography = wetlands vegetation = grasslands climate = oceanic }
+
+Middelplaat = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+Oosterplaat = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Rijpermeer = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Kleibroek_aan_zee = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Verdronkenhoek = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Salfen = { raw_material = wild_game topography = wetlands vegetation = grasslands climate = oceanic }
+Kloosterdam = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
+
+Tobenamedtumble36 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Zeemond = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Tobenamedtumble27 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Vloedwijk = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Tobenamedtumble28 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble29 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble30 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble31 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble32 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Hogedam = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Bovenkarspel = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble33 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble34 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble35 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+
+Fort_Solace = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish }
+Noordwindhaven = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Kaap_Tuinder = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Driftstrand = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }
+Tobenamedtumble18 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble19 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Kromdijk_aan_zee = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble20 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble21 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble22 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble23 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble24 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Heerenwerf = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble25 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Woltersum = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Zwartweteren = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble26 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Hoogkamp = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Oud_torenburg = { topography = flatland vegetation = grasslands climate = oceanic }
+Heidestein = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+
+
+Diever = { topography = flatland vegetation = grasslands climate = oceanic raw_material = livestock }
+Haarskamp = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game}
+Peelwijk = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Grootveen = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Belofteveld = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Loenen = { raw_material = wool topography = flatland vegetation = grasslands climate = oceanic }
+Dreumelholt = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Stedum = { raw_material = legumes topography = flatland vegetation = grasslands climate = oceanic }
+Oostwald = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble1 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Wekcenfast = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble2 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble3 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Middenveld = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Tobenamedtumble4 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Brugwalde = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }
+Aarnau = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish }
+Hollum = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish }
+
+Schadelbruck = { topography = flatland vegetation = grasslands climate = oceanic }
+Leihafen = { topography = flatland vegetation = grasslands climate = oceanic }
+Wulfhaven = { topography = flatland vegetation = grasslands climate = oceanic }
+Dunkelkiefer = { topography = flatland vegetation = grasslands climate = oceanic }
+Imperial_north_coast2 = { topography = flatland vegetation = grasslands climate = oceanic }
+Imperial_north_coast = { topography = flatland vegetation = grasslands climate = oceanic }
+Hargendorf = { topography = flatland vegetation = grasslands climate = oceanic }
+Hargensumpf = { topography = flatland vegetation = grasslands climate = oceanic }
+Massenfels = { topography = flatland vegetation = grasslands climate = oceanic }
+Broghur = { topography = flatland vegetation = grasslands climate = oceanic }
+Dietershafen_province = { topography = flatland vegetation = grasslands climate = oceanic }
+Dietershafen = { topography = flatland vegetation = grasslands climate = oceanic }
+Nysted = { topography = flatland vegetation = grasslands climate = oceanic }
+Teufel_region = { topography = flatland vegetation = grasslands climate = oceanic }
+Neues_Emskrankrename = { topography = flatland vegetation = grasslands climate = oceanic }
+Teufelsumpf = { topography = flatland vegetation = grasslands climate = oceanic }
+Dreizack = { topography = flatland vegetation = grasslands climate = oceanic }
+Heiligdorf = { topography = flatland vegetation = grasslands climate = oceanic }
+Herup = { topography = flatland vegetation = grasslands climate = oceanic }
+Alfhausen = { topography = flatland vegetation = grasslands climate = oceanic }
+Wittigholm = { topography = flatland vegetation = grasslands climate = oceanic }
+Luftberg = { topography = flatland vegetation = grasslands climate = oceanic }
+Huven = { topography = flatland vegetation = forest climate = oceanic }
+Varrel = { topography = flatland vegetation = forest climate = oceanic }
+Seuchenshof = { topography = flatland vegetation = forest climate = oceanic }
+Skjaldberg = { topography = flatland vegetation = grasslands climate = oceanic }
+Manaansheim = { topography = flatland vegetation = grasslands climate = oceanic }
+Ockholm = { topography = flatland vegetation = grasslands climate = oceanic }
+Wilhelmskoog = { topography = flatland vegetation = grasslands climate = oceanic }
+Schuten = { topography = flatland vegetation = grasslands climate = oceanic }
+Norden = { topography = flatland vegetation = grasslands climate = oceanic }
+Salzmorast = { topography = flatland vegetation = grasslands climate = oceanic }
+Beelen = { topography = flatland vegetation = grasslands climate = oceanic }
+Kreideklippe_province = { topography = flatland vegetation = grasslands climate = oceanic }
+Kreideklippe = { topography = flatland vegetation = grasslands climate = oceanic }
+Gelting = { topography = flatland vegetation = grasslands climate = oceanic }
+Eastern_Northern_Marches = { topography = flatland vegetation = grasslands climate = oceanic }
+Hochnar = { topography = flatland vegetation = grasslands climate = oceanic }
+Kanod = { topography = flatland vegetation = grasslands climate = oceanic }
+Hochnar_province = { topography = flatland vegetation = grasslands climate = oceanic }
+Salkalten = { topography = flatland vegetation = grasslands climate = oceanic }
+Salkalten_province = { topography = flatland vegetation = grasslands climate = oceanic }
+Steilstand = { topography = flatland vegetation = grasslands climate = oceanic }
+Dunsen = { topography = flatland vegetation = forest climate = continental }
+Frote_Forests = { topography = flatland vegetation = forest climate = continental }
+Zelebhorn = { topography = flatland vegetation = forest climate = continental }
+Marklohe = { topography = flatland vegetation = forest climate = continental }
+Frote = { topography = flatland vegetation = forest climate = continental }
+Dunsen_forests = { topography = flatland vegetation = forest climate = continental }
+Zundap = { topography = flatland vegetation = grasslands climate = continental }
+Bohsenfels = { topography = flatland vegetation = grasslands climate = continental }
+Zundap_forests = { topography = flatland vegetation = forest climate = continental }
+Bohsenfels_forest = { topography = flatland vegetation = forest climate = continental }
+East_forest_of_shadows = { topography = flatland vegetation = forest climate = continental }
+Obelstein_forest = { topography = flatland vegetation = forest climate = continental }
+Obelstein = { topography = flatland vegetation = forest climate = continental }
+West_forest_of_shadows = { topography = flatland vegetation = forest climate = continental }
+Jagerhausen = { topography = flatland vegetation = forest climate = continental }
+Schoninghagen = { topography = flatland vegetation = forest climate = continental }
+Schoninghagen_Forests = { topography = flatland vegetation = forest climate = continental }
+Pritzstock = { topography = flatland vegetation = forest climate = continental }
+Kammendun = { topography = flatland vegetation = sparse climate = continental }
+Tobenamedmiddenland = { topography = flatland vegetation = forest climate = continental }
+Landaroundsumpf = { topography = flatland vegetation = sparse climate = continental }
+Winsen = { topography = flatland vegetation = forest climate = continental }
+
+Gelderham = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Maansfast = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Stangenbroek = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Zegweld = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Kaserburg = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Tobenamedgorrsel1 = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Tobenamedgorrsel2 = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Tobenamedgorrsel3 = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Tobenamedgorrsel4 = { topography = flatland vegetation = forest climate = continental raw_material = wild_game  }
+Gorrsel = { raw_material = wheat topography = flatland vegetation = forest climate = continental }
+
+North_West_Drakwald = { topography = flatland vegetation = forest climate = continental }
+Forestaroundsumpf = { topography = flatland vegetation = forest climate = continental }
+Drachenhole = { topography = flatland vegetation = sparse climate = continental }
+Rainbow_Falls = { topography = flatland vegetation = forest climate = oceanic }
+Schadensumpf = { topography = wetlands vegetation = sparse climate = continental }
+Plains_above_schadensumpf = { topography = flatland vegetation = grasslands climate = continental }
+Skogholm = { topography = flatland vegetation = forest climate = continental }
+Middenland_forests = { topography = flatland vegetation = forest climate = continental }
+Zelebhorn_Forests = { topography = flatland vegetation = forest climate = continental }
+Beeckerhoven_forests = { topography = flatland vegetation = forest climate = continental }
+Silbertief = { topography = hills vegetation = sparse climate = oceanic }
+Oldenlitz = { topography = hills vegetation = sparse climate = oceanic }
+Beeckerhoven = { topography = hills vegetation = sparse climate = continental }
+Huven_Forests = { topography = flatland vegetation = forest climate = oceanic }
+Stavern = { topography = flatland vegetation = forest climate = oceanic }
+Tettens = { topography = hills vegetation = sparse climate = oceanic }
+Skovby = { topography = hills vegetation = sparse climate = oceanic }
+Salzenmund = { topography = hills vegetation = sparse climate = oceanic }
+Odisheim = { topography = hills vegetation = sparse climate = oceanic }
+Kronven = { topography = flatland vegetation = forest climate = continental }
+Voervinholm = { topography = flatland vegetation = forest climate = oceanic }
+Auld_Troldved = { topography = hills vegetation = sparse climate = oceanic }
+Forstfast = { topography = flatland vegetation = forest climate = oceanic }
+Forstfast_forest = { topography = flatland vegetation = forest climate = oceanic }
+Schlaghugel = { topography = flatland vegetation = forest climate = oceanic }
+Skovby_Forests = { topography = flatland vegetation = forest climate = oceanic }
+Tyrvad = { topography = flatland vegetation = forest climate = oceanic }
+Silver_hills = { topography = hills vegetation = sparse climate = oceanic }
+Hohenaspe = { topography = flatland vegetation = forest climate = oceanic }
+Vesterrup = { topography = flatland vegetation = forest climate = oceanic }
+Kohlen = { topography = hills vegetation = sparse climate = oceanic }
+Tor_Lithanel = { topography = flatland vegetation = forest climate = oceanic }
+Eastern_Laurelorn = { topography = flatland vegetation = forest climate = oceanic }
+Skogholm_Forests = { topography = flatland vegetation = forest climate = continental }
+Northern_Laurelorn = { topography = flatland vegetation = forest climate = oceanic }
+Fountain_of_Lebin = { topography = flatland vegetation = grasslands climate = oceanic }
+Western_Laurelorn = { topography = flatland vegetation = forest climate = oceanic }
+Dorfmark = { topography = flatland vegetation = forest climate = continental }
+Lenkster = { topography = flatland vegetation = grasslands climate = continental }
+north_middle_mountains = { topography = flatland vegetation = grasslands climate = continental }
+Ferlangen_foothills = { topography = flatland vegetation = grasslands climate = continental }
+Ferlangen = { topography = flatland vegetation = grasslands climate = continental }
+Kolengrad = { topography = flatland vegetation = grasslands climate = continental }
+Flecken = { topography = flatland vegetation = grasslands climate = continental }
+Dunkelpfad = { topography = flatland vegetation = grasslands climate = continental }
+Aukrug = { topography = flatland vegetation = grasslands climate = continental }
+middle_mountain_foothills = { topography = hills vegetation = sparse climate = continental }
+Lubrecht_forest = { topography = flatland vegetation = forest climate = continental }
+Smallhof = { topography = flatland vegetation = forest climate = continental }
+Wolfenburg_land = { topography = flatland vegetation = forest climate = continental }
+Wendorf = { topography = hills vegetation = grasslands climate = continental }
+Wolfenburg = { topography = hills vegetation = grasslands climate = continental }
+Middle_mountain_foothills2 = { topography = hills vegetation = grasslands climate = continental }
+Koerin = { topography = flatland vegetation = grasslands climate = continental }
+Krudenwald_forest = { topography = flatland vegetation = forest climate = continental }
+Thurgenheim = { topography = flatland vegetation = forest climate = continental }
+Hovelhof = { topography = flatland vegetation = forest climate = continental }
+Solzheim = { topography = flatland vegetation = grasslands climate = continental }
+Norderingen = { topography = flatland vegetation = forest climate = continental }
+Sohk = { topography = flatland vegetation = grasslands climate = continental }
+Gladbeich = { topography = flatland vegetation = grasslands climate = continental }
+Immelscheid = { topography = flatland vegetation = grasslands climate = continental }
+Lindenheim = { topography = flatland vegetation = grasslands climate = continental }
+Oberholzbeck = { topography = flatland vegetation = grasslands climate = continental }
+Middenheim = { topography = flatland vegetation = grasslands climate = continental }
+Arenberg = { topography = flatland vegetation = forest climate = continental }
+Elsterweld = { topography = flatland vegetation = forest climate = continental }
+Warrenburg = { topography = flatland vegetation = grasslands climate = continental }
+Grevenfeld = { topography = flatland vegetation = grasslands climate = continental }
+Fintel_Forest = { topography = flatland vegetation = forest climate = continental }
+Grubentreich = { topography = flatland vegetation = forest climate = continental }
+Hunxe = { topography = flatland vegetation = forest climate = continental }
+Holzbeck = { topography = flatland vegetation = grasslands climate = continental }
+Selmigerholz = { topography = hills vegetation = grasslands climate = continental }
+Bergsberg = { topography = hills vegetation = grasslands climate = continental }
+Krudenwald = { topography = hills vegetation = grasslands climate = continental }
+Tobenamedforest = { topography = flatland vegetation = forest climate = continental }
+Esk = { topography = hills vegetation = grasslands climate = continental }
+Breder = { topography = hills vegetation = grasslands climate = continental }
+North_Weiss_Hills = { topography = hills vegetation = sparse climate = continental }
+foresta = { topography = flatland vegetation = forest climate = continental }
+Schoppendorf = { topography = hills vegetation = grasslands climate = continental }
+South_Weiss_Hills = { topography = hills vegetation = sparse climate = continental }
+Untergard_forest = { topography = flatland vegetation = forest climate = continental }
+Middenstag = { topography = flatland vegetation = forest climate = continental }
+Untergard1 = { topography = flatland vegetation = forest climate = continental }
+Harsum = { topography = flatland vegetation = forest climate = continental }
+Turmgever = { topography = flatland vegetation = forest climate = continental }
+Delberz = { topography = flatland vegetation = forest climate = continental }
+Schwarzmarkt = { topography = flatland vegetation = forest climate = continental }
+Grimmenhagen = { topography = flatland vegetation = forest climate = continental }
+Fintel = { topography = flatland vegetation = forest climate = continental }
+Delberz_Forest = { topography = flatland vegetation = forest climate = continental }
+Langwiese = { topography = flatland vegetation = sparse climate = continental }
+North_Howling_Hills = { topography = hills vegetation = sparse climate = continental }
+Untergard = { topography = flatland vegetation = forest climate = continental }
+Grunackern = { topography = hills vegetation = grasslands climate = continental }
+Melbeck = { topography = hills vegetation = grasslands climate = continental }
+Vodf = { topography = flatland vegetation = sparse climate = continental }
+West_ostland1 = { topography = flatland vegetation = forest climate = continental }
+Kurst_Forest = { topography = flatland vegetation = forest climate = continental }
+Dassel = { topography = hills vegetation = sparse climate = continental }
+Felde = { topography = flatland vegetation = grasslands climate = continental }
+Levudalorf = { topography = flatland vegetation = forest climate = continental }
+Vandengart_forest = { topography = flatland vegetation = forest climate = continental }
+Vandengart = { topography = flatland vegetation = forest climate = continental }
+Grenzburg_forest = { topography = flatland vegetation = forest climate = continental }
+Lubrecht = { topography = flatland vegetation = forest climate = continental }
+Aachden = { topography = flatland vegetation = forest climate = continental }
+Grenzburg = { topography = flatland vegetation = forest climate = continental }
+West_ostland_2 = { topography = flatland vegetation = forest climate = continental }
+Kurst = { topography = flatland vegetation = forest climate = continental }
+borderlocation = { topography = flatland vegetation = forest climate = continental }
+West_Dunkelkuste_forest = { topography = flatland vegetation = forest climate = continental }
+Bechafen_plains = { topography = flatland vegetation = forest climate = continental }
+Rugenbuttel = { topography = flatland vegetation = forest climate = continental }
+Dorna = { topography = flatland vegetation = forest climate = continental }
+Poritz = { topography = flatland vegetation = grasslands climate = continental }
+Poritz_Plains = { topography = flatland vegetation = grasslands climate = continental }
+East_Great_Forest = { topography = flatland vegetation = forest climate = continental }
+Central_Ostermark_Plains = { topography = flatland vegetation = grasslands climate = continental }
+South_Ostermark_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Hundheimer_Woods = { topography = flatland vegetation = forest climate = continental }
+Pfaffenwald = { topography = flatland vegetation = forest climate = continental }
+Trautenau = { topography = flatland vegetation = forest climate = continental }
+Tauer = { topography = flatland vegetation = forest climate = continental }
+Dead_Woods = { topography = flatland vegetation = forest climate = continental }
+Tobernamedforest2 = { topography = flatland vegetation = forest climate = continental }
+Krugenheim = { topography = flatland vegetation = grasslands climate = continental }
+Bissendorf = { topography = flatland vegetation = forest climate = continental }
+Totensumpfe = { topography = wetlands vegetation = sparse climate = continental }
+Hunger_Woods = { topography = flatland vegetation = forest climate = continental }
+Siegfriedhof = { topography = wetlands vegetation = sparse climate = continental }
+Marberg = { topography = flatland vegetation = forest climate = continental }
+Gersdorf_Forest = { topography = flatland vegetation = forest climate = continental }
+Ossino = { topography = flatland vegetation = forest climate = continental }
+Julbach_Forests = { topography = flatland vegetation = forest climate = continental }
+Lieske_Forests = { topography = flatland vegetation = forest climate = continental }
+Julbach = { topography = flatland vegetation = grasslands climate = continental }
+Julbach1 = { topography = flatland vegetation = grasslands climate = continental }
+Julbach_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Oehling_Forests = { topography = flatland vegetation = forest climate = continental }
+Wurtbad = { topography = flatland vegetation = forest climate = continental }
+Ghoul_Woods = { topography = flatland vegetation = forest climate = continental }
+Biberhof = { topography = flatland vegetation = grasslands climate = continental }
+Nattern_Forest = { topography = flatland vegetation = forest climate = continental }
+Tarshof = { topography = flatland vegetation = grasslands climate = continental }
+Wurtbad_plains = { topography = flatland vegetation = grasslands climate = continental }
+Flensburg = { topography = flatland vegetation = grasslands climate = continental }
+Ramsau = { topography = flatland vegetation = grasslands climate = continental }
+Lochen = { topography = flatland vegetation = grasslands climate = continental }
+Missen = { topography = flatland vegetation = forest climate = continental }
+Gostahof = { topography = flatland vegetation = forest climate = continental }
+West_Stirland_Plain = { topography = flatland vegetation = grasslands climate = continental }
+Blutdorf = { topography = flatland vegetation = grasslands climate = continental }
+Tobenamedplains = { topography = flatland vegetation = grasslands climate = continental }
+Bogglewort = { topography = flatland vegetation = grasslands climate = continental }
+Worden = { topography = flatland vegetation = grasslands climate = continental }
+Kircham = { topography = flatland vegetation = grasslands climate = continental }
+Russbach = { topography = flatland vegetation = grasslands climate = continental }
+Nussbach = { topography = flatland vegetation = grasslands climate = continental }
+Tenneck = { topography = flatland vegetation = grasslands climate = continental }
+Chrobok = { topography = flatland vegetation = grasslands climate = continental }
+Kelham = { topography = flatland vegetation = grasslands climate = continental }
+Halstedt = { topography = flatland vegetation = grasslands climate = continental }
+Brandenberry = { topography = flatland vegetation = grasslands climate = continental }
+Midden_Marshes = { topography = wetlands vegetation = sparse climate = continental }
+Carroburg_woods = { topography = flatland vegetation = forest climate = continental }
+Furdienst = { topography = flatland vegetation = forest climate = continental }
+North_East_Drakwald = { topography = flatland vegetation = forest climate = continental }
+Grossbad = { topography = flatland vegetation = forest climate = continental }
+Frederheim = { topography = flatland vegetation = forest climate = continental }
+Mirror_Moors = { topography = flatland vegetation = sparse climate = continental }
+Drakwald2 = { topography = flatland vegetation = forest climate = continental }
+Drakwald1 = { topography = flatland vegetation = forest climate = continental }
+Ahlenhof = { topography = flatland vegetation = forest climate = continental }
+Brasthof = { topography = flatland vegetation = forest climate = continental }
+West_Talabecland = { topography = flatland vegetation = forest climate = continental }
+Ahlenhof_forest = { topography = flatland vegetation = forest climate = continental }
+Zeder = { topography = flatland vegetation = forest climate = continental }
+Ahresdorf_forests = { topography = flatland vegetation = forest climate = continental }
+Stockse = { topography = flatland vegetation = forest climate = continental }
+Hergig = { topography = flatland vegetation = forest climate = continental }
+Borogrod_forest = { topography = flatland vegetation = forest climate = continental }
+Dunstigfurt = { topography = flatland vegetation = forest climate = continental }
+Wannsingen = { topography = flatland vegetation = forest climate = continental }
+Hergig_Forest = { topography = flatland vegetation = forest climate = continental }
+Gruyden = { topography = flatland vegetation = forest climate = continental }
+Barwedel = { topography = flatland vegetation = forest climate = continental }
+Ahresdorf = { topography = flatland vegetation = forest climate = continental }
+Klarfeld = { topography = flatland vegetation = forest climate = continental }
+Muden = { topography = flatland vegetation = forest climate = continental }
+Bergendorf = { topography = flatland vegetation = forest climate = continental }
+East_Howling_Hills = { topography = hills vegetation = sparse climate = continental }
+restofprovincewithdenk = { topography = flatland vegetation = forest climate = continental }
+South_Howling_Hills = { topography = hills vegetation = sparse climate = continental }
+Talabheim = { topography = flatland vegetation = forest climate = continental }
+Harferfahre = { topography = flatland vegetation = forest climate = continental }
+Talagaad = { topography = flatland vegetation = forest climate = continental }
+Waldfahrt = { topography = flatland vegetation = forest climate = continental }
+Zurin = { topography = flatland vegetation = forest climate = continental }
+Vateresche = { topography = flatland vegetation = forest climate = continental }
+Sumpfrand = { topography = flatland vegetation = forest climate = continental }
+Sprotau = { topography = flatland vegetation = forest climate = continental }
+Bad_Dankerode = { topography = flatland vegetation = forest climate = continental }
+Sarno = { topography = flatland vegetation = forest climate = continental }
+Hernhausen = { topography = flatland vegetation = forest climate = continental }
+Central_Talabecland = { topography = flatland vegetation = forest climate = continental }
+Breitblatt = { topography = flatland vegetation = forest climate = continental }
+Denkh = { topography = flatland vegetation = forest climate = continental }
+Grossreiche = { topography = flatland vegetation = forest climate = continental }
+Kutzleben = { topography = flatland vegetation = forest climate = continental }
+Urhausen = { topography = flatland vegetation = forest climate = continental }
+Liebstadt = { topography = flatland vegetation = forest climate = continental }
+Great_Forest = { topography = flatland vegetation = forest climate = continental }
+GreenorBarren_Hills = { topography = hills vegetation = sparse climate = continental }
+Forests_near_barren_hills = { topography = flatland vegetation = forest climate = continental }
+Reiker_Marshes = { topography = flatland vegetation = forest climate = continental }
+Stockhausen = { topography = flatland vegetation = forest climate = continental }
+Aulen = { topography = flatland vegetation = forest climate = continental }
+Unterbaum = { topography = flatland vegetation = forest climate = continental }
+Zutzen = { topography = flatland vegetation = forest climate = continental }
+Sydow = { topography = flatland vegetation = forest climate = continental }
+Welleborn = { topography = flatland vegetation = forest climate = continental }
+Ranganhof = { topography = flatland vegetation = forest climate = continental }
+Oberwill = { topography = flatland vegetation = forest climate = continental }
+Lieske = { topography = flatland vegetation = forest climate = continental }
+Radische = { topography = flatland vegetation = forest climate = continental }
+Franzen = { topography = flatland vegetation = grasslands climate = continental }
+Monheim = { topography = flatland vegetation = grasslands climate = continental }
+Sauerapfel = { topography = flatland vegetation = grasslands climate = continental }
+Birnbaum = { topography = flatland vegetation = grasslands climate = continental }
+Krugenheim_forest = { topography = flatland vegetation = forest climate = continental }
+Dohna = { topography = flatland vegetation = forest climate = continental }
+Oehling = { topography = flatland vegetation = forest climate = continental }
+Gersdorf = { topography = flatland vegetation = grasslands climate = continental }
+Sabritz = { topography = flatland vegetation = grasslands climate = continental }
+Hazelhof = { topography = flatland vegetation = grasslands climate = continental }
+Zeisholz = { topography = flatland vegetation = forest climate = continental }
+Weiler = { topography = flatland vegetation = forest climate = continental }
+Nagenhof_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Buckow = { topography = flatland vegetation = forest climate = continental }
+Elbing = { topography = flatland vegetation = forest climate = continental }
+Nagenhof = { topography = flatland vegetation = forest climate = continental }
+Remer = { topography = flatland vegetation = forest climate = continental }
+Reitwein = { topography = flatland vegetation = forest climate = continental }
+Bechafen = { topography = flatland vegetation = forest climate = continental }
+Brunmarl = { topography = flatland vegetation = forest climate = continental }
+Dnierson_Foothills = { topography = hills vegetation = sparse climate = continental }
+Dnierson = { topography = hills vegetation = sparse climate = continental }
+Eastern_Forests = { topography = flatland vegetation = forest climate = continental }
+Badenhof_plains = { topography = flatland vegetation = grasslands climate = continental }
+Badenhof = { topography = flatland vegetation = grasslands climate = continental }
+Fortenhaf = { topography = flatland vegetation = forest climate = continental }
+Markgrad = { topography = flatland vegetation = forest climate = continental }
+Gerdouen = { topography = flatland vegetation = forest climate = continental }
+Fortengrad = { topography = flatland vegetation = forest climate = continental }
+Munkenhof = { topography = flatland vegetation = forest climate = continental }
+Mielau = { topography = flatland vegetation = forest climate = continental }
+Kolitz = { topography = flatland vegetation = forest climate = continental }
+Tobenamedplaiins3 = { topography = flatland vegetation = grasslands climate = continental }
+Rheden = { topography = flatland vegetation = grasslands climate = continental }
+Sigmarsgeist_Foothills = { topography = hills vegetation = sparse climate = continental }
+Sigmarsgeist = { topography = hills vegetation = sparse climate = continental }
+Bahlkurk_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Eisental = { topography = hills vegetation = sparse climate = continental }
+Eisental_Foothills = { topography = hills vegetation = sparse climate = continental }
+Gelt = { topography = hills vegetation = sparse climate = continental }
+Bahlkurk = { topography = flatland vegetation = forest climate = continental }
+Essen_plains = { topography = flatland vegetation = grasslands climate = continental }
+Carlsbruck = { topography = flatland vegetation = grasslands climate = continental }
+Hel_fenn = { topography = flatland vegetation = forest climate = continental }
+Morssfen = { topography = flatland vegetation = forest climate = continental }
+Grim_Wood = { topography = flatland vegetation = forest climate = continental }
+Thyrnau = { topography = flatland vegetation = grasslands climate = continental }
+Egling = { topography = flatland vegetation = grasslands climate = continental }
+Bylorvash_plains = { topography = flatland vegetation = grasslands climate = continental }
+Mikalsdorf = { topography = flatland vegetation = grasslands climate = continental }
+Waldenhof = { topography = flatland vegetation = grasslands climate = continental }
+Regakhof = { topography = flatland vegetation = grasslands climate = continental }
+Hundhum = { topography = flatland vegetation = grasslands climate = continental }
+Misty_Woods = { topography = flatland vegetation = forest climate = continental }
+Tangled_Woods = { topography = flatland vegetation = forest climate = continental }
+Haunted_Hills = { topography = flatland vegetation = sparse climate = continental }
+Grim_Moor = { topography = flatland vegetation = sparse climate = continental }
+Tempelhof = { topography = flatland vegetation = grasslands climate = continental }
+Morrsfen_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Vanhaldenhof = { topography = flatland vegetation = grasslands climate = continental }
+Dunkelmoor = { topography = wetlands vegetation = sparse climate = continental }
+Naubonum = { topography = flatland vegetation = grasslands climate = continental }
+Pfaffbach = { topography = flatland vegetation = grasslands climate = continental }
+Drakenhof = { topography = flatland vegetation = grasslands climate = continental }
+Nachthafen_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Nachthafen = { topography = flatland vegetation = grasslands climate = continental }
+Bylorvash_Marsh = { topography = wetlands vegetation = grasslands climate = continental }
+Tobenamedplains2 = { topography = flatland vegetation = grasslands climate = continental }
+Eineschatten = { topography = flatland vegetation = grasslands climate = continental }
+Leedleton = { topography = flatland vegetation = grasslands climate = continental }
+Schwarzhafen = { topography = flatland vegetation = grasslands climate = continental }
+Leicheberg = { topography = flatland vegetation = grasslands climate = continental }
+Mittlenburg = { topography = hills vegetation = grasslands climate = continental }
+Bachra = { topography = flatland vegetation = forest climate = continental }
+East_Talabecland = { topography = flatland vegetation = forest climate = continental }
+Dreetz = { topography = flatland vegetation = forest climate = continental }
+Boven = { topography = flatland vegetation = forest climate = continental }
+Wurzen_forest = { topography = flatland vegetation = forest climate = continental }
+Volganof = { topography = flatland vegetation = grasslands climate = continental }
+Raukov = { topography = flatland vegetation = forest climate = continental }
+Viernau = { topography = flatland vegetation = forest climate = continental }
+Czenger = { topography = flatland vegetation = forest climate = continental }
+Wurzen = { topography = flatland vegetation = forest climate = continental }
+Lochrafurt = { topography = flatland vegetation = forest climate = continental }
+Bek = { topography = flatland vegetation = forest climate = continental }
+Uckrofurt = { topography = flatland vegetation = forest climate = continental }
+Freital = { topography = flatland vegetation = forest climate = continental }
+Dorog = { topography = flatland vegetation = forest climate = continental }
+Borogrod = { topography = flatland vegetation = forest climate = continental }
+Kusel = { topography = flatland vegetation = forest climate = continental }
+Bad_Tenzala = { topography = flatland vegetation = forest climate = continental }
+Volgen = { topography = flatland vegetation = forest climate = continental }
+Sudenheim = { topography = flatland vegetation = forest climate = continental }
+Esselfurt = { topography = flatland vegetation = forest climate = continental }
+Priestlicheim = { topography = flatland vegetation = forest climate = continental }
+Ripdorf = { topography = flatland vegetation = forest climate = continental }
+Central_Howling_Hills = { topography = hills vegetation = sparse climate = continental }
+West_Howling_Hills = { topography = hills vegetation = sparse climate = continental }
+Iron_Keep = { topography = hills vegetation = sparse climate = continental }
+Mittlemud = { topography = flatland vegetation = forest climate = continental }
+Bad_Hohne = { topography = flatland vegetation = forest climate = continental }
+Suderberg = { topography = flatland vegetation = forest climate = continental }
+Rosche = { topography = flatland vegetation = forest climate = continental }
+Klepzig = { topography = flatland vegetation = forest climate = continental }
+Werder = { topography = flatland vegetation = forest climate = continental }
+Torpin = { topography = flatland vegetation = forest climate = continental }
+Nadjagard = { topography = flatland vegetation = forest climate = continental }
+Garndorf = { topography = flatland vegetation = forest climate = continental }
+Kaldach = { topography = flatland vegetation = forest climate = continental }
+Ravenstein = { topography = flatland vegetation = forest climate = continental }
+Geldrecht = { topography = flatland vegetation = forest climate = continental }
+Braunwurt = { topography = flatland vegetation = forest climate = continental }
+Furtild = { topography = flatland vegetation = forest climate = continental }
+Bundesmarkt = { topography = flatland vegetation = forest climate = continental }
+Senden = { topography = flatland vegetation = grasslands climate = continental }
+Barenfahre = { topography = flatland vegetation = grasslands climate = continental }
+Carroburg = { topography = flatland vegetation = grasslands climate = continental }
+Punzen = { topography = flatland vegetation = grasslands climate = continental }
+unknownreikland1 = { topography = flatland vegetation = forest climate = continental }
+Anseldorf = { topography = flatland vegetation = grasslands climate = continental }
+unknownreikland2 = { topography = flatland vegetation = forest climate = continental }
+unknownreikland3 = { topography = flatland vegetation = forest climate = continental }
+Unerschroken = { topography = flatland vegetation = forest climate = continental }
+Wheburg = { topography = flatland vegetation = grasslands climate = continental }
+unknownreikland8 = { topography = flatland vegetation = grasslands climate = continental }
+unknownreikland7 = { topography = flatland vegetation = grasslands climate = continental }
+Helmgart = { climate = continental }
+unknownreikland5 = { topography = flatland vegetation = grasslands climate = continental }
+Uhlandberg = { topography = flatland vegetation = forest climate = continental }
+Holtenhausen = { topography = flatland vegetation = forest climate = continental }
+unknownreikland4 = { topography = flatland vegetation = forest climate = continental }
+Esselhugel = { topography = flatland vegetation = forest climate = continental }
+Holtenwald = { topography = flatland vegetation = forest climate = continental }
+
+Kristall_Plains = { topography = flatland vegetation = grasslands climate = continental }
+Tobenamedplains3 = { topography = flatland vegetation = grasslands climate = continental }Nuln = { topography = flatland vegetation = grasslands climate = continental }river_reik14 = { topography = narrows climate = continental }river_reik13 = { topography = narrows climate = continental }river_reik12 = { topography = narrows climate = continental }river_reik11 = { topography = narrows climate = continental }river_reik10 = { topography = narrows climate = continental }river_reik9 = { topography = narrows climate = continental }river_reik8 = { topography = narrows climate = continental }river_reik7 = { topography = narrows climate = continental }river_reik6 = { topography = narrows climate = continental }river_reik5 = { topography = narrows climate = continental }river_reik4 = { topography = narrows climate = continental }river_reik3 = { topography = narrows climate = continental }river_reik2 = { topography = narrows climate = oceanic }
+rijksmouth = { topography = narrows climate = oceanic }
+manaanshek = { topography = inland_sea climate = oceanic }
+westelijk_kanaal = { topography = inland_sea climate = oceanic }
+oostelijk_kanaal = { topography = inland_sea climate = oceanic }
+Tower_of_se_athel = { topography = flatland vegetation = sparse climate = oceanic }seaofclaws1 = { topography = coastal_ocean climate = oceanic }seaofclaws2 = { topography = coastal_ocean climate = oceanic }seaofclaws3 = { topography = coastal_ocean climate = oceanic }seaofclaws4 = { topography = coastal_ocean climate = oceanic }seaofclaws5 = { topography = coastal_ocean climate = oceanic }seaofclaws6 = { topography = coastal_ocean climate = oceanic }seaofclaws7 = { topography = coastal_ocean climate = oceanic }seaofclaws8 = { topography = coastal_ocean climate = oceanic }seaofclaws9 = { topography = coastal_ocean climate = oceanic }seaofclaws10 = { topography = coastal_ocean climate = oceanic }seaofclaws11 = { topography = coastal_ocean climate = oceanic }seaofclaws12 = { topography = coastal_ocean climate = oceanic }seaofclaws13 = { topography = coastal_ocean climate = oceanic }Tobenamedtumble6 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble9 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble10 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble12 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble13 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble15 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble17 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble16 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble14 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }Tobenamedtumble11 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }Noordwijker = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }Tobenamedtumble7 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }Tobenamedtumble8 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = wild_game  }Tobenamedtumble5 = { topography = flatland vegetation = grasslands climate = oceanic raw_material = fish  }rijkskeel = { topography = inland_sea climate = oceanic }

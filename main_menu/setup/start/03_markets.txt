@@ -1,3 +1,5 @@
 market_manager = {
 	add_market = testprovince1
+    add_market = Marienburg
+    add_market = Pfeildorf
 }

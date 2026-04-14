@@ -10,7 +10,6 @@ imperial_town = {
 	tannery = 1
 	glass_guild = 1
 	granary = 1
-	castle = 1
 	mason = 1
 	pottery_guild = 1
 	marketplace = 1

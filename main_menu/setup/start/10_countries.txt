@@ -1,39 +1,41 @@
 current_age = age_1_traditions
 
 countries = {
-	countries = {
-		TAL = {	#Ottilian Empire/Talabecland
-			own_control_core = {
+    countries = {
+        TAL = {
+            #Ottilian Empire/Talabecland
+            own_control_core = {
                 testprovince1
-				testprovince2
-				testprovince3
-				testprovince4
-				testprovince5
-				testprovince6
-			}
+                testprovince2
+                testprovince3
+                testprovince4
+                testprovince5
+                testprovince6
+            }
 
-			starting_technology_level = 2
-			#include = "expl_western_europe"
-			#include = "catholic_monarchy_no_coast"
-			#include = "german_principality"
-			
-			discovered_regions = {
-				custom_region
-			}
+            starting_technology_level = 2
+            #include = "expl_western_europe"
+            #include = "catholic_monarchy_no_coast"
+            #include = "german_principality"
 
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = ottilia
-			}
+            discovered_regions = {
+                custom_region
+            }
 
-			country_rank = rank_empire
-			dynasty = ottilian_dynasty
-			capital = testprovince1
-		}
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = ottilia
+            }
+
+            country_rank = rank_empire
+            dynasty = ottilian_dynasty
+            capital = testprovince1
+        }
 
 
-        BLL = {	#Ballenhof part of solland
+        BLL = {
+            #Ballenhof part of solland
             own_control_core = {
                 Ballenhof
                 Gestratz
@@ -46,6 +48,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -59,7 +62,8 @@ countries = {
             capital = Ballenhof
         }
 
-        SOL = {	#Solland
+        SOL = {
+            #Solland
             own_control_core = {
                 Hornfen
                 Pucheim
@@ -144,6 +148,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -157,7 +162,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        MCK = {	#Mecklenburg freistadt
+        MCK = {
+            #Mecklenburg freistadt
             own_control_core = {
                 Mecklenburg
             }
@@ -169,6 +175,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -182,7 +189,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        WTT = {	#Wittenhausen
+        WTT = {
+            #Wittenhausen
             own_control_core = {
                 Wittenhausen
             }
@@ -194,6 +202,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -207,7 +216,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        WLD = {	#Waldbach
+        WLD = {
+            #Waldbach
             own_control_core = {
                 Waldbach
             }
@@ -219,6 +229,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -233,7 +244,8 @@ countries = {
         }
 
 
-        UMM = {	#Ummenbach
+        UMM = {
+            #Ummenbach
             own_control_core = {
                 Ummenbach
             }
@@ -245,6 +257,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -258,7 +271,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        STE = {	#Steingart
+        STE = {
+            #Steingart
             own_control_core = {
                 Steingart
                 Krossbach
@@ -273,6 +287,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -286,7 +301,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        STA = {	#Staig
+        STA = {
+            #Staig
             own_control_core = {
                 Staig
             }
@@ -298,6 +314,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -311,7 +328,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        SOC = {	#Sochtenau
+        SOC = {
+            #Sochtenau
             own_control_core = {
                 Sochtenau
                 Leogang
@@ -324,6 +342,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -337,7 +356,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        SEX = {	#Sexau
+        SEX = {
+            #Sexau
             own_control_core = {
                 Sexau
                 Diepolz
@@ -350,6 +370,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -362,7 +383,8 @@ countries = {
             dynasty = ottilian_dynasty
             capital = Pfeildorf
         }
-        ROH = {	#Rohrhof
+        ROH = {
+            #Rohrhof
             own_control_core = {
                 Rohrhof
             }
@@ -374,6 +396,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -387,7 +410,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        HVZ = {	#Pforzen
+        HVZ = {
+            #Pforzen
             own_control_core = {
                 Haverz
             }
@@ -399,6 +423,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -412,7 +437,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        PHL = {	#Pahl
+        PHL = {
+            #Pahl
             own_control_core = {
                 Ranalt
                 Torrach
@@ -425,6 +451,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -438,7 +465,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        OTZ = {	#Osterzell
+        OTZ = {
+            #Osterzell
             own_control_core = {
                 Osterzell
                 Kauns
@@ -452,6 +480,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -465,7 +494,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        MOS = {	#Moosach
+        MOS = {
+            #Moosach
             own_control_core = {
                 Moosach
                 Aitrang
@@ -478,6 +508,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -491,7 +522,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        MND = {	#Mendelhofe
+        MND = {
+            #Mendelhofe
             own_control_core = {
                 Mendelhofe
                 Hochsolden
@@ -505,6 +537,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -518,7 +551,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        MAU = {	#Mauchen
+        MAU = {
+            #Mauchen
             own_control_core = {
                 Mauchen
                 Wilhams
@@ -532,6 +566,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -545,7 +580,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        LGU = {	#Legau
+        LGU = {
+            #Legau
             own_control_core = {
                 Legau
             }
@@ -557,6 +593,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -570,7 +607,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        KRO = {	#Mecklenburg freistadt
+        KRO = {
+            #Mecklenburg freistadt
             own_control_core = {
                 Kroppenleben
                 Ottakring
@@ -583,6 +621,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -596,7 +635,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        KOL = {	#Kolbhugel
+        KOL = {
+            #Kolbhugel
             own_control_core = {
                 Kolbhugel
                 Mandling
@@ -610,6 +650,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -622,7 +663,8 @@ countries = {
             dynasty = ottilian_dynasty
             capital = Pfeildorf
         }
-        JEN = {	#Jengen
+        JEN = {
+            #Jengen
             own_control_core = {
                 Mathon
             }
@@ -634,6 +676,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -647,7 +690,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        HUR = {	#Hurlach
+        HUR = {
+            #Hurlach
             own_control_core = {
                 Kislegg
             }
@@ -659,6 +703,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -671,7 +716,8 @@ countries = {
             dynasty = ottilian_dynasty
             capital = Pfeildorf
         }
-        HRN = {	#Hornfurt
+        HRN = {
+            #Hornfurt
             own_control_core = {
                 Hornfurt
                 Affing
@@ -684,6 +730,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -697,12 +744,12 @@ countries = {
             capital = Pfeildorf
         }
 
-        GSC = {	#Geschburg
+        GSC = {
+            #Geschburg
             own_control_core = {
                 Geschburg
                 Althausen
                 Fluorin
-                Puchheim
                 Zoblen
             }
 
@@ -713,6 +760,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -726,7 +774,8 @@ countries = {
             capital = Pfeildorf
         }
 
-        ERB = {	#Mecklenburg freistadt
+        ERB = {
+            #Mecklenburg freistadt
             own_control_core = {
                 Erbshausen
                 Madau
@@ -741,6 +790,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -755,7 +805,8 @@ countries = {
         }
 
 
-        EPP = {	#Eppiswald
+        EPP = {
+            #Eppiswald
             own_control_core = {
                 Gutach
                 Kluftern
@@ -768,6 +819,7 @@ countries = {
 
             discovered_regions = {
                 southern_empire
+                northern_empire
             }
 
             government = {
@@ -781,9 +833,265 @@ countries = {
             capital = Pfeildorf
         }
 
+        MRB = {
+            #Marienburg
+            own_control_core = {
+                Marienburg
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Marienburg
+
+        }
+
+        AAR = {
+            #Marienburg
+            own_control_core = {
+                Aarnau
+                Hollum
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Aarnau
+
+        }
+        GRR = {
+            #Marienburg
+            own_control_core = {
+                Gorrsel
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Gorrsel
+
+        }
+        KLE = {
+            #Marienburg
+            own_control_core = {
+                Klessen
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Klessen
+
+        }
+
+        KAL = {
+            #Marienburg
+            own_control_core = {
+                Kalkaat
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kalkaat
+
+        }
+
+        ZAN = {
+            #Marienburg
+            own_control_core = {
+                Zandt
+                Halsdorp
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Zandt
+
+        }
+        LEY = { #Leydenhoven
+            own_control_core = {
+                Leydenhoven
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Leydenhoven
+
+        }
+
+        BRO = { #Leydenhoven
+            own_control_core = {
+                Broekwater
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Broekwater
+
+        }
+        ALM = { #Leydenhoven
+            own_control_core = {
+                Almshoven
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Almshoven
+
+        }
+
+        SLF = { #Leydenhoven
+            own_control_core = {
+                Salfen
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Salfen
+
+        }
+
+        LEH = { #Leydenhoven
+            own_control_core = {
+                Lehmburg
+            }
+
+            starting_technology_level = 2
+
+
+            discovered_regions = {
+                southern_empire
+                northern_empire
+            }
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Lehmburg
+
+        }
 
 
 
     }
-}
 
+}
