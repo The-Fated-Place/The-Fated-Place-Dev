@@ -1,12 +1,613 @@
 locations = {
+    #the empire
+    #the westerland
     Marienburg = {
         define_pop = {
             culture = jutones
             religion = imperial_cults
-            size = 50
+            size = 56
+            type = peasants
+        }
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 18
+            type = peasants
+        }
+
+    }
+    Almshoven = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.8
+            type = peasants
+        }
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.4
             type = peasants
         }
     }
+    Broekwater = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.7
+            type = peasants
+        }
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.5
+            type = peasants
+        }
+    }
+    Lehmburg = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.512
+            type = peasants
+        }
+
+    }
+    Klessen = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 8.2
+            type = peasants
+        }
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 4.3
+            type = peasants
+        }
+    }
+    Halsdorp = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.445
+            type = peasants
+        }
+    }
+    Zandt = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 6.3
+            type = peasants
+        }
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 3.4
+            type = peasants
+        }
+    }
+    Leydenhoven = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 9.5
+            type = peasants
+        }
+    }
+    Gorrsel = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 2.7
+            type = peasants
+        }
+    }
+    Aarnau = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.02
+            type = nobles
+        }
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 2
+            type = peasants
+        }
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 5.31
+            type = peasants
+        }
+    }
+    Hollum = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.844
+            type = peasants
+        }
+    }
+    Salfen = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 1.3
+            type = peasants
+        }
+    }
+    Kalkaat = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 8.4
+            type = peasants
+        }
+    }
+
+    Wijkersdijk = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.118
+            type = peasants
+        }
+    }
+
+    Heppeldorf = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.067
+            type = peasants
+        }
+    }
+
+    Buitenkaag = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.142
+            type = peasants
+        }
+    }
+
+    Zompveen = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.054
+            type = peasants
+        }
+    }
+
+    Rutten = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.089
+            type = peasants
+        }
+    }
+
+    Ongediertefort = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.041
+            type = peasants
+        }
+    }
+
+    Middelplaat = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.176
+            type = peasants
+        }
+    }
+
+    Rijpermeer = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.132
+            type = peasants
+        }
+    }
+
+    Verdronkenhoek = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.058
+            type = peasants
+        }
+    }
+
+    Kloosterdam = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.194
+            type = peasants
+        }
+    }
+
+    Fauligmere = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.073
+            type = peasants
+        }
+    }
+
+    Leydenhoven = {
+        define_pop = {
+            culture = jutones
+            religion = imperial_cults
+            size = 0.161
+            type = peasants
+        }
+    }
+    Gelderham = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.156
+            type = peasants
+        }
+
+    }
+
+    Maansfast = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.072
+            type = peasants
+        }
+
+    }
+
+    Stangenbroek = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.109
+            type = peasants
+        }
+
+    }
+
+    Kaserburg = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.181
+            type = peasants
+        }
+
+    }
+
+    Zeemond = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.094
+            type = peasants
+        }
+
+    }
+
+    Vloedwijk = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.137
+            type = peasants
+        }
+
+    }
+
+    Hogedam = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.165
+            type = peasants
+        }
+
+    }
+
+    Bovenkarspel = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.121
+            type = peasants
+        }
+
+    }
+
+    Fort_Solace = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.083
+            type = peasants
+        }
+
+    }
+
+    Noordwindhaven = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.148
+            type = peasants
+        }
+
+    }
+
+    Driftstrand = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.064
+            type = peasants
+        }
+
+    }
+
+    Kromdijk_aan_zee = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.112
+            type = peasants
+        }
+
+    }
+
+    Heerenwerf = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.176
+            type = peasants
+        }
+
+    }
+
+    Woltersum = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.098
+            type = peasants
+        }
+
+    }
+
+    Zwartweteren = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.057
+            type = peasants
+        }
+
+    }
+
+    Hoogkamp = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.134
+            type = peasants
+        }
+
+    }
+
+    Oud_torenburg = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.192
+            type = peasants
+        }
+
+    }
+
+    Heidestein = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.076
+            type = peasants
+        }
+
+    }
+
+    Noordwijker = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.143
+            type = peasants
+        }
+
+    }
+
+    Diever = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.101
+            type = peasants
+        }
+
+    }
+
+    Haarskamp = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.068
+            type = peasants
+        }
+
+    }
+
+    Grootveen = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.158
+            type = peasants
+        }
+
+    }
+
+    Loenen = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.119
+            type = peasants
+        }
+
+    }
+
+    Stedum = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.174
+            type = peasants
+        }
+
+    }
+
+    Oostwald = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.086
+            type = peasants
+        }
+
+    }
+
+    Middenveld = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.129
+            type = peasants
+        }
+
+    }
+
+    Brugwalde = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.147
+            type = peasants
+        }
+
+    }
+
+    Swartenmeer = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.063
+            type = peasants
+        }
+
+    }
+
+    Antorpe = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.182
+            type = peasants
+        }
+
+    }
+
+    Maasten = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.093
+            type = peasants
+        }
+
+    }
+
+    Polderwoude = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.166
+            type = peasants
+        }
+
+    }
+
+    Keterveen = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.074
+            type = peasants
+        }
+
+    }
+
+    Molenwaard = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.138
+            type = peasants
+        }
+
+    }
+
+    Lemmbourg = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.199
+            type = peasants
+        }
+
+    }
+
+    Heuveldorp = {
+        define_pop = {
+            culture = endal
+            religion = imperial_cults
+            size = 0.082
+            type = peasants
+        }
+
+    }
+
+
    Pfeildorf = {
       define_pop = {
          culture = menogoth

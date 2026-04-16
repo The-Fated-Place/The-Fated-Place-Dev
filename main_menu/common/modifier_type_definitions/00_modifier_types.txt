@@ -23,6 +23,13 @@ local_mannan_presence={
     }
 }
 
+allows_cult_buildings={
+    boolean=yes
+    game_data={
+        category=country
+    }
+}
+
 is_imperial_elector={
     boolean=yes
     game_data={

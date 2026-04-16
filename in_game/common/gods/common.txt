@@ -1,0 +1,82 @@
+﻿shallya = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = SHALLYA_GOD
+    }
+    country_modifier = {
+    }
+}
+
+sigmar = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = SIGMAR_GOD
+    }
+}
+
+handrich = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = HANDRICH_GOD
+    }
+}
+
+ulric = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = ULRIC_GOD
+    }
+}
+
+morr = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = MORR_GOD
+    }
+}
+
+verena = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = VERENA_GOD
+    }
+}
+
+ranald = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = RANALD_GOD
+    }
+}
+
+myrmidia = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = MYRMIDIA_GOD
+    }
+}
+
+taal = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = TAAL_GOD
+    }
+}
+
+rhya = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = RHYA_GOD
+    }
+}
+

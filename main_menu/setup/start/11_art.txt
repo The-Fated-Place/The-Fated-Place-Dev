@@ -1,0 +1,7 @@
+work_of_art_manager = {
+    statue = { location = Marienburg origin = Marienburg quality = 80 creation_date = 1107.1.1 key = manaan_statue_marienburg_key }
+    chronicle = { location = Marienburg origin = Marienburg quality = 35 creation_date = 506.3.1 key = venerable_ottokar_key }
+    statue = { location = Marienburg origin = Marienburg quality = 80 creation_date = 807.1.1 key = verena_statue_marienburg_key }
+    chronicle = { location = Marienburg origin = Marienburg quality = 35 creation_date = 80.5.1 key = dobbe_arends_key }
+
+}

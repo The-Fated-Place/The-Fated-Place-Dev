@@ -1,0 +1,51 @@
+﻿a_villagers = {
+	category = army_infantry
+	copy_from = a_age_1_traditions_infantry
+	light = yes
+
+	strength_damage_taken = 0.2
+	morale_damage_taken = 0.2
+	
+	
+	buildable = no
+	levy = yes
+	gfx_tags = { light_tag }
+}
+
+a_feudal_levy = {
+	category = army_infantry
+	copy_from = a_age_1_traditions_infantry
+	light = yes
+
+	strength_damage_done = -0.1
+	
+	buildable = no
+	levy = yes
+	gfx_tags = { light_tag }
+}
+
+a_crusader_knights_base = {
+	is_special = yes
+	category = army_infantry
+
+	copy_from = a_age_1_traditions_infantry
+	buildable = no
+
+	strength_damage_taken = -0.05
+	morale_damage_taken = -0.05
+
+	gfx_tags = { crusader_tag sword_tag heavy_tag }
+
+}
+
+a_crusader_knights_levy = {
+	is_special = yes
+	category = army_infantry
+
+	copy_from = a_crusader_knights_base
+	buildable = no
+	levy = yes
+
+	gfx_tags = { crusader_tag sword_tag heavy_tag }
+}
+

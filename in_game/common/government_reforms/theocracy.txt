@@ -127,3 +127,25 @@ guru_leadership_reform = {
 
 	years = 2
 }
+
+imperial_cult = {
+    age = age_1_traditions
+    government = theocracy
+    major = yes
+
+    potential = {
+        government_type = government_type:theocracy
+        has_culture_group = culture_group:imperial_group
+    }
+
+    allow = {
+
+    }
+
+    country_modifier = {
+        blocked_from_conversion = yes
+        allows_cult_buildings = yes
+    }
+
+    years = 2
+}

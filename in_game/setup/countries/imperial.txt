@@ -1,12 +1,23 @@
-﻿TAL = { #Yemen
-    color = map_talabecland
+﻿DUMMY = {
+    color = rgb { 40 40 40 }
+    color2 = rgb { 110 27 27 }
+}
+PIR = {
+    color = rgb { 116 143 139 }
+    color2 = rgb { 110 27 27 }
+}
+MER = {
+    color = rgb { 72 85 83 }
+    color2 = rgb { 110 27 27 }
+}
+
+TAL = { #Yemen
+    color = rgb { 16 41 202 }
     color2 = rgb { 16 41 202 }
 
     culture_definition = taleuten
     religion_definition = sigmarian_heresy
 }
-
-
 
 BLL = { #Jarwanids
     color = rgb { 229 187 37 }
@@ -297,4 +308,36 @@ LEH= { #Lehmbruck
     religion_definition = imperial_cults
 }
 
+CMA = {
+    color = rgb { 13 36 184 } #red from their flag
+    color2 = rgb { 219 10 19 }
 
+    culture_definition = jutones
+    religion_definition = imperial_cults
+
+    description_category = diplomatic
+    difficulty = 2
+}
+
+CHA = { Cult of Handrich
+    color = rgb { 210 203 60 } #red from their flag
+    color2 = rgb { 219 10 19 }
+
+    culture_definition = jutones
+    religion_definition = imperial_cults
+
+    description_category = diplomatic
+    difficulty = 2
+}
+
+
+CSI = { # Cult of Sigmar
+    color = rgb { 237 2 2 } #red from their flag
+    color2 = rgb { 219 10 19 }
+
+    culture_definition = unberogen
+    religion_definition = imperial_cults
+
+    description_category = diplomatic
+    difficulty = 2
+}

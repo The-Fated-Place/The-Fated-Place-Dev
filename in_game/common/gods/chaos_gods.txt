@@ -1,0 +1,33 @@
+﻿tzeentch = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = TZEENTCH_GOD
+    }
+    country_modifier = {
+    }
+}
+
+nurgle = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = NURGLE_GOD
+    }
+}
+
+khorne = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = KHORNE_GOD
+    }
+}
+
+slaanesh = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = SLAANESH_GOD
+    }
+}

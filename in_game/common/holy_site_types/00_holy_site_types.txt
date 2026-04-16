@@ -1,0 +1,37 @@
+﻿shrine = {
+	location_modifier = {
+		local_clergy_desired_pop = 0.02
+		local_unrest = -0.05
+	}
+}
+
+mountain = {
+	location_modifier = {
+		local_monthly_food_modifier = 0.05
+		local_clergy_desired_pop = 0.1
+		local_max_literacy = 2
+	}
+}
+
+temple = {
+	location_modifier = {
+		local_clergy_desired_pop = 0.05
+		local_monthly_prosperity = 0.001
+		local_max_control = 0.01
+	}
+}
+
+city = {
+	location_modifier = {
+		local_population_capacity_modifier = 0.5
+		local_clergy_desired_pop = 0.05
+		local_institution_growth_modifier = 0.02
+	}
+}
+
+healing_pool = {
+    location_modifier = {
+        local_disease_resistance = 0.3
+        local_migration_attraction = 0.025
+    }
+}

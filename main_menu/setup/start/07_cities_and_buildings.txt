@@ -1,169 +1,169 @@
 locations = {
-   Kreutzhofen = { rank = town town_setup = imperial_town }
-   Geistwald = { rank = rural_settlement town_setup = imperial_town }
-   Boashugel = { rank = rural_settlement town_setup = imperial_town }
-   Brenzwald = { rank = rural_settlement town_setup = imperial_town }
-   Tierhugel = { rank = rural_settlement town_setup = imperial_town }
-   Michelfurt = { rank = rural_settlement town_setup = imperial_town }
-   Sonnefurt = { rank = town town_setup = imperial_town }
-   Hardtenau = { rank = rural_settlement town_setup = imperial_town }
-   Bezauhugel = { rank = rural_settlement town_setup = imperial_town }
-   Lederfeld = { rank = rural_settlement town_setup = imperial_town }
-   Alpirswald = { rank = rural_settlement town_setup = imperial_town }
-   Bezauwald = { rank = rural_settlement town_setup = imperial_town }
-   Geltensumpf = { rank = rural_settlement town_setup = imperial_town }
-   Kell = { rank = town town_setup = imperial_town }
-   Thalfang = { rank = rural_settlement town_setup = imperial_town }
-   Oshausen = { rank = rural_settlement town_setup = imperial_town }
-   Legau = { rank = rural_settlement town_setup = imperial_town }
-   Hornfeld = { rank = rural_settlement town_setup = imperial_town }
-   Wusteburg = { rank = town town_setup = imperial_town }
-   Wundtwald = { rank = rural_settlement town_setup = imperial_town }
-   Serrig = { rank = rural_settlement town_setup = imperial_town }
-   Ertigen = { rank = rural_settlement town_setup = imperial_town }
-   Melkenfeld = { rank = rural_settlement town_setup = imperial_town }
-   Hitisau = { rank = rural_settlement town_setup = imperial_town }
-   Ellhugel = { rank = rural_settlement town_setup = imperial_town }
-   Ziertwald = { rank = rural_settlement town_setup = imperial_town }
+   Kreutzhofen = { rank = town    }
+   Geistwald = { rank = rural_settlement    }
+   Boashugel = { rank = rural_settlement    }
+   Brenzwald = { rank = rural_settlement    }
+   Tierhugel = { rank = rural_settlement    }
+   Michelfurt = { rank = rural_settlement    }
+   Sonnefurt = { rank = town    }
+   Hardtenau = { rank = rural_settlement    }
+   Bezauhugel = { rank = rural_settlement    }
+   Lederfeld = { rank = rural_settlement    }
+   Alpirswald = { rank = rural_settlement    }
+   Bezauwald = { rank = rural_settlement    }
+   Geltensumpf = { rank = rural_settlement    }
+   Kell = { rank = town    }
+   Thalfang = { rank = rural_settlement    }
+   Oshausen = { rank = rural_settlement    }
+   Legau = { rank = rural_settlement    }
+   Hornfeld = { rank = rural_settlement    }
+   Wusteburg = { rank = town    }
+   Wundtwald = { rank = rural_settlement    }
+   Serrig = { rank = rural_settlement    }
+   Ertigen = { rank = rural_settlement    }
+   Melkenfeld = { rank = rural_settlement    }
+   Hitisau = { rank = rural_settlement    }
+   Ellhugel = { rank = rural_settlement    }
+   Ziertwald = { rank = rural_settlement    }
    Tannhugel = { rank = rural_settlement }
-   Merogenfeld = { rank = rural_settlement town_setup = imperial_town }
-   Dietenwald = { rank = rural_settlement town_setup = imperial_town }
+   Merogenfeld = { rank = rural_settlement    }
+   Dietenwald = { rank = rural_settlement    }
    Trulben = { rank = rural_settlement }
    Salmhugel = { rank = rural_settlement }
-   Nehren = { rank = rural_settlement town_setup = imperial_town }
+   Nehren = { rank = rural_settlement    }
    Salmfahre = { rank = rural_settlement }
    Ostsalmwald = { rank = rural_settlement }
-   Salmwald = { rank = rural_settlement town_setup = imperial_town }
-   Geschberg = { rank = rural_settlement town_setup = imperial_town }
-   Auggen = { rank = rural_settlement town_setup = imperial_town }
-   Lauben = { rank = rural_settlement town_setup = imperial_town }
-   Kazad_Tark = { rank = rural_settlement town_setup = imperial_town }
-   Meissen = { rank = town town_setup = imperial_town }
-   Kazad_Almon = { rank = rural_settlement town_setup = imperial_town }
-   Schwarzweidesumpf = { rank = rural_settlement town_setup = imperial_town }
-   Heisenberg = { rank = rural_settlement town_setup = imperial_town }
-   Rundstedt = { rank = rural_settlement town_setup = imperial_town }
-   Oberharrachwald = { rank = rural_settlement town_setup = imperial_town }
-   Unterharrachwald = { rank = rural_settlement town_setup = imperial_town }
-   Harrachhugel = { rank = rural_settlement town_setup = imperial_town }
-   Allach = { rank = rural_settlement town_setup = imperial_town }
-   Wurmgrube = { rank = rural_settlement town_setup = imperial_town }
-   Aying = { rank = rural_settlement town_setup = imperial_town }
-   Hikend = { rank = rural_settlement town_setup = imperial_town }
-   Moonsen = { rank = rural_settlement town_setup = imperial_town }
-   Oberhaigenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Unterhaigenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Haigenbach = { rank = rural_settlement town_setup = imperial_town }
-   Holswang = { rank = rural_settlement town_setup = imperial_town }
-   Dottrahof = { rank = rural_settlement town_setup = imperial_town }
-   Grissenwald = { rank = town town_setup = imperial_town }
-   Ambostein = { rank = rural_settlement town_setup = imperial_town }
-   Schwarzgipfel = { rank = rural_settlement town_setup = imperial_town }
-   Segeldorf = { rank = rural_settlement town_setup = imperial_town }
-   Wissenburg = { rank = town town_setup = imperial_town }
-   Khazid_Agruli = { rank = rural_settlement town_setup = imperial_town }
-   Wissenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Dakarhaus = { rank = rural_settlement town_setup = imperial_town }
-   Maselwald = { rank = rural_settlement town_setup = imperial_town }
-   Dotternhugel = { rank = rural_settlement town_setup = imperial_town }
-   Gratz = { rank = rural_settlement town_setup = imperial_town }
-   Dotternbach = { rank = rural_settlement town_setup = imperial_town }
-   Dottervorgebirge = { rank = rural_settlement town_setup = imperial_town }
-   Blood_Keep = { rank = rural_settlement town_setup = imperial_town }
-   Kroning = { rank = rural_settlement town_setup = imperial_town }
-   Lenkawald = { rank = rural_settlement town_setup = imperial_town }
-   Grissenquelle = { rank = rural_settlement town_setup = imperial_town }
-   Lenkahugel = { rank = rural_settlement town_setup = imperial_town }
-   Rohrhausen = { rank = rural_settlement town_setup = imperial_town }
-   Windisch = { rank = rural_settlement town_setup = imperial_town }
-   Hendorf = { rank = rural_settlement town_setup = imperial_town }
-   Gorsumthal = { rank = rural_settlement town_setup = imperial_town }
-   Oberwildenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Kleinwilden = { rank = rural_settlement town_setup = imperial_town }
-   Diepolz = { rank = rural_settlement town_setup = imperial_town }
-   Sexau = { rank = rural_settlement town_setup = imperial_town }
-   Mecklenburg = { rank = rural_settlement town_setup = imperial_town }
-   Rosenhausen = { rank = rural_settlement town_setup = imperial_town }
-   Sollweg = { rank = rural_settlement town_setup = imperial_town }
-   Neukirch = { rank = rural_settlement town_setup = imperial_town }
-   Elzach = { rank = rural_settlement town_setup = imperial_town }
-   Tannau = { rank = rural_settlement town_setup = imperial_town }
-   Bernau = { rank = rural_settlement town_setup = imperial_town }
-   Wildenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Finnweg = { rank = rural_settlement town_setup = imperial_town }
-   Westen_Finnwald = { rank = rural_settlement town_setup = imperial_town }
-   Westbeuerhugel = { rank = rural_settlement town_setup = imperial_town }
-   Haugothal = { rank = rural_settlement town_setup = imperial_town }
-   Haverz = { rank = rural_settlement town_setup = imperial_town }
-   Wolfurt = { rank = rural_settlement town_setup = imperial_town }
-   Ost_kleinwilden = { rank = rural_settlement town_setup = imperial_town }
-   Wilhams = { rank = rural_settlement town_setup = imperial_town }
-   Mauchen = { rank = rural_settlement town_setup = imperial_town }
-   Achenwald = { rank = rural_settlement town_setup = imperial_town }
-   Staig = { rank = rural_settlement town_setup = imperial_town }
-   Finnwald = { rank = rural_settlement town_setup = imperial_town }
-   Ostfinwald = { rank = rural_settlement town_setup = imperial_town }
-   Achenfinwald = { rank = rural_settlement town_setup = imperial_town }
-   Ostbeuerhugel = { rank = rural_settlement town_setup = imperial_town }
-   Habichtwald = { rank = rural_settlement town_setup = imperial_town }
-   Hagenwald = { rank = rural_settlement town_setup = imperial_town }
-   Ellwagen = { rank = rural_settlement town_setup = imperial_town }
-   Schonwald = { rank = rural_settlement town_setup = imperial_town }
-   Kislegg = { rank = rural_settlement town_setup = imperial_town }
-   Moosach = { rank = rural_settlement town_setup = imperial_town }
-   Aitrang = { rank = rural_settlement town_setup = imperial_town }
-   Waldbach = { rank = rural_settlement town_setup = imperial_town }
-   Rusch = { rank = rural_settlement town_setup = imperial_town }
-   Sulzhugel = { rank = rural_settlement town_setup = imperial_town }
-   Hagenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Gestratz = { rank = rural_settlement town_setup = imperial_town }
-   Ballenhof = { rank = rural_settlement town_setup = imperial_town }
-   Marschwald = { rank = rural_settlement town_setup = imperial_town }
+   Salmwald = { rank = rural_settlement    }
+   Geschberg = { rank = rural_settlement    }
+   Auggen = { rank = rural_settlement    }
+   Lauben = { rank = rural_settlement    }
+   Kazad_Tark = { rank = rural_settlement    }
+   Meissen = { rank = town    }
+   Kazad_Almon = { rank = rural_settlement    }
+   Schwarzweidesumpf = { rank = rural_settlement    }
+   Heisenberg = { rank = rural_settlement    }
+   Rundstedt = { rank = rural_settlement    }
+   Oberharrachwald = { rank = rural_settlement    }
+   Unterharrachwald = { rank = rural_settlement    }
+   Harrachhugel = { rank = rural_settlement    }
+   Allach = { rank = rural_settlement    }
+   Wurmgrube = { rank = rural_settlement    }
+   Aying = { rank = rural_settlement    }
+   Hikend = { rank = rural_settlement    }
+   Moonsen = { rank = rural_settlement    }
+   Oberhaigenhugel = { rank = rural_settlement    }
+   Unterhaigenhugel = { rank = rural_settlement    }
+   Haigenbach = { rank = rural_settlement    }
+   Holswang = { rank = rural_settlement    }
+   Dottrahof = { rank = rural_settlement    }
+   Grissenwald = { rank = town    }
+   Ambostein = { rank = rural_settlement    }
+   Schwarzgipfel = { rank = rural_settlement    }
+   Segeldorf = { rank = rural_settlement    }
+   Wissenburg = { rank = town    }
+   Khazid_Agruli = { rank = rural_settlement    }
+   Wissenhugel = { rank = rural_settlement    }
+   Dakarhaus = { rank = rural_settlement    }
+   Maselwald = { rank = rural_settlement    }
+   Dotternhugel = { rank = rural_settlement    }
+   Gratz = { rank = rural_settlement    }
+   Dotternbach = { rank = rural_settlement    }
+   Dottervorgebirge = { rank = rural_settlement    }
+   Blood_Keep = { rank = rural_settlement    }
+   Kroning = { rank = rural_settlement    }
+   Lenkawald = { rank = rural_settlement    }
+   Grissenquelle = { rank = rural_settlement    }
+   Lenkahugel = { rank = rural_settlement    }
+   Rohrhausen = { rank = rural_settlement    }
+   Windisch = { rank = rural_settlement    }
+   Hendorf = { rank = rural_settlement    }
+   Gorsumthal = { rank = rural_settlement    }
+   Oberwildenhugel = { rank = rural_settlement    }
+   Kleinwilden = { rank = rural_settlement    }
+   Diepolz = { rank = rural_settlement    }
+   Sexau = { rank = rural_settlement    }
+   Mecklenburg = { rank = rural_settlement    }
+   Rosenhausen = { rank = rural_settlement    }
+   Sollweg = { rank = rural_settlement    }
+   Neukirch = { rank = rural_settlement    }
+   Elzach = { rank = rural_settlement    }
+   Tannau = { rank = rural_settlement    }
+   Bernau = { rank = rural_settlement    }
+   Wildenhugel = { rank = rural_settlement    }
+   Finnweg = { rank = rural_settlement    }
+   Westen_Finnwald = { rank = rural_settlement    }
+   Westbeuerhugel = { rank = rural_settlement    }
+   Haugothal = { rank = rural_settlement    }
+   Haverz = { rank = rural_settlement    }
+   Wolfurt = { rank = rural_settlement    }
+   Ost_kleinwilden = { rank = rural_settlement    }
+   Wilhams = { rank = rural_settlement    }
+   Mauchen = { rank = rural_settlement    }
+   Achenwald = { rank = rural_settlement    }
+   Staig = { rank = rural_settlement    }
+   Finnwald = { rank = rural_settlement    }
+   Ostfinwald = { rank = rural_settlement    }
+   Achenfinwald = { rank = rural_settlement    }
+   Ostbeuerhugel = { rank = rural_settlement    }
+   Habichtwald = { rank = rural_settlement    }
+   Hagenwald = { rank = rural_settlement    }
+   Ellwagen = { rank = rural_settlement    }
+   Schonwald = { rank = rural_settlement    }
+   Kislegg = { rank = rural_settlement    }
+   Moosach = { rank = rural_settlement    }
+   Aitrang = { rank = rural_settlement    }
+   Waldbach = { rank = rural_settlement    }
+   Rusch = { rank = rural_settlement    }
+   Sulzhugel = { rank = rural_settlement    }
+   Hagenhugel = { rank = rural_settlement    }
+   Gestratz = { rank = rural_settlement    }
+   Ballenhof = { rank = rural_settlement    }
+   Marschwald = { rank = rural_settlement    }
    Sussenthal = { rank = rural_settlement }
    Ost_Obernwald = { rank = rural_settlement }
-   Ummenbach = { rank = rural_settlement town_setup = imperial_town }
-   Obenheidenland = { rank = rural_settlement town_setup = imperial_town }
+   Ummenbach = { rank = rural_settlement    }
+   Obenheidenland = { rank = rural_settlement    }
    Sussenquelle = { rank = rural_settlement }
    Huttenhugel = { rank = rural_settlement }
-   Taalszahne = { rank = rural_settlement town_setup = imperial_town }
-   Ollersbach = { rank = rural_settlement town_setup = imperial_town }
-   Vals = { rank = rural_settlement town_setup = imperial_town }
-   Krossbach = { rank = rural_settlement town_setup = imperial_town }
-   Steingart = { rank = rural_settlement town_setup = imperial_town }
+   Taalszahne = { rank = rural_settlement    }
+   Ollersbach = { rank = rural_settlement    }
+   Vals = { rank = rural_settlement    }
+   Krossbach = { rank = rural_settlement    }
+   Steingart = { rank = rural_settlement    }
    Marscheidenland = { rank = rural_settlement }
-   Madau = { rank = rural_settlement town_setup = imperial_town }
-   Rushc = { rank = rural_settlement town_setup = imperial_town }
-   Erbshausen = { rank = rural_settlement town_setup = imperial_town }
-   Mendelhofe = { rank = rural_settlement town_setup = imperial_town }
-   Schmirn = { rank = rural_settlement town_setup = imperial_town }
-   Hochsolden = { rank = rural_settlement town_setup = imperial_town }
-   Raggelhugel = { rank = rural_settlement town_setup = imperial_town }
-   Raggelvorgebirge = { rank = rural_settlement town_setup = imperial_town }
-   Kazad_Zhum = { rank = rural_settlement town_setup = imperial_town }
-   Diehlendorf = { rank = rural_settlement town_setup = imperial_town }
-   Mecklenthal = { rank = rural_settlement town_setup = imperial_town }
-   Oberreikquelle = { rank = rural_settlement town_setup = imperial_town }
-   Wenns = { rank = rural_settlement town_setup = imperial_town }
-   Mathon = { rank = rural_settlement town_setup = imperial_town }
-   Damulwald = { rank = rural_settlement town_setup = imperial_town }
-   Hochsleben = { rank = rural_settlement town_setup = imperial_town }
-   Kauns = { rank = rural_settlement town_setup = imperial_town }
-   Kleine_Raggelhugel = { rank = rural_settlement town_setup = imperial_town }
-   Osterzell = { rank = rural_settlement town_setup = imperial_town }
-   Pfeildorf = { rank = rural_settlement town_setup = imperial_town }
-   West_Obernwald = { rank = rural_settlement town_setup = imperial_town }
-   Hornfen = { rank = rural_settlement town_setup = imperial_town }
-   Zemenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Dergehugel = { rank = rural_settlement town_setup = imperial_town }
-   Penzthal = { rank = rural_settlement town_setup = imperial_town }
-   Zemenvorgebirge = { rank = rural_settlement town_setup = imperial_town }
-   Dergevorgebirge = { rank = rural_settlement town_setup = imperial_town }
-   Affing = { rank = rural_settlement town_setup = imperial_town }
+   Madau = { rank = rural_settlement    }
+   Rushc = { rank = rural_settlement    }
+   Erbshausen = { rank = rural_settlement    }
+   Mendelhofe = { rank = rural_settlement    }
+   Schmirn = { rank = rural_settlement    }
+   Hochsolden = { rank = rural_settlement    }
+   Raggelhugel = { rank = rural_settlement    }
+   Raggelvorgebirge = { rank = rural_settlement    }
+   Kazad_Zhum = { rank = rural_settlement    }
+   Diehlendorf = { rank = rural_settlement    }
+   Mecklenthal = { rank = rural_settlement    }
+   Oberreikquelle = { rank = rural_settlement    }
+   Wenns = { rank = rural_settlement    }
+   Mathon = { rank = rural_settlement    }
+   Damulwald = { rank = rural_settlement    }
+   Hochsleben = { rank = rural_settlement    }
+   Kauns = { rank = rural_settlement    }
+   Kleine_Raggelhugel = { rank = rural_settlement    }
+   Osterzell = { rank = rural_settlement    }
+   Pfeildorf = { rank = rural_settlement    }
+   West_Obernwald = { rank = rural_settlement    }
+   Hornfen = { rank = rural_settlement    }
+   Zemenhugel = { rank = rural_settlement    }
+   Dergehugel = { rank = rural_settlement    }
+   Penzthal = { rank = rural_settlement    }
+   Zemenvorgebirge = { rank = rural_settlement    }
+   Dergevorgebirge = { rank = rural_settlement    }
+   Affing = { rank = rural_settlement    }
    Hornfurt = { rank = rural_settlement }
-   Ichenhugel = { rank = rural_settlement town_setup = imperial_town }
-   Kroppenleben = { rank = rural_settlement town_setup = imperial_town }
-   Ottakring = { rank = rural_settlement town_setup = imperial_town }
-   Aschwald = { rank = rural_settlement town_setup = imperial_town }
+   Ichenhugel = { rank = rural_settlement    }
+   Kroppenleben = { rank = rural_settlement    }
+   Ottakring = { rank = rural_settlement    }
+   Aschwald = { rank = rural_settlement    }
    Delbruckschloss = { rank = rural_settlement }
    Rookburg = { rank = rural_settlement }
    Hofstentten = { rank = rural_settlement }
@@ -181,23 +181,28 @@ locations = {
    Zoblen = { rank = rural_settlement }
    Althausen = { rank = rural_settlement }
    Wittenhausen = { rank = rural_settlement }
-   Castle_Greymane = { rank = rural_settlement town_setup = imperial_town }
-   Engelhugel = { rank = rural_settlement town_setup = imperial_town }
-   Nordkolberhugel = { rank = rural_settlement town_setup = imperial_town }
-   Sudkolberhugel = { rank = rural_settlement town_setup = imperial_town }
-   Lohnswald = { rank = rural_settlement town_setup = imperial_town }
-   Teisenheindenland = { rank = rural_settlement town_setup = imperial_town }
-   Gnaldenwald = { rank = rural_settlement town_setup = imperial_town }
-   Leogang = { rank = rural_settlement town_setup = imperial_town }
-   Sochtenau = { rank = rural_settlement town_setup = imperial_town }
-   Ranalt = { rank = rural_settlement town_setup = imperial_town }
-   Volders = { rank = rural_settlement town_setup = imperial_town }
-   Kolbhugel = { rank = rural_settlement town_setup = imperial_town }
-   Mandling = { rank = rural_settlement town_setup = imperial_town }
-   Einsamhugel = { rank = rural_settlement town_setup = imperial_town }
-   Torrach = { rank = rural_settlement town_setup = imperial_town }
-   Wurstheim = { rank = rural_settlement town_setup = imperial_town }
-   Marienburg {rank = city}
+   Castle_Greymane = { rank = rural_settlement }
+   Engelhugel = { rank = rural_settlement }
+   Nordkolberhugel = { rank = rural_settlement    }
+   Sudkolberhugel = { rank = rural_settlement    }
+   Lohnswald = { rank = rural_settlement    }
+   Teisenheindenland = { rank = rural_settlement    }
+   Gnaldenwald = { rank = rural_settlement    }
+   Leogang = { rank = rural_settlement    }
+   Sochtenau = { rank = rural_settlement    }
+   Ranalt = { rank = rural_settlement    }
+   Volders = { rank = rural_settlement    }
+   Kolbhugel = { rank = rural_settlement    }
+   Mandling = { rank = rural_settlement    }
+   Einsamhugel = { rank = rural_settlement    }
+   Torrach = { rank = rural_settlement    }
+   Wurstheim = { rank = rural_settlement    }
+   Marienburg = {rank = city}
 }
 building_manager = {
+    vloedmuur = { tag = MRB level = 1 location = Marienburg }
+    grand_cathedral = { tag = CMA level = 1 location = Marienburg }
+    grand_cathedral = { tag = CHA level = 1 location = Marienburg }
+    manaanshaven = { tag = CMA level = 1 location = Marienburg }
+    cult_temple = { tag = CSI level = 1 location = Marienburg }
 }

@@ -1,0 +1,106 @@
+﻿
+grand_cathedral = { #International headquaters for a cult
+    is_foreign = yes
+    #need_good_relation = yes
+
+    pop_type = clergy
+
+    category = government_category
+
+    max_levels = 1
+    employment_size = large_religious_building_employment
+
+    city = yes
+    town = yes
+    rural_settlement = no
+
+    location_potential = {
+        OR = {
+            this = c:CMA.capital
+            this = c:CHA.capital
+        }
+    }
+
+    country_potential = {
+        modifier:allows_cult_buildings = yes
+    }
+
+    build_time = large_religious_building_time
+
+    capital_country_modifier = {
+        country_cabinet_efficiency = 0.1
+        monthly_republican_tradition = 0.05
+        parliament_base_support = 0.05
+    }
+
+    modifier = {
+        local_migration_attraction = 0.1
+    }
+
+
+    remove_if = {
+        owner = {
+            NOT = { country_type = building }
+        }
+    }
+
+    possible_production_methods = {
+        default_input = {
+            glass = 0.05
+            cloth = 0.05
+            fine_cloth = 0.025
+            paper = 0.1
+            copper = 0.05
+            tools = 0.05
+            category = building_maintenance
+        }
+    }
+    construction_demand = cathedral_construction
+    graphical_tags = { large_religious }
+}
+
+cult_temple = { #International headquaters for a cult
+    is_foreign = yes
+    #need_good_relation = yes
+
+    pop_type = clergy
+
+    category = religious_category
+
+    max_levels = 1
+    employment_size = religious_building_employment
+
+    city = yes
+    town = yes
+    rural_settlement = yes
+
+    country_potential = {
+    	modifier:allows_cult_buildings = yes
+    }
+
+    build_time = religious_building_time
+    graphical_tags = { small_religious }
+    modifier = {
+        local_clergy_estate_power = 0.1
+    }
+
+
+    remove_if = {
+        owner = {
+            NOT = { country_type = building }
+        }
+    }
+
+    possible_production_methods = {
+        default_input = {
+            glass = 0.02
+            cloth = 0.02
+            paper = 0.02
+            copper = 0.02
+            tools = 0.01
+            beeswax = 0.05
+            category = building_maintenance
+        }
+    }
+    construction_demand = town_building_construction
+}

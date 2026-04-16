@@ -509,7 +509,7 @@ Biiter_Moors_3 = { topography = flatland vegetation = grasslands climate = ocean
 Zandt = { raw_material = wine topography = wetlands vegetation = grasslands climate = oceanic }
 Klessen = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }
 Kalkaat = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }
-Marienburg = { topography = wetlands vegetation = grasslands climate = oceanic religion = imperial_cults culture = jutones raw_material = fish  }
+Marienburg = { modifier = rijkers_isle_modifier topography = wetlands vegetation = grasslands climate = oceanic religion = imperial_cults culture = jutones raw_material = fish natural_harbor_suitability=1.00 }
 Zompveen = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = fish  }
 Ongediertefort = { topography = wetlands vegetation = grasslands climate = oceanic raw_material = wild_game  }
 Rutten = { raw_material = wool topography = wetlands vegetation = grasslands climate = oceanic }

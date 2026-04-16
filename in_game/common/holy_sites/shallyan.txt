@@ -1,0 +1,7 @@
+﻿marienburg_infinity_pool = {
+    location = Marienburg
+    type = healing_pool
+    importance = 3
+	religions = { imperial_cults }
+    god = shallya
+}

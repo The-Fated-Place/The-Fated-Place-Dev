@@ -985,9 +985,31 @@ Almshoven = f75165
 La_Neuferte = bd1429
 Antorpe = e56c7b
 
-
-Biiter_Moors_3 = 62242c
+Tobenamedbittermoors1 = d5364a
+Tobenamedbittermoors2 = e00a26
+Tobenamedbittermoors3 = 90303d
+Tobenamedbittermoors4 = f31834
+Tobenamedbittermoors5 = e76e7e
+Tobenamedbittermoors6 = e5c0c5
+Tobenamedbittermoors7 = d6162f
+Tobenamedbittermoors8 = 691721
+Tobenamedbittermoors9 = f53d54
+Tobenamedbittermoors10 = 740614
+Tobenamedbittermoors11 = e56676
+Tobenamedbittermoors12 = f3334c
+Maasten = bb1f33
+Polderwoude = 62242c
 Klessen = 932230
+
+Keterveen = b63b4b
+Molenwaard = 834f56
+Lemmbourg = b23242
+Bergbres = e87685
+Kleindorpje = f31331
+Heuveldorp = bc2d40
+Tobenamedkleinland1 = 8e0d1e
+Tobenamedkleinland2 = e2babf
+
 
 Wijkersdijk = a14a55
 Brakwaterdam = e68592
@@ -998,6 +1020,7 @@ Lehmburg = 61c0c2
 
 Kalkaat = e95b6c
 Halsdorp = d61c33
+Spaarwoude = 922634
 Zandt = e86a7a
 Marienburg = ff1d39
 Ongediertefort = 638f9d

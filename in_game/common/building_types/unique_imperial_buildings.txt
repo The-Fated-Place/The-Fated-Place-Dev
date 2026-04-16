@@ -1,6 +1,4 @@
 ﻿
-
-
 vloedmuur = {
     is_special = yes
 	is_foreign = no
@@ -56,5 +54,38 @@ vloedmuur = {
         fort_level = 2
     }
 
+}
+
+
+manaanshaven = {
+    is_special = yes
+    is_foreign = yes
+
+    pop_type = laborers
+    max_levels = 1
+    category = military_category
+    country_potential = {
+        modifier:allows_cult_buildings = yes
+    }
+    location_potential = {
+        is_port = yes
+    }
+    employment_size = dock_employment
+    pop_size_created = dock_employment
+    town = yes
+    city = yes
+    build_time = large_port_building_time
+    expensive = yes
+    possible_production_methods = {
+        port_building_maintenance
+    }
+    construction_demand = port_building_construction
+    modifier = {
+        max_ships_built_at_same_time = 1
+        sailors_to_building_owner = 0.03
+        can_build_ships_in_this_location = yes
+        harbor_suitability = 0.1
+        local_repair_speed = 0.01
+    }
 }
 

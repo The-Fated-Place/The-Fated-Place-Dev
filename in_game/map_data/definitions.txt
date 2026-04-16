@@ -98,6 +98,15 @@ old_world = {
                    seaofclaws13
                }
            }
+           manaansport_zee = {
+               manaansport_zee = {
+                   rijksmouth
+                   rijkskeel
+                   manaanshek
+                   westelijk_kanaal
+                   oostelijk_kanaal
+               }
+           }
        }
       southern_empire = {
          sudenland = {
@@ -1190,12 +1199,35 @@ old_world = {
                   Antorpe
               }
               bitter_moors_3_province = {
-                  Biiter_Moors_3
+                  Tobenamedbittermoors1
+                  Tobenamedbittermoors2
+                  Tobenamedbittermoors3
+                  Tobenamedbittermoors4
+                  Tobenamedbittermoors5
+                  Tobenamedbittermoors6
+                  Tobenamedbittermoors7
+                  Tobenamedbittermoors8
+                  Tobenamedbittermoors9
+                  Tobenamedbittermoors10
+                  Tobenamedbittermoors11
+                  Tobenamedbittermoors12
+                  Maasten
+                  Polderwoude
                   Klessen
               }
+              kleinland_province = {
+                  Keterveen
+                  Molenwaard
+                  Lemmbourg
+                  Bergbres
+                  Kleindorpje
+                  Heuveldorp
+                  Tobenamedkleinland1
+                  Tobenamedkleinland2
+              }
           }
-          little_country_area = {
-              west_little_country_province = {
+          grootscher_marshes_area = {
+              west_grootscher_marshes_province = {
                   Wijkersdijk
                   Brakwaterdam
                   Heppeldorf
@@ -1204,7 +1236,7 @@ old_world = {
                   Lehmburg
 
               }
-              south_little_country_province = {
+              south_grootscher_marshes_province = {
                   Kalkaat
                   Halsdorp
                   Zandt
@@ -1212,8 +1244,9 @@ old_world = {
                   Zompveen
                   Rutten
                   Ongediertefort
+                  Spaarwoude
               }
-              east_little_country_province = {
+              east_grootscher_marshes_province = {
                   Middelplaat
                   Oosterplaat
                   Rijpermeer
@@ -1222,13 +1255,7 @@ old_world = {
                   Salfen
                   Kloosterdam
               }
-              manaansport_zee = {
-                  rijksmouth
-                  rijkskeel
-                  manaanshek
-                  westelijk_kanaal
-                  oostelijk_kanaal
-              }
+
 
           }
 
