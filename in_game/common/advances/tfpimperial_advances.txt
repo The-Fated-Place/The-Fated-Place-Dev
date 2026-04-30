@@ -91,22 +91,7 @@ ranching = {
     }
 
 	allow = {
-		OR = {
-			has_embraced_institution = institution:feudalism
-			original_capital ?= { continent = continent:europe }
-			original_capital ?= { continent = continent:asia }
-			original_capital ?= { sub_continent = sub_continent:north_africa }
-			original_capital ?= { sub_continent = sub_continent:west_africa }
-
-			original_capital ?= {
-				market ?= {
-					OR = {
-						is_produced_in_market = goods:horses
-						is_traded_in_market = goods:horses
-					}
-				}
-			}
-		}
+        has_embraced_institution = institution:civilization
 	}
 	can_extract_horses = yes
 }

@@ -2,7 +2,6 @@
 
 imperial_town = {
 	brewery = 2
-	temple = 1
 	tools_guild = 1
 	paper_guild = 1
 	cloth_guild = 1
@@ -17,7 +16,6 @@ imperial_town = {
 
 imperial_coastal_town = {
 	brewery = 2
-	temple = 1
 	tools_guild = 1
 	paper_guild = 1
 	cloth_guild = 1
@@ -36,7 +34,6 @@ imperial_coastal_town = {
 
 imperial_city = {
 	brewery = 3
-	temple = 1
 	tools_guild = 2
 	mason = 2
 	pottery_guild = 2
@@ -56,7 +53,6 @@ imperial_city = {
 
 imperial_coastal_city = {
 	brewery = 3
-	temple = 1
 	tools_guild = 2
 	paper_guild = 1
 	cloth_guild = 1

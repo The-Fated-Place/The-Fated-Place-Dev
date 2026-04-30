@@ -90,4 +90,133 @@
 
     antagonism_modifier_for_taking_land_from_member_as_outsider = 10.0
 
+    variables = {
+        tfpimperial_authority = {
+            format = "IMPERIAL_AUTHORITY_DISPLAY"
+            change_format = "VARIABLE_CHANGE_FORMAT"
+            min = 0
+            max = 100
+            monthly_change = {
+                add = {
+                    add = {
+                        desc = "INTERNAL_PEACE"
+                        if = {
+                            limit = {
+                                international_organization_has_internal_peace = no
+                            }
+                            value = 0
+                        }
+                        else = {
+                            value = 0.05
+                        }
+                    }
+                    add = {
+                        desc = "VASSALISED_ELECTORS"
+                        value = 0
+                        every_country_with_special_status_of_type = {
+                            type = Elector
+                            limit = { is_subject = yes }
+                            subtract = 0.05
+                        }
+                    }
+                    add = {
+                        desc = "VASSALISED_ELECTORS"
+                        value = 0
+                        every_country_with_special_status_of_type = {
+                            type = Elector_Count
+                            limit = { is_subject = yes }
+                            subtract = 0.05
+                        }
+                    }
+                    add = {
+                        desc = "CAPITAL_IN_ALTDORF"
+                        if = {
+                            limit = {
+                                location:Altdorf = { has_building = building_type:imperial_capital }
+                            }
+                            value = 0.03
+                        }
+                    }
+                    add = {
+                        desc = "CAPITAL_IN_NULN"
+                        if = {
+                            limit = {
+                                location:Nuln = { has_building = building_type:imperial_capital }
+                            }
+                            value = 0.05
+                        }
+                    }
+                    add = {
+                        desc = "ELECTORS_HOLD_RUNEFANGS"
+                        value = 0
+                        every_country_with_special_status_of_type = {
+                            type = Elector_Count
+                            limit = {
+                                any_work_of_art_in_country = {
+                                    this = work_of_art_type:runefang
+                                }
+                            }
+                            add = 0.05
+                        }
+                    }
+                    add = {
+                        desc = "EMPEROR_HOLDS_GHAL_MORAZ"
+                        value = 0
+                        every_country_with_special_status_of_type = {
+                            type = Emperor
+                            limit = {
+                                any_work_of_art_in_country = {
+                                    this = work_of_art:ghal_moraz_fake_key
+                                }
+                            }
+                            add = 0.05
+                        }
+                    }
+                    subtract = {
+                        desc = "PRETENDER_EMPIRES"
+                        value = 0
+                        if = {
+                            limit = {
+                                culture_group:imperial_group = {
+                                    any_country_in_culture_group = {
+                                        AND = {
+                                            NOT = {
+                                                is_member_of_international_organization = international_organization:the_empire
+                                            }
+                                            country_rank_is_empire = yes
+                                        }
+                                    }
+                                }
+                            }
+                            value = 0.3
+                        }
+
+                    }
+                    subtract = {
+                        desc = "PRETENDER_KINGDOMS"
+                        value = 0
+                        if = {
+                            limit = {
+                                culture_group:imperial_group = {
+                                    any_country_in_culture_group = {
+                                        AND = {
+                                            NOT = {
+                                                is_member_of_international_organization = international_organization:the_empire
+                                            }
+                                            country_type = location
+                                            country_rank_is_kingdom = yes
+                                        }
+                                    }
+                                }
+                            }
+                            value = 0.1
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
 }

@@ -11,21 +11,8 @@
 	"game_custom_data" : {
 		"multiplayer_synchronized" : true,
 		"replace_paths" : [
-			"common/holy_sites",
-			"setup/countries",
-            "common/unit_types",
-            "common/estate_privileges",
-            "common/cabinet_actions",
-            "common/country_interactions",
-            "common/customizable_localization",
-            "common/on_actions",
-            "common/cultures",
-            "common/religions",
-            "common/achievements",
-            "common/diseases",
-            "common/situations",
-            "events",
-            "main_menu/setup/templates"
+          "common/holy_sites",
+          "setup/countries"
 		]
 	}
 }

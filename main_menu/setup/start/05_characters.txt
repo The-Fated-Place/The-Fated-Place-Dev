@@ -2,7 +2,22 @@
 
 character_db={
 
-
+    adalbert_the_bear = {	#can be later referred in script with character data scope
+        first_name = { name = Adalbert }		# Localizable key must be inserted inside
+        nickname = { name = the_bear }		# Localizable key must be inserted inside
+        last_name = { name = Moltke }
+        culture = hugelnordlander				# Key referring to the culture of the character
+        religion = imperial_cults				# Key referring to the religion of the character
+        adm = 50					# Administrative Skill
+        dip = 70					# Diplomatic Skill
+        mil = 30					# Military Skill
+        birth_date = 1345.1.1				# Birth Date
+        birth = Salzenmund				# Location of Birth
+        tag = SLZ					# Belongs to Sweden
+        estate = nobles_estate				# Estate this character belongs to
+        dynasty = moltke_dynasty			# Belongs to example_dynasty (Necessary for noble characters)
+        fertility = 100					# Fertility rate
+    }
 
     ottilia = {
         first_name = { name = name_ottilia }

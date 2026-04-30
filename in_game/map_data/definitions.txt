@@ -56,7 +56,6 @@
             }
 
          }
-
          dummy1_area = {
 
          }
@@ -80,34 +79,23 @@
 }
 old_world = {
    empire_and_kislev = {
-       sea_of_claws = {
-           imperial_north_coast_area = {
-               imperial_north_coast_province = {
-                   seaofclaws1
-                   seaofclaws2
-                   seaofclaws3
-                   seaofclaws4
-                   seaofclaws5
-                   seaofclaws6
-                   seaofclaws7
-                   seaofclaws8
-                   seaofclaws9
-                   seaofclaws10
-                   seaofclaws11
-                   seaofclaws12
-                   seaofclaws13
-               }
-           }
-           manaansport_zee = {
-               manaansport_zee = {
-                   rijksmouth
-                   rijkskeel
-                   manaanshek
-                   westelijk_kanaal
-                   oostelijk_kanaal
-               }
-           }
-       }
+      sea_of_claws = {
+         imperial_north_coast_area = {
+            imperial_north_coast_province = {
+               seaofclaws1 seaofclaws2 seaofclaws3 seaofclaws4 seaofclaws5 seaofclaws6 eiger_bay
+               seaofclaws8 drosselpule_bay kriedklippe_bay seaofclaws11 seaofclaws12 seaofclaws13 Tobenamedenchatedhills3
+               Tobenamedenchantedhills1 Tobenamedenchantedhills2 Farinars_Isle
+            }
+
+         }
+         manaansport_zee = {
+            manaansport_zee = {
+               rijksmouth rijkskeel manaanshek westelijk_kanaal oostelijk_kanaal
+            }
+
+         }
+
+      }
       southern_empire = {
          sudenland = {
             upper_wisenland = {
@@ -173,7 +161,6 @@ old_world = {
             nuln = {
                Nuln
             }
-
 
          }
          pfeildorf_kessel = {
@@ -321,7 +308,7 @@ old_world = {
          }
          blue_marches = {
             brachland = {
-               Bylorvash Riednitz Albenmoor Brachlandfeld Albenfeld
+               Riednitz Albenmoor Brachlandfeld Albenfeld
             }
             fennonhugel = {
                Stoodhof Wolderitz Wendenfeld Gotzendorf Fennonwald
@@ -343,13 +330,14 @@ old_world = {
 
       }
       northern_empire = {
-          reik_area = {
-              reik_province = {
-                  river_reik1 river_reik2 river_reik3 river_reik4 river_reik5 river_reik6
-                  river_reik7 river_reik8 river_reik9 river_reik10 river_reik11 river_reik12
-                  river_reik13 river_reik14
-              }
-          }
+         reik_area = {
+            reik_province = {
+                river_reik1
+               river_reik2 river_reik3 river_reik4 river_reik5 river_reik6 river_reik7 river_reik8
+               river_reik9 river_reik10 river_reik11 river_reik12 river_reik13 river_reik14
+            }
+
+         }
          reikwald_area = {
             grunburg_province = {
                Grunburg Onling Badenborn Buxhead Prieze Dabernick Grosslin
@@ -359,7 +347,21 @@ old_world = {
                Kemperbad Diesdorf Lengern Oberonl Mackenstein Brandenburg
             }
             reikwald_province = {
-               Reikwald_placeholder unknownreikland1 unknownreikland4 Halt unknownreikland7 unknownreikland5 unknownreikland8 river_reik1 unknownreikland2 unknownreikland3
+                Reikwald1
+                Reikwald2
+                Reikwald3
+                Reikwald4
+                Reikwald5
+                Reikwald6
+                Reikwald7
+                Reikwald8
+                Reikwald9
+                Reikwald10
+                Reikwald11
+                Reikwald12
+                Reikwald13
+                Reikwald14 unknownreikland1 unknownreikland4 Halt unknownreikland7 unknownreikland5 unknownreikland8
+                unknownreikland2 unknownreikland3
             }
             tahme_province = {
                Tahme Blutroch Midfurt Schevinger Havelfurt Jettenburg Schieffelen
@@ -389,877 +391,1299 @@ old_world = {
             }
 
          }
-          howling_hills_area = {
-              north_howling_hills_province = {
-                  Iron_Keep
-                  North_Howling_Hills
-              }
-              south_howling_hills_province = {
-                  South_Howling_Hills
-              }
-              east_howling_hills_province = {
-                  East_Howling_Hills
-              }
-              west_howling_hills_province = {
-                  West_Howling_Hills
-              }
-              central_howling_hills_province = {
-                  Central_Howling_Hills
-              }
-          }
+         howling_hills_area = {
+            north_howling_hills_province = {
+               Iron_Keep North_Howling_Hills1
+                North_Howling_Hills2
+                North_Howling_Hills3
+                North_Howling_Hills4
+                North_Howling_Hills5
+                North_Howling_Hills6
+            }
+            south_howling_hills_province = {
+                South_Howling_Hills1
+                South_Howling_Hills2
+                South_Howling_Hills3
+            }
+            east_howling_hills_province = {
+                East_Howling_Hills1
+                East_Howling_Hills2
+                East_Howling_Hills3
+                East_Howling_Hills4
+            }
+            west_howling_hills_province = {
+                West_Howling_Hills1
+                West_Howling_Hills2
+                West_Howling_Hills3
+                West_Howling_Hills4
+            }
+            central_howling_hills_province = {
+                Central_Howling_Hills1
+                Central_Howling_Hills2
+                Central_Howling_Hills3
+                Central_Howling_Hills4
+                Central_Howling_Hills5
+                Central_Howling_Hills6
+                Central_Howling_Hills7
+            }
 
-          hochland_area = {
-              untergard_province = {
-                  Untergard
-                  Untergard_forest
-                  Langwiese
-              }
-              krudenwald_province = {
-                  Krudenwald
-                  Bergsberg
-                  Schoppendorf
-                  Krudenwald_forest
-              }
-              tobenamed_province = {
-                  Selmigerholz
-                  Tobenamedforest
-              }
-              forestinhochland_province = {
-                  foresta
-              }
-              north_weiss_hills_province = {
-                  North_Weiss_Hills
-              }
-              south_weiss_hills_province = {
-                  South_Weiss_Hills
-                  Vodf
-              }
-              provincewithdenkh_province = {
-                  Denkh
-                  restofprovincewithdenk
-              }
-              ahresdorf_province = {
-                  Ahresdorf
-                  Bergendorf
-                  Muden
-                  Dunstigfurt
-                  Wannsingen
-                  Ahresdorf_forests
-                  Gruyden
-              }
-              hergig_province = {
-                  Hergig
-                  Stockse
-                  Barwedel
-                  Hergig_Forest
-              }
-          }
-          west_ostland_area = {
-              west_ostland_1_province = {
-                  West_ostland1
-                  West_ostland_2
-              }
-              borogrod_province = {
-                  Borogrod
-                  Borogrod_forest
-              }
-              wurzen_province = {
-                  Boven
-                  Volganof
-                  Raukov
-                  Dorog
-                  Wurzen
-                  Czenger
-                  Wurzen_forest
-              }
-          }
-          ostland_area = {
-              borderprovince_province = {
-                  borderlocation
-              }
-              vandengart_province = {
-                  Grenzburg
-                  Grenzburg_forest
-                  Vandengart
-                  Aachden
-                  Levudalorf
-                  Vandengart_forest
-              }
-              zundap_province = {
-                  Zundap
-                  Zundap_forests
-              }
-              lubrecht_province = {
-                  Lubrecht
-                  Smallhof
-                  Lubrecht_forest
-              }
-          }
-          middle_mountains_area = {
-              kurst_province = {
-                  Kurst
-                  Felde
-                  Kurst_Forest
-              }
-              wolfenburg_province = {
-                  Wolfenburg
-                  Wendorf
-                  Grunackern
-                  Melbeck
-                  Lenkster
-                  Wolfenburg_land
-              }
-              esk_province = {
-                  Breder
-                  Koerin
-                  Esk
-              }
-              middle_mountain_foothills_province = {
-                  Dassel
-                  middle_mountain_foothills
-                  Middle_mountain_foothills2
-              }
-              verlangen_province = {
-                  Kolengrad
-                  Aukrug
-                  Flecken
-                  Ferlangen
-                  Dunkelpfad
-                  Ferlangen_foothills
-              }
-              north_middle_mountains_province = {
-                  north_middle_mountains
-              }
+         }
+         hochland_area = {
+            untergard_province = {
+                Untergard_forest1
+                Untergard_forest2
+                Untergard_forest3 Langwiese
+            }
+            krudenwald_province = {
+               Krudenwald Bergsberg Schoppendorf Krudenwald_forest1
+                Krudenwald_forest2
+                Krudenwald_forest3
+            }
+            tobenamed_province = {
+               Selmigerholz Tobenamedforest1
+                Tobernamedforest21
+                Tobernamedforest22
+                Tobernamedforest23
+                Tobernamedforest24
+                Tobernamedforest25
+                Tobernamedforest26
+                Tobernamedforest27
+                Tobernamedforest28
+                Tobernamedforest29
+                Tobenamedforest3
+                Tobenamedforest4
+                Tobenamedforest5
+            }
+            forestinhochland_province = {
+                foresta1
+                foresta2
+                foresta3
+                foresta4
+                foresta5
+                foresta6
+            }
+            north_weiss_hills_province = {
+                North_Weiss_Hills1
+                North_Weiss_Hills2
+                North_Weiss_Hills3
+                North_Weiss_Hills4
+                North_Weiss_Hills5
+                North_Weiss_Hills6
+            }
+            south_weiss_hills_province = {
+                South_Weiss_Hills1
+                South_Weiss_Hills2
+                South_Weiss_Hills3
+                South_Weiss_Hills4
+                South_Weiss_Hills5 Vodf
+            }
+            provincewithdenkh_province = {
+               Denkh Tobenamedneardenk1
+                Tobenamedneardenk2
+                Tobenamedneardenk3
+            }
+            ahresdorf_province = {
+               Ahresdorf Bergendorf Muden Dunstigfurt Wannsingen Ahresdorf_forests1
+                Ahresdorf_forests2
+                Ahresdorf_forests3 Gruyden
+            }
+            hergig_province = {
+               Hergig Stockse Barwedel Hergig_Forest1
+                Hergig_Forest2
+                Hergig_Forest3
+                Hergig_Forest4
+                Hergig_Forest5
+            }
 
-          }
-          forest_of_shadows_area = {
-              bohsenfels_province = {
-                  Bohsenfels
-                  Bohsenfels_forest
-              }
-              east_forest_of_shadows_province = {
-                  East_forest_of_shadows
-              }
-              obelstein_province = {
-                  Obelstein
-                  Obelstein_forest
-              }
-              west_forest_of_shadows_province = {
-                  West_forest_of_shadows
-              }
-              dunsen_province = {
-                  Dunsen
-                  Marklohe
-                  Dorfmark
-                  Dunsen_forests
-              }
-              huven_province = {
-                  Huven
-                  Seuchenshof
-                  Varrel
-                  Huven_Forests
-              }
-              beeckerhoven_province = {
-                  Beeckerhoven
-                  Beeckerhoven_forests
-              }
-              frote_province = {
-                  Frote
-                  Frote_Forests
-              }
-              zelebhorn_province = {
-                  Zelebhorn
-                  Zelebhorn_Forests
-              }
-          }
-          laurelorn_area = {
-              western_laurelorn_province = {
-                  Tor_Lithanel
-                  Rainbow_Falls
-                  Fountain_of_Lebin
-                  Western_Laurelorn
-              }
-              northern_laurelorn_province = {
-                  Northern_Laurelorn
-              }
-              eastern_laurelorn_province = {
-                  Eastern_Laurelorn
-              }
-              skogholm_province = {
-                  Skogholm
-                  Kronven
-                  Skogholm_Forests
-              }
-              forstfast_province = {
-                  Forstfast
-                  Tyrvad
-                  Vesterrup
-                  Forstfast_forest
-              }
-              skovby_province = {
-                  Herup
-                  Skovby
-                  Skovby_Forests
-              }
-              silver_hills_province = {
-                  Salzenmund
-                  Kohlen
-                  Silbertief
-                  Oldenlitz
-                  Hohenaspe
-                  Odisheim
-                  Tettens
-                  Stavern
-                  Alfhausen
-                  Silver_hills
-              }
-          }
-          northern_marches_area = {
-              hochnar_province = {
-                  Hochnar
-                  Kanod
-                  Hochnar_province
-              }
-              salkalten_province = {
-                  Salkalten
-                  Steilstand
-                  Salkalten_province
-              }
-              eastern_northern_marches_province = {
-                  Eastern_Northern_Marches
-              }
-          }
-          imperial_coast_area = {
-              dietershafen_province = {
-                  Broghur
-                  Dietershafen
-                  Dietershafen_province
-                  Imperial_north_coast
-                  Imperial_north_coast2
-              }
-              hargendorf_province = {
-                  Hargendorf
-                  Hargensumpf
-                  Massenfels
-                  Schlaghugel
-              }
-              teufelsumpf_province = {
-                  Dreizack
-                  Neues_Emskrankrename
-                  Nysted
-                  Teufelsumpf
-                  Heiligdorf
-                  Manaansheim
-                  Luftberg
-                  Teufel_region
-              }
-              jutone_riding_province = {
-                  Leihafen
-                  Schadelbruck
-                  Dunkelkiefer
-                  Wulfhaven
-                  Tower_of_se_athel
-              }
-              wilhelmskoog_province = {
-                  Skjaldberg
-                  Wilhelmskoog
-                  Wittigholm
-                  Ockholm
-              }
-              norden_province = {
-                  Schuten
-                  Norden
-                  Salzmorast
-                  Kreideklippe
-                  Gelting
-                  Kreideklippe_province
-              }
-          }
-          stirland_area = {
-              west_stirland_province = {
-                  Kircham
-                  Blutdorf
-                  Franzen
-                  Russbach
-                  Chrobok
-                  Worden
-                  Kelham
-                  West_Stirland_Plain
-              }
-              wurtbad_plains_province = {
-                  Tarshof
-                  Biberhof
-                  Flensburg
-                  Ramsau
-                  Lochen
-                  Wurtbad_plains
-              }
-              julbach_plains_province = {
-                  Julbach
-                  Julbach1
-                  Julbach_Plains
-              }
+         }
+         west_ostland_area = {
+            west_ostland_1_province = {
+                West_ostland11
+                West_ostland12
+                West_ostland13
+                West_ostland14
+                West_ostland15
+                West_ostland16
+                West_ostland17
+                West_ostland18
+                West_ostland19
+                West_ostland110 West_ostland_21
+                West_ostland_22
+                West_ostland_23
+                West_ostland_24
+                West_ostland_25
+                West_ostland_26
+                West_ostland_27
+                West_ostland_28
+                West_ostland_29
+                West_ostland_210
+                West_ostland_211
+            }
+            borogrod_province = {
+               Borogrod Borogrod_forest1
+                Borogrod_forest2
+                Borogrod_forest3
+                Borogrod_forest4
+                Borogrod_forest5
+                Borogrod_forest6
+                Borogrod_forest7
+                Borogrod_forest8
+            }
+            wurzen_province = {
+               Boven Volganof Raukov Dorog Wurzen Czenger Wurzen_forest1
+                Wurzen_forest2
+                Wurzen_forest3
+                Wurzen_forest4
+                Wurzen_forest5
+                Wurzen_forest6
+                Wurzen_forest7
+            }
 
-              tobenamed2_province = {
-                  Nussbach
-                  Monheim
-                  Tenneck
-                  Halstedt
-                  Brandenberry
-                  Sauerapfel
-                  Birnbaum
-                  Tobenamedplains
-                  Eineschatten
-                  Bogglewort
-              }
-              tobenamed3_province = {
-                  Leedleton
-                  Schwarzhafen
-                  Leicheberg
-                  Tobenamedplains2
-                  Tobenamedplains3
-              }
-              morrsfen_province = {
-                  Siegfriedhof
-                  Morssfen
-                  Vanhaldenhof
-                  Tempelhof
-                  Naubonum
-                  Morrsfen_Plains
-              }
-              grim_wood_province = {
-                  Grim_Wood
-                  Grim_Moor
-              }
-              haunted_hills_province = {
-                  Haunted_Hills
-                  Drakenhof
-              }
-              nachthafen_province = {
-                  Nachthafen_Plains
-                  Pfaffbach
-                  Nachthafen
-              }
-              sylvanian_woods_province = {
-                  Tangled_Woods
-                  Misty_Woods
-                  Dunkelmoor
-              }
-              bylorvash_province = {
-                  Ghoul_Woods
-                  Bylorvash_Marsh
-                  Bylorvash
-                  Bylorvash_plains
-              }
-              waldenhof_province = {
-                  Waldenhof
-                  Hundhum
-                  Regakhof
-                  Thyrnau
-                  Mikalsdorf
-                  Egling
-                  Hel_fenn
-              }
-          }
-          ostermark_area = {
-              essen_province = {
-                  Carlsbruck
-                  Essen_plains
-              }
-              eisental_province = {
-                  Eisental
-                  Gelt
-                  Eisental_Foothills
-              }
-              bahlkurk_province = {
-                  Bahlkurk
-                  Bahlkurk_Plains
-              }
-              nagenhof_province = {
-                  Weiler
-                  Mielau
-                  Buckow
-                  Nagenhof
-                  Nagenhof_Plains
-              }
-              south_ostermark_plains_province = {
-                  South_Ostermark_Plains
-              }
-              central_ostermark_plains_province = {
-                  Central_Ostermark_Plains
-              }
-              poritz_province = {
-                  Poritz
-                  Poritz_Plains
-              }
-          }
-          eastern_foothills_area = {
-              sigmarsgeist_province = {
-                  Sigmarsgeist
-                  Sigmarsgeist_Foothills
-              }
-              tobenamedplains3_province = {
-                  Tobenamedplaiins3
-              }
-              badenhof_province = {
-                  Badenhof
-                  Rheden
-                  Badenhof_plains
-              }
-              dnierson_province = {
-                  Dnierson
-                  Dnierson_Foothills
-              }
-          }
-          dunkelkuste_area = {
-              west_dunkelkuste_province = {
-                  Lochrafurt
-                  Uckrofurt
-                  Bek
-                  Viernau
-                  Freital
-                  West_Dunkelkuste_forest
-              }
-              east_dunkelkuste_province = {
-                  Brunmarl
-                  Rugenbuttel
-                  Dorna
-                  Bechafen
-                  Reitwein
-                  Remer
-                  Kolitz
-                  Elbing
-                  Bechafen_plains
-              }
-              eastern_forest_province = {
-                  Zeisholz
-                  Munkenhof
-                  Fortengrad
-                  Gerdouen
-                  Markgrad
-                  Fortenhaf
-                  Rheden
-                  Rheden1
-                  Eastern_Forests
-              }
-          }
-          east_great_forest_area = {
-              east_great_forest_province = {
-                  East_Great_Forest
-              }
-              lieske_province = {
-                  Lieske
-                  Radische
-                  Lieske_Forests
-              }
-              wurtbad_province = {
-                  Wurtbad
-                  Julbach
-                  Julbach_Forests
-              }
-              gersdorf_province = {
-                  Ossino
-                  Marberg
-                  Gersdorf
-                  Dohna
-                  Sabritz
-                  Gersdorf_Forest
-              }
-              oehling_province = {
-                  Oehling
-                  Oehling_Forests
-              }
-              tobenamedforest2_province = {
-                  Tobernamedforest2
-              }
-              krugenheim_province = {
-                  Krugenheim
-                  Krugenheim_forest
-              }
-              trautenau_province = {
-                  Hazelhof
-                  Trautenau
-                  Hundheimer_Woods
-              }
-              bissendorf_province = {
-                  Tauer
-                  Bissendorf
-                  Pfaffenwald
-              }
-              totensumpfe_province = {
-                  Totensumpfe
-              }
-              dead_woods_province = {
-                  Dead_Woods
-              }
-              hunger_woods_province = {
-                  Hunger_Woods
-              }
-          }
-          great_forest_area = {
-              great_forest_province = {
-                  Great_Forest
-              }
-          }
-          green_barren_hills_area = {
-              green_barren_hills_province = {
-                  GreenorBarren_Hills
-                  Forests_near_barren_hills
-              }
-              reikwald_near_hills_province = {
-                  Reiker_Marshes
-                  Nadjagard
-                  Kaldach
-                  Ravenstein
-                  Klepzig
-                  Torpin
-                  Garndorf
-                  Werder
-              }
-          }
-          talabecland_area = {
-              talabheim_province = {
-                  Talabheim
-                  Klarfeld
-                  Vateresche
-                  Sumpfrand
-                  Waldfahrt
-              }
-              west_talabecland_province = {
-                  Brasthof
-                  Zeder
-                  Volgen
-                  Sudenheim
-                  Esselfurt
-                  Ripdorf
-                  Priestlicheim
-                  West_Talabecland
-              }
-              central_talabecland_province = {
-                  Sprotau
-                  Bachra
-                  Bad_Tenzala
-                  Bad_Dankerode
-                  Breitblatt
-                  Kutzleben
-                  Grossreiche
-                  Liebstadt
-                  Urhausen
-                  Hernhausen
-                  Sarno
-                  Zurin
-                  Harferfahre
-                  Talagaad
-                  Central_Talabecland
-              }
-              east_talabecland_province = {
-                  East_Talabecland
-                  Kusel
-                  Dreetz
-              }
-          }
-          nattern_forest_area = {
-              nattern_forest_province = {
-                  Wurstheim
-                  Stockhausen
-                  Unterbaum
-                  Aulen
-                  Welleborn
-                  Zutzen
-                  Missen
-                  Sydow
-                  Gostahof
-                  Ranganhof
-                  Oberwill
-                  Nattern_Forest
-              }
-          }
-          southern_drakwald_area = {
-              ahlenhof_province = {
-                  Ahlenhof
-                  Bad_Hohne
-                  Suderberg
-                  Ahlenhof_forest
-              }
-              drakwald1_province = {
-                  Drakwald1
-              }
-              drakwald2_province = {
-                  Drakwald2
-              }
-              carroburg_province = {
-                  Carroburg
-                  Barenfahre
-                  Senden
-                  Punzen
-                  Anseldorf
-                  Furdienst
-                  Carroburg_woods
-              }
-              reikland_north_of_the_reik_province = {
-                  Geldrecht
-                  Braunwurt
-                  Bundesmarkt
-                  Furtild
-                  Frederheim
-                  Grossbad
-              }
-          }
-          midden_marshes_area = {
-              midden_marshes_province = {
-                  Midden_Marshes
-                  Mirror_Moors
-                  Kristall_Plains
-              }
-              leydenhoven_province = {
-                  Weteringh
-                  Fauligmere
-                  Klauperdorf
-                  Leydenhoven
-                  Smerigwaard
-                  Stapelhugel
-                  Tobenamedleydenhoven2
-                  Tobenamedleydenhoven3
-                  Westerfast
-                  Scheinfeld
-                  Uder
-                  Hupstedt
-                  Nupstedt
-              }
-          }
-          north_drakwald_area = {
-              north_east_drakwald_province = {
-                  Mittlemud
-                  North_East_Drakwald
-              }
-              north_west_drakwald_province = {
-                  North_West_Drakwald
-                  Rosche
-              }
-          }
-          middenland_area = {
-              tobenamedmiddeland_province = {
-                  Tobenamedmiddenland
-                  Middenland_forests
-              }
-              delberz_province = {
-                  Delberz
-                  Turmgever
-                  Schwarzmarkt
-                  Middenstag
-                  Untergard
-                  Untergard1
-                  Grimmenhagen
-                  Harsum
-                  Delberz_Forest
-              }
-              fintel_province = {
-                  Fintel
-                  Fintel_Forest
-                  Holzbeck
-              }
-              schoninghagen_province = {
-                  Grubentreich
-                  Pritzstock
-                  Hunxe
-                  Elsterweld
-                  Grevenfeld
-                  Arenberg
-                  Schoninghagen
-                  Jagerhausen
-                  Schoninghagen_Forests
-              }
-              middenheim_province = {
-                  Norderingen
-                  Solzheim
-                  Middenheim
-                  Warrenburg
-                  Hovelhof
-                  Sohk
-                  Lindenheim
-                  Gladbeich
-                  Oberholzbeck
-                  Immelscheid
-                  Thurgenheim
-              }
-          }
-          schadensumpf_area = {
-              schadensumpf_province = {
-                  Schadensumpf
-                  Plains_above_schadensumpf
-              }
-              landaroundsumpf_province = {
-                  Landaroundsumpf
-                  Kammendun
-              }
-              forestaroundsumpf_province = {
-                  Drachenhole
-                  Forestaroundsumpf
-                  Winsen
-              }
-          }
-          tumble_downs_area = {
-              gorrsel_province = {
-                  Gorrsel
-                  Gelderham
-                  Maansfast
-                  Stangenbroek
-                  Zegweld
-                  Kaserburg
-                  Tobenamedgorrsel1
-                  Tobenamedgorrsel2
-                  Tobenamedgorrsel3
-                  Tobenamedgorrsel4
-              }
-              tumble_downs_1_province = {
-                  Tobenamedtumble36
-                  Zeemond
-                  Tobenamedtumble27
-                  Vloedwijk
-                  Tobenamedtumble28
-                  Tobenamedtumble29
-                  Tobenamedtumble30
-                  Tobenamedtumble31
-                  Tobenamedtumble32
-                  Hogedam
-                  Bovenkarspel
-                  Tobenamedtumble33
-                  Tobenamedtumble34
-                  Tobenamedtumble35
-              }
+         }
+         ostland_area = {
+            borderprovince_province = {
+               borderlocation1
+                borderlocation2
+                borderlocation3
+                borderlocation4
+                borderlocation5
+            }
+            vandengart_province = {
+               Grenzburg Grenzburg_forest1
+                Grenzburg_forest2
+                Grenzburg_forest3
+                Grenzburg_forest4
+                Grenzburg_forest5
+                Grenzburg_forest6
+                Grenzburg_forest7
+                Grenzburg_forest8
+                Grenzburg_forest9 Vandengart Aachden Levudaldorf Vandengart_forest1
+                Vandengart_forest2
+                Vandengart_forest3
+                Vandengart_forest4
+                Vandengart_forest5
+                Vandengart_forest6
+                Vandengart_forest7
+                Vandengart_forest8
+                Vandengart_forest9
+                Vandengart_forest10
+            }
+            zundap_province = {
+               Zundap Zundap_forests1
+                Zundap_forests2
+                Zundap_forests3
+                Zundap_forests4
+                Zundap_forests5
+                Zundap_forests6
+                Zundap_forests7
+                Zundap_forests8
+                Zundap_forests9
+                Zundap_forests10
+            }
+            lubrecht_province = {
+               Lubrecht Smallhof Lubrecht_forest1
+                Lubrecht_forest2
+                Lubrecht_forest3
+                Lubrecht_forest4
+                Lubrecht_forest5
+                Lubrecht_forest6
+            }
 
-              tumble_downs_3_province = {
-                  Fort_Solace
-                  Noordwindhaven
-                  Kaap_Tuinder
-                  Driftstrand
-                  Tobenamedtumble18
-                  Tobenamedtumble19
-                  Kromdijk_aan_zee
-                  Tobenamedtumble20
-                  Tobenamedtumble21
-                  Tobenamedtumble22
-                  Tobenamedtumble23
-                  Tobenamedtumble24
-                  Heerenwerf
-                  Tobenamedtumble25
-                  Woltersum
-                  Zwartweteren
-                  Tobenamedtumble26
-                  Hoogkamp
-                  Oud_torenburg
-                  Heidestein
-              }
-              tumble_downs_4_province = {
-                  Tobenamedtumble5
-                  Tobenamedtumble6
-                  Tobenamedtumble7
-                  Tobenamedtumble8
-                  Tobenamedtumble9
-                  Noordwijker
-                  Tobenamedtumble10
-                  Tobenamedtumble11
-                  Tobenamedtumble12
-                  Tobenamedtumble13
-                  Tobenamedtumble14
-                  Tobenamedtumble15
-                  Tobenamedtumble16
-                  Tobenamedtumble17
-              }
-              tumble_downs_5_province = {
-                  Diever
-                  Haarskamp
-                  Peelwijk
-                  Grootveen
-                  Belofteveld
-                  Loenen
-                  Dreumelholt
-                  Stedum
-                  Oostwald
-                  Tobenamedtumble1
-                  Wekcenfast
-                  Tobenamedtumble2
-                  Tobenamedtumble3
-                  Middenveld
-                  Tobenamedtumble4
-                  Brugwalde
-                  Aarnau
-                  Hollum
-              }
-          }
-          bitter_moors_area = {
-              bitter_moors_1_province = {
-                  Bitter_Moors_1
-              }
-              bitter_moors_2_province = {
-                  Swartenmeer
-                  Broekwater
-                  Almshoven
-                  La_Neuferte
-                  Antorpe
-              }
-              bitter_moors_3_province = {
-                  Tobenamedbittermoors1
-                  Tobenamedbittermoors2
-                  Tobenamedbittermoors3
-                  Tobenamedbittermoors4
-                  Tobenamedbittermoors5
-                  Tobenamedbittermoors6
-                  Tobenamedbittermoors7
-                  Tobenamedbittermoors8
-                  Tobenamedbittermoors9
-                  Tobenamedbittermoors10
-                  Tobenamedbittermoors11
-                  Tobenamedbittermoors12
-                  Maasten
-                  Polderwoude
-                  Klessen
-              }
-              kleinland_province = {
-                  Keterveen
-                  Molenwaard
-                  Lemmbourg
-                  Bergbres
-                  Kleindorpje
-                  Heuveldorp
-                  Tobenamedkleinland1
-                  Tobenamedkleinland2
-              }
-          }
-          grootscher_marshes_area = {
-              west_grootscher_marshes_province = {
-                  Wijkersdijk
-                  Brakwaterdam
-                  Heppeldorf
-                  Westerfort
-                  Buitenkaag
-                  Lehmburg
+         }
+         middle_mountains_area = {
+            kurst_province = {
+               Kurst Felde Kurst_Forest1
+                Kurst_Forest2
+                Kurst_Forest3
+                Kurst_Forest4
+                Kurst_Forest5
+            }
+            wolfenburg_province = {
+               Wolfenburg Wendorf Grunackern Melbeck Lenkster TobenamedWolfenburg_land1
+                TobenamedWolfenburg_land2
+                TobenamedWolfenburg_land3
+                TobenamedWolfenburg_land4
+            }
+            esk_province = {
+               Breder Koerin Esk
+            }
+            middle_mountain_foothills_province = {
+               Dassel middle_mountain_foothills1
+                middle_mountain_foothills2
+                middle_mountain_foothills3
+                middle_mountain_foothills4 Middle_mountain_foothills21
+                Middle_mountain_foothills22
+                Middle_mountain_foothills23
+                Middle_mountain_foothills24
+                Middle_mountain_foothills25
+                Middle_mountain_foothills26
+                Middle_mountain_foothills27
+            }
+            verlangen_province = {
+               Kolengrad Aukrug Flecken Ferlangen Dunkelpfad Ferlangen_foothills1
+                Ferlangen_foothills2
+                Ferlangen_foothills3
+            }
+            north_middle_mountains_province = {
+                north_middle_mountains1
+                north_middle_mountains2
+                north_middle_mountains3
+                north_middle_mountains4
+                north_middle_mountains5
+                north_middle_mountains6
+                north_middle_mountains7
+                north_middle_mountains8
+                north_middle_mountains9
+            }
 
-              }
-              south_grootscher_marshes_province = {
-                  Kalkaat
-                  Halsdorp
-                  Zandt
-                  Marienburg
-                  Zompveen
-                  Rutten
-                  Ongediertefort
-                  Spaarwoude
-              }
-              east_grootscher_marshes_province = {
-                  Middelplaat
-                  Oosterplaat
-                  Rijpermeer
-                  Kleibroek_aan_zee
-                  Verdronkenhoek
-                  Salfen
-                  Kloosterdam
-              }
+         }
+         forest_of_shadows_area = {
+            bohsenfels_province = {
+               Bohsenfels Bohsenfels_forest1
+                Bohsenfels_forest2
+                Bohsenfels_forest3
+                Bohsenfels_forest4
+                Bohsenfels_forest5
+            }
+            east_forest_of_shadows_province = {
+                East_forest_of_shadows1
+                East_forest_of_shadows2
+                East_forest_of_shadows3
+                East_forest_of_shadows4
+                East_forest_of_shadows5
+                East_forest_of_shadows6
+                East_forest_of_shadows7
+                East_forest_of_shadows8
+            }
+            obelstein_province = {
+               Obelstein Obelstein_forest1
+                Obelstein_forest2
+                Obelstein_forest3
+                Obelstein_forest4
+                Obelstein_forest5
+            }
+            west_forest_of_shadows_province = {
+                West_forest_of_shadows1
+                West_forest_of_shadows2
+                West_forest_of_shadows3
+                West_forest_of_shadows4
+                West_forest_of_shadows5
+                West_forest_of_shadows6
+            }
+            dunsen_province = {
+               Dunsen Marklohe Dorfmark Dunsen_forests1
+                Dunsen_forests2
+                Dunsen_forests3
+                Dunsen_forests4
+                Dunsen_forests5
+                Dunsen_forests6
+                Dunsen_forests7
+                Dunsen_forests8
+            }
+            huven_province = {
+               Huven Seuchenshof Varrel Huven_Forests1
+                Huven_Forests2
+                Huven_Forests3
+            }
+            beeckerhoven_province = {
+               Beeckerhoven Beeckerhoven_forests1
+                Beeckerhoven_forests2
+                Beeckerhoven_forests3
+                Beeckerhoven_forests4
+            }
+            frote_province = {
+               Frote Frote_Forests1
+                Frote_Forests2
+                Frote_Forests3
+                Frote_Forests4
+                Frote_Forests5
+                Frote_Forests6
+            }
+            zelebhorn_province = {
+               Zelebhorn Zelebhorn_Forests1
+                Zelebhorn_Forests2
+                Zelebhorn_Forests3
+                Zelebhorn_Forests4
+                Zelebhorn_Forests5
+                Zelebhorn_Forests6
+                Zelebhorn_Forests7
+            }
 
+         }
+         laurelorn_area = {
+            western_laurelorn_province = {
+               Tor_Lithanel Rainbow_Falls Fountain_of_Lebin Western_Laurelorn
+            }
+            northern_laurelorn_province = {
+               Northern_Laurelorn
+            }
+            eastern_laurelorn_province = {
+               Eastern_Laurelorn
+            }
+            skogholm_province = {
+               Skogholm Kronven Tobenamedhumanlaurelorn1
+                Tobenamedhumanlaurelorn2
+                Tobenamedhumanlaurelorn3
+                Tobenamedhumanlaurelorn4
+                Gyrbergen
+                Schwartzfeld
+                Tobenamedhumanlaurelorn5
+                Tobenamedhumanlaurelorn6
+            }
+            forstfast_province = {
+               Forstfast Tyrvad Vesterrup Tobenamedhangmanswoods5 Tobenamedhangmanswoods9 Tobenamedhangmanswoods11 Tobenamedhangmanswoods7
+               Tobenamedhangmanswoods10 Tobenamedhangmanswoods6
+            }
+            skovby_province = {
+               Herup Skovby Tobenamedhangmanswoods Tobenamedhangmanswoods2 Tobenamedhangmanswoods3 Tobenamedhangmanswoods4 Tobenamedhangmanswoods2
+            }
+            silver_hills_province = {
+               Salzenmund Kohlen Silbertief Oldenlitz Hohenaspe Odisheim Tettens
+               Stavern Alfhausen Tobenamedsilverhills1 Tobenamedsilverhills2
+            }
 
-          }
+         }
+         northern_marches_area = {
+            hochnar_province = {
+               Hochnar Kanod Hochnar_province1
+                Hochnar_province2
+                Hochnar_province3
+                Hochnar_province4
+                Hochnar_province5
+                Hochnar_province6
+                Hochnar_province7
+                Hochnar_province8
+            }
+            salkalten_province = {
+               Salkalten Steilstand Salkalten_province1
+                Salkalten_province2
+                Salkalten_province3
+                Salkalten_province4
+                Salkalten_province5
+                Salkalten_province6
+            }
+            eastern_northern_marches_province = {
+                TobenamedEastern_Northern_Marches1
+                TobenamedEastern_Northern_Marches2
+                TobenamedEastern_Northern_Marches3
+            }
 
+         }
+         imperial_coast_area = {
+            dietershafen_province = {
+               Broghur Dietershafen Dellenkoog
+            }
+            hargendorf_province = {
+               Hargendorf Hargensumpf Massenfels Schlaghugel
+            }
+            teufelsumpf_province = {
+               Dreizack Pugsblatter Nysted Teufelsumpf Heiligdorf Manaansheim Luftberg
+               Vadsel Nordenwacht
+            }
+            jutone_riding_province = {
+               Leihafen Schadelbruck Dunkelkiefer Wulfhaven Tower_of_se_athel
+            }
+            wilhelmskoog_province = {
+               Skjaldberg Wilhelmskoog Wittigholm Ockholm
+            }
+            norden_province = {
+               Schuten Norden Salzmorast Kriedeklippe Gelting Wykholm
+            }
 
+         }
+         stirland_area = {
+            west_stirland_province = {
+               Kircham Blutdorf Franzen Russbach Chrobok Worden Kelham
+                West_Stirland_Plain1
+                West_Stirland_Plain2
+                West_Stirland_Plain3
+                West_Stirland_Plain4
+                West_Stirland_Plain5
+                West_Stirland_Plain6
+                West_Stirland_Plain7
+                West_Stirland_Plain8
+                West_Stirland_Plain9
+                West_Stirland_Plain10
+                West_Stirland_Plain11
+                West_Stirland_Plain12
+                West_Stirland_Plain13
+                West_Stirland_Plain14
+                West_Stirland_Plain15
+            }
+            wurtbad_plains_province = {
+               Tarshof Biberhof Flensburg Ramsau Lochen Wurtbad_plains1
+                Wurtbad_plains2
+                Wurtbad_plains3
+                Wurtbad_plains4
+                Wurtbad_plains5
+                Wurtbad_plains6
+                Wurtbad_plains7
+                Wurtbad_plains8
+                Wurtbad_plains9
+                Wurtbad_plains10
+                Wurtbad_plains11
+                Wurtbad_plains12
+                Wurtbad_plains13
+                Wurtbad_plains14
+                Wurtbad_plains15
+            }
+            julbach_plains_province = {
+               Julbach1 Julbach_Plains1
+                Julbach_Plains2
+                Julbach_Plains3
+                Julbach_Plains4
+                Julbach_Plains5
+                Julbach_Plains6
+                Julbach_Plains7
+                Julbach_Plains8
+                Julbach_Plains9
+                Julbach_Plains10
+                Julbach_Plains11
+                Julbach_Plains12
+                Julbach_Plains13
+                Julbach_Plains14
+            }
+            tobenamed2_province = {
+               Nussbach Monheim Tenneck Halstedt Brandenberry Sauerapfel Birnbaum
+                Tobenamedplains1
+                Tobenamedplains2
+                Tobenamedplains3
+                Tobenamedplains4
+                Tobenamedplains5
+                Tobenamedplains6
+                Tobenamedplains7
+                Tobenamedplains8
+                Tobenamedplains9
+                Tobenamedplains10
+                Tobenamedplains11
+                Tobenamedplains12
+                Tobenamedplains13 Eicheschatten Bogglewort
+            }
+            tobenamed3_province = {
+               Leedleton Schwarzhafen Leicheberg Tobenamedplains21
+                Tobenamedplains22
+                Tobenamedplains23
+                Tobenamedplains24
+                Tobenamedplains25
+                Tobenamedplains26
+                Tobenamedplains27
+                Tobenamedplains28
+                Tobenamedplains29
+                Tobenamedplains210
+                Tobenamedplains211
+                Tobenamedplains212
+                Tobenamedplains213
+                Tobenamedplains214
+                Tobenamedplains215
+                Tobenamedplains216  Tobenamedplaiins31
+                Tobenamedplaiins32
+                Tobenamedplaiins33
+                Tobenamedplaiins34
+                Tobenamedplaiins35
+                Tobenamedplaiins36
+                Tobenamedplaiins37
+                Tobenamedplaiins38
+                Tobenamedplaiins39
+                Tobenamedplaiins310
+                Tobenamedplaiins311
+            }
+            mordheim_province = {
+               Siegfriedhof Morssfen Vanhaldenhof Tempelhof Naubonum Morrsfen_Plains1
+                Morrsfen_Plains2
+                Morrsfen_Plains3
+                Morrsfen_Plains4
+                Morrsfen_Plains5
+                Morrsfen_Plains6
+                Morrsfen_Plains7
+                Morrsfen_Plains8
+                Morrsfen_Plains9
+                Morrsfen_Plains10 Mordheim
+            }
+            grim_wood_province = {
+                Grim_Wood1
+                Grim_Wood2
+                Grim_Wood3
+                Grim_Wood4
+                Grim_Wood5
+                Grim_Wood6
+                Grim_Wood7
+                Grim_Wood8 North_Grim_Moor
+                South_Grim_Moor
+            }
+            haunted_hills_province = {
+                Haunted_Hills1
+                Haunted_Hills2
+                Haunted_Hills3
+                Haunted_Hills4
+                Haunted_Hills5
+                Haunted_Hills6
+                Haunted_Hills7
+                Haunted_Hills8
+                Haunted_Hills9
+                Haunted_Hills10
+                Haunted_Hills11 Drakenhof
+            }
+            nachthafen_province = {
+                Nachthafen_Plains1
+                Nachthafen_Plains2
+                Nachthafen_Plains3
+                Nachthafen_Plains4
+                Nachthafen_Plains5
+                Nachthafen_Plains6
+                Nachthafen_Plains7
+                Nachthafen_Plains8
+                Nachthafen_Plains9
+                Nachthafen_Plains10  Pfaffbach Nachthafen
+            }
+            sylvanian_woods_province = {
+               Tangled_Woods1
+                Tangled_Woods2 Misty_Woods1
+                Misty_Woods2
+                Misty_Woods3  Dunkelmoor
+            }
+            bylorvash_province = {
+                Ghoul_Woods1
+                Ghoul_Woods2
+                Ghoul_Woods3
+                Ghoul_Woods4
+                Ghoul_Woods5
+                Ghoul_Woods6
+                Ghoul_Woods7 Bylorvash_Marsh1
+                Bylorvash_Marsh2
+                Bylorvash_Marsh3
+                Bylorvash_Marsh4
+                Bylorvash_Marsh5 Bylorvash Bylorvash_plains1
+                Bylorvash_plains2
+                Bylorvash_plains3
+                Bylorvash_plains4
+                Bylorvash_plains5
+            }
+            waldenhof_province = {
+               Waldenhof Hundhum Regakhof Thyrnau Mikalsdorf Egling Hel_fenn
+            }
+
+         }
+         ostermark_area = {
+            essen_province = {
+               Carlsbruck Essen
+                Essen_plains1
+                Essen_plains2
+                Essen_swamp
+            }
+            eisental_province = {
+               Eisental Gelt Eisental_Foothills1
+                Eisental_Foothills2
+                Eisental_Foothills3
+                Eisental_Foothills4
+                Eisental_Foothills5
+            }
+            bahlkurk_province = {
+               Bahlkurk Bahlkurk_Plains1
+                Bahlkurk_Plains2
+                Bahlkurk_Plains3
+                Bahlkurk_Plains4
+                Bahlkurk_Plains5
+                Bahlkurk_Plains6
+                Bahlkurk_Plains7
+                Bahlkurk_Plains8
+                Bahlkurk_Plains9
+                Bahlkurk_Plains10
+            }
+            nagenhof_province = {
+               Weiler Mielau Buckow Nagenhof Nagenhof_Plains1
+                Nagenhof_Plains2
+                Nagenhof_Plains3
+            }
+            south_ostermark_plains_province = {
+                South_Ostermark_Plains1
+                South_Ostermark_Plains2
+                South_Ostermark_Plains3
+                South_Ostermark_Plains4
+                South_Ostermark_Plains5
+                South_Ostermark_Plains6
+                South_Ostermark_Plains7
+                South_Ostermark_Plains8
+                South_Ostermark_Plains9
+                South_Ostermark_Plains10
+                South_Ostermark_Plains11
+            }
+            central_ostermark_plains_province = {
+                Central_Ostermark_Plains1
+                Central_Ostermark_Plains2
+                Central_Ostermark_Plains3
+                Central_Ostermark_Plains4
+                Central_Ostermark_Plains5
+                Central_Ostermark_Plains6
+                Central_Ostermark_Plains7
+                Central_Ostermark_Plains8
+                Central_Ostermark_Plains9
+                Central_Ostermark_Plains10
+                Central_Ostermark_Plains11
+                Central_Ostermark_Plains12
+                Central_Ostermark_Plains13
+            }
+            poritz_province = {
+               Poritz Poritz_Plains1
+                Poritz_Plains2
+                Poritz_Plains3
+                Poritz_Plains4
+                Poritz_Plains5
+                Poritz_Plains6
+                Poritz_Plains7
+                Poritz_Plains8
+                Poritz_Plains9
+                Poritz_Plains10
+                Poritz_Plains11
+                Poritz_Plains12
+                Poritz_Plains13
+            }
+
+         }
+         eastern_foothills_area = {
+            sigmarsgeist_province = {
+               Sigmarsgeist Sigmarsgeist_Foothills1
+                Sigmarsgeist_Foothills2
+                Sigmarsgeist_Foothills3
+                Sigmarsgeist_Foothills4
+                Sigmarsgeist_Foothills5
+                Sigmarsgeist_Foothills6
+                Sigmarsgeist_Foothills7
+                Sigmarsgeist_Foothills8
+                Sigmarsgeist_Foothills9
+            }
+            tobenamedplains3_province = {
+                Tobenamedplains31
+                Tobenamedplains32
+                Tobenamedplains33
+                Tobenamedplains34
+                Tobenamedplains35
+                Tobenamedplains36
+                Tobenamedplains37
+                Tobenamedplains38
+                Tobenamedplains39
+                Tobenamedplains310
+                Tobenamedplains311
+                Tobenamedplains312
+                Tobenamedplains313
+                Tobenamedplains314
+                Tobenamedplains315
+                Tobenamedplains316
+            }
+            badenhof_province = {
+               Badenhof Badenhof_plains1
+                Badenhof_plains2
+                Badenhof_plains3
+                Badenhof_plains4
+                Badenhof_plains5
+                Badenhof_plains6
+            }
+            dnierson_province = {
+               Dnierson Dnierson_Foothills1
+                Dnierson_Foothills2
+                Dnierson_Foothills3
+                Dnierson_Foothills4
+                Dnierson_Foothills5
+                Dnierson_Foothills6
+                Dnierson_Foothills7
+                Dnierson_Foothills8
+                Dnierson_Foothills9
+                Dnierson_Foothills10
+                Dnierson_Foothills11
+                Dnierson_Foothills12
+                Dnierson_Foothills13
+                Dnierson_Foothills14
+                Dnierson_Foothills15
+            }
+
+         }
+         dunkelkuste_area = {
+            west_dunkelkuste_province = {
+               Lochrafurt Uckrofurt Bek Viernau Freital West_Dunkelkuste_forest1
+                West_Dunkelkuste_forest2
+                West_Dunkelkuste_forest3
+                West_Dunkelkuste_forest4
+                West_Dunkelkuste_forest5
+                West_Dunkelkuste_forest6
+                West_Dunkelkuste_forest7
+                West_Dunkelkuste_forest8
+                West_Dunkelkuste_forest9
+                West_Dunkelkuste_forest10
+                West_Dunkelkuste_forest11
+                West_Dunkelkuste_forest12
+                West_Dunkelkuste_forest13
+                West_Dunkelkuste_forest14
+                West_Dunkelkuste_forest15
+                West_Dunkelkuste_forest16
+                West_Dunkelkuste_forest17
+                West_Dunkelkuste_forest18
+                West_Dunkelkuste_forest19
+                West_Dunkelkuste_forest20
+                West_Dunkelkuste_forest21
+            }
+            east_dunkelkuste_province = {
+               Brunmarl Rugenbuttel Dorna Bechafen Reitwein Remer Kolitz
+               Elbing TobenamedBechafen_plains1
+                TobenamedBechafen_plains2
+                TobenamedBechafen_plains3
+                TobenamedBechafen_plains4
+                TobenamedBechafen_plains5
+                TobenamedBechafen_plains6
+                TobenamedBechafen_plains7
+                TobenamedBechafen_plains8
+                TobenamedBechafen_plains9
+                TobenamedBechafen_plains10
+                TobenamedBechafen_plains11
+                TobenamedBechafen_plains12
+                TobenamedBechafen_plains13
+                TobenamedBechafen_plains14
+                TobenamedBechafen_plains15
+                TobenamedBechafen_plains16
+                TobenamedBechafen_plains17
+            }
+            eastern_forest_province = {
+               Zeisholz Munkenhof Fortengrad Gerdouen Markgrad Fortenhaf Rheden
+               Rheden1 Eastern_Forests1
+                Eastern_Forests2
+                Eastern_Forests3
+                Eastern_Forests4
+                Eastern_Forests5
+                Eastern_Forests6
+                Eastern_Forests7
+                Eastern_Forests8
+                Eastern_Forests9
+                Eastern_Forests10
+                Eastern_Forests11
+                Eastern_Forests12
+                Eastern_Forests13
+                Eastern_Forests14
+                Eastern_Forests15
+                Eastern_Forests16
+                Eastern_Forests17
+            }
+
+         }
+         east_great_forest_area = {
+            east_great_forest_province = {
+                East_Great_Forest1
+                East_Great_Forest2
+                East_Great_Forest3
+                East_Great_Forest4
+                East_Great_Forest5
+                East_Great_Forest6
+                East_Great_Forest7
+                East_Great_Forest8
+                East_Great_Forest9
+                East_Great_Forest10
+                East_Great_Forest11
+                East_Great_Forest12
+                East_Great_Forest13
+                East_Great_Forest14
+                East_Great_Forest15
+                East_Great_Forest16
+                East_Great_Forest17
+                East_Great_Forest18
+                East_Great_Forest19
+            }
+            lieske_province = {
+               Lieske Radische Lieske_Forests1
+                Lieske_Forests2
+                Lieske_Forests3
+                Lieske_Forests4
+                Lieske_Forests5
+                Lieske_Forests6
+                Lieske_Forests7
+            }
+            wurtbad_province = {
+               Wurtbad Julbach Julbach_Forests1
+                Julbach_Forests2
+                Julbach_Forests3
+                Julbach_Forests4
+                Julbach_Forests5
+                Julbach_Forests6
+            }
+            gersdorf_province = {
+               Ossino Marberg Gersdorf Dohna Sabritz Gersdorf_Forest1
+                Gersdorf_Forest2
+                Gersdorf_Forest3
+                Gersdorf_Forest4
+            }
+            oehling_province = {
+               Oehling Oehling_Forests1
+                Oehling_Forests2
+                Oehling_Forests3
+                Oehling_Forests4
+                Oehling_Forests5
+                Oehling_Forests6
+                Oehling_Forests7
+            }
+            tobenamedforest2_province = {
+               Tobenamedforest2
+            }
+            krugenheim_province = {
+               Krugenheim Krugenheim_forest
+            }
+            trautenau_province = {
+               Hazelhof Trautenau Hundheimer_Woods1
+                Hundheimer_Woods2
+                Hundheimer_Woods3
+                Hundheimer_Woods4
+                Hundheimer_Woods5
+                Hundheimer_Woods6
+                Hundheimer_Woods7
+                Hundheimer_Woods8
+                Hundheimer_Woods9
+                Hundheimer_Woods10
+            }
+            bissendorf_province = {
+               Tauer Bissendorf Pfaffenwald South_Pfaffenwald
+                North_Pfaffenwald
+            }
+            totensumpfe_province = {
+                Totensumpfe1
+                Totensumpfe2
+                Totensumpfe3
+                Totensumpfe4
+            }
+            dead_woods_province = {
+                Dead_Woods1
+                Dead_Woods2
+                Dead_Woods3
+                Dead_Woods4
+                Dead_Woods4
+                Dead_Woods5
+                Dead_Woods6
+                Dead_Woods7
+                Dead_Woods8
+                Dead_Woods9
+                Dead_Woods10
+            }
+            hunger_woods_province = {
+                Hunger_Woods1
+                Hunger_Woods2
+                Hunger_Woods3
+                Hunger_Woods4
+            }
+
+         }
+         great_forest_area = {
+            great_forest_province = {
+                Great_Forest1
+                Great_Forest2
+                Great_Forest3
+                Great_Forest4
+                Great_Forest5
+                Great_Forest6
+                Great_Forest7
+                Great_Forest8
+                Great_Forest9
+                Great_Forest10
+                Great_Forest11
+                Great_Forest12
+                Great_Forest13
+                Great_Forest14
+                Great_Forest15
+                Great_Forest16
+                Great_Forest17
+                Great_Forest18
+                Great_Forest19
+                Great_Forest20
+                Great_Forest21
+                Great_Forest22
+                Great_Forest23
+                Great_Forest24
+                Great_Forest25
+                Great_Forest26
+                Great_Forest27
+                Great_Forest28
+                Great_Forest29
+                Great_Forest30
+                Great_Forest31
+                Great_Forest32
+                Great_Forest33
+                Great_Forest34
+                Great_Forest35
+                Great_Forest36
+                Great_Forest37
+            }
+
+         }
+         green_barren_hills_area = {
+            green_barren_hills_province = {
+                Green_Hills1
+                Green_Hills2
+                Green_Hills3
+                Green_Hills4
+                Green_Hills5
+                Green_Hills6
+                Green_Hills7
+                Green_Hills8
+                Green_Hills9
+                Green_Hills10
+                Green_Hills11
+                Green_Hills12
+                Green_Hills13
+                Green_Hills14 Morereikwald1
+                Morereikwald2
+                Morereikwald3
+                Morereikwald4
+                Morereikwald5
+                Morereikwald6
+                Morereikwald7
+                Morereikwald8
+                Morereikwald9
+            }
+            reikwald_near_hills_province = {
+               Reiker_Marshes Nadjagard Kaldach Ravenstein Klepzig Torpin Garndorf
+               Werder
+            }
+
+         }
+         talabecland_area = {
+            talabheim_province = {
+               Talabheim Klarfeld Vateresche Sumpfrand Waldfahrt
+            }
+            west_talabecland_province = {
+               Brasthof Zeder Volgen Sudenheim Esselfurt Ripdorf Priestlicheim
+                TobenamedWest_Talabecland1
+                TobenamedWest_Talabecland2
+                TobenamedWest_Talabecland3
+                TobenamedWest_Talabecland4
+                TobenamedWest_Talabecland5
+                TobenamedWest_Talabecland6
+                TobenamedWest_Talabecland7
+                TobenamedWest_Talabecland8
+                TobenamedWest_Talabecland9
+                TobenamedWest_Talabecland10
+                TobenamedWest_Talabecland11
+            }
+            central_talabecland_province = {
+               Sprotau Bachra Bad_Tenzala Bad_Dankerode Breitblatt Kutzleben Grossreiche
+               Liebstadt Urhausen Hernhausen Sarno Zurin Harferfahre Talagaad
+                TobenamedCentral_Talabecland1
+                TobenamedCentral_Talabecland2
+                TobenamedCentral_Talabecland3
+                TobenamedCentral_Talabecland4
+                TobenamedCentral_Talabecland5
+                TobenamedCentral_Talabecland6
+                TobenamedCentral_Talabecland7
+            }
+            east_talabecland_province = {
+                East_Talabecland1
+                East_Talabecland2
+                East_Talabecland3
+                East_Talabecland4
+                East_Talabecland5
+                East_Talabecland6
+                East_Talabecland7
+                East_Talabecland8
+                East_Talabecland9 Kusel Dreetz
+            }
+
+         }
+         nattern_forest_area = {
+            nattern_forest_province = {
+               Wurstheim Stockhausen Unterbaum Aulen Welleborn Zutzen Missen
+               Sydow Gostahof Ranganhof Oberwill Nattern_Forest1
+                Nattern_Forest2
+                Nattern_Forest3
+                Nattern_Forest4
+                Nattern_Forest5
+                Nattern_Forest6
+                Nattern_Forest7
+                Nattern_Forest8
+                Nattern_Forest9
+                Nattern_Forest10
+                Nattern_Forest11
+                Nattern_Forest12
+                Nattern_Forest13
+                Nattern_Forest14
+                Nattern_Forest15
+                Nattern_Forest16
+                Nattern_Forest17
+                Nattern_Forest18
+                Nattern_Forest19
+                Nattern_Forest20
+                Nattern_Forest21
+                Nattern_Forest22
+                Nattern_Forest23
+                Nattern_Forest24
+                Nattern_Forest25
+                Nattern_Forest26
+                Nattern_Forest27
+                Nattern_Forest28
+                Nattern_Forest29
+            }
+
+         }
+         southern_drakwald_area = {
+            ahlenhof_province = {
+               Ahlenhof Bad_Hohne Suderberg Ahlenhof_forest1
+                Ahlenhof_forest2
+                Ahlenhof_forest3
+                Ahlenhof_forest4
+                Ahlenhof_forest5
+            }
+            drakwald1_province = {
+               Drakwald1 Drakwald3
+                Drakwald4
+                Drakwald5
+                Drakwald6
+                Drakwald7
+                Drakwald8
+                Drakwald9
+                Drakwald10
+
+            }
+            drakwald2_province = {
+               Drakwald2
+                Drakwald11
+                Drakwald12
+                Drakwald13
+                Drakwald14
+                Drakwald15
+                Drakwald16
+                Drakwald17
+                Drakwald18
+                Drakwald19
+                Drakwald20
+                Drakwald21
+            }
+            carroburg_province = {
+               Carroburg Barenfahre Senden Punzen Anseldorf Furdienst1
+                Furdienst2
+                Furdienst3
+                Furdienst4
+                Furdienst5
+                Furdienst6
+                Furdienst7
+                Furdienst8 Carroburg_woods1 Carroburg_woods2 Carroburg_woods3 Carroburg_woods4 Carroburg_woods5 Carroburg_woods6
+            }
+            reikland_north_of_the_reik_province = {
+               Geldrecht Braunwurt Bundesmarkt Furtild Frederheim Grossbad
+            }
+
+         }
+         midden_marshes_area = {
+            midden_marshes_province = {
+               Midden_Marshes1 Midden_Marshes2 Midden_Marshes3 Midden_Marshes4 Midden_Marshes5
+                Mirror_Moors1
+                Mirror_Moors2
+                Mirror_Moors3
+                Mirror_Moors4
+                Mirror_Moors5
+                Mirror_Moors6
+                Mirror_Moors7
+                Mirror_Moors8
+                Mirror_Moors9
+                Mirror_Moors10
+                Kristall_Plains1
+                Kristall_Plains2
+                Kristall_Plains3
+                Kristall_Plains4
+                Kristall_Plains5
+                Kristall_Plains6
+                Kristall_Plains7
+                Kristall_Plains8
+            }
+            leydenhoven_province = {
+               Weteringh Fauligmere Klauperdorf Leydenhoven Smerigwaard Stapelhugel Tobenamedleydenhoven2
+               Tobenamedleydenhoven3 Westerfast Scheinfeld Uder Hupstedt Nupstedt
+            }
+
+         }
+         north_drakwald_area = {
+            north_east_drakwald_province = {
+               Mittlemund North_East_Drakwald1
+                North_East_Drakwald2
+                North_East_Drakwald3
+                North_East_Drakwald4
+                North_East_Drakwald5
+                North_East_Drakwald6
+                North_East_Drakwald7
+                North_East_Drakwald8
+                North_East_Drakwald9
+                North_East_Drakwald10
+                North_East_Drakwald11
+                North_East_Drakwald12
+                North_East_Drakwald13
+                North_East_Drakwald14
+                North_East_Drakwald15
+                North_East_Drakwald16
+                North_East_Drakwald17
+                North_East_Drakwald18
+                North_East_Drakwald19
+            }
+            north_west_drakwald_province = {
+                North_West_Drakwald1
+                North_West_Drakwald2
+                North_West_Drakwald3
+                North_West_Drakwald4
+                North_West_Drakwald5
+                North_West_Drakwald6
+                North_West_Drakwald7
+                North_West_Drakwald8
+                North_West_Drakwald9
+                North_West_Drakwald10
+                North_West_Drakwald11
+                North_West_Drakwald12
+                North_West_Drakwald13
+                North_West_Drakwald14
+                North_West_Drakwald15
+                North_West_Drakwald16
+                North_West_Drakwald17
+                North_West_Drakwald18
+                North_West_Drakwald19
+                North_West_Drakwald20 Rosche
+            }
+
+         }
+         middenland_area = {
+            tobenamedmiddeland_province = {
+                Tobenamedmiddenland1
+                Tobenamedmiddenland2
+                Tobenamedmiddenland3
+                Tobenamedmiddenland4
+                Tobenamedmiddenland5 Middenland_forests1
+                Middenland_forests2
+                Middenland_forests3
+                Middenland_forests4
+                Middenland_forests5
+                Middenland_forests6
+                Middenland_forests7
+                Middenland_forests8
+            }
+            delberz_province = {
+               Delberz Turmgever Schwarzmarkt Middenstag Untergard Untergard1 Grimmenhagen
+               Harsum Delberz_Forest1
+                Delberz_Forest2
+                Delberz_Forest3
+                Delberz_Forest4
+                Delberz_Forest5
+                Delberz_Forest6
+                Delberz_Forest7
+                Delberz_Forest8
+            }
+            fintel_province = {
+               Fintel Fintel_Forest1
+                Fintel_Forest2
+                Fintel_Forest3
+                Fintel_Forest4
+                Fintel_Forest5 Holzbeck
+            }
+            schoninghagen_province = {
+               Grubentreich Pritzstock Hunxe Elsterweld Grevenfeld Arenberg Schoninghagen
+               Jagerhausen Schoninghagen_Forests
+            }
+            middenheim_province = {
+               Norderingen Solzheim Middenheim Warrenburg Hovelhof Sohk Lindenheim
+               Gladbeich Oberholzbeck Immelscheid Thugenheim
+            }
+
+         }
+         schadensumpf_area = {
+            schadensumpf_province = {
+                Schadensumpf1
+                Schadensumpf2
+                Schadensumpf3
+                Schadensumpf4
+                Schadensumpf5
+                Schadensumpf6
+                Schadensumpf7
+                Schadensumpf8
+                Schadensumpf9
+                Schadensumpf10
+                Schadensumpf11
+                Schadensumpf12
+                Schadensumpf13
+                Schadensumpf14
+                Schadensumpf15 misty_hills1
+                misty_hills2
+                misty_hills3
+                misty_hills4
+                misty_hills5
+            }
+            landaroundsumpf_province = {
+                Landaroundsumpf1
+                Landaroundsumpf2
+                Landaroundsumpf3
+                Landaroundsumpf4
+                Landaroundsumpf5 Kammendun
+            }
+            forestaroundsumpf_province = {
+               Drachenhole Forestaroundsumpf1
+                Forestaroundsumpf2
+                Forestaroundsumpf3
+                Forestaroundsumpf4
+                Forestaroundsumpf5
+                Forestaroundsumpf6
+                Forestaroundsumpf7
+                Forestaroundsumpf8
+                Forestaroundsumpf9
+                Forestaroundsumpf10
+                Forestaroundsumpf11
+                Forestaroundsumpf12
+                Forestaroundsumpf13
+                Forestaroundsumpf14
+                Forestaroundsumpf15 Winsen
+            }
+
+         }
+         tumble_downs_area = {
+            gorrsel_province = {
+               Gorrsel Gelderham Maansfast Stangenbroek Zegweld Kaserburg Tobenamedgorrsel1
+               Tobenamedgorrsel2 Tobenamedgorrsel3 Tobenamedgorrsel4
+            }
+            tumble_downs_1_province = {
+               Tobenamedtumble36 Zeemond Tobenamedtumble27 Vloedwijk Tobenamedtumble28 Tobenamedtumble29 Tobenamedtumble30
+               Tobenamedtumble31 Tobenamedtumble32 Hogedam Bovenkarspel Tobenamedtumble33 Tobenamedtumble34 Tobenamedtumble35
+            }
+            tumble_downs_3_province = {
+               Fort_Solace Noordwindhaven Kaap_Tuinder Driftstrand Tobenamedtumble18 Tobenamedtumble19 Kromdijk_aan_zee
+               Tobenamedtumble20 Tobenamedtumble21 Tobenamedtumble22 Tobenamedtumble23 Tobenamedtumble24 Heerenwerf Tobenamedtumble25
+               Woltersum Zwartweteren Tobenamedtumble26 Hoogkamp Oud_torenburg Heidestein
+            }
+            tumble_downs_4_province = {
+               Tobenamedtumble5 Tobenamedtumble6 Tobenamedtumble7 Tobenamedtumble8 Tobenamedtumble9 Noordwijker Tobenamedtumble10
+               Tobenamedtumble11 Tobenamedtumble12 Tobenamedtumble13 Tobenamedtumble14 Tobenamedtumble15 Tobenamedtumble16 Tobenamedtumble17
+            }
+            tumble_downs_5_province = {
+               Diever Haarskamp Peelwijk Grootveen Belofteveld Loenen Dreumelholt
+               Stedum Oostwald Tobenamedtumble1 Wekcenfast Tobenamedtumble2 Tobenamedtumble3 Middenveld
+               Tobenamedtumble4 Brugwalde Aarnau Hollum
+            }
+
+         }
+         bitter_moors_area = {
+            bitter_moors_1_province = {
+               Bitter_Moors_1
+            }
+            bitter_moors_2_province = {
+               Swartenmeer Broekwater Almshoven La_Neuferte Antorpe
+            }
+            bitter_moors_3_province = {
+               Tobenamedbittermoors1 Tobenamedbittermoors2 Tobenamedbittermoors3 Tobenamedbittermoors4 Tobenamedbittermoors5 Tobenamedbittermoors6 Tobenamedbittermoors7
+               Tobenamedbittermoors8 Tobenamedbittermoors9 Tobenamedbittermoors10 Tobenamedbittermoors11 Tobenamedbittermoors12 Maasten Polderwoude
+               Klessen
+            }
+            kleinland_province = {
+               Keterveen Molenwaard Lemmbourg Bergbres Kleindorpje Heuveldorp Tobenamedkleinland1
+               Tobenamedkleinland2
+            }
+
+         }
+         grootscher_marshes_area = {
+            west_grootscher_marshes_province = {
+               Wijkersdijk Brakwaterdam Heppeldorf Westerfort Buitenkaag Lehmburg
+            }
+            south_grootscher_marshes_province = {
+               Kalkaat Halsdorp Zandt Marienburg Zompveen Rutten Ongediertefort
+               Spaarwoude
+            }
+            east_grootscher_marshes_province = {
+               Middelplaat Oosterplaat Rijpermeer Kleibroek_aan_zee Verdronkenhoek Salfen Kloosterdam
+            }
+
+         }
          greater_reikland_and_north_vorbergland_area = {
             reikland_province = {
                Altdorf Heiliger_wortwald Schattenlas Weidmarkt Ewigstadt Klauenschloss Klauendorf
@@ -1271,9 +1695,9 @@ old_world = {
                Wallenimhugel Morrshome Mellerfelden Maissen Helmgart Maiswald Zahmstadt
                Kotzdam Kotzsee Penzkirchen Zahmer
             }
-             placeholder_province = {
-                 Auld_Troldved Voervinholm Beelen
-             }
+            placeholder_province = {
+               Auld_Troldved Voervinholm Beelen
+            }
 
          }
 

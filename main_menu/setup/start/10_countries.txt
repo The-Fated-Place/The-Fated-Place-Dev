@@ -2,25 +2,32 @@ current_age = age_1_traditions
 
 countries = {
     countries = {
-        TAL = {
-            #Ottilian Empire/Talabecland
+        # Talabecland
+        TAL = { #Ottilian Empire/Talabecland
             own_control_core = {
-                testprovince1
-                testprovince2
-                testprovince3
-                testprovince4
-                testprovince5
-                testprovince6
+                Talabheim
+                Bachra
+                Bad_Dankerode
+                Bad_Tenzala
+                Breitblatt
+                Grossreiche
+                Harferfahre
+                Hernhausen
+                Klarfeld
+                Kutzleben
+                Liebstadt
+                Sprotau
+                Sumpfrand
+                Talagaad
+                Urhausen
+                Vateresche
+                Waldfahrt
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
-            discovered_regions = {
-                custom_region
-            }
+
+            include = "expl_average_imperial"
 
             government = {
                 type = monarchy
@@ -30,731 +37,269 @@ countries = {
 
             country_rank = rank_empire
              
-            capital = testprovince1
+            capital = Talabheim
         }
 
-
-        BLL = {
-            #Ballenhof part of solland
+        KUS = { # Kusel
             own_control_core = {
-                Ballenhof
-                Gestratz
+                Kusel
+                Dreetz
+                Lochrafurt
+                Uckrofurt
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Ballenhof
+            country_rank = rank_duchy
+
+            capital = Kusel
         }
 
-        SOL = {
-            #Solland
+        BEK = { # Bek
             own_control_core = {
-                Hornfen
-                Pucheim
-                Obenheidenland
-                Sussenquelle
-                Sussenthal
-                Ost_Obernwald
-                Taalszahne
-                Huttenhugel
-                Marscheidenland
-                Raggelvorgebirge
-                Kazad_Zhum
-                Oberreikquelle
-                Raggelhugel
-                Diehlendorf
-                Mecklenthal
-                Hochsleben
-                Damulwald
-                Kleine_Raggelhugel
-
-                Zemenhugel
-                Zemenvorgebirge
-                Penzthal
-                Dergevorgebirge
-                Dergehugel
-                West_Obernwald
-                Aschwald
-                Ichenhugel
-                Hofstentten
-                Purnhugel
-                Delbruckschloss
-                Rookburg
-                Pfalzhugel
-                Atzwald
-                Dergenhof
-                Gunnertag
-                Nordkolberhugel
-                Castle_Greymane
-                Sudkolberhugel
-                Lohnswald
-                Engelhugel
-                Teisenheindenland
-                Einsamhugel
-                Gnaldenwald
-
-                Kleinwilden
-                Oberwildenhugel
-                Elzach
-                Tannau
-                Pfeildorf
-                Wildenhugel
-                Rosenhausen
-                Sollweg
-                Neukirch
-                Bernau
-                Achenwald
-                Ost_kleinwilden
-                Ostbeuerhugel
-                Achenfinwald
-                Ostfinwald
-                Finnwald
-                Ellwagen
-                Schonwald
-                Hagenwald
-                Habichtwald
-                Sulzhugel
-                Rusch
-                Marschwald
-                Gestratz
-                Ballenhof
-                Hagenhugel
-                Westbeuerhugel
-                Haugothal
-                Finnweg
-                Westen_Finnwald
+                Bek
+                Freital
+                Viernau
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            country_rank = rank_duchy
+
+            capital = Bek
         }
 
-        MCK = {
-            #Mecklenburg freistadt
+        GAR = { # Garndorf
             own_control_core = {
-                Mecklenburg
+                Garndorf
+                Torpin
+                Werder
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            country_rank = rank_duchy
+
+            capital = Garndorf
         }
 
-        WTT = {
-            #Wittenhausen
+        GER = { # Garndorf
             own_control_core = {
-                Wittenhausen
+                Gersdorf
+                Dohna
+                Sabritz
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
+            country_rank = rank_duchy
 
-        WLD = {
-            #Waldbach
+            capital = Gersdorf
+        }
+        HERM = { # Hermsdorf
             own_control_core = {
-                Waldbach
+                Radische
+
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            country_rank = rank_duchy
+
+            capital = Radische
         }
-
-
-        UMM = {
-            #Ummenbach
+        KRU = { # Krugenheim
             own_control_core = {
-                Ummenbach
+                Krugenheim
+                Hazelhof
+                Trautenau
+
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
+            country_rank = rank_duchy
 
-        STE = {
-            #Steingart
+            capital = Krugenheim
+        }
+        LIE = { # Lieske
             own_control_core = {
-                Steingart
-                Krossbach
-                Vals
-                Ollersbach
+                Lieske
+
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
+            country_rank = rank_county
 
-        STA = {
-            #Staig
+            capital = Lieske
+        }
+        OSS = { # Ossino
             own_control_core = {
-                Staig
+                Ossino
+
             }
 
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
 
             include = "expl_average_imperial"
 
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            country_rank = rank_county
+
+            capital = Ossino
         }
-
-        SOC = {
-            #Sochtenau
+        RAN = { # Rangenhof
             own_control_core = {
-                Sochtenau
-                Leogang
+                Gostahof
+                Zutzen
+                Ranganhof
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_duchy
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Ranganhof
         }
-
-        SEX = {
-            #Sexau
+        RAV = { # Ravenstein
             own_control_core = {
-                Sexau
-                Diepolz
+                Ravenstein
+                Klepzig
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_duchy
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Ravenstein
         }
-        ROH = {
-            #Rohrhof
+        UNT = { # Unterbaum
             own_control_core = {
-                Rohrhof
+                Unterbaum
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_county
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Unterbaum
         }
-
-        HVZ = {
-            #Pforzen
+        VOL = { # Volgen
             own_control_core = {
-                Haverz
+                Volgen
+                Brasthof
+                Esselfurt
+                Priestlicheim
+                Ripdorf
+                Sudenheim
+                Zeder
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_duchy
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Volgen
         }
-
-        PHL = {
-            #Pahl
+        WELL = { # Welleborn
             own_control_core = {
-                Ranalt
-                Torrach
+                Welleborn
+                Missen
+                Sydow
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_duchy
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Welleborn
         }
-
-        OTZ = {
-            #Osterzell
+        ZUR = { # Zurin
             own_control_core = {
-                Osterzell
-                Kauns
-                Wenns
+                Zurin
+                Sarno
             }
-
             starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
             include = "expl_average_imperial"
-
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ottilia
             }
+            country_rank = rank_duchy
 
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
+            capital = Zurin
         }
 
-        MOS = {
-            #Moosach
-            own_control_core = {
-                Moosach
-                Aitrang
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        MND = {
-            #Mendelhofe
-            own_control_core = {
-                Mendelhofe
-                Hochsolden
-                Schmirn
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        MAU = {
-            #Mauchen
-            own_control_core = {
-                Mauchen
-                Wilhams
-                Wolfurt
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        LGU = {
-            #Legau
-            own_control_core = {
-                Legau
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        KRO = {
-            #Mecklenburg freistadt
-            own_control_core = {
-                Kroppenleben
-                Ottakring
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        KOL = {
-            #Kolbhugel
-            own_control_core = {
-                Kolbhugel
-                Mandling
-                Volders
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-        JEN = {
-            #Jengen
-            own_control_core = {
-                Mathon
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        HUR = {
-            #Hurlach
-            own_control_core = {
-                Kislegg
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-        HRN = {
-            #Hornfurt
-            own_control_core = {
-                Hornfurt
-                Affing
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        GSC = {
-            #Geschburg
-            own_control_core = {
-                Geschburg
-                Althausen
-                Fluorin
-                Zoblen
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-        ERB = {
-            #Mecklenburg freistadt
-            own_control_core = {
-                Erbshausen
-                Madau
-                Rushc
-
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
-
-        EPP = {
-            #Eppiswald
-            own_control_core = {
-                Gutach
-                Kluftern
-            }
-
-            starting_technology_level = 2
-            #include = "expl_western_europe"
-            #include = "catholic_monarchy_no_coast"
-            #include = "german_principality"
-
-            include = "expl_average_imperial"
-
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = ottilia
-            }
-
-            country_rank = rank_kingdom
-             
-            capital = Pfeildorf
-        }
-
+#Westerland
         MRB = {
             #Marienburg
             own_control_core = {
@@ -978,6 +523,2503 @@ countries = {
             capital = Lehmburg
 
         }
+#Nordland
+        SLZ = {
+            own_control_core = {
+                Salzenmund
+                Tettens
+                Hohenaspe
+                Odisheim
+                Tobenamedsilverhills1
+                Tobenamedsilverhills2
+                Silbertief
+                Beeckerhoven
+                Oldenlitz
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                ruler = adalbert_the_bear
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Salzenmund
+        }
+
+        HAR = { # hargenfels
+            own_control_core = {
+                Hargendorf
+                Massenfels
+                Hargensumpf
+                Schlaghugel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Hargendorf
+        }
+
+
+        FOR = { # hargenfels
+            own_control_core = {
+                Forstfast
+                Kronven
+                Skogholm
+                Voervinholm
+                Tyrvad
+                Zelebhorn
+                Vesterrup
+                Auld_Troldved
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Forstfast
+        }
+
+        FROTE = { # hargenfels
+            own_control_core = {
+                Frote
+                Dunsen
+                Marklohe
+                Dorfmark
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Frote
+        }
+
+        JUT = { # Jutone Riding
+            own_control_core = {
+                Dunkelkiefer
+                Wulfhaven
+                Schadelbruck
+                Leihafen
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Dunkelkiefer
+        }
+
+        DIE = { # Dietershafen
+            own_control_core = {
+                Dietershafen
+                Broghur
+                Skovby
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Dietershafen
+        }
+
+        STV = { # Stavern
+            own_control_core = {
+                Stavern
+                Alfhausen
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Stavern
+        }
+
+
+        LFT = { # Luftburg
+            own_control_core = {
+                Luftberg
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Luftberg
+        }
+
+        SKJ = { # Luftburg
+            own_control_core = {
+                Skjaldberg
+                Seuchenshof
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Skjaldberg
+        }
+
+        HUV = { # Huvern
+            own_control_core = {
+                Huven
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Huven
+        }
+
+
+
+#norse in nordland
+        NOR = {
+            own_control_core = {
+                Norden
+                Kriedeklippe
+                Schuten
+                Salzmorast
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Norden
+        }
+
+        PGB = {
+            own_control_core = {
+                Pugsblatter
+                Nysted
+                Dreizack
+                Heiligdorf
+                Nordenwacht
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Pugsblatter
+        }
+
+        OCK = {
+            own_control_core = {
+                Wilhelmskoog
+                Ockholm
+                Wittigholm
+                Manaansheim
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Wilhelmskoog
+        }
+
+        HOL = {
+            own_control_core = {
+                Holzbeck
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Holzbeck
+        }
+        IMM = {
+            own_control_core = {
+                Immelscheid
+                Oberholzbeck
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Immelscheid
+        }
+        SOH = {
+            own_control_core = {
+                Sohk
+                Hovelhof
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Sohk
+        }
+        LINZ = {
+            own_control_core = {
+                Schoninghagen
+                Jagerhausen
+                Pritzstock
+                Grubentreich
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Schoninghagen
+        }
+
+        THU = {
+            own_control_core = {
+                Thugenheim
+                Elsterweld
+                Hunxe
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Thugenheim
+        }
+
+        NORD = {
+            own_control_core = {
+                Norderingen
+                Solzheim
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Norderingen
+        }
+
+        MID = {
+            own_control_core = {
+                Middenheim
+                Gladbeich
+                Lindenheim
+                Warrenburg
+                Grevenfeld
+                Arenberg
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Middenheim
+        }
+
+        # Drakwald
+
+        SCE = {
+            own_control_core = {
+                Scheinfeld
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Scheinfeld
+        }
+
+        NUP = {
+            own_control_core = {
+                Nupstedt
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Nupstedt
+        }
+
+        UDER = {
+            own_control_core = {
+                Uder
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Uder
+        }
+        HUP = {
+            own_control_core = {
+                Hupstedt
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Hupstedt
+        }
+        CAR = {
+            own_control_core = {
+                Carroburg
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Carroburg
+        }
+        BRH = {
+            own_control_core = {
+                Barenfahre
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Barenfahre
+        }
+        SEN = {
+            own_control_core = {
+                Senden
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Senden
+        }
+
+        ANS = {
+            own_control_core = {
+                Anseldorf
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Anseldorf
+        }
+
+        PUNZ = {
+            own_control_core = {
+                Punzen
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Punzen
+        }
+        ROS = {
+            own_control_core = {
+                Rosche
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Rosche
+        }
+        MTM = {
+            own_control_core = {
+                Mittlemund
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Mittlemund
+        }
+        CMM = {
+            own_control_core = {
+                Kammendun
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kammendun
+        }
+
+        # Middenland
+        AHL = {
+            own_control_core = {
+                Ahlenhof
+                Bad_Hohne
+                Suderberg
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Ahlenhof
+        }
+        MIDD = {
+            own_control_core = {
+                Middenstag
+                Untergard
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Middenstag
+        }
+        GRI = {
+            own_control_core = {
+                Grimmenhagen
+                Fintel
+                Harsum
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Grimmenhagen
+        }
+        DEL = {
+            own_control_core = {
+                Delberz
+                Turmgever
+                Schwarzmarkt
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Delberz
+        }
+
+        #Solland
+
+        ALTH = {
+            own_control_core = {
+                Althausen
+                Fluorin
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Althausen
+        }
+        KROP = { # Kroppenleben
+            own_control_core = {
+                Kroppenleben
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kroppenleben
+        }
+        KAUNS = { # Kauns
+            own_control_core = {
+                Kauns
+                Madau
+                Erbshausen
+                Mendelhofe
+                Mecklenthal
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kroppenleben
+        }
+
+        STEIN = { # Kauns
+            own_control_core = {
+                Steingart
+                Krossbach
+                Vals
+                Taalszahne
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kroppenleben
+        }
+
+        PFE = { # Pfeildorf
+            own_control_core = {
+                Pfeildorf
+                Bernau
+                Elzach
+                Tannau
+                Wildenhugel
+                Sollweg
+                Mecklenburg
+                Rosenhausen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Pfeildorf
+        }
+
+
+        #Wissenland
+        WIS = {
+            own_control_core = {
+                Wissenburg
+                Dotternbach
+                Haigenbach
+                Rohrhausen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Wissenburg
+        }
+
+        GES = {
+            own_control_core = {
+                Geschberg
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Geschberg
+        }
+        GRIS = { # Grissenwald
+            own_control_core = {
+                Grissenwald
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Grissenwald
+        }
+        KRE = { # Kreutzhofen
+            own_control_core = {
+                Kreutzhofen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Kreutzhofen
+        }
+
+        MEI = { #Meissen
+            own_control_core = {
+                Meissen
+                Auggen
+                Heisenberg
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Meissen
+        }
+        SCHA = { # Scharmbeck
+            own_control_core = {
+                Tierhugel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Tierhugel
+        }
+        SONN = { # Sonnefurt
+            own_control_core = {
+                Sonnefurt
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Sonnefurt
+        }
+        STEI = { # Steingart
+            own_control_core = {
+                Steingart
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Steingart
+        }
+        WUS = { # Wusterburg
+            own_control_core = {
+                Wusteburg
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Wusteburg
+        }
+        NULN = { # Nuln
+            own_control_core = {
+                Nuln
+                Ambostein
+                Segeldorf
+                Wurstheim
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Nuln
+        }
+
+        # Averheim
+        AVE = { # Averheim
+            own_control_core = {
+                Averheim
+                Monheim
+                Ruhgsdorf
+                Sorghof
+                Tannfeld
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Averheim
+        }
+        AGB = { # Agbeiten
+            own_control_core = {
+                Agbeiten
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Agbeiten
+        }
+        BERN = { # Bernloch
+            own_control_core = {
+                Bernloch
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Bernloch
+        }
+        BIE = { # Bieswang
+            own_control_core = {
+                Bieswang
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Bieswang
+        }
+        COL = { # Colmfahre
+            own_control_core = {
+                Colmfahre
+                Volsbach
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Colmfahre
+        }
+        GREN = { # Grenzstadt
+            own_control_core = {
+                Grenzstadt
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Grenzstadt
+        }
+        HEI = { # Heideck
+            own_control_core = {
+                Heideck
+                Willenfeld
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Heideck
+        }
+        HOC = { # Hocheleben
+            own_control_core = {
+                Hochsleben
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Hochsleben
+        }
+        LENG = { # Lengenfeld
+            own_control_core = {
+                Lengenfeld
+                Gebenbach
+                Mantel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Lengenfeld
+        }
+        PFU = { # Pfungzig
+            own_control_core = {
+                Pfunzig
+                Dietfurt
+                Essing
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Pfunzig
+        }
+
+        STREI = { # Streissen
+            own_control_core = {
+                Streissen
+                Dachbach
+                Eining
+                Pilsach
+                Siegenhausen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Streissen
+        }
+
+        #Hochland
+        HER = { # Hergig
+            own_control_core = {
+                Hergig
+                Dunstigfurt
+                Muden
+                Stockse
+                Vodf
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Hergig
+        }
+        BER = { # Bergendorf
+            own_control_core = {
+                Bergendorf
+                Ahresdorf
+                Wannsingen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Bergendorf
+        }
+        BRE = { # Breder
+            own_control_core = {
+                Breder
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Breder
+        }
+        ESK = { # Esk
+            own_control_core = {
+                Esk
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Esk
+        }
+        DENKH = { # Streissen
+            own_control_core = {
+                Denkh
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Denkh
+        }
+        GRU = { # Gruyden
+            own_control_core = {
+                Gruyden
+                Barwedel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Gruyden
+        }
+        KOE = { # Koerin
+            own_control_core = {
+                Koerin
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Koerin
+        }
+        KRUD = { # Krudenwald
+            own_control_core = {
+                Krudenwald
+                Hovelhof
+                Selmigerholz
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Krudenwald
+        }
+
+        #Mootland
+        EIC = { # Eichenschatten
+            own_control_core = {
+                Eicheschatten
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Eicheschatten
+        }
+        BIR = { # Birnbaum
+            own_control_core = {
+                Birnbaum
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Birnbaum
+        }
+        DRE = { # Dreiflussen
+            own_control_core = {
+                Dreiflussen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Dreiflussen
+        }
+        EIN = { # Einsamholz
+            own_control_core = {
+                Einsamholz
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Einsamholz
+        }
+        FAL = { # Fallenblatt
+            own_control_core = {
+                Fallenblatt
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Fallenblatt
+        }
+        GIP = { # Gipfel
+            own_control_core = {
+                Gipfel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Gipfel
+        }
+        SAUER = { # Sauerapfel
+            own_control_core = {
+                Sauerapfel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Sauerapfel
+        }
+
+        #Ostermark
+        MORD = { # Mordheim
+            own_control_core = {
+                Mordheim
+                Bissendorf
+                Tauer
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Mordheim
+        }
+        BECH = { # Bechafen
+            own_control_core = {
+                Bechafen
+                Dorna
+                Munkenhof
+                Reitwein
+                Rugenbuttel
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Bechafen
+        }
+        EIS = { # Eisental
+            own_control_core = {
+                Eisental
+                Mielau
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Eisental
+        }
+        ESSEN = { # Essen
+            own_control_core = {
+                Essen_plains
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Essen_plains
+        }
+        FORT = { # Fortenhaf
+            own_control_core = {
+                Fortenhaf
+                Gerdouen
+                Rheden
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Fortenhaf
+        }
+        HEF = { # Heffengen
+            own_control_core = {
+                Elbing
+                Nagenhof
+                Buckow
+                Weiler
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Nagenhof
+        }
+
+        REMER = { # Remer
+            own_control_core = {
+                Remer
+                Zeisholz
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Remer
+        }
+
+        #Ostland
+        WOLF = { # Wolfenburg
+            own_control_core = {
+                Wolfenburg
+                Dassel
+                Felde
+                Grunackern
+                Melbeck
+                Wendorf
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Wolfenburg
+        }
+        BOH = { # Bohsenfels
+            own_control_core = {
+                Bohsenfels
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Bohsenfels
+        }
+        BOV = { # Boven
+            own_control_core = {
+                Boven
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Boven
+        }
+        LENK = { # Lenkster
+            own_control_core = {
+                Lenkster
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Lenkster
+        }
+        FER = { # Ferlangen
+            own_control_core = {
+                Ferlangen
+                Aukrug
+                Dunkelpfad
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Ferlangen
+        }
+        KURST = { # Kurst
+            own_control_core = {
+                Kurst
+                Levudaldorf
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Lenkster
+        }
+        LUB = { # Lubrecht
+            own_control_core = {
+                Lubrecht
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Lubrecht
+        }
+        OBE = { # Obelstein
+            own_control_core = {
+                Obelstein
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Obelstein
+        }
+        VAND = { # Vandengart
+            own_control_core = {
+                Vandengart
+                Grenzburg
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Vandengart
+        }
+        WURZ = { # Wurzen
+            own_control_core = {
+                Wurzen
+                Dorog
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Wurzen
+        }
+        ZUND = { # Zundap
+            own_control_core = {
+                Zundap
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Zundap
+        }
+
+        # Stirland
+        WURT = { # Wurtbad
+            own_control_core = {
+                Wurtbad
+                Biberhof
+                Julbach
+                Oberwill
+                Tarshof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Wurtbad
+        }
+        BLUT = { # Blutdorf
+            own_control_core = {
+                Blutdorf
+                Kircham
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Blutdorf
+        }
+        FLEN = { # Flensburg
+            own_control_core = {
+                Flensburg
+                Lochen
+                Ramsau
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Flensburg
+        }
+        FRAN = { # Franzen
+            own_control_core = {
+                Franzen
+                Chrobok
+                Russbach
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Franzen
+        }
+        HAL = { # Halstedt
+            own_control_core = {
+                Halstedt
+                Tenneck
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Halstedt
+        }
+        LEIC = { # Leicheburg
+            own_control_core = {
+                Leicheberg
+                Naubonum
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Leicheberg
+        }
+        MAR = { # Marburg
+            own_control_core = {
+                Marberg
+                Oehling
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Marberg
+        }
+        NAC = { # Nachthafen
+            own_control_core = {
+                Nachthafen
+                Pfaffbach
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Nachthafen
+        }
+        SCHR = { # Schramleben
+            own_control_core = {
+                Schramleben
+                Hutten
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Schramleben
+        }
+        SIEGF = { # Siegfriedhof
+            own_control_core = {
+                Siegfriedhof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Siegfriedhof
+        }
+        SIG = { # Sigmaringen
+            own_control_core = {
+                Sigmaringen
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Sigmaringen
+        }
+        TEM = { # Tempelhof
+            own_control_core = {
+                Tempelhof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Tempelhof
+        }
+        VANHA = { # Vanhaldenhof
+            own_control_core = {
+                Vanhaldenhof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Vanhaldenhof
+        }
+        WORD = { # Wordern
+            own_control_core = {
+                Worden
+                Kelham
+                Nussbach
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Worden
+        }
+        WALD = { # Waldenhof
+            own_control_core = {
+                Waldenhof
+                Egling
+                Hundhum
+                Mikalsdorf
+                Regakhof
+                Thyrnau
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Waldenhof
+        }
+#Reikland
+        ALT = { # Altdorf
+            own_control_core = {
+                Altdorf
+                Blutroch
+                Braunwurt
+                Bundesmarkt
+                Frederheim
+                Furtild
+                Geldrecht
+                Grossbad
+                Kaldach
+                Teufelfeuer
+                Walfen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Altdorf
+        }
+        AUER = { # Auerswald
+            own_control_core = {
+                Auerswald
+                Hahnbrandt
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Auerswald
+        }
+        BOGEN = { # Bogenhafen
+            own_control_core = {
+                Bogenhafen
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Bogenhafen
+        }
+        DUNK = { # Dunkelburg
+            own_control_core = {
+                Dunkelburg
+                Schattenlas
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Dunkelburg
+        }
+        DIES = { # Diesdorf
+            own_control_core = {
+                Diesdorf
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Diesdorf
+        }
+        EIL = { # Eilhart
+            own_control_core = {
+                Eilhart
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Eilhart
+        }
+        GRUN = { # Grunburg
+            own_control_core = {
+                Grunburg
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Grunburg
+        }
+        HELM = { # Auerswald
+            own_control_core = {
+                Helmgart
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Helmgart
+        }
+        SCHIL = { # Holthusen
+            own_control_core = {
+                Schilderheim
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Schilderheim
+        }
+        STIM = { # Stimmigen
+            own_control_core = {
+                Stimmigen
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Stimmigen
+        }
+        UBER = { # Ubersreik
+            own_control_core = {
+                Ubersreik
+
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_duchy
+            capital = Ubersreik
+        }
+
 
         #Cults
 
@@ -1028,6 +3070,102 @@ countries = {
 
             }
         }
+
+        CMO = { #Cult of Morr
+            capital = Altdorf
+            type = building
+            country_rank = rank_kingdom
+            starting_technology_level = 3
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = theocracy
+                reforms = { imperial_cult }
+                ruler = random
+
+            }
+        }
+
+        CSH = { #Cult of Shallya
+            capital = Altdorf
+            type = building
+            country_rank = rank_kingdom
+            starting_technology_level = 3
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = theocracy
+                reforms = { imperial_cult }
+                ruler = random
+
+            }
+        }
+
+        CTA = { #Cult of Taal
+            capital = Talabheim
+            type = building
+            country_rank = rank_kingdom
+            starting_technology_level = 3
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = theocracy
+                reforms = { imperial_cult }
+                ruler = random
+
+            }
+        }
+
+        CRH = { #Cult of Rhya
+            capital = Altdorf
+            type = building
+            country_rank = rank_kingdom
+            starting_technology_level = 3
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = theocracy
+                reforms = { cult_of_rhya }
+                ruler = random
+
+            }
+        }
+
+        CUL = { #Cult of Ulric
+            capital = Talabheim
+            type = building
+            country_rank = rank_kingdom
+            starting_technology_level = 3
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = theocracy
+                reforms = { cult_of_ulric }
+                ruler = random
+
+            }
+        }
+
+        # CFUL = { #Cult of Frae Ulric
+        #     capital = Middenheim
+        #     type = building
+        #     country_rank = rank_kingdom
+        #     starting_technology_level = 3
+        #
+        #     include = "expl_average_imperial"
+        #
+        #     government = {
+        #         type = theocracy
+        #         reforms = { cult_of_ulric }
+        #         ruler = random
+        #
+        #     }
+        # }
 
 
     }

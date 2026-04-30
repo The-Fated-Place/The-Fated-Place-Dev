@@ -106,7 +106,7 @@ endal = {
 	}
 }
 
-jutones = {
+jutone = {
 	language = reikspiel_language # language or dialect
 
 	color = map_nordland # jomini color
@@ -131,6 +131,125 @@ jutones = {
 		human_group
 		imperial_group
 	}
+}
+
+meernordlander = {
+    language = reikspiel_language # language or dialect
+
+    color = map_nordland # jomini color
+
+    tags = { european_gfx } # gfx tags
+
+    country_modifier = {
+
+    }
+    location_modifier = {
+
+    }
+    character_modifier = {
+
+    }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        human_group
+        imperial_group
+        jutone_group
+        norscan_group
+        nordland_group
+    }
+}
+
+
+was_jutone = {
+    language = reikspiel_language # language or dialect
+
+    color = map_nordland # jomini color
+
+    tags = { european_gfx } # gfx tags
+
+    country_modifier = {
+
+    }
+    location_modifier = {
+
+    }
+    character_modifier = {
+
+    }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        human_group
+        imperial_group
+        jutone_group
+    }
+}
+
+hugelnordlander = {
+    language = reikspiel_language # language or dialect
+
+    color = map_nordland # jomini color
+
+    tags = { european_gfx } # gfx tags
+
+    country_modifier = {
+
+    }
+    location_modifier = {
+
+    }
+    character_modifier = {
+
+    }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        human_group
+        imperial_group
+        jutone_group
+        norscan_group
+        nordland_group
+    }
+}
+
+waldnordlander = {
+    language = reikspiel_language # language or dialect
+
+    color = map_nordland # jomini color
+
+    tags = { european_gfx } # gfx tags
+
+    country_modifier = {
+
+    }
+    location_modifier = {
+
+    }
+    character_modifier = {
+
+    }
+
+    opinions = {
+
+    }
+
+    culture_groups = {
+        human_group
+        imperial_group
+        jutone_group
+        nordland_group
+        middenland_group
+    }
 }
 
 unberogen = {

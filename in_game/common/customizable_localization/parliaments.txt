@@ -4,7 +4,7 @@
     text = {
         localization_key = country_flavor_parliament_stadsraad
         trigger = {
-            culture = culture:jutones
+            culture = culture:jutone
         }
     }
 	text = {

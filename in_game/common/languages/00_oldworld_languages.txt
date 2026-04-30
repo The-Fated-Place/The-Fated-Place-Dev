@@ -1,10 +1,10 @@
-reikspiel_language = {
-	color = map_reikland
+﻿reikspiel_language = {
+    color = map_reikland
 
-	family = oldworlder_language_family
+    family = oldworlder_language_family
 
-	male_names = {
-		Abelhard
+    male_names = {
+        Abelhard
         Adelbrand
         Alaric
         Balthasar
@@ -24,8 +24,8 @@ reikspiel_language = {
         Reinhard
         Ulrich
         Wolfgang
-	}
-	female_names = {
+    }
+    female_names = {
         Adelind
         Agnetha
         Alfrida
@@ -46,23 +46,23 @@ reikspiel_language = {
         Ophelia
         Rosamunde
         Ursula
-	}
-	dynasty_names = {
+    }
+    dynasty_names = {
 
-	}
-	lowborn = {
+    }
+    lowborn = {
 
-	}
+    }
 }
 
 
 mootish_language = {
-	color = map_mootish
+    color = map_mootish
 
-	family = ogrehalfling_language_family
+    family = ogrehalfling_language_family
 
-	male_names = {
-		Abelhard
+    male_names = {
+        Abelhard
         Adelbrand
         Alaric
         Balthasar
@@ -82,8 +82,8 @@ mootish_language = {
         Reinhard
         Ulrich
         Wolfgang
-	}
-	female_names = {
+    }
+    female_names = {
         Adelind
         Agnetha
         Alfrida
@@ -104,22 +104,22 @@ mootish_language = {
         Ophelia
         Rosamunde
         Ursula
-	}
-	dynasty_names = {
+    }
+    dynasty_names = {
 
-	}
-	lowborn = {
+    }
+    lowborn = {
 
-	}
+    }
 }
 
 khazalid_language = {
-	color = map_ancestors
+    color = map_ancestors
 
-	family = dawi_language_family
+    family = dawi_language_family
 
-	male_names = {
-		Abelhard
+    male_names = {
+        Abelhard
         Adelbrand
         Alaric
         Balthasar
@@ -139,8 +139,8 @@ khazalid_language = {
         Reinhard
         Ulrich
         Wolfgang
-	}
-	female_names = {
+    }
+    female_names = {
         Adelind
         Agnetha
         Alfrida
@@ -161,22 +161,22 @@ khazalid_language = {
         Ophelia
         Rosamunde
         Ursula
-	}
-	dynasty_names = {
+    }
+    dynasty_names = {
 
-	}
-	lowborn = {
+    }
+    lowborn = {
 
-	}
+    }
 }
 
 old_kislevarin_language = {
-	color = map_ungol
+    color = map_ungol
 
-	family = kislevite_language_family
+    family = kislevite_language_family
 
-	male_names = {
-		Abelhard
+    male_names = {
+        Abelhard
         Adelbrand
         Alaric
         Balthasar
@@ -196,8 +196,8 @@ old_kislevarin_language = {
         Reinhard
         Ulrich
         Wolfgang
-	}
-	female_names = {
+    }
+    female_names = {
         Adelind
         Agnetha
         Alfrida
@@ -218,22 +218,22 @@ old_kislevarin_language = {
         Ophelia
         Rosamunde
         Ursula
-	}
-	dynasty_names = {
+    }
+    dynasty_names = {
 
-	}
-	lowborn = {
+    }
+    lowborn = {
 
-	}
+    }
 }
 
 norsii_language = {
-	color = map_norsii
+    color = map_norsii
 
-	family = norsii_language_family
+    family = norsii_language_family
 
-	male_names = {
-		Abelhard
+    male_names = {
+        Abelhard
         Adelbrand
         Alaric
         Balthasar
@@ -253,8 +253,8 @@ norsii_language = {
         Reinhard
         Ulrich
         Wolfgang
-	}
-	female_names = {
+    }
+    female_names = {
         Adelind
         Agnetha
         Alfrida
@@ -275,11 +275,11 @@ norsii_language = {
         Ophelia
         Rosamunde
         Ursula
-	}
-	dynasty_names = {
+    }
+    dynasty_names = {
 
-	}
-	lowborn = {
+    }
+    lowborn = {
 
-	}
+    }
 }

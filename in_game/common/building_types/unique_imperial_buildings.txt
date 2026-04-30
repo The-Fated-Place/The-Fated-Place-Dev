@@ -71,7 +71,6 @@ manaanshaven = {
         is_port = yes
     }
     employment_size = dock_employment
-    pop_size_created = dock_employment
     town = yes
     city = yes
     build_time = large_port_building_time
@@ -87,5 +86,27 @@ manaanshaven = {
         harbor_suitability = 0.1
         local_repair_speed = 0.01
     }
+}
+
+imperial_capital = {
+    is_foreign = yes
+    pop_type = nobles
+    max_levels = 1
+    category = government_category
+    employment_size = huge_noble_employment
+    town = yes
+    city = yes
+    build_time = large_cultural_building_time
+    capital_country_modifier = {
+        government_size =  1
+        monthly_prestige = 0.1
+        monthly_legitimacy = 0.1
+    }
+    modifier = {
+        local_migration_attraction = 0.1
+        local_nobles_desired_pop = 3
+    }
+
+
 }
 

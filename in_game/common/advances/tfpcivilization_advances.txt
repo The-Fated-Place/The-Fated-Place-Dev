@@ -21,6 +21,7 @@ mapmaking = {
 	research_cost = 1.0
 	may_explore = yes
 	unlock_law = immigration_law
+    starting_technology_level = 2
 }
 
 codified_laws = {
@@ -45,6 +46,7 @@ subjects_advance = {
 	unlock_subject_type = vassal
 
 	requires = codified_laws
+    starting_technology_level = 2
 }
 
 cultural_acceptance_advance = {
@@ -55,14 +57,15 @@ cultural_acceptance_advance = {
 	requires = cultural_traditions_law_advance
 }
 
-colonies = {
-	age = age_1_traditions
-	icon = colonies
-	requires = mapmaking
-
-	research_cost = 1.0
-	can_colonize = yes
-}
+# colonies = {
+# 	age = age_1_traditions
+# 	icon = colonies
+# 	requires = mapmaking
+#
+# 	research_cost = 1.0
+# 	can_colonize = yes
+#     starting_technology_level = 2
+# }
 
 
 taxation_advance = {
@@ -75,6 +78,7 @@ taxation_advance = {
 	unlock_law = coin_laws
 
 	requires = codified_laws
+    starting_technology_level = 2
 }
 
 #Agriculture
@@ -125,7 +129,7 @@ organized_religion = {
     allow = { has_embraced_institution = institution:civilization }
 
     depth = 0
-    starting_technology_level = 4
+    starting_technology_level = 2
 
 }
 
@@ -140,6 +144,7 @@ mining_advance = {
     allow = { has_embraced_institution = institution:civilization }
     can_extract_stone = yes
     can_extract_marble = yes
+
 }
 
 metallurgy  = {
@@ -149,6 +154,7 @@ metallurgy  = {
     research_cost = 2.0
 
     unlock_building = tools_guild
+    starting_technology_level = 2
 
 }
 
@@ -172,6 +178,7 @@ bronze_working = {
     can_extract_copper = yes
     can_extract_tin = yes
     can_extract_lead = yes
+    starting_technology_level = 1
 
 }
 
@@ -183,7 +190,7 @@ iron_working = {
     starting_technology_level = 1
 
     allow = {
-        has_embraced_institution = institution:feudalism
+        has_embraced_institution = institution:civilization
     }
 
     can_extract_coal = yes
@@ -212,6 +219,7 @@ fine_metals_mining = {
     age = age_1_traditions
     requires = bronze_working
     research_cost = 2.0
+    starting_technology_level = 2
 
     can_extract_goods_gold = yes
     can_extract_silver = yes
@@ -226,17 +234,17 @@ library_advance = {
 	unlock_building = library
 }
 
-settle_the_frontier_advance = {
-	icon = expansionism
-	age = age_1_traditions
-	potential = {
-		OR = {
-			country_type = location
-			country_type = army
-		}
-
-		NOT = { is_subject_type = colonial_nation }
-	}
-	requires = city_building_advance
-	unlock_cabinet_action = settle_the_frontier
-}
+# settle_the_frontier_advance = {
+# 	icon = expansionism
+# 	age = age_1_traditions
+# 	potential = {
+# 		OR = {
+# 			country_type = location
+# 			country_type = army
+# 		}
+#
+# 		NOT = { is_subject_type = colonial_nation }
+# 	}
+# 	requires = city_building_advance
+# 	unlock_cabinet_action = settle_the_frontier
+# }

@@ -2,6 +2,16 @@ human_group = {}
 
 imperial_group = {}
 
+norscan_group = {}
+
+norsii_group = {}
+
+jutone_group = {}
+
+nordland_group = {}
+
+middenland_group = {}
+
 dwarf_group = {}
 
 halfling_group = {}
