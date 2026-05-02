@@ -439,12 +439,10 @@ international_organization_manager = {
         creation_date = 1.1.1
         members = {
             MORD
-            BECH
             EIS
             ESSEN
             FOR
             HEF
-            REMER
 
         }
         leader = MORD
@@ -453,6 +451,21 @@ international_organization_manager = {
         areas = {
         }
         provinces = {
+            bissendorf_province
+            eastern_forest_province
+            east_dunkelkuste_province
+            poritz_province
+            central_ostermark_plains_province
+            nagenhof_province
+            dnierson_province
+            badenhof_province
+            tobenamed4_province
+            bahlkurk_province
+            eisental_province
+            essen_province
+            south_ostermark_plains_province
+            dead_woods_province
+            totensumpfe_province
         }
         locations = {
         }
@@ -470,7 +483,6 @@ international_organization_manager = {
             KURST
             LUB
             OBE
-            SALK
             SMALL
             VAND
             WURZ

@@ -17,84 +17,84 @@ TAL = { #Talabheim
     color = rgb { 16 41 202 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 KUS = { #Kusel
     color = rgb { 16 202 186 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 BEK = { #Bek
     color = rgb { 236 232 20 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 GAR = { # Garndorf
     color = rgb { 230 111 111 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 GER = { # Gersdorf
     color = rgb { 204 213 204 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 HERM = { # Hermsdorf
     color = rgb { 156 202 16 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 KRU = { # Krugenheim
     color = rgb { 236 232 20 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 LIE = { # Lieske
     color = rgb { 16 159 220 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 OSS = { # Ossino
     color = rgb { 112 16 202 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 RAN = { # Rangenhof
     color = rgb { 202 16 121 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 RAV = { # Ravenstein
     color = rgb { 202 165 16 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 UNT = { # Unterbaum
     color = rgb { 35 16 202 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 
@@ -102,21 +102,21 @@ VOL = { # Volgen
     color = rgb { 162 16 202 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 WELL = { # Welleborn
     color = rgb { 190 195 225 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 ZUR = { # Zurin
     color = rgb { 18 101 10 }
     color2 = rgb { 16 41 202 }
 
-    culture_definition = taleuten
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 }
 
@@ -129,7 +129,7 @@ MRB = { #Marienburg
 
     unit_color0 = rgb { 14 213 220 }
 
-    culture_definition = jutone
+    culture_definition = marienburger
     religion_definition = imperial_cults
 }
 
@@ -258,84 +258,84 @@ OCK = { #Norden
 AAR = { #Aarnau
     color = rgb { 40 180 190 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 GRR = { #Gorrsel
     color = rgb { 70 230 240 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 KLE = { #Klessen
     color = rgb { 0 160 170 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 KAL = { #Kalkaat
     color = rgb { 180 170 40 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 ZAN = { #Zandt
     color = rgb { 240 230 100 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 LEY = { #Leydenhoven
     color = rgb { 160 150 30 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 BRO = { #Broekwater
     color = rgb { 200 40 30 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 ALM= { #Almshoven
     color = rgb { 255 80 60 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 SLF= { #Salfen
     color = rgb { 180 20 20 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 LEH= { #Lehmbruck
     color = rgb { 210 90 70 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 LEH= { #Lehmbruck
     color = rgb { 210 90 70 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
 HOL = { #Holzbeck
     color = rgb { 70 210 103 }
 
-    culture_definition = endal
+    culture_definition = westerlander
     religion_definition = imperial_cults
 }
 
@@ -344,40 +344,40 @@ HOL = { #Holzbeck
 IMM = { #Immelscheid
     color = rgb { 70 210 205 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 
 SOH = { #Sohk
     color = rgb { 210 133 70 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 
 LINZ = { #Linz
     color = rgb { 175 216 184 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 
 NORD = { #Norderingen
     color = rgb { 70 93 210 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 THU = { #Thugenheim
     color = rgb { 159 70 210 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 MID = { #Middenheim
     color = rgb { 70 147 210 }
 
-    culture_definition = endal
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 }
 
@@ -385,70 +385,70 @@ MID = { #Middenheim
 SCE= { # Scheinfeld
     color = rgb { 201 210 70 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 NUP= { # Nupstedt
     color = rgb { 157 195 227 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 UDER= { # Uder
     color = rgb { 70 72 210 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 HUP= { # Hupstedt
     color = rgb { 147 70 210 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 CAR= { # Carroburg
     color = rgb { 62 4 21 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 BRH= { # Barenfahre
     color = rgb { 22 121 202 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 SEN= { # Senden
     color = rgb { 79 90 99 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 ANS= { # Anseldorf
     color = rgb { 70 210 135 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 PUNZ= { # Punzen
     color = rgb { 70 114 210 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 ROS= { # Rosche
     color = rgb { 210 70 203 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
@@ -456,14 +456,14 @@ ROS= { # Rosche
 MTM= { # Mittlemund
     color = rgb { 70 210 140 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
 CMM= { # Cammendum
     color = rgb { 142 70 210 }
 
-    culture_definition = endal
+    culture_definition = drakwalder
     religion_definition = imperial_cults
 }
 
@@ -471,26 +471,26 @@ CMM= { # Cammendum
 AHL = { # Ahlenhof
     color = rgb { 70 210 126 }
 
-    culture_definition = endal
+    culture_definition = middenlander
     religion_definition = imperial_cults
 }
 
 MIDD= { # Middenstag
     color = rgb { 70 93 210 }
 
-    culture_definition = endal
+    culture_definition = middenlander
     religion_definition = imperial_cults
 }
 GRI= { # Grimmenhagen
     color = rgb { 70 210 184 }
 
-    culture_definition = endal
+    culture_definition = middenlander
     religion_definition = imperial_cults
 }
 DEL= { # Delberz
     color = rgb { 210 70 187 }
 
-    culture_definition = endal
+    culture_definition = middenlander
     religion_definition = imperial_cults
 }
 
@@ -498,31 +498,31 @@ DEL= { # Delberz
 ALTH= { # Wissenburg
     color = rgb { 210 91 70 }
 
-    culture_definition = endal
+    culture_definition = sollander
     religion_definition = imperial_cults
 }
 KROP= { # Kroppenleben
     color = rgb { 243 146 227 }
 
-    culture_definition = endal
+    culture_definition = sollander
     religion_definition = imperial_cults
 }
 KAUNS= { # Kauns
     color = rgb { 147 38 129 }
 
-    culture_definition = endal
+    culture_definition = sollander
     religion_definition = imperial_cults
 }
 STEIN= { # Steingart
     color = rgb { 146 243 148 }
 
-    culture_definition = endal
+    culture_definition = sollander
     religion_definition = imperial_cults
 }
 PFE= { # Pfeildorf
     color = rgb { 70 156 210 }
 
-    culture_definition = endal
+    culture_definition = sollander
     religion_definition = imperial_cults
 }
 
@@ -531,157 +531,158 @@ PFE= { # Pfeildorf
 WIS= { # Wissenburg
     color = rgb { 210 91 70 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 GES = { # Geschburg
     color = rgb { 70 77 210 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 GRIS= { # Grissenwald
     color = rgb { 94 56 88 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 KRE= { # Kreutzhofen
     color = rgb { 210 203 70 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 
 MEI= { # Meissen
     color = rgb { 210 70 107 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 PFE= { # Pfeildorf
     color = rgb { 70 156 210 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 SCHA= { # Scharmbeck
     color = rgb { 135 28 117 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 SONN= { # Sonnefurt
     color = rgb { 126 210 70 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 STEI= { # Steingart
     color = rgb { 210 70 82 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 WUS= { # Wusterburg
     color = rgb { 70 126 210 }
 
-    culture_definition = endal
+    culture_definition = wissenlander
     religion_definition = imperial_cults
 }
 NULN= { # Nuln
     color = rgb { 104 102 104 }
 
-    culture_definition = endal
+    culture_definition = nulner
     religion_definition = imperial_cults
 }
+
 #Averland
-AVE= { color = rgb { 142 88 173 } culture_definition = endal religion_definition = imperial_cults }
-AGB= { color = rgb { 91 156 134 } culture_definition = endal religion_definition = imperial_cults }
-BERN= { color = rgb { 178 112 96 } culture_definition = endal religion_definition = imperial_cults }
-BIE= { color = rgb { 120 140 189 } culture_definition = endal religion_definition = imperial_cults }
-COL= { color = rgb { 167 95 141 } culture_definition = endal religion_definition = imperial_cults }
-GREN= { color = rgb { 103 178 121 } culture_definition = endal religion_definition = imperial_cults }
-HEI= { color = rgb { 150 132 82 } culture_definition = endal religion_definition = imperial_cults }
-HOC= { color = rgb { 89 109 177 } culture_definition = endal religion_definition = imperial_cults }
-LENG= { color = rgb { 172 118 158 } culture_definition = endal religion_definition = imperial_cults }
-PFU= { color = rgb { 111 164 97 } culture_definition = endal religion_definition = imperial_cults }
-STREI= { color = rgb { 136 101 182 } culture_definition = endal religion_definition = imperial_cults }
+AVE= { color = rgb { 142 88 173 } culture_definition = averlander religion_definition = imperial_cults }
+AGB= { color = rgb { 91 156 134 } culture_definition = averlander religion_definition = imperial_cults }
+BERN= { color = rgb { 178 112 96 } culture_definition = averlander religion_definition = imperial_cults }
+BIE= { color = rgb { 120 140 189 } culture_definition = averlander religion_definition = imperial_cults }
+COL= { color = rgb { 167 95 141 } culture_definition = averlander religion_definition = imperial_cults }
+GREN= { color = rgb { 103 178 121 } culture_definition = averlander religion_definition = imperial_cults }
+HEI= { color = rgb { 150 132 82 } culture_definition = averlander religion_definition = imperial_cults }
+HOC= { color = rgb { 89 109 177 } culture_definition = averlander religion_definition = imperial_cults }
+LENG= { color = rgb { 172 118 158 } culture_definition = averlander religion_definition = imperial_cults }
+PFU= { color = rgb { 111 164 97 } culture_definition = averlander religion_definition = imperial_cults }
+STREI= { color = rgb { 136 101 182 } culture_definition = averlander religion_definition = imperial_cults }
 
 #Hochland
-HER= { color = rgb { 158 93 119 } culture_definition = endal religion_definition = imperial_cults }
-BER= { color = rgb { 94 173 150 } culture_definition = endal religion_definition = imperial_cults }
-BRE= { color = rgb { 181 126 88 } culture_definition = endal religion_definition = imperial_cults }
-ESK= { color = rgb { 119 148 168 } culture_definition = endal religion_definition = imperial_cults }
-DENKH= { color = rgb { 160 104 140 } culture_definition = endal religion_definition = imperial_cults }
-GRU= { color = rgb { 102 169 110 } culture_definition = endal religion_definition = imperial_cults }
-KOE= { color = rgb { 147 137 91 } culture_definition = endal religion_definition = imperial_cults }
-KRUD= { color = rgb { 90 120 165 } culture_definition = endal religion_definition = imperial_cults }
+HER= { color = rgb { 158 93 119 } culture_definition = hochlander religion_definition = imperial_cults }
+BER= { color = rgb { 94 173 150 } culture_definition = hochlander religion_definition = imperial_cults }
+BRE= { color = rgb { 181 126 88 } culture_definition = hochlander religion_definition = imperial_cults }
+ESK= { color = rgb { 119 148 168 } culture_definition = hochlander religion_definition = imperial_cults }
+DENKH= { color = rgb { 160 104 140 } culture_definition = hochlander religion_definition = imperial_cults }
+GRU= { color = rgb { 102 169 110 } culture_definition = hochlander religion_definition = imperial_cults }
+KOE= { color = rgb { 147 137 91 } culture_definition = hochlander religion_definition = imperial_cults }
+KRUD= { color = rgb { 90 120 165 } culture_definition = hochlander religion_definition = imperial_cults }
 
 # Mootland
-EIC= { color = rgb { 175 115 152 } culture_definition = endal religion_definition = imperial_cults }
-BIR= { color = rgb { 108 158 102 } culture_definition = endal religion_definition = imperial_cults }
-DRE= { color = rgb { 133 94 176 } culture_definition = endal religion_definition = imperial_cults }
-EIN= { color = rgb { 159 134 84 } culture_definition = endal religion_definition = imperial_cults }
-FAL= { color = rgb { 96 147 137 } culture_definition = endal religion_definition = imperial_cults }
-GIP= { color = rgb { 171 102 123 } culture_definition = endal religion_definition = imperial_cults }
-SAUER= { color = rgb { 114 178 145 } culture_definition = endal religion_definition = imperial_cults }
+EIC= { color = rgb { 175 115 152 } culture_definition = mootish religion_definition = imperial_cults }
+BIR= { color = rgb { 108 158 102 } culture_definition = mootish religion_definition = imperial_cults }
+DRE= { color = rgb { 133 94 176 } culture_definition = mootish religion_definition = imperial_cults }
+EIN= { color = rgb { 159 134 84 } culture_definition = mootish religion_definition = imperial_cults }
+FAL= { color = rgb { 96 147 137 } culture_definition = mootish religion_definition = imperial_cults }
+GIP= { color = rgb { 171 102 123 } culture_definition = mootish religion_definition = imperial_cults }
+SAUER= { color = rgb { 114 178 145 } culture_definition = sauerapfel_culture religion_definition = imperial_cults }
 
 #Ostermark
-MORD= { color = rgb { 182 121 99 } culture_definition = endal religion_definition = imperial_cults }
-BECH= { color = rgb { 101 135 173 } culture_definition = endal religion_definition = imperial_cults }
-EIS= { color = rgb { 145 90 160 } culture_definition = endal religion_definition = imperial_cults }
-ESSEN= { color = rgb { 118 167 109 } culture_definition = endal religion_definition = imperial_cults }
-FORT= { color = rgb { 169 108 131 } culture_definition = endal religion_definition = imperial_cults }
-HEF= { color = rgb { 92 154 148 } culture_definition = endal religion_definition = imperial_cults }
-REMER= { color = rgb { 153 139 87 } culture_definition = endal religion_definition = imperial_cults }
+MORD= { color = rgb { 182 121 99 } culture_definition = ostermarker religion_definition = imperial_cults }
+BECH= { color = rgb { 101 135 173 } culture_definition = ostermarker religion_definition = imperial_cults }
+EIS= { color = rgb { 145 90 160 } culture_definition = ostermarker religion_definition = imperial_cults }
+ESSEN= { color = rgb { 118 167 109 } culture_definition = ostermarker religion_definition = imperial_cults }
+FORT= { color = rgb { 169 108 131 } culture_definition = ostermarker religion_definition = imperial_cults }
+HEF= { color = rgb { 92 154 148 } culture_definition = ostermarker religion_definition = imperial_cults }
+REMER= { color = rgb { 153 139 87 } culture_definition = ostermarker religion_definition = imperial_cults }
 
 #Ostland
-WOLF= { color = rgb { 177 97 142 } culture_definition = endal religion_definition = imperial_cults }
-BOH= { color = rgb { 109 171 120 } culture_definition = endal religion_definition = imperial_cults }
-BOV= { color = rgb { 138 113 178 } culture_definition = endal religion_definition = imperial_cults }
-LENK= { color = rgb { 95 143 166 } culture_definition = endal religion_definition = imperial_cults }
-FER= { color = rgb { 162 104 111 } culture_definition = endal religion_definition = imperial_cults }
-KURST= { color = rgb { 117 180 135 } culture_definition = endal religion_definition = imperial_cults }
-LUB= { color = rgb { 149 126 92 } culture_definition = endal religion_definition = imperial_cults }
-OBE= { color = rgb { 88 132 174 } culture_definition = endal religion_definition = imperial_cults }
-SMALL= { color = rgb { 104 165 100 } culture_definition = endal religion_definition = imperial_cults }
-VAND= { color = rgb { 136 98 181 } culture_definition = endal religion_definition = imperial_cults }
-WURZ= { color = rgb { 158 140 83 } culture_definition = endal religion_definition = imperial_cults }
-ZUND= { color = rgb { 91 150 139 } culture_definition = endal religion_definition = imperial_cults }
+WOLF= { color = rgb { 177 97 142 } culture_definition = ostlander religion_definition = imperial_cults }
+BOH= { color = rgb { 109 171 120 } culture_definition = was_ostlander religion_definition = imperial_cults }
+BOV= { color = rgb { 138 113 178 } culture_definition = ostlander religion_definition = imperial_cults }
+LENK= { color = rgb { 95 143 166 } culture_definition = ostlander religion_definition = imperial_cults }
+FER= { color = rgb { 162 104 111 } culture_definition = ostlander religion_definition = imperial_cults }
+KURST= { color = rgb { 117 180 135 } culture_definition = ostlander religion_definition = imperial_cults }
+LUB= { color = rgb { 149 126 92 } culture_definition = ostlander religion_definition = imperial_cults }
+OBE= { color = rgb { 88 132 174 } culture_definition = was_ostlander religion_definition = imperial_cults }
+SMALL= { color = rgb { 104 165 100 } culture_definition = ostlander religion_definition = imperial_cults }
+VAND= { color = rgb { 136 98 181 } culture_definition = ostlander religion_definition = imperial_cults }
+WURZ= { color = rgb { 158 140 83 } culture_definition = ostlander religion_definition = imperial_cults }
+ZUND= { color = rgb { 91 150 139 } culture_definition = ostlander religion_definition = imperial_cults }
 
 #Stirland
-WURT= { color = rgb { 180 118 128 } culture_definition = endal religion_definition = imperial_cults }
-BLUT= { color = rgb { 112 172 147 } culture_definition = endal religion_definition = imperial_cults }
-DRAK= { color = rgb { 141 96 170 } culture_definition = endal religion_definition = imperial_cults }
-FLEN= { color = rgb { 100 136 161 } culture_definition = endal religion_definition = imperial_cults }
-FRAN= { color = rgb { 166 109 103 } culture_definition = endal religion_definition = imperial_cults }
-HAL= { color = rgb { 121 179 116 } culture_definition = endal religion_definition = imperial_cults }
-LEIC= { color = rgb { 152 128 89 } culture_definition = endal religion_definition = imperial_cults }
-MAR= { color = rgb { 93 145 175 } culture_definition = endal religion_definition = imperial_cults }
-NAC= { color = rgb { 174 101 149 } culture_definition = endal religion_definition = imperial_cults }
-SCHR= { color = rgb { 107 160 132 } culture_definition = endal religion_definition = imperial_cults }
-SIEGF= { color = rgb { 139 117 180 } culture_definition = endal religion_definition = imperial_cults }
-SIG= { color = rgb { 96 138 152 } culture_definition = endal religion_definition = imperial_cults }
-TEM= { color = rgb { 168 112 121 } culture_definition = endal religion_definition = imperial_cults }
-VANHA= { color = rgb { 115 176 140 } culture_definition = endal religion_definition = imperial_cults }
-WALD= { color = rgb { 146 133 94 } culture_definition = endal religion_definition = imperial_cults }
-WORD= { color = rgb { 89 151 167 } culture_definition = endal religion_definition = imperial_cults }
+WURT= { color = rgb { 180 118 128 } culture_definition = stirlander religion_definition = imperial_cults }
+BLUT= { color = rgb { 112 172 147 } culture_definition = stirlander religion_definition = imperial_cults }
+DRAK= { color = rgb { 141 96 170 } culture_definition = sylvanian religion_definition = imperial_cults }
+FLEN= { color = rgb { 100 136 161 } culture_definition = stirlander religion_definition = imperial_cults }
+FRAN= { color = rgb { 166 109 103 } culture_definition = stirlander religion_definition = imperial_cults }
+HAL= { color = rgb { 121 179 116 } culture_definition = stirlander religion_definition = imperial_cults }
+LEIC= { color = rgb { 152 128 89 } culture_definition = sylvanian religion_definition = imperial_cults }
+MAR= { color = rgb { 93 145 175 } culture_definition = stirlander religion_definition = imperial_cults }
+NAC= { color = rgb { 174 101 149 } culture_definition = sylvanian religion_definition = imperial_cults }
+SCHR= { color = rgb { 107 160 132 } culture_definition = stirlander religion_definition = imperial_cults }
+SIEGF= { color = rgb { 139 117 180 } culture_definition = stirlander religion_definition = imperial_cults }
+SIG= { color = rgb { 96 138 152 } culture_definition = stirlander religion_definition = imperial_cults }
+TEM= { color = rgb { 168 112 121 } culture_definition = sylvanian religion_definition = imperial_cults }
+VANHA= { color = rgb { 115 176 140 } culture_definition = sylvanian religion_definition = imperial_cults }
+WALD= { color = rgb { 146 133 94 } culture_definition = sylvanian religion_definition = imperial_cults }
+WORD= { color = rgb { 89 151 167 } culture_definition = stirlander religion_definition = imperial_cults }
 
 #Reikland
-KEMP= { color = rgb { 173 102 138 } culture_definition = endal religion_definition = imperial_cults }
-ALT= { color = rgb { 97 164 121 } culture_definition = endal religion_definition = imperial_cults }
-UBER= { color = rgb { 142 118 179 } culture_definition = endal religion_definition = imperial_cults }
-STIM= { color = rgb { 109 145 167 } culture_definition = endal religion_definition = imperial_cults }
-DUNK= { color = rgb { 181 123 94 } culture_definition = endal religion_definition = imperial_cults }
-AUER= { color = rgb { 120 178 136 } culture_definition = endal religion_definition = imperial_cults }
-BOGEN= { color = rgb { 158 97 152 } culture_definition = endal religion_definition = imperial_cults }
-EIL= { color = rgb { 91 134 174 } culture_definition = endal religion_definition = imperial_cults }
-DIES= { color = rgb { 167 110 115 } culture_definition = endal religion_definition = imperial_cults }
-GRUN= { color = rgb { 113 169 104 } culture_definition = endal religion_definition = imperial_cults }
-HELM= { color = rgb { 149 128 87 } culture_definition = endal religion_definition = imperial_cults }
-SCHIL= { color = rgb { 102 156 148 } culture_definition = endal religion_definition = imperial_cults }
-STIM= { color = rgb { 176 119 160 } culture_definition = endal religion_definition = imperial_cults }
+KEMP= { color = rgb { 173 102 138 } culture_definition = reiklander religion_definition = imperial_cults }
+ALT= { color = rgb { 97 164 121 } culture_definition = reiklander religion_definition = imperial_cults }
+UBER= { color = rgb { 142 118 179 } culture_definition = reiklander religion_definition = imperial_cults }
+STIM= { color = rgb { 109 145 167 } culture_definition = reiklander religion_definition = imperial_cults }
+DUNK= { color = rgb { 181 123 94 } culture_definition = reiklander religion_definition = imperial_cults }
+AUER= { color = rgb { 120 178 136 } culture_definition = reiklander religion_definition = imperial_cults }
+BOGEN= { color = rgb { 158 97 152 } culture_definition = reiklander religion_definition = imperial_cults }
+EIL= { color = rgb { 91 134 174 } culture_definition = reiklander religion_definition = imperial_cults }
+DIES= { color = rgb { 167 110 115 } culture_definition = reiklander religion_definition = imperial_cults }
+GRUN= { color = rgb { 113 169 104 } culture_definition = reiklander religion_definition = imperial_cults }
+HELM= { color = rgb { 149 128 87 } culture_definition = reiklander religion_definition = imperial_cults }
+SCHIL= { color = rgb { 102 156 148 } culture_definition = reiklander religion_definition = imperial_cults }
+STIM= { color = rgb { 176 119 160 } culture_definition = reiklander religion_definition = imperial_cults }
 
 
 #CULTS
@@ -690,7 +691,7 @@ CMA = { # Cult of Manaan
     color = rgb { 13 36 184 }
     color2 = rgb { 219 10 19 }
 
-    culture_definition = jutone
+    culture_definition = marienburger
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -701,7 +702,7 @@ CHA = { #Cult of Handrich
     color = rgb { 210 203 60 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = jutone
+    culture_definition = marienburger
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -713,40 +714,29 @@ CSI = { # Cult of Sigmar
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = reiklander
     religion_definition = imperial_cults
 
     description_category = diplomatic
     difficulty = 2
 }
 
-CSI = { # Cult of Sigmar
+CMO = { # Cult of Morr
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = ostermarker
     religion_definition = imperial_cults
 
     description_category = diplomatic
     difficulty = 2
 }
 
-CMO = { # Cult of Sigmar
+CSH = { # Cult of Shallya
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
-    religion_definition = imperial_cults
-
-    description_category = diplomatic
-    difficulty = 2
-}
-
-CSH = { # Cult of Sigmar
-    color = rgb { 237 2 2 } #red from their flag
-    color2 = rgb { 219 10 19 }
-
-    culture_definition = unberogen
+    culture_definition = reiklander
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -757,7 +747,7 @@ CTA = { # Cult of Taal
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -768,7 +758,7 @@ CRH = { # Cult of Rhya
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = talabeclander
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -779,7 +769,7 @@ CUL = { # Cult of Ulric
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 
     description_category = diplomatic
@@ -790,7 +780,7 @@ CFUL = { # Cult of Frae Ulric
     color = rgb { 237 2 2 } #red from their flag
     color2 = rgb { 219 10 19 }
 
-    culture_definition = unberogen
+    culture_definition = middenheimer
     religion_definition = imperial_cults
 
     description_category = diplomatic

@@ -84,6 +84,18 @@ diplomacy_manager = {
         start_date = 1360.1.1		# since 1283.1.1
     }
     dependency = {
+        first = TAL
+        second = BECH
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = REMER
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
         first = MID
         second = DEL
         subject_type = vassal		# of subject type “dominion”
