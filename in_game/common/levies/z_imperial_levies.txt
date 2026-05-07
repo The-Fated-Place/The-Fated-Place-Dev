@@ -1,0 +1,137 @@
+﻿#scope is POP for triggers
+
+# Picks first valid entry
+
+
+# Default Levies
+
+levy_mailed_knights = {
+	size = levy_generic_noble_cavalry_size
+	
+	allowed_pop_type = nobles
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+	
+	unit = a_mailed_knights
+}
+
+levy_noble_cavalry = {
+	size = levy_generic_noble_cavalry_size
+	
+	allowed_pop_type = nobles
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+
+	unit = a_noble_cavalry
+}
+
+levy_a_footmen = {
+	size = levy_generic_infantry_size
+	
+	allowed_pop_type = soldiers
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+
+	unit = a_footmen_levy
+}
+
+levy_a_feudal_levy = {
+	size = levy_generic_infantry_size
+	
+	allowed_pop_type = peasants
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+
+	unit = a_feudal_levy
+}
+
+
+

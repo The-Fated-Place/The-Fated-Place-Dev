@@ -24,10 +24,8 @@ cult_of_ulric = {
     major = yes
 
     potential = {
-        OR = {
-            tag = CUL
-            tag = CFUL
-        }
+        tag = CUL
+
     }
 
     allow = {

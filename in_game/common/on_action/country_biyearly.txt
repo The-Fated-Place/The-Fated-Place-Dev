@@ -13,13 +13,7 @@ biyearly_country_pulse = {
 	random_events =
 	{
 
-		#Naples events
-		100 = flavor_nap.290 #The Resentful Prince Consort, intended to be a common occurrence
-		#---
-		
-		# France events
-		100 = flavor_fra.1161 # Routiers raids spread to new location
-		#---
+
 
 		10 = sailor_event.1
 		10 = sailor_event.2
@@ -315,115 +309,6 @@ biyearly_country_pulse = {
 		10 = prices.28
 		10 = prices.29
 		10 = prices.30
-		
-
-		
-		
-		10 = conquest_of_paradise.1
-		10 = conquest_of_paradise.2
-		10 = conquest_of_paradise.10
-		10 = conquest_of_paradise.11
-		10 = conquest_of_paradise.12
-		10 = conquest_of_paradise.13
-		10 = conquest_of_paradise.14
-		10 = conquest_of_paradise.15
-		10 = conquest_of_paradise.16
-
-
-
-		100 = haudenosaunee.1
-		100 = haudenosaunee.2
-		100 = haudenosaunee.3
-
-		
-		#Feudalism Events
-		10 = institution_events.1
-		10 = institution_events.2
-		10 = institution_events.3
-		
-		#Legalism Events
-		10 = institution_events.10
-		10 = institution_events.11
-		10 = institution_events.12
-		
-		#Meritocracy Events
-		10 = institution_events.20
-		10 = institution_events.21
-		
-		#Renaissance Events
-		10 = institution_events.30
-		10 = institution_events.31
-		
-		#Banking Events
-		10 = institution_events.40
-		10 = institution_events.41
-		
-		#Professional Armies Events
-		10 = institution_events.50
-		10 = institution_events.51
-		
-		#New World Events
-		10 = institution_events.60
-		10 = institution_events.61
-		
-		#Printing Press Events
-		10 = institution_events.70
-		10 = institution_events.71
-		
-		#Pike & Shot Events
-		10 = institution_events.80
-		10 = institution_events.81
-		
-		#Confessionalism Events
-		10 = institution_events.90
-		10 = institution_events.91
-		10 = institution_events.92
-		
-		#Global Trade Events
-		10 = institution_events.100
-		10 = institution_events.102
-		
-		#Artillery Events
-		10 = institution_events.110
-		10 = institution_events.111
-		20 = institution_events.112
-		20 = institution_events.113
-		20 = institution_events.114
-		
-		#Manufactories Events
-		10 = institution_events.120
-		10 = institution_events.121
-		10 = institution_events.122
-		
-		#Scientific Revolution Events
-		10 = institution_events.130
-		10 = institution_events.131
-		10 = institution_events.132
-		10 = institution_events.134
-		10 = institution_events.135
-		10 = institution_events.136
-		10 = institution_events.137
-		10 = institution_events.138
-		
-		#Military Revolution Events
-		10 = institution_events.140
-		10 = institution_events.141
-		10 = institution_events.142
-		
-		#Enlightenment Events
-		10 = institution_events.150
-		10 = institution_events.151
-		10 = institution_events.152
-		10 = institution_events.153
-		
-		#Industrialization Events
-		10 = institution_events.160
-		10 = institution_events.161
-		
-		#Levee en Masse Events
-		10 = institution_events.170
-		10 = institution_events.171
-		10 = institution_events.172
 
 		10 = slave_trade.1
 		10 = slave_trade.5
@@ -479,44 +364,6 @@ biyearly_country_pulse = {
 		10 = colonial_nation.188
 
 
-		10 = culture_japan.1
-		10 = culture_japan.2
-		10 = culture_japan.3
-		10 = culture_japan.4
-		10 = culture_japan.5
-		10 = culture_japan.6
-		10 = culture_japan.7
-		10 = culture_japan.8
-		10 = culture_japan.9
-		10 = culture_japan.10
-		10 = culture_japan.11
-		10 = culture_japan.12
-		10 = culture_japan.13
-		10 = culture_japan.14
-		10 = culture_japan.15
-		10 = culture_japan.16
-		10 = culture_japan.17
-		10 = culture_japan.18
-		10 = culture_japan.19
-		10 = culture_japan.20
-		10 = culture_japan.22
-		10 = culture_japan.1000
-		10 = culture_japan.1100
-		10 = culture_japan.1200
-		5  = culture_japan.1300
-		
-		10 = nanban_trade.1
-		10 = nanban_trade.3
-		10 = nanban_trade.4
-		10 = nanban_trade.5
-		10 = nanban_trade.6
-		10 = nanban_trade.7
-		10 = nanban_trade.9
-		10 = nanban_trade.10
-		10 = nanban_trade.11
-		10 = nanban_trade.12
-
-		10 = flavor_chi.2
 
 		#Character Estate Events
 		10 = character_estates.1
@@ -627,9 +474,28 @@ biyearly_country_pulse = {
 		10 = industrialization_events.22
 
 
-		10 = flavor_gen.48
-		10 = flavor_gen.49
-		10 = flavor_gen.50
+		10 = town_rights_events.1
+		10 = town_rights_events.2
+		10 = town_rights_events.3
+		10 = town_rights_events.4
+		10 = town_rights_events.5
+		10 = town_rights_events.6
+		10 = town_rights_events.7
+		10 = town_rights_events.8
+		10 = town_rights_events.9
+		10 = town_rights_events.10
+		10 = town_rights_events.11
+		10 = town_rights_events.12
+		10 = town_rights_events.13
+		10 = town_rights_events.14
+		10 = town_rights_events.15
+		10 = town_rights_events.16
+		10 = town_rights_events.17
+		10 = town_rights_events.18
+		10 = town_rights_events.19
+		10 = town_rights_events.20
+		10 = town_rights_events.21
+		10 = town_rights_events.22
 
 
 

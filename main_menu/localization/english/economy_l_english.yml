@@ -387,8 +387,8 @@
  CURRENCY_MONTHLY_CHANGE: ""
  HISTORICAL_TAX_BASE_LABEL: "Historical [tax_base|e] between [Country.GetHistoricalMinTaxBase|2L]@gold! and [Country.GetHistoricalMaxTaxBase|2L]@gold!"
  #
- ARMY_MAINTENANCE_COST: "Army Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
- NAVY_MAINTENANCE_COST: "Navy Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+ army_maintenance_efficiency: "Army Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
+ navy_maintenance_efficiency: "Navy Maintenance: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
  ARMY_REINFORCE_COST: "Armies Reinforcing: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
  NAVY_REINFORCE_COST: "Ships Repairing: #TOOLTIP:$BREAKDOWN_TAG$ $VAL$#!"
  CURRENCY_DECAY: "$CURRENCY$ Decay: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$#!"

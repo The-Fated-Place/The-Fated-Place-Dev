@@ -4,6 +4,7 @@
         religion = imperial_cults
         name_key = SHALLYA_GOD
     }
+    is_female = yes
     country_modifier = {
     }
 }
@@ -14,6 +15,7 @@ sigmar = {
         religion = imperial_cults
         name_key = SIGMAR_GOD
     }
+
 }
 
 handrich = {
@@ -46,6 +48,7 @@ verena = {
         religion = imperial_cults
         name_key = VERENA_GOD
     }
+    is_female = yes
 }
 
 ranald = {
@@ -62,6 +65,7 @@ myrmidia = {
         religion = imperial_cults
         name_key = MYRMIDIA_GOD
     }
+    is_female = yes
 }
 
 taal = {
@@ -78,5 +82,6 @@ rhya = {
         religion = imperial_cults
         name_key = RHYA_GOD
     }
+    is_female = yes
 }
 

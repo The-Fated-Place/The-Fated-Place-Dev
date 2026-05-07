@@ -314,6 +314,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_county
@@ -546,6 +547,7 @@ countries = {
                 type = monarchy
                 ruler = adalbert_the_bear
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -957,6 +959,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -1261,6 +1264,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -1376,6 +1380,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -1401,6 +1406,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -1584,6 +1590,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+
             }
 
             country_rank = rank_duchy
@@ -1608,6 +1615,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -1834,11 +1842,13 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
             capital = Hergig
         }
+
         BER = { # Bergendorf
             own_control_core = {
                 Bergendorf
@@ -1992,6 +2002,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { imperial_elector }
             }
 
             country_rank = rank_county
@@ -2129,10 +2140,30 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
             capital = Mordheim
+        }
+        ESSEN = { # Essen
+            own_control_core = {
+                Essen
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Essen
         }
         BECH = { # Bechafen
             own_control_core = {
@@ -2281,6 +2312,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -2304,6 +2336,25 @@ countries = {
 
             country_rank = rank_county
             capital = Bohsenfels
+        }
+        SMALL = { # Bohsenfels
+            own_control_core = {
+                Smallhof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Smallhof
         }
         BOV = { # Boven
             own_control_core = {
@@ -2502,6 +2553,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
@@ -2526,6 +2578,25 @@ countries = {
 
             country_rank = rank_county
             capital = Blutdorf
+        }
+        DRAK = { # Blutdorf
+            own_control_core = {
+                Drakenhof
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Drakenhof
         }
         FLEN = { # Flensburg
             own_control_core = {
@@ -2817,10 +2888,32 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
+                reforms = { elector_count }
             }
 
             country_rank = rank_duchy
             capital = Altdorf
+
+
+        }
+        KEMP = { # Altdorf
+            own_control_core = {
+                Kemperbad
+
+            }
+
+            starting_technology_level = 2
+
+
+            include = "expl_average_imperial"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+            }
+
+            country_rank = rank_county
+            capital = Kemperbad
         }
         AUER = { # Auerswald
             own_control_core = {
@@ -3003,7 +3096,6 @@ countries = {
             own_control_core = {
                 Ubersreik
 
-
             }
 
             starting_technology_level = 2
@@ -3035,6 +3127,7 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
+                heir_selection = grandmaster_elective
 
             }
         }
@@ -3051,7 +3144,7 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
@@ -3067,6 +3160,8 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
+                reforms = { imperial_elector }
+                heir_selection = grandmaster_elective
 
             }
         }
@@ -3083,7 +3178,7 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
@@ -3099,7 +3194,7 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
@@ -3115,7 +3210,7 @@ countries = {
                 type = theocracy
                 reforms = { imperial_cult }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
@@ -3131,7 +3226,7 @@ countries = {
                 type = theocracy
                 reforms = { cult_of_rhya }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
@@ -3147,25 +3242,10 @@ countries = {
                 type = theocracy
                 reforms = { cult_of_ulric }
                 ruler = random
-
+                heir_selection = grandmaster_elective
             }
         }
 
-        # CFUL = { #Cult of Frae Ulric
-        #     capital = Middenheim
-        #     type = building
-        #     country_rank = rank_kingdom
-        #     starting_technology_level = 3
-        #
-        #     include = "expl_average_imperial"
-        #
-        #     government = {
-        #         type = theocracy
-        #         reforms = { cult_of_ulric }
-        #         ruler = random
-        #
-        #     }
-        # }
 
 
     }

@@ -26,12 +26,6 @@
 		10 = parliaments.25
 		10 = parliaments.26
 		10 = parliaments.27
-		
-		100 = flavor_swe.35
-
-		10 =  flavor_pol.23
-		200 =  flavor_pol.24
-
 
 
 		chance_to_happen = 25

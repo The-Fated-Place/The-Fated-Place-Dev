@@ -49,6 +49,8 @@ fishing_village = {
 	max_levels = rural_building_cap
 	pop_type = peasants
 
+    is_village = yes
+
 	category = village_category
 	employment_size = village_employment_size
 	
@@ -118,6 +120,8 @@ farming_village = {
 	
 	category = village_category
 	employment_size = village_employment_size
+
+    is_village = yes
 	
 	rural_settlement = yes
 	
@@ -175,7 +179,8 @@ forest_village = {
 	
 	category = village_category
 	employment_size = village_employment_size
-	
+
+    is_village = yes
 
 	rural_settlement = yes
 	
@@ -244,8 +249,9 @@ market_village = {
 	rural_settlement = yes
 	
 	category = village_category
-	
-		
+
+
+    is_village = yes
 	
 	build_time = village_build_time
 

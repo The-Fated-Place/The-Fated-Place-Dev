@@ -234,17 +234,38 @@ library_advance = {
 	unlock_building = library
 }
 
-# settle_the_frontier_advance = {
-# 	icon = expansionism
-# 	age = age_1_traditions
-# 	potential = {
-# 		OR = {
-# 			country_type = location
-# 			country_type = army
-# 		}
-#
-# 		NOT = { is_subject_type = colonial_nation }
-# 	}
-# 	requires = city_building_advance
-# 	unlock_cabinet_action = settle_the_frontier
-# }
+ship_building_advance = {
+    age = age_1_traditions
+    icon = ship_building_advance
+    research_cost = 2.0
+
+    allow = {
+        has_embraced_institution = institution:civilization
+        AND = {
+            culture = { has_culture_group = culture_group:imperial_group }
+            OR = {
+                country_rank = country_rank:rank_kingdom
+                country_rank = country_rank:rank_empire
+                has_special_status_in_international_organization = {
+                    type = special_status:Free_City
+                    international_organization = international_organization:the_empire
+                }
+                has_special_status_in_international_organization = {
+                    type = special_status:Elector_Count
+                    international_organization = international_organization:the_empire
+                }
+                has_special_status_in_international_organization = {
+                    type = special_status:Elector
+                    international_organization = international_organization:the_empire
+                }
+            }
+
+        }
+
+    }
+    ship_build_speed = 0.1
+    depth = 0
+
+    starting_technology_level = 2
+}
+

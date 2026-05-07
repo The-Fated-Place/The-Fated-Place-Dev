@@ -760,6 +760,7 @@ CRH = { # Cult of Rhya
 
     culture_definition = talabeclander
     religion_definition = imperial_cults
+    is_historic = yes
 
     description_category = diplomatic
     difficulty = 2
@@ -776,14 +777,4 @@ CUL = { # Cult of Ulric
     difficulty = 2
 }
 
-CFUL = { # Cult of Frae Ulric
-    color = rgb { 237 2 2 } #red from their flag
-    color2 = rgb { 219 10 19 }
-
-    culture_definition = middenheimer
-    religion_definition = imperial_cults
-
-    description_category = diplomatic
-    difficulty = 2
-}
 

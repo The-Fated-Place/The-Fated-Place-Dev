@@ -5,7 +5,7 @@ in_regency_yearly_pulse = {
 	}
 	
 	events = {	
-		flavor_nap.119
+
 	}
 
 	random_events =
@@ -24,14 +24,6 @@ in_regency_yearly_pulse = {
 		10 = regency_estate_events.5
 		10 = regency_estate_events.6
 		10 = regency_estate_events.9
-
-		5 = papal_conclave_events.1
-		5 = papal_conclave_events.2
-		5 = papal_conclave_events.6
-		5 = papal_conclave_events.7
-		5 = papal_conclave_events.8
-		5 = papal_conclave_events.9
-		5 = papal_conclave_events.10
 
 		chance_to_happen = 20
 	}

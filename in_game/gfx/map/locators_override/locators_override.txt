@@ -1,0 +1,6 @@
+﻿#Locator override example
+#1 = {  
+#	position = {7734.2905 3.6972237 5730.4043}
+#	province = lleida
+#	type = city
+#}

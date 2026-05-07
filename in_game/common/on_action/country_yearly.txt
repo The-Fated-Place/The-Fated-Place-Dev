@@ -1,10 +1,21 @@
 ﻿yearly_country_pulse = {
 	on_actions = {
 		on_integrated_in_union_removal
+		earthquake_yearly_pulse
+		# Narrow-condition events moved out of events = {} to avoid universal trigger eval.
+		# Each sub-on-action has a cheap outer trigger that skips the event entirely for
+		# the ~295+ countries that can never satisfy it.
+
+		yearly_infidel_holds_rome_pulse # catholic + non-Christian owns Rome
+	}
+	# Tag-locked events — mutually exclusive, so first_valid_on_action pays at most one tag
+	# check per non-matching country instead of evaluating all three event triggers.
+	first_valid_on_action = {
+
 	}
 	random_on_action = {
 	}
-	
+
 	events = {
 		prices.1
 		prices.2
@@ -15,35 +26,20 @@
 		prices.15
 		prices.16
 		prices.18
-		
-		flavor_nap.108
-		flavor_nap.119
-		flavor_mei.130
-		flavor_ser.110
-		
+
 		joint_ruling.100 #The Term has Expired
-		flavor_nav.60
 
 		imperial_examination_events.7 #Examination System
-
-		flavor_kor.3 #New Mongol aristocrat joins the court
 
 		#Rebelions
 		rebel.1 #Rome - Cola di Rienzo
 
-		flavor_hab_tir.3 #A Husband for Margarete von Görz
-
-		flavor_ira.25	#Qizilbash Upgrade
-		
-		flavor_dan_teu.3
-		
-		flavor_ven.24
-
-		flavor_zmw.1001
 	}
 	
 	random_events =
 	{
+		sample_count = 3
+
 		10 = building.1 # New university founded
 		10 = building.2 # University riots
 
@@ -51,29 +47,8 @@
 		10 = language.10 # The King's Speech
 		10 = language.20 # The Pleading in English Act
 
-		10 = ireland.10 # Scathing Satire
-		10 = ireland.20 # Clergy Disapproves of the Bards
-		10 = ireland.30 # Clergy Regency dismantles Celtic law
-		10 = ireland.40 # More Irish than the Irish
-		10 = ireland.50 # Gallowglass
 
-		10 = flavor_sco.13 # Scottish culture?
-		1 = flavor_sco.15 # Nessie
 
-		10 = flavor_wls.10 # Eisteddfod
-
-		10 = flavor_loi.10 # Norse Isles
-		10 = flavor_loi.20 # Shipbuilding competition
-
-		10 = flavor_ice.10 # bishoprics
-		10 = flavor_ice.11 # huldufolk
-
-		#Aragonese events
-		100 = flavor_ara.109 #La Moreneta
-		100 = flavor_ara.110 #Palma Cathedral
-		#---
-
-		10 = flavor_ira.12
 		
 		10 = mercantilism_events.1
 		10 = mercantilism_events.2
@@ -386,28 +361,6 @@
 		10 = societal_values.2323
 
 
-		10 = mysticism_vs_jurisprudence.1
-		10 = mysticism_vs_jurisprudence.2
-		10 = mysticism_vs_jurisprudence.3
-		10 = mysticism_vs_jurisprudence.4
-		10 = mysticism_vs_jurisprudence.5
-		10 = mysticism_vs_jurisprudence.6
-		10 = mysticism_vs_jurisprudence.7
-		10 = mysticism_vs_jurisprudence.8
-		10 = mysticism_vs_jurisprudence.9
-		10 = mysticism_vs_jurisprudence.10
-		10 = mysticism_vs_jurisprudence.11
-		10 = mysticism_vs_jurisprudence.12
-		10 = mysticism_vs_jurisprudence.13
-		10 = mysticism_vs_jurisprudence.14
-		10 = mysticism_vs_jurisprudence.15
-		10 = mysticism_vs_jurisprudence.16
-		10 = mysticism_vs_jurisprudence.17
-		10 = mysticism_vs_jurisprudence.20
-		10 = mysticism_vs_jurisprudence.21
-		10 = mysticism_vs_jurisprudence.22
-
-
 
 
 		10 = steppe_horde.11
@@ -544,11 +497,28 @@
 		10 = random_event.112
 
 
-		200 = flavor_ara.101 #Catalan Atlas
-		10000 = flavor_kni.100
-		10 = flavor_teu.101
-		
-		
+		#Pirate Events
+		50 = pirate_events.4 
+		50 = pirate_events.5 
+		50 = pirate_events.6 
+		50 = pirate_events.7 
+		50 = pirate_events.8 
+		50 = pirate_events.9 
+		50 = pirate_events.10
+		50 = pirate_events.11
+		50 = pirate_events.12
+
+		chance_to_happen = 100
+	}
+
+	effect = {
+	}
+}
+
+earthquake_yearly_pulse = {
+	random_events = {
+		sample_count = 1
+
 		250 = earthquake_events.2
 		250 = earthquake_events.3
 		250 = earthquake_events.4
@@ -639,109 +609,7 @@
 		250 = earthquake_events.89
 		250 = earthquake_events.93
 
-
-		50 = grand_embassy.1
-
-		#Border Reivers
-		100 = flavor_sco.1102
-		100 = flavor_sco.1103
-
-		#Francis Drake raids
-		250 = flavor_eng.137
-		250 = flavor_eng.143
-
-		#Reforms of the Great Elector of Brandenburg-Prussia
-		50 = flavor_brapru.8
-
-		#Securing our Seat in [target_country.GetNameWithNoTooltip] //Poland
-		5000 = flavor_pol.38
-		#On the Revolutions of the Heavenly Spheres
-		5000 = flavor_pol.1201
-
-		#Jurchen Events
-		10 = jurchen_confederation_events.1
-		10 = jurchen_confederation_events.2
-		10 = jurchen_confederation_events.4
-		10 = jurchen_confederation_events.6
-		10 = jurchen_confederation_events.7
-		10 = jurchen_confederation_events.8
-		10 = jurchen_confederation_events.9
-		10 = jurchen_confederation_events.10
-		10 = jurchen_confederation_events.11
-		10 = jurchen_confederation_events.12
-		10 = jurchen_confederation_events.13
-		10 = jurchen_confederation_events.14
-		10 = jurchen_confederation_events.15
-
-		#Empire of China & Celestial Authority Events
-		10 = flavor_chi.15
-		10 = flavor_chi.16
-		10 = flavor_chi.17
-		10 = flavor_chi.18
-		10 = flavor_chi.19
-		10 = flavor_chi.20
-
-		#Mamlukean Events
-		10 = flavor_mam.18
-		10 = flavor_mam.19
-		10 = flavor_mam.20
-		10 = flavor_mam.21
-		10 = flavor_mam.22
-
-		#Moroccan Events
-		10 = flavor_mor.20
-		10 = flavor_mor.21
-		10 = flavor_mor.22
-		5 = flavor_mor.23
-
-		#Delhi Events
-		75 = flavor_dlh.29
-		75 = flavor_dlh.30
-		75 = flavor_dlh.31
-
-		#Pirate Events
-		50 = pirate_events.4 
-		50 = pirate_events.5 
-		50 = pirate_events.6 
-		50 = pirate_events.7 
-		50 = pirate_events.8 
-		50 = pirate_events.9 
-		50 = pirate_events.10
-		50 = pirate_events.11
-		50 = pirate_events.12
-
-		#USA Events
-		10 = flavor_usa.1
-		10 = flavor_usa.2
-		10 = flavor_usa.3
-		10 = flavor_usa.4
-		10 = flavor_usa.5
-		10 = flavor_usa.6
-		10 = flavor_usa.7
-		10 = flavor_usa.8
-		10 = flavor_usa.9
-		10 = flavor_usa.10
-		10 = flavor_usa.11
-		10 = flavor_usa.12
-		10 = flavor_usa.13
-		10 = flavor_usa.14
-		10 = flavor_usa.15
-		10 = flavor_usa.16
-		10 = flavor_usa.17
-		10 = flavor_usa.18
-		10 = flavor_usa.19
-		10 = flavor_usa.20
-		10 = flavor_usa.1000
-
-		#Lithuanian Events
-		5 = flavor_lit.40
-		5 = flavor_lit.41
-		5 = flavor_lit.42
-		
 		chance_to_happen = 100
-	}
-
-	effect = {
 	}
 }
 
@@ -753,3 +621,7 @@ on_integrated_in_union_removal = {
 		clear_individual_integration_levels = yes
 	}
 }
+
+# ── yearly_country_pulse: sub-on-actions for events removed from events = {} ──────────────
+# Each has a cheap top-level trigger so the engine skips the entire block (and the enclosed
+# event trigger) for every country that cannot possibly satisfy the condition.

@@ -1,20 +1,4 @@
-﻿cult_name = {
-    type = international_organization
-
-    text = {
-        trigger = {
-            international_organization_has_policy = policy:manaan_policy
-        }
-        localization_key = SECT_MANAAN_NAME
-    }
-
-
-
-    text = {
-        localization_key = SECT_NAME
-        fallback = yes
-    }
-}
+﻿
 
 imperial_province_name = {
     type = international_organization

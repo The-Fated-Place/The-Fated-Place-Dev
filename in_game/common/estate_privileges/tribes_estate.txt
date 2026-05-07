@@ -38,22 +38,22 @@ tribes_tribal_levies = {
 	}
 }
 
-tribes_tribal_registry = { 
+tribes_tribal_registry = {
 	estate = tribes_estate
-	
+
 	country_modifier = {
 		tribes_estate_target_satisfaction = small_privilege_target_satisfaction
-		global_tribesmen_assimilation_blocked = yes
+		global_tribesmen_pop_growth = 0.1
 		global_tribes_estate_power = 0.5
 	}
 }
 
-tribes_protected_faith = { 
+tribes_protected_faith = {
 	estate = tribes_estate
-	
+
 	country_modifier = {
-		tribes_estate_target_satisfaction = small_privilege_target_satisfaction
-		global_tribesmen_conversion_blocked = yes
+		tribes_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_tribal_promotion = -0.1
 		global_tribes_estate_power = 0.5
 	}
 }
@@ -68,6 +68,86 @@ tribes_respect_tribal_traditions = {
 	}
 }
 
+tribes_creach = { #Scotland https://en.wikipedia.org/wiki/Scottish_clan
+	estate = tribes_estate
+	
+	potential = { culture ?= { has_culture_group = culture_group:scottish_group } }
+	
+	country_modifier = {
+		tribes_estate_target_satisfaction = small_privilege_target_satisfaction
+		global_livestock_output_modifier = 0.05
+		global_tribes_estate_power = 0.25
+	}
+}
+
+tribes_fosterage = {
+	estate = tribes_estate
+
+	potential = { culture ?= { has_culture_group = culture_group:scottish_group } }
+	
+	country_modifier = {
+		tribes_estate_target_satisfaction = small_privilege_target_satisfaction
+		research_speed_modifier = 0.02
+		global_tribes_estate_power = 0.5
+	}
+}
+
+tribes_manrent = {
+	estate = tribes_estate
+	
+	potential = { culture ?= { has_culture_group = culture_group:scottish_group } }
+
+	country_modifier = {
+		tribes_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_defensive = 0.1
+		global_tribes_estate_power = 0.5
+	}
+}
+
+tribes_scotland_gaelic_heritage = {
+	estate = tribes_estate
+
+	potential = { 
+		culture ?= { has_culture_group = culture_group:scottish_group } 
+		NOT = {	has_estate_privilege =  estate_privilege:sco_statutes_of_iona }
+		NOT = { has_variable = preserved_clan_autonomy }
+	}
+	allow = {
+		NOT = {	has_estate_privilege =  estate_privilege:sco_statutes_of_iona }
+	}
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.33
+	}
+	country_modifier = {
+		tribes_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_tribes_estate_power = 0.25
+		global_monthly_control = -0.0010
+		global_monthly_development = 0.002
+		pure_tooltip_entry = gaelic_clans_pop_assignment_tt
+	}
+}
+
+autonomous_tribes_scotland_gaelic_heritage = {
+	estate = tribes_estate
+
+	potential = { 
+		culture ?= { has_culture_group = culture_group:scottish_group } 
+		NOT = {	has_estate_privilege =  estate_privilege:sco_statutes_of_iona }
+		has_variable = preserved_clan_autonomy
+	}
+	allow = {
+		NOT = {	has_estate_privilege =  estate_privilege:sco_statutes_of_iona }
+	}
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.33
+	}
+	country_modifier = {
+		global_tribes_estate_power = -0.10
+		global_monthly_control = 0.0005
+		monthly_army_tradition = 0.2
+		pure_tooltip_entry = gaelic_clans_pop_assignment_tt
+	}
+}
 
 jaysh_armies = {
 	estate = tribes_estate
@@ -90,7 +170,6 @@ tribes_in_administration = {
 		monthly_towards_decentralization = societal_value_monthly_move
 	}
 }
-
 
 mch_tribal_favor = {
 	estate = tribes_estate

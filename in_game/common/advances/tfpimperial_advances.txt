@@ -102,7 +102,6 @@ horse_riding_advance = {
 	requires = ranching
 
 	unlock_levy = levy_noble_cavalry
-	unlock_levy = levy_tribal_cavalry
     potential = {
         culture = { has_culture_group = culture_group:imperial_group }
     }
@@ -146,16 +145,31 @@ scholasticism = {
 	ai_weight = { add = 2 }
 }
 
+
+
+trade_advance_age_of_trad = {
+    age = age_1_traditions
+    icon = merchant_power_from_maritime_reformation_advance
+
+    requires = ship_building_advance
+
+    selling_efficiency = small_trade_efficiency_bonus
+
+    starting_technology_level = 3
+}
+
+
+
 guilds = {
-	age = age_1_traditions
-	icon = guilds
-	requires = organized_religion
+    age = age_1_traditions
+    icon = guilds
+    requires = trade_advance_age_of_trad
     potential = {
         culture = { has_culture_group = culture_group:imperial_group }
     }
 
-	global_burghers_city_desired_pop = 0.1
-	global_burghers_max_literacy = 5
+    global_burghers_city_desired_pop = 0.1
+    global_burghers_max_literacy = 5
 }
 
 peasant_connections_advance = {
@@ -306,6 +320,7 @@ unlock_feudal_levy_advance = {
 
 unlock_horsemen_advance = {
 	age = age_1_traditions
+
 	unlock_unit = a_horsemen
 
 	requires = horse_riding_advance

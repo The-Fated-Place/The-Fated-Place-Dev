@@ -21,8 +21,8 @@ character_db={
 
     ottilia = {
         first_name = { name = name_ottilia }
-        culture = taleuten
-        religion = sigmarian_heresy
+        culture = talabeclander
+        religion = imperial_cults
         estate = nobles_estate
         adm = 78 dip = 65 mil = 85
         female = yes

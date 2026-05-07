@@ -1,6 +1,10 @@
 ﻿#root = country, scope:character = newborn
 on_character_birth = {
+	effect = {
+		scope:character = {
 
+		}
+	}
 }
 
 #root = character

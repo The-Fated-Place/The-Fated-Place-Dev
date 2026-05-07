@@ -1,0 +1,119 @@
+﻿#scope is POP for triggers
+
+# Picks first valid entry
+
+
+# Default Levies
+
+
+levy_a_villagers = {
+	size = levy_generic_infantry_size
+	
+	allowed_pop_type = peasants
+	allowed_pop_type = laborers
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+
+    allowed_culture = norsii
+
+
+    unit = a_villagers
+}
+
+
+levy_a_horse_villagers = {
+    size = levy_generic_infantry_size
+
+    allowed_pop_type = peasants
+    allowed_pop_type = laborers
+
+    allowed_culture = meernordlander
+    allowed_culture = hugelnordlander
+    allowed_culture = was_ostlander
+    allowed_culture = was_jutone
+    allowed_culture = waldnordlander
+    allowed_culture = westerlander
+    allowed_culture = endal
+    allowed_culture = marienburger
+    allowed_culture = averlander
+    allowed_culture = hochlander
+    allowed_culture = middenheimer
+    allowed_culture = middenlander
+    allowed_culture = drakwalder
+    allowed_culture = ostermarker
+    allowed_culture = ostlander
+    allowed_culture = reiklander
+    allowed_culture = altdorfer
+    allowed_culture = stirlander
+    allowed_culture = sylvanian
+    allowed_culture = talabeclander
+    allowed_culture = wissenlander
+    allowed_culture = sollander
+    allowed_culture = nulner
+
+    allowed_culture = norsii
+
+
+    unit = a_horse_villagers
+}
+
+
+levy_a_villagers_halfling = {
+    size = levy_generic_infantry_size
+
+    allowed_pop_type = peasants
+    allowed_pop_type = laborers
+
+    allowed_culture = imperialhalfling
+    allowed_culture = sauerapfel_culture
+    allowed_culture = mootish
+
+
+    unit = a_villagers_halfling
+}
+
+levy_a_pony_riders_halfling = {
+    size = levy_generic_infantry_size
+
+    allowed_pop_type = peasants
+    allowed_pop_type = laborers
+
+    allowed_culture = imperialhalfling
+    allowed_culture = sauerapfel_culture
+    allowed_culture = mootish
+
+
+    unit = a_pony_riders_halfling
+}
+
+levy_tribesmen = {
+    size = levy_generic_infantry_size
+
+    allowed_pop_type = peasants
+    allowed_pop_type = tribesmen
+
+    unit = a_tribesmen
+}
+

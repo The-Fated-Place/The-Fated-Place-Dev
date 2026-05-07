@@ -1,0 +1,117 @@
+﻿Emperor = {
+	max_countries = 1
+	priority = 15
+	can_bestow_trigger = {
+		is_leader_of_international_organization = scope:recipient
+	}
+	auto_bestowal_trigger = {
+		always = yes
+	}
+	auto_rescind_trigger = {
+		NOT = { is_leader_of_international_organization = scope:recipient }
+	}
+	leader = yes
+	map_color = define:NMapColors|HRE_EMPEROR_COLOR
+	special_status_power = {
+
+	}
+}
+
+Elector_Count = {
+	priority = 10
+
+	modifier = {
+		# is_imperial_elector = yes
+	}
+    can_bestow_trigger = {
+        is_member_of_international_organization = scope:recipient
+        government_type = government_type:monarchy
+
+    }
+    auto_bestowal_trigger = {
+        has_reform = government_reform:elector_count
+    }
+
+
+	auto_rescind_trigger = {
+		NOT = { is_member_of_international_organization = international_organization:the_empire }
+	}
+
+
+	special_status_power = {
+
+	}
+	map_color = define:NMapColors|HRE_ELECTOR_COLOR
+}
+
+Elector = {
+
+	priority = 10
+
+	modifier = {
+		is_imperial_elector = yes
+	}
+
+    can_bestow_trigger = {
+        is_member_of_international_organization = scope:recipient
+
+    }
+
+	auto_bestowal_trigger = {
+        has_reform = government_reform:imperial_elector
+	}
+
+	auto_rescind_trigger = {
+        NOT = { is_member_of_international_organization = scope:recipient }
+
+	}
+	
+	on_bestowed_effect = {
+	}
+	
+	on_rescinded_effect = {
+	}
+
+	special_status_power = {
+
+	}
+	elector = yes
+	map_color = define:NMapColors|HRE_ELECTOR_ARCHBISHOP_COLOR
+}
+
+Free_City = {
+    priority = 10
+
+    modifier = {
+        burghers_estate_target_satisfaction = small_permanent_target_satisfaction
+        global_monthly_development = 0.001
+        global_production_efficiency = medium_production_efficiency_bonus
+        reject_subjugation_reasons = 50
+    }
+
+    can_bestow_trigger = {
+        is_member_of_international_organization = scope:recipient
+
+    }
+
+    auto_bestowal_trigger = {
+
+    }
+
+    auto_rescind_trigger = {
+        NOT = { is_member_of_international_organization = scope:recipient }
+    }
+
+    on_bestowed_effect = {
+
+    }
+
+    on_rescinded_effect = {
+
+    }
+
+    map_color = define:NMapColors|HRE_FREE_CITY_COLOR
+    special_status_power = {
+
+    }
+}

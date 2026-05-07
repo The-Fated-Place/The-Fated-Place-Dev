@@ -1,131 +1,30 @@
 international_organization_manager = {
     #The empire of man
 
-    add_international_organization = { #manaan
+    add_international_organization = { #the empire
         type = the_empire
         creation_date = 1.1.1
         members = {
-            MRB
-            AAR
-            GRR
-            KLE
-            KAL
-            ZAN
-            LEY
-            BRO
-            ALM
-            SLF
-            LEH
-            HAR
-            SLZ
-            STV
-            JUT
-            DIE
-            LFT
-            SKJ
-            HUV
-            FOR
-            FROTE
-            IMM
-            SOH
-            LINZ
-            NORD
-            THU
-            MID
-            AHL
-            MIDD
-            GRI
-            DEL
-            WIS
-            GES
-            GRIS
-            KRE
-            MEI
-            SCHA
-            SONN
-            STEI
-            WUS
-            AVE
-            AGB
-            BERN
-            BIE
-            COL
-            GREN
-            HEI
-            HOC
-            LENG
-            PFU
-            STREI
-            HERM
-            BER
-            BRE
-            ESK
-            DENKH
-            GRU
-            KOE
-            KRUD
-            EIC
-            BIR
-            DRE
-            EIN
-            FAL
-            GIP
-            SAUER
-            MORD
-            BECH
-            EIS
-            ESSEN
-            FOR
-            HEF
-            REMER
-            WOLF
-            BOH
-            BOV
-            LENK
-            FER
-            KURST
-            LUB
-            OBE
-            SALK
-            SMALL
-            VAND
-            WURZ
-            ZUND
-            ALTH
-            KROP
-            KAUNS
-            STEIN
-            PFE
-            WURT
-            BLUT
-            FLEN
-            FRAN
-            HAL
-            MAR
-            SCHR
-            SIEGF
-            SIG
-            WORD
-            WALD
-            VANHA
-            LEIC
-            DRAK
-            TEM
-            NAC
-            ALT
-            UBER
-            STIM
-            DUNK
-            AUER
-            BOGEN
-            EIL
-            DIES
-            GRUN
-            HELM
-            SCHIL
-            STIM
-            KEMP
-            NULN
+            MRB AAR GRR KLE KAL ZAN
+            LEY BRO ALM SLF LEH HAR
+            SLZ STV JUT DIE LFT
+            SKJ HUV FOR FROTE IMM SOH
+            LINZ NORD THU MID AHL MIDD
+            GRI DEL WIS GES GRIS KRE
+            MEI SCHA SONN STEI WUS AVE AGB
+            BERN BIE COL GREN HEI HOC
+            LENG PFU STREI HERM BER BRE ESK
+            DENKH GRU KOE KRUD EIC BIR DRE
+            EIN FAL GIP SAUER MORD BECH
+            EIS ESSEN FOR HEF REMER WOLF BOH
+            BOV LENK FER KURST LUB OBE
+            SMALL VAND WURZ ZUND ALTH KROP KAUNS
+            STEIN PFE WURT BLUT FLEN FRAN
+            HAL MAR SCHR SIEGF SIG WORD
+            WALD VANHA LEIC DRAK TEM NAC
+            ALT UBER STIM DUNK AUER BOGEN
+            EIL DIES GRUN HELM SCHIL STIM
+            KEMP NULN HER CSI
         }
 
         leader = WURT
@@ -138,13 +37,12 @@ international_organization_manager = {
         }
 
         locations = {
-
-
         }
 
         Emperor = {
             WURT
         }
+
         Elector_Count = {
             ALT
             WURT
@@ -158,13 +56,13 @@ international_organization_manager = {
             MORD
             WOLF
             HER
-
         }
+
         Elector = {
             EIC
             CSI
-
         }
+
         Free_City = {
             NULN
             MID
@@ -174,68 +72,6 @@ international_organization_manager = {
 
     }
 
-    #cults
-    add_international_organization = { #manaan
-        type = cult
-        creation_date = 1.1.1
-        members = {
-            TAL
-        }
-        laws = {
-            sigmar_policy
-        }
-        icon = cult_icon_manaan
-        variables = {
-            cult_favor = 30
-            religion = religion:imperial_cults
-        }
-        areas = {
-
-        }
-        provinces = {
-
-        }
-        locations = {
-
-            testprovince2
-            testprovince3
-            testprovince4
-            testprovince5
-            testprovince6
-        }
-
-    }
-
-    add_international_organization = { #sigmar
-        type = cult
-        creation_date = 1.1.1
-        members = {
-            TAL
-        }
-        laws = {
-            sigmar_policy
-        }
-        icon = cult_icon_sigmar
-        variables = {
-            cult_favor = 30
-            religion = religion:imperial_cults
-        }
-        areas = {
-
-        }
-        provinces = {
-
-        }
-        locations = {
-
-            testprovince2
-            testprovince3
-            testprovince4
-            testprovince5
-            testprovince6
-        }
-
-    }
 
     # imperial provinces
     add_international_organization = { #Westerland
@@ -455,7 +291,6 @@ international_organization_manager = {
             eastern_forest_province
             east_dunkelkuste_province
             poritz_province
-            central_ostermark_plains_province
             nagenhof_province
             dnierson_province
             badenhof_province
@@ -463,7 +298,6 @@ international_organization_manager = {
             bahlkurk_province
             eisental_province
             essen_province
-            south_ostermark_plains_province
             dead_woods_province
             totensumpfe_province
         }

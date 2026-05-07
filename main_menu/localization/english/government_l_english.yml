@@ -1142,10 +1142,10 @@
  bolshogo_dvortsa_action: "Managing $bolshogo_dvortsa$ prikaz"
  bolshogo_dvortsa_active: "Managing $bolshogo_dvortsa$ prikaz"
  bolshogo_dvortsa_action_progress: "[SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]"
- bolshogo_dvortsa_action_progress_wordier: "@religious_influence!: [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n@court_spending!: [SCOPE.sCountry('actor').GetModifierValue('court_spending_cost')]"
- bolshogo_dvortsa_action_progress_long_wordier: "@religious_influence! [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n    @court_spending! [SCOPE.sCountry('actor').GetModifierValue('court_spending_cost')]"
+ bolshogo_dvortsa_action_progress_wordier: "@religious_influence!: [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n@court_spending!: [SCOPE.sCountry('actor').GetModifierValue('court_spending_cost_modifier')]"
+ bolshogo_dvortsa_action_progress_long_wordier: "@religious_influence! [SCOPE.sCountry('actor').GetModifierValue('monthly_religious_influence')]\n    @court_spending! [SCOPE.sCountry('actor').GetModifierValue('court_spending_cost_modifier')]"
  bolshogo_dvortsa_action_progress_tooltip: "Increases $MODIFIER_TYPE_NAME_monthly_religious_influence$\n[SCOPE.sCountry('actor').GetDescriptionFor('monthly_religious_influence')]"
- bolshogo_dvortsa_action_progress_tooltip_1: "Reduces $MODIFIER_TYPE_NAME_court_spending_cost$\n[SCOPE.sCountry('actor').GetDescriptionFor('court_spending_cost')]"
+ bolshogo_dvortsa_action_progress_tooltip_1: "Reduces $MODIFIER_TYPE_NAME_court_spending_cost_modifier$\n[SCOPE.sCountry('actor').GetDescriptionFor('court_spending_cost_modifier')]"
 
 #China Cabinet Actions
  gaituguiliu_policy: "Gǎitǔguīliú Policy"

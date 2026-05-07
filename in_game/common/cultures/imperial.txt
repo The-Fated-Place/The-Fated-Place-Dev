@@ -136,15 +136,15 @@ gazani = {
 
 	tags = { european_gfx } # gfx tags
 
-	country_modifier = {
-
-	}
-	location_modifier = {
-
-	}
-	character_modifier = {
-
-	}
+    country_modifier = {
+        monthly_towards_traditionalist = 0.1
+    }
+    location_modifier = {
+        local_production_efficiency = 0.07
+    }
+    character_modifier = {
+        is_immortal = yes
+    }
 
 	opinions = {
 
@@ -163,15 +163,15 @@ imperialhalfling = {
 
 	tags = { european_gfx } # gfx tags
 
-	country_modifier = {
-
-	}
-	location_modifier = {
-
-	}
-	character_modifier = {
-
-	}
+    country_modifier = {
+        monthly_towards_traditional_economy = 0.1
+    }
+    location_modifier = {
+        local_monthly_food_modifier = 0.15
+    }
+    character_modifier = {
+        character_life_expectancy = 70
+    }
 
 	opinions = {
 
@@ -220,13 +220,13 @@ sauerapfel_culture = {
     tags = { european_gfx } # gfx tags
 
     country_modifier = {
-
+        monthly_towards_traditional_economy = 0.1
     }
     location_modifier = {
-
+        local_monthly_food_modifier = 0.15
     }
     character_modifier = {
-
+        character_life_expectancy = 70
     }
 
     opinions = {
@@ -248,13 +248,13 @@ mootish = {
     tags = { european_gfx } # gfx tags
 
     country_modifier = {
-
+        monthly_towards_traditional_economy = 0.1
     }
     location_modifier = {
-
+        local_monthly_food_modifier = 0.15
     }
     character_modifier = {
-
+        character_life_expectancy = 70
     }
 
     opinions = {

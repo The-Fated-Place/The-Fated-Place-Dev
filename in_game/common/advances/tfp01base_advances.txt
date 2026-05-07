@@ -1,0 +1,45 @@
+﻿
+# starting_technology_level is only relevant in age of traditions, where advances with higher value than the countries value starts as unresearched
+#Written Alphabet
+cultural_traditions_law_advance = {
+    age = age_1_traditions
+    icon = abacus_advance
+    depth = 0
+    research_cost = 2.0
+
+    age = age_1_traditions
+    unlock_law = cultural_traditions_law
+    starting_technology_level = 1
+}
+
+distribution_of_power_advance = {
+    age = age_1_traditions
+    unlock_law = distribution_of_power_law
+
+    requires = cultural_traditions_law_advance
+    starting_technology_level = 1
+}
+
+villagers_advance = {
+    age = age_1_traditions
+
+    requires = cultural_traditions_law_advance
+
+    unlock_levy = levy_a_villagers
+    unlock_levy = levy_chieftains
+    unlock_levy = levy_a_villagers_halfling
+    starting_technology_level = 1
+
+    ai_weight = { add = 2 }
+}
+
+castle_advance = {
+    age = age_1_traditions
+
+    requires = villagers_advance
+
+    unlock_building = castle
+    starting_technology_level = 1
+
+    ai_weight = { add = 2 }
+}

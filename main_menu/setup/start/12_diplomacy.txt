@@ -25,7 +25,7 @@ diplomacy_manager = {
     }
     dependency = {
         first = TAL
-        second = HER
+        second = HERM
         subject_type = vassal		# of subject type “dominion”
         start_date = 1360.1.1		# since 1283.1.1
     }

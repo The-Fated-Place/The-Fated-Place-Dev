@@ -45,6 +45,7 @@ building_rights = {
 }
 
 burghers_royal_burgh_commissioners = {
+	content_priority = 400
 	estate = burghers_estate
 
 	potential = {
@@ -90,6 +91,7 @@ commercial_advisory_council = {
 }
 
 milanese_cloth_guilds_privileges = {
+	content_priority = 700
 	estate = burghers_estate
 
 	potential = { has_or_had_tag = MLO }
@@ -132,7 +134,7 @@ novgorod_ivans_hundred = {
 	potential = { has_or_had_tag = NOV }
 	allow = {}
 	country_modifier = {
-		merchant_maintenance_cost = -0.25
+		merchant_maintenance_efficiency = 0.50
 		global_burghers_estate_power = 0.25
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		monthly_republican_tradition = 0.2
@@ -155,12 +157,30 @@ novgorod_ivans_hundred = {
 				has_variable = ivan_hundred_beeswax
 			}
 		}
-		trade_efficiency = small_trade_efficiency_bonus
+		export_efficiency = small_trade_efficiency_bonus
 		global_beeswax_output_modifier = 0.25
 	}	
 	can_revoke = {}
 }
 
+kbo_lake_chad_trade_privilege = {
+	estate = burghers_estate
+	potential = { 
+		has_or_had_tag = KBO
+	}
+	allow = {
+		owns = location:gambaru
+		owns = location:yo
+		owns = location:bodou_sailay
+		owns = location:nguigmi
+	}
+	country_modifier = {
+		global_burghers_estate_power = 0.25
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		export_efficiency = tiny_trade_efficiency_bonus
+		global_merchant_capacity_modifier = 0.1
+	}
+}
 
 kbo_serfdom_economy = {
 	estate = burghers_estate
@@ -307,7 +327,8 @@ shipwright_contracts = {
 	
 	country_modifier = {
 		ship_build_speed = 0.2
-		navy_maintenance_cost = -0.1 
+		navy_maintenance_efficiency = 0.1
+		monthly_towards_naval = societal_value_minor_monthly_move 
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_burghers_estate_power = 0.33
 	}
@@ -324,6 +345,24 @@ market_fairs = {
 	}
 }
 
+fund_karimi = { 
+	estate = burghers_estate
+
+	potential = {
+		OR = {
+			produced_in_country:pepper > 0
+		}
+		religion ?= {
+			group ?= religion_group:muslim
+		}
+	}
+
+	country_modifier = {
+		burghers_estate_max_tax = 0.1
+		burghers_estate_target_satisfaction = small_privilege_target_satisfaction
+		global_burghers_estate_power = 0.33
+	}
+}
 
 toll_and_tariff_exemptions = {
 	estate = burghers_estate 
@@ -335,7 +374,7 @@ toll_and_tariff_exemptions = {
 	
 	country_modifier = {
 		burghers_estate_max_tax = -0.1
-		trade_land_movement_cost_modifier = -0.05
+		trade_land_efficiency = 0.10
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_burghers_estate_power = 0.2
 		monthly_towards_individualism = societal_value_monthly_move
@@ -368,7 +407,7 @@ noble_patronage = {
 	
 	country_modifier = {
 		monthly_towards_plutocracy = societal_value_minor_monthly_move
-		trade_efficiency = tiny_trade_efficiency_bonus
+		export_efficiency = tiny_trade_efficiency_bonus
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
 		burghers_estate_target_satisfaction = large_privilege_target_satisfaction
 		global_burghers_estate_power = 0.5
@@ -391,7 +430,7 @@ polish_merchant_seal = {
 
 	country_modifier = {
 		burghers_estate_max_tax = 0.05
-		trade_efficiency = tiny_trade_efficiency_bonus
+		export_efficiency = tiny_trade_efficiency_bonus
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_burghers_estate_power = 0.33
 	}
@@ -413,6 +452,21 @@ privateer_contracts = {
 	}
 }
 
+ceremonial_tax_exemptions = {
+	estate = burghers_estate
+
+	potential = {
+		religion = religion:nahuatl
+		has_advance = taxation_advance
+	}
+
+	country_modifier = {
+		monthly_doom = -0.03
+		burghers_estate_max_tax = -0.1
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_burghers_estate_power = 0.33
+	}
+}
 
 
 villes_franches = {
@@ -427,6 +481,7 @@ villes_franches = {
 		global_migration_speed_modifier = 0.05
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_burghers_estate_power = 0.33
+		pure_tooltip_entry = unlock_ville_franche_town_rights_tt
 	}
 }
 
@@ -434,18 +489,17 @@ fra_leadership_of_marcel = {
 	estate = burghers_estate
 
 	potential = {
-		any_character = {
-			is_alive = yes
-			has_variable = is_etienne_marcel
-		}	
 		has_or_had_tag = FRA
+		character:etienne_marcel ?= {
+			is_alive = yes
+		}
 	}
 
 	country_modifier = {
 		global_burghers_estate_power = 0.50
 		parliament_base_support = -0.20
 		global_max_control = -0.03
-		trade_efficiency = small_trade_efficiency_bonus
+		import_efficiency = small_trade_efficiency_bonus
 		global_trades_per_burgher = 0.10
 	}
 	can_revoke = {
@@ -494,6 +548,54 @@ fra_marcel_compromise_ordinance = {
 }
 
 
+petty_bureaucracy = { #https://en.wikipedia.org/wiki/Jungin
+	estate = burghers_estate
+		
+	potential = {
+		OR = {
+			culture ?= { has_culture_group = culture_group:confucian_group }
+			any_international_organizations_member_of = {
+				international_organization_type = international_organization_type:sect
+				international_organization_has_policy = policy:confucianism_policy
+			}
+			has_variable = has_neo_confucianism
+			is_member_of_international_organization = international_organization:middle_kingdom
+		}
+	}
+	allow = {
+		has_imperial_examinations = yes
+	}
+
+	can_revoke = {
+		not = { has_imperial_examinations = yes }
+	}
+
+	country_modifier = {
+		burghers_estate_max_tax = -0.05
+		global_burghers_estate_power = 0.33
+
+		global_burghers_max_literacy = 5
+		country_cabinet_efficiency = 0.1
+		monthly_towards_centralization = societal_value_large_monthly_move
+	}
+}
+
+cardinal_lead_guilds = {
+	estate = burghers_estate
+
+	potential = { 
+		government_type = government_type:theocracy
+		religion = religion:catholic
+	}
+
+	country_modifier = {
+		global_burghers_estate_power = 0.2
+		global_clergy_estate_power = 0.2
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_pop_promotion_speed_modifier = -0.10
+		monthly_towards_plutocracy = societal_value_monthly_move
+	}
+}
 
 libro_d_argento = { #https://it.wikipedia.org/wiki/Cittadini_(Venezia)
 	estate = burghers_estate
@@ -543,6 +645,27 @@ bra_kreditwerk_reformed = {
 	}
 }
 
+vij_tamil_trading_rights = {
+	estate = burghers_estate
+	potential = {
+		has_unlocked_estate_privilege_trigger = { type = vij_tamil_trading_rights  }
+	}
+	country_modifier = {
+		global_merchant_power = 0.2
+		global_burghers_estate_power = 0.2
+	}
+	location_modifier = {
+		potential_trigger = {
+			dominant_culture = culture:tamil
+			OR = {
+				location_rank = location_rank:town
+				location_rank = location_rank:city
+			}
+		}
+		local_max_control = -0.20
+		local_burghers_estate_power = 1
+	}
+}
 
 
 
@@ -559,13 +682,34 @@ consolidated_corruption_of_the_burghers = {
 
 	
 	country_modifier = {
-		trade_efficiency = medium_trade_efficiency_penalty
-		burghers_estate_max_tax = -0.25
+		import_efficiency = medium_trade_efficiency_penalty
+		export_efficiency = medium_trade_efficiency_penalty
+		burghers_estate_max_tax = -0.05
 		global_burghers_estate_power = 0.5
 	}
+
+	country_modifier = {
+		potential_trigger = { legitimacy < 100 }
+		scale = {
+			value = legitimacy
+			multiply = -0.01
+			add = 1
+		}
+		burghers_estate_max_tax = -0.1
+	}
+
+	country_modifier = {
+		display_trigger = {
+			custom_description = {
+				text = fate_of_the_phoenix_disaster_active_trigger_text
+				any_active_disaster = {
+					disaster_type = disaster_type:fate_of_the_phoenix
+				}
+			}
+		}
+		trade_income = -0.05
+	}
 }
-
-
 
 shooting_societies = {
 	estate = burghers_estate
@@ -630,8 +774,48 @@ mam_muhtasibs = {
 	country_modifier = {
 		global_merchant_power = 0.1
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
-		trade_efficiency = tiny_trade_efficiency_bonus
+		selling_efficiency = tiny_trade_efficiency_bonus
 		global_burghers_estate_power = 0.3
+	}
+}
+
+trunk_road_to_erzurum_privilege = {
+	estate = burghers_estate
+
+	potential = { has_reform = government_reform:anatolian_beylik }
+	allow = {
+		OR = {
+			owns = location:konya
+			owns = location:sivas
+			owns = location:erzurum
+			owns = location:tabriz
+		}
+	}
+
+	country_modifier = {
+		monthly_towards_free_trade = societal_value_monthly_move
+		trade_land_efficiency = tiny_trade_land_efficiency_bonus
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_burghers_estate_power = 0.25
+		scale = {
+			value = 0
+			if = {
+				limit = { owns = location:konya }
+				add = 1
+			}
+			if = {
+				limit = { owns = location:sivas }
+				add = 1
+			}
+			if = {
+				limit = { owns = location:erzurum }
+				add = 1
+			}
+			if = {
+				limit = { owns = location:tabriz }
+				add = 1
+			}
+		}
 	}
 }
 

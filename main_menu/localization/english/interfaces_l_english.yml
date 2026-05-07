@@ -3649,7 +3649,7 @@
  CULTURAL_INVESTMENT_MAXED_OUT: "Investment capped at $VAL|2$[gold_i] as no more [prestige|e] can be added."
  COLONY_MAINTENANCE_ENTRY: "[COLONIAL_CHARTER.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2$[gold_i]#!"
  COLONY_DETAIL_ENTRY_NUM: " and $VAL|V$ more [colonial_charters|e]..."
- COURT_MAINTENANCE: "The [court_maintenance|e] is $REALVALUE|2Y$[gold_i] each month.\nThis equals [COUNTRY.GetModifierCappedValue('court_spending_cost')] of the [economical_base|e] of $BASE|2Y$[gold_i]."
+ COURT_MAINTENANCE: "The [court_maintenance|e] is $REALVALUE|2Y$[gold_i] each month.\nThis equals [COUNTRY.GetModifierCappedValue('court_spending_cost_modifier')] of the [economical_base|e] of $BASE|2Y$[gold_i]."
  COURT_MAINTENANCE_SUBJECT: "Being a [SUBJECT_TYPE.GetName]: $VAL|-=2$[gold_i]"
  GOVERNMENT_INVESTMENT_MAXED_OUT: "Investment capped at $VAL|2$[gold_i] as no more [$POWER_LINK$|e] can be added."
  INFLATION_IMPACT_ON_PRICE: "[inflation|e]: $VAL|-=2%$"

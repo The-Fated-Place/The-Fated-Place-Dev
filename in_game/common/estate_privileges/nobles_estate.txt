@@ -1,4 +1,15 @@
 ﻿#generic privileges
+nobles_offensive_military_doctrine = {
+	estate = nobles_estate
+
+	country_modifier = {
+		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
+		global_nobles_estate_power = 0.4
+		land_morale_modifier = 0.05
+		monthly_towards_offensive = societal_value_monthly_move
+	}
+}
+
 nobles_land_rights = {
 	estate = nobles_estate
 	
@@ -35,6 +46,7 @@ auxilium_et_consilium = {
 	country_modifier = {
 		global_nobles_estate_power = 0.5
 		
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		levy_combat_efficiency_modifier = 0.10
 		global_army_levy_size_modifier = 0.1
 		nobles_estate_levy_size = 0.20
@@ -78,8 +90,10 @@ noble_fortification_licenses = {
 	}
 	
 	country_modifier = {
-		global_nobles_estate_power = 0.25
+		global_nobles_estate_power = 0.75
 		fort_limit_modifier = 0.1
+		fort_maintenance_cost = -0.25
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		monthly_towards_decentralization = societal_value_monthly_move
 		monthly_towards_land = societal_value_minor_monthly_move
 	}
@@ -171,7 +185,7 @@ elaborate_court_ceremonies = {
 	country_modifier = {
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_nobles_estate_power = 0.2
-		court_spending_cost = 0.01
+		court_spending_cost_modifier_modifier = 0.05
 		cultural_influence_modifier = 0.2
 		monthly_towards_individualism = societal_value_monthly_move
 	}
@@ -311,13 +325,14 @@ feudal_mercenary_contracts = {
 	country_modifier = {
 		global_nobles_estate_power = 1.0
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
-		mercenary_maintenance_cost = -0.1
+		mercenary_maintenance_efficiency = 0.1
 		hire_mercenary_premium_cost_modifier = -0.2
 	}
 }
 
 #special privileges
 liberum_veto = {
+	content_priority = 900
 	estate = nobles_estate
 		
 	potential = {
@@ -355,6 +370,7 @@ liberum_veto = {
 }
 
 visconti_city_states = {
+	content_priority = 800
 	estate = nobles_estate
 
 	potential = { has_or_had_tag = MLO }
@@ -374,7 +390,8 @@ visconti_city_states = {
 	
 }
 
-general_privilege = { 
+general_privilege = {
+	content_priority = 400
 	estate = nobles_estate
 
 	potential = { has_or_had_tag = ARA }
@@ -457,7 +474,7 @@ tysiatskii_privilege = {
 			}
 		}
 		global_nobles_estate_power = 0.25
-		army_infantry_power = 0.15
+		army_heavy_infantry_power = 0.15
 	}
 	country_modifier = {
 		potential_trigger = {
@@ -473,6 +490,19 @@ tysiatskii_privilege = {
 
 }
 
+the_ryad_privilege = {
+	estate = nobles_estate
+	potential = { culture ?= { has_culture_group = culture_group:russian_group } }
+	allow = {}
+	country_modifier = {
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 0.5
+		country_cabinet_efficiency = 0.05
+		stability_decay = -0.00025
+	}
+	can_revoke = {}
+
+}
 
 kbo_kaigama = {
 	estate = nobles_estate
@@ -523,6 +553,7 @@ kbo_cima = {
 }
 
 office_of_the_farima_soura_privilege = {
+	content_priority = 300
 	estate = nobles_estate
 		
 	potential = {
@@ -540,7 +571,7 @@ office_of_the_farima_soura_privilege = {
 		build_gravel_road_cost_modifier = -0.25
 		build_paved_road_cost_modifier = -0.25
 		build_modern_road_cost_modifier = -0.25
-		trade_efficiency = tiny_trade_efficiency_bonus
+		selling_efficiency = tiny_trade_efficiency_bonus
 		global_nobles_estate_power = 0.5
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		monthly_towards_aristocracy = societal_value_minor_monthly_move
@@ -548,6 +579,7 @@ office_of_the_farima_soura_privilege = {
 }
 
 office_of_the_sankar_zouma_privilege = {
+	content_priority = 200
 	estate = nobles_estate
 		
 	potential = {
@@ -569,7 +601,8 @@ office_of_the_sankar_zouma_privilege = {
 	}
 }
 
-golden_liberty = { 
+golden_liberty = {
+	content_priority = 800
 	estate = nobles_estate
 
 	potential = {
@@ -603,6 +636,7 @@ golden_liberty = {
 }
 
 nieszawa_privileges = {
+	content_priority = 500
 	estate = nobles_estate
 
 	potential = {
@@ -634,6 +668,7 @@ nieszawa_privileges = {
 }
 
 pacta_conventa = {
+	content_priority = 400
 	estate = nobles_estate
 
 	potential = {
@@ -698,9 +733,9 @@ chancellor_nobles = {
 	}
 }
 
-great_offices_of_the_crown_of_france = { 
+great_offices_of_the_crown_of_france = {
 	estate = nobles_estate
-
+	content_priority = 100
 	potential = {
 		has_or_had_tag = FRA
 	}
@@ -731,9 +766,9 @@ residence_in_versailles = {
 	}
 }
 
-permanent_residence_in_versailles = { 
+permanent_residence_in_versailles = {
 	estate = nobles_estate
-
+	content_priority = 600
 	potential = {
 		has_or_had_tag = FRA
 		NOT = { has_estate_privilege = estate_privilege:residence_in_versailles }
@@ -748,6 +783,25 @@ permanent_residence_in_versailles = {
 	}
 }
 
+right_to_inherit = {
+	estate = nobles_estate
+
+	potential = {
+		OR = {
+			#All Germans
+			culture ?= { has_culture_group = culture_group:german_group }
+			succession_law ?= heir_selection:partition_inheritance
+		}
+	}
+	
+	country_modifier = {
+		stability_cost = -0.2
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 0.5
+		
+		monthly_towards_aristocracy = societal_value_monthly_move
+	}
+}
 
 inaugural_diplomas = {
 	estate = nobles_estate
@@ -797,6 +851,21 @@ joint_assembly_decrees = {
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 	}
 }
+
+kormlenije = {
+	estate = nobles_estate
+		
+	potential = {
+		culture ?= { has_culture_group = culture_group:russian_group }
+	}
+	
+	country_modifier = {
+		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
+		nobles_estate_max_tax = -0.05
+		monthly_towards_centralization = societal_value_monthly_move
+		global_nobles_estate_power = 0.2
+	}
+}		
 
 ordinance_of_laborers = {
 	estate = nobles_estate
@@ -880,6 +949,7 @@ vlastele_krayishnik = {
 }
 
 golden_bull_of_1222 = {
+	content_priority = 800
 	estate = nobles_estate
 	potential = {
 		has_or_had_tag = HUN
@@ -899,7 +969,7 @@ monetary_fiefs = { #https://en.wikipedia.org/wiki/Bastard_feudalism https://en.w
 		NOT = {	has_estate_privilege =  estate_privilege:auxilium_et_consilium }
 	}
 	country_modifier = {
-		nobles_estate_target_satisfaction = small_privilege_target_satisfaction
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		nobles_estate_max_tax = -0.05
 		nobles_estate_levy_size = -0.1
 		global_nobles_estate_power = 0.2
@@ -907,7 +977,66 @@ monetary_fiefs = { #https://en.wikipedia.org/wiki/Bastard_feudalism https://en.w
 	}
 }
 
+scholar_officials = { #https://en.wikipedia.org/wiki/Scholar-official
+	estate = nobles_estate
+		
+	potential = {
+		OR = {
+			culture ?= { has_culture_group = culture_group:confucian_group }
+			any_international_organizations_member_of = {
+				international_organization_type = international_organization_type:sect
+				international_organization_has_policy = policy:confucianism_policy
+			}
+			has_variable = has_neo_confucianism
+			is_member_of_international_organization = international_organization:middle_kingdom
+		}
+	}
+	allow = {
+		has_imperial_examinations = yes
+	}
 
+	can_revoke = {
+		not = { has_imperial_examinations = yes }
+	}
+
+	country_modifier = {
+		nobles_estate_max_tax = -0.05
+		global_nobles_estate_power = 0.33
+		
+		global_nobles_max_literacy = 5
+		research_speed_modifier = 0.1
+
+		monthly_towards_innovative = societal_value_large_monthly_move
+	}
+}
+
+ghazi_privilege = {
+	
+	estate = nobles_estate
+	
+	potential = {
+		religion ?= { group ?= religion_group:muslim }
+		culture ?= { has_culture_group = culture_group:turkic_group }
+	}
+	can_revoke = {
+		OR = {
+			societal_value:centralization_vs_decentralization > 0
+			societal_value:spiritualist_vs_humanist > 25
+		}
+	}
+	
+	country_modifier = {
+		land_morale_modifier = 0.05
+		global_levy_size_modifier = 0.05
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 1
+		monthly_towards_decentralization = societal_value_minor_monthly_move
+		monthly_towards_quality = societal_value_minor_monthly_move
+
+		#This is a privilege you will want early on but eventually it will become a hinderance
+		#when you want to centralize
+	}
+}
 
 share_of_the_spoils = {
 	estate = nobles_estate
@@ -917,7 +1046,7 @@ share_of_the_spoils = {
 	}
 	
 	country_modifier = {
-		court_spending_cost = 0.01
+		court_spending_cost_modifier_modifier = 0.05
 		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
 		global_nobles_estate_power = 0.2
 	}
@@ -957,8 +1086,74 @@ tribal_autonomy = {
 	}
 }
 
+plc_empower_orthodox_nobility = {
+	estate = nobles_estate
 
+	country_modifier = {
+		scale = {
+			value = "religion_percentage_in_country(religion:orthodox)"
+		}
+		global_pop_conversion_speed_modifier = -0.5
+		global_nobles_estate_power = 1.0
+	}
 
+	country_modifier = {
+		global_nobles_estate_power = 0.1
+	}
+
+	potential = {
+		has_unlocked_estate_privilege_trigger = {
+			type = plc_empower_orthodox_nobility
+		}
+	}
+}
+
+scottish_clans = {
+	estate = nobles_estate
+
+	potential = {
+		culture ?= {
+			has_culture_group = culture_group:scottish_group
+		}
+		NOT = {	has_estate_privilege = estate_privilege:sco_statutes_of_iona }
+		NOT = { has_variable = preserved_clan_autonomy}
+	}
+	allow = {
+		NOT = {	has_estate_privilege = estate_privilege:sco_statutes_of_iona }
+	}
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.33		
+	}
+	country_modifier = {
+		global_nobles_estate_power = 0.2
+		nobles_estate_levy_size = 0.3
+		nobles_estate_max_tax = 0.05
+		monthly_towards_traditionalist = societal_value_minor_monthly_move
+	}
+}
+
+autonomous_scottish_clans = {
+	estate = nobles_estate
+
+	potential = {
+		culture ?= {
+			has_culture_group = culture_group:scottish_group
+		}
+		NOT = {	has_estate_privilege = estate_privilege:sco_statutes_of_iona }
+		has_variable = preserved_clan_autonomy
+	}
+	allow = {
+		NOT = {	has_estate_privilege = estate_privilege:sco_statutes_of_iona }
+	}
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.33		
+	}
+	country_modifier = {
+		global_nobles_estate_power = -0.05
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		nobles_estate_max_tax = 0.05
+	}	
+}
 
 sco_statutes_of_iona = {
 	estate = nobles_estate
@@ -981,6 +1176,28 @@ sco_statutes_of_iona = {
 	}
 }
 
+coign_and_livery_privilege = {
+	estate = nobles_estate
+
+	potential = {
+		OR = {
+			culture ?= { has_culture_group = culture_group:hibernian_group }
+			has_reform = government_reform:celtic_traditions_reform
+		}
+	}
+	allow = {
+	}
+	can_revoke = {
+	}
+
+	country_modifier = {
+		nobles_estate_max_tax = 0.1
+		global_nobles_estate_power = 0.1
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction_penalty
+		army_heavy_infantry_maintenance_cost_modifier = -0.25
+		army_heavy_cavalry_maintenance_cost_modifier = -0.25
+	}
+}
 
 libro_d_oro = { #https://en.wikipedia.org/wiki/Libro_d%27Oro
 	estate = nobles_estate
@@ -1094,9 +1311,20 @@ consolidated_corruption_of_the_nobles = {
 	}
 	
 	country_modifier = {
-		nobles_estate_max_tax = -0.2
-		land_morale_modifier = -0.2
+		nobles_estate_max_tax = -0.05
+		land_morale_modifier = -0.1
 		global_nobles_estate_power = 0.5
+		global_levy_size_modifier = -0.1
+	}
+
+	country_modifier = {
+		potential_trigger = { legitimacy < 100 }
+		scale = {
+			value = legitimacy
+			multiply = -0.01
+			add = 1
+		}
+		nobles_estate_max_tax = -0.1
 	}
 }
 
@@ -1105,9 +1333,6 @@ privilege_of_koszyce = {
 		
 	potential = {
 		has_variable = unlock_privilege_of_koszyce
-	}
-	allow = {
-		
 	}
 	can_revoke = {
 		trigger_if = {
@@ -1288,12 +1513,14 @@ bavarian_share_of_land = { #Bavarian Inheritance
 cas_fuero_viejo = {
 	estate = nobles_estate
 
-	potential = { has_or_had_tag = CAS }
-	
-	allow = {
+	potential = { 
+		has_or_had_tag = CAS 
 		has_unlocked_estate_privilege_trigger = {
 			type = cas_fuero_viejo
 		}
+	}
+	
+	allow = {
 	}
 
 	country_modifier = {
@@ -1303,7 +1530,6 @@ cas_fuero_viejo = {
        		global_nobles_estate_power = 0.2
 	}
 }
-
 
 
 ayans_privilege = {
@@ -1336,6 +1562,9 @@ cas_regimiento = {
 		OR = {
 			has_or_had_tag = CAS
 			has_or_had_tag = SPA
+		}
+		has_unlocked_estate_privilege_trigger = {
+			type = cas_regimiento
 		}
 	}
 	allow = {
@@ -1394,6 +1623,7 @@ lit_equal_status_of_orthodox_nobility = {
 }
 
 mam_refined_furusiyya = {
+	content_priority = 700
 	estate = nobles_estate
 		
 	potential = {
@@ -1432,6 +1662,30 @@ tur_banned_weaponry_for_peasants = {
 		monthly_rebel_growth = -0.0002
 		monthly_towards_serfdom = societal_value_monthly_move
 		peasants_allowed_weapons = no #Added there in case you have another modifier that allows weapons
+	}
+}
+
+lat_latin_crusader_elite = {
+	estate = nobles_estate
+
+	potential = {
+		is_frankokratia_state = yes
+		NOT = { culture = culture:greek_culture }
+	}
+	allow = {
+		"culture_percentage_in_country(root.culture)" < 0.33
+		is_frankokratia_state = yes
+		NOT = { culture = culture:greek_culture }
+	}
+
+	country_modifier = {
+		land_morale_modifier = 0.1
+		change_primary_culture_cost_modifier = 0.75
+		global_nobles_estate_power = 0.75
+		add_accepted_culture_cost_modifier = -0.15
+		add_tolerated_culture_cost_modifier = -0.15
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		monthly_towards_quality = societal_value_monthly_move
 	}
 }
 

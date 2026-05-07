@@ -442,12 +442,9 @@ locations = {
             size = 94
             type = peasants
         }
-        define_pop = {
-            culture = marienburger
-            religion = imperial_cults
-            size = 18
-            type = peasants
-        }
+        define_pop = {	type = nobles	size = 0.031	culture = marienburger	religion = imperial_cults }
+        define_pop = {	type = clergy	size = 0.096	culture = marienburger	religion = imperial_cults }
+        define_pop = {	type = burghers	size = 18	culture = marienburger	religion = imperial_cults }
 
     }
     Almshoven = {
@@ -2129,7 +2126,7 @@ locations = {
             type = peasants
         }
     }
-    Essen_plains = {
+    Essen = {
         define_pop = {
             culture = ostermarker
             religion = imperial_cults

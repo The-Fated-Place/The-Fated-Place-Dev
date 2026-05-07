@@ -28,14 +28,10 @@ locations = {
     Leydenhoven = { rank = town 		town_setup = imperial_coastal_town }
     Scheinfeld = { rank = town 		town_setup = imperial_coastal_town }
     Schilderheim = { rank = town 		town_setup = imperial_coastal_town }
-    Essel = { rank = town 		town_setup = imperial_coastal_town }
     Holthusen = { rank = town 		town_setup = imperial_town }
     Eilhart = { rank = town 		town_setup = imperial_town }
     Helmgart = { rank = town 		town_setup = imperial_town }
-    Wheburg = { rank = town 		town_setup = imperial_town }
     Bogenhafen = { rank = town 		town_setup = imperial_town }
-    Tahme = { rank = town 		town_setup = imperial_town }
-    Neufaljung = { rank = town 		town_setup = imperial_town }
     Aarnau = { rank = town 		town_setup = imperial_coastal_town }
     Hargendorf = { rank = town 		town_setup = imperial_coastal_town }
     Dietershafen = { rank = town 		town_setup = imperial_coastal_town }
@@ -49,9 +45,7 @@ locations = {
     Schoninghagen = { rank = town 		town_setup = imperial_town }
     Grimmenhagen = { rank = town 		town_setup = imperial_town }
     Krudenwald = { rank = town 		town_setup = imperial_town }
-    Schoppendorf = { rank = town 		town_setup = imperial_town }
     Middenstag = { rank = town 		town_setup = imperial_town }
-    Fielbach = { rank = town 		town_setup = imperial_town }
     Ahlenhof = { rank = town 		town_setup = imperial_town }
     Volgen = { rank = town 		town_setup = imperial_town }
     Talagaad = { rank = town 		town_setup = imperial_town }
@@ -60,17 +54,13 @@ locations = {
     Barwedel = { rank = town 		town_setup = imperial_town }
     Bek = { rank = town 		town_setup = imperial_town }
     Wurzen = { rank = town 		town_setup = imperial_town }
-    Volganof = { rank = town 		town_setup = imperial_town }
     Vandengart = { rank = town 		town_setup = imperial_town }
     Lubrecht = { rank = town 		town_setup = imperial_town }
     Ferlangen = { rank = town 		town_setup = imperial_town }
     Grunburg = { rank = town 		town_setup = imperial_town }
     Diesdorf = { rank = town 		town_setup = imperial_town }
     Klessen = { rank = town 		town_setup = imperial_town }
-    Lengern = { rank = town 		town_setup = imperial_town }
-    Oberwald = { rank = town 		town_setup = imperial_town }
     Auerswald = { rank = town 		town_setup = imperial_town }
-    Holgau = { rank = town 		town_setup = imperial_town }
     Stimmigen = { rank = town 		town_setup = imperial_town }
     Grissenwald = { rank = town 		town_setup = imperial_town }
     Lengenfeld = { rank = town 		town_setup = imperial_town }
@@ -97,9 +87,7 @@ locations = {
     Sigmaringen = { rank = town 		town_setup = imperial_town }
     Hochsleben = { rank = town 		town_setup = imperial_town }
     Grenzstadt = { rank = town 		town_setup = imperial_town }
-    Fredricksburg = { rank = town 		town_setup = imperial_town }
     Heideck = { rank = town 		town_setup = imperial_town }
-    Sarheim = { rank = town 		town_setup = imperial_town }
     Bieswang = { rank = town 		town_setup = imperial_town }
     Halstedt = { rank = town 		town_setup = imperial_town }
 

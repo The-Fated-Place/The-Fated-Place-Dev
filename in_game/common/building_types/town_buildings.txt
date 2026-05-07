@@ -399,7 +399,6 @@ wharf = {
 		local_merchant_capacity = 0.1
 		can_build_ships_in_this_location = yes
 		harbor_suitability = 0.1
-        local_monthly_mannan_presence = 0.3
 	}
 }
 
@@ -475,21 +474,6 @@ pest_house = {
 	city = yes
 
 	build_time = super_fast_temporary_house
-
-	country_potential = {
-		is_situation_active = situation:black_death
-		custom_tooltip = {
-				text = pest_house_tt
-				modifier:enable_pest_house = yes
-			}
-	}
-	
-	remove_if = {
-		OR = {
-			NOT = { is_situation_active = situation:black_death }
-			owner = { modifier:enable_pest_house = no }
-		}
-	}
 
 	unique_production_methods = {
 		pest_house_maintenance = {

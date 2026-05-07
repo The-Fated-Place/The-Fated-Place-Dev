@@ -2,9 +2,13 @@
 
 human_group = {}
 
-dwarf_group = {}
+dwarf_group = {
 
-halfling_group = {}
+}
+
+halfling_group = {
+
+}
 
 ogre_group = {}
 
