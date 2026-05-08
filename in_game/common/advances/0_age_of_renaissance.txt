@@ -1,0 +1,14 @@
+﻿#####################################
+# Renaissance
+#####################################
+renaissance_advance = {
+	age = age_2_renaissance
+	icon = renaissance_advance
+
+	cultural_influence_modifier = 0.05
+
+	depth = 0
+
+	allow = { has_embraced_institution = institution:civilization }
+
+}

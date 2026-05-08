@@ -1,0 +1,19 @@
+work_of_art_manager = {
+    statue = { location = Marienburg origin = Marienburg quality = 80 creation_date = 1107.1.1 key = manaan_statue_marienburg_key }
+    chronicle = { location = Marienburg origin = Marienburg quality = 35 creation_date = 506.3.1 key = venerable_ottokar_key }
+    statue = { location = Marienburg origin = Marienburg quality = 80 creation_date = 807.1.1 key = verena_statue_marienburg_key }
+    chronicle = { location = Marienburg origin = Marienburg quality = 35 creation_date = 80.5.1 key = dobbe_arends_key }
+    runefang = { location = Talabheim origin = Altdorf quality = 100 creation_date = 100.1.1 key = stone_breaker_key}
+    runefang = { location = Averheim origin = Altdorf quality = 100 creation_date = 100.1.1 key = mothers_ruin_key}
+    runefang = { location = Hergig origin = Altdorf quality = 100 creation_date = 100.1.1 key = goblin_bane_key}
+    runefang = { location = Middenheim origin = Altdorf quality = 100 creation_date = 100.1.1 key = peak_leveller_key}
+    runefang = { location = Mordheim origin = Altdorf quality = 100 creation_date = 100.1.1 key = troll_cleaver_key}
+    runefang = { location = Wolfenburg origin = Altdorf quality = 100 creation_date = 100.1.1 key = thunder_shadow_key}
+    runefang = { location = Altdorf origin = Altdorf quality = 100 creation_date = 100.1.1 key = beast_slayer_key}
+    runefang = { location = Pfeildorf origin = Altdorf quality = 100 creation_date = 100.1.1 key = unyielding_sun_key}
+    runefang = { location = Wurtbad origin = Altdorf quality = 100 creation_date = 100.1.1 key = orc_hewer_key}
+    runefang = { location = Marienburg origin = Altdorf quality = 100 creation_date = 100.1.1 key = crow_feeder_key}
+    runefang = { location = Wissenburg origin = Altdorf quality = 100 creation_date = 100.1.1 key = grudge_ender_key}
+    runefang = { location = Altdorf origin = Altdorf quality = 100 creation_date = 100.1.1 key = dragons_tooth_key}
+    weapon = { location = Wurtbad origin = Altdorf quality = 100 creation_date = 1.1.1 key = ghal_moraz_fake_key}
+}

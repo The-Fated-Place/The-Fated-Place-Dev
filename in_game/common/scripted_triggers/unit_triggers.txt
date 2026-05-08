@@ -1,0 +1,21 @@
+﻿
+
+unit_ship_of_the_line_location_trigger = {
+	has_building_with_at_least_one_level = naval_base
+	OR = { 
+		integration_level = integrated
+		integration_level = core
+	}
+}
+
+unit_war_galleon_location_trigger = {
+	OR = {
+		has_building_with_at_least_one_level = shipyard
+		has_building_with_at_least_one_level = grand_shipyard
+		has_building_with_at_least_one_level = naval_base
+	}
+	OR = { 
+		integration_level = integrated
+		integration_level = core
+	}
+}

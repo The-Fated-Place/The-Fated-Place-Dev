@@ -24,9 +24,48 @@ earthquakes = {
 #############
 # SEA ZONES
 #############
-# European Seas
-sea_zones = { 
+sea_zones = {
+    seaofclaws1
+    seaofclaws2
+    seaofclaws3
+    seaofclaws4
+    seaofclaws5
+    seaofclaws6
+    eiger_bay
+    seaofclaws8
+    drosselpule_bay
+    kriedklippe_bay
+    seaofclaws11
+    seaofclaws12
+    seaofclaws13
+
+    rijksmouth
+    rijkskeel
+    manaanshek
+    westelijk_kanaal
+    oostelijk_kanaal
+
+    river_reik1
+    river_reik2
+    river_reik3
+    river_reik4
+    river_reik5
+    river_reik6
+    river_reik7
+    river_reik8
+    river_reik9
+    river_reik10
+    river_reik11
+    river_reik12
+    river_reik13
+    river_reik14
+
 	my_sea_zone
+	seas1
+	seas2
+	seas3
+	seas4
+	seas5
 } 
 
 ###############
@@ -37,8 +76,16 @@ sea_zones = {
 ########
 # LAKES
 ########
-lakes = { 
-} 
+lakes = {
+    Ellsee
+    Taufsee
+    Riffelsee
+    Langwasser
+    Susswasser
+    Niederkiensee
+    Oberkiensee
+    Fieberwasser
+}
 
 #####################
 # IMPASSABLE TERRAIN
@@ -55,8 +102,6 @@ impassable_mountains = {
 	wasteland6
 	wasteland7
 	wasteland8
-	wasteland9
-	wasteland10
 	wasteland_blocker
 }
 

@@ -1,0 +1,19 @@
+﻿#####################################
+# New World
+#####################################
+new_world_advance = {
+	age = age_3_discovery
+
+
+	depth = 0
+
+	allow = { has_embraced_institution = institution:civilization }
+
+	exploration_preparation_time_modifier = -0.05
+	colonial_range = 600
+	diplomatic_range_modifier = 0.10
+
+	ai_preference_tags = {
+		exploration
+	}
+}

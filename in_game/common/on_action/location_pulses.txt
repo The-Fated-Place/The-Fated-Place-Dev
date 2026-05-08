@@ -1,0 +1,63 @@
+﻿# root = location
+
+
+# checks every location in the default.map list of volcano locations monthly
+volcano_location_pulse = {
+	on_actions = {
+	}
+
+	random_events = {
+		#earthquake events
+		40 = volcano_events.1 #weak eruption somewhat frequent
+		30 = volcano_events.2 #minor eruption somewhat frequent
+		20 = volcano_events.3 #major eruption less frequent
+		10 = volcano_events.4 #catastrophic eruption rare
+	
+		chance_to_happen = 0.02 #Around one eruption per volcano per 500 years
+	}
+
+}
+
+
+#checks one random location each month.. yay.
+earthquake_location_pulse = {
+	on_actions = {
+	}
+	
+	random_events = {
+		#earthquake events
+		16 = earthquake_events.90 #minor earthquake somewhat frequent
+		4 = earthquake_events.91 #major earthquake less frequent
+		1 = earthquake_events.92 #catastrophic earthquake rare
+	
+		chance_to_happen = 2
+	}
+}
+
+
+weather_monthly_pulse = {
+
+	effect = {
+
+		#Monsoon https://en.wikipedia.org/wiki/Monsoon
+
+		#Indian Monsoon
+		#Wet season arrives to the Indian coast in June
+		if = {
+			limit = {
+				current_month = 2  #start of the monsoon
+			}
+			#start_weather_system = { width = <pixels> length = <pixels> strength = [0..1] speed = <pixels per day> type = <front/cyclone/tornado> location = <start location> location = <waypoint> [location = <waypoint>...] }
+
+			start_weather_system = { 
+				width = 800
+				length = 100
+				strength = 0.5
+				speed = 30 
+				type = front
+				location = location:westelijk_kanaal
+			}
+
+		}
+	}
+}

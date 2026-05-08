@@ -1,0 +1,234 @@
+﻿legal_code_law = {
+	law_category = administrative
+	potential = {
+		OR = {
+			has_tribal_government = no
+			religion ?= {
+				group ?= religion_group:muslim
+			}
+		}
+	}
+
+	locked = {
+		religion.group = religion_group:muslim
+		has_policy = sharia_law_policy
+	}
+
+	traditional_law_policy = {
+		country_modifier = {
+			global_estate_target_satisfaction = tiny_permanent_target_satisfaction
+			monthly_towards_decentralization = societal_value_monthly_move
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+	}
+
+
+	court_of_appeals = {
+		potential = {
+			has_unlocked_policy_trigger = { type = court_of_appeals }
+		}
+		country_modifier = {
+			monthly_towards_free_subjects = societal_value_monthly_move
+			global_estate_target_satisfaction = small_permanent_target_satisfaction
+			pop_join_rebel_threshold = -0.025
+		}
+		estate_preferences = {
+			burghers_estate
+			peasants_estate
+		}
+		years = 2
+	}
+
+
+
+
+	law_of_the_pious_emperor = {
+		potential = {
+			has_unlocked_policy_trigger = { type = law_of_the_pious_emperor }
+		}
+		allow = { }
+		country_modifier = {
+			country_cabinet_efficiency = 0.1
+			global_crown_estate_power = 0.33
+			global_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+			monthly_towards_centralization = societal_value_monthly_move
+		}
+		estate_preferences = {
+			crown_estate
+		}
+		years = 2
+	}
+
+
+
+
+	chi_ming_dynasty_code_policy = {
+		potential = {
+			has_unlocked_policy_trigger = { type = chi_ming_dynasty_code_policy }
+		}
+		country_modifier = {
+			monthly_towards_communalism = societal_value_monthly_move
+			global_monthly_control = 0.005
+		}
+		country_modifier = { # Should be the same as chi_grand_pronouncements modifier
+			potential_trigger = {
+				custom_tooltip = {
+					text = integrated_grand_prounouncements
+					has_variable = chi_grand_pronouncements_enacted
+				}
+			}
+			tax_income_efficiency = large_tax_income_efficiency_bonus 
+			nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+		}
+		estate_preferences = {
+			crown_estate
+		}
+		years = 2
+	}
+
+
+	piotrokow_wislica_statutes = {
+		potential = {
+			has_unlocked_policy_trigger = { type = piotrokow_wislica_statutes }
+		}
+		country_modifier = {
+			monthly_towards_centralization = societal_value_minor_monthly_move
+			global_estate_max_tax = 0.1
+			global_estate_target_satisfaction = small_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			crown_estate
+		}
+		years = 2
+	}
+
+
+	statutes_of_lithuania_policy = {
+
+		country_modifier = {
+			monthly_towards_centralization = societal_value_large_monthly_move
+			monthly_towards_free_subjects = societal_value_monthly_move
+			revoke_privilege_cost_modifier = -0.1
+		}
+		estate_preferences = {
+			crown_estate
+			peasants_estate
+		}
+		years = 2
+	}
+
+	lit_casimir_code_policy = {
+
+		potential = {
+			has_unlocked_policy_trigger = {
+				type = lit_casimir_code_policy
+			}
+		}
+
+		country_modifier = {
+			monthly_towards_aristocracy = societal_value_monthly_move
+			monthly_rebel_growth = -0.001
+			nobles_estate_target_satisfaction = small_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+
+	articles_of_agreement = {
+		potential = {
+			has_reform = government_reform:pirate_brethren_reform
+		}
+		
+		country_modifier = {
+			monthly_towards_communalism = societal_value_tiny_monthly_move
+			monthly_republican_tradition = 0.05
+			monthly_rebel_growth = -0.001
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+		years = 2
+	}
+
+
+	ara_royal_ordinances_policy = {
+		potential = {
+			has_unlocked_policy_trigger = { type = ara_royal_ordinances_policy }
+		}
+		country_modifier = {
+			monthly_towards_centralization = societal_value_monthly_move
+			legislative_efficiency = 0.1
+			country_cabinet_efficiency = 0.05
+		}
+		years = 2
+	}
+
+	mongol_law_policy = {
+		potential = {
+			has_policy = mongol_law_policy
+		}
+		country_modifier = {
+			army_light_cavalry_power = 0.1
+			monthly_towards_quantity = societal_value_monthly_move
+			legislative_efficiency = -0.1
+		}
+		years = 2
+	}
+	nueva_recopilacion_policy = {
+		potential = {
+			has_unlocked_policy_trigger = {
+				type = nueva_recopilacion_policy
+			}
+		}
+		country_modifier = {
+			monthly_towards_centralization = societal_value_tiny_monthly_move
+			legislative_efficiency = 0.1
+			country_cabinet_efficiency = 0.1
+		}
+		country_modifier = {
+			potential_trigger = {
+				custom_tooltip = {
+					text = spa_reformed_nueva_recopilacion_policy_tt
+					has_variable = spa_altered_nueva_recopilacion
+				}
+			}
+			monthly_towards_communalism = societal_value_monthly_move
+			global_peasants_max_literacy = 10
+			global_soldiers_max_literacy = 10
+			global_laborers_max_literacy = 10
+			research_speed_modifier = 0.1
+			scale = {
+				value = 1
+				subtract = {
+					value = "estate_power(estate_type:clergy_estate)"
+					multiply = 2
+					max = 1
+				}
+			}
+		}
+		years = 2
+	}
+
+	couteume_de_normaundie = {
+		country_modifier = {
+			monthly_towards_serfdom = societal_value_monthly_move
+			monthly_towards_decentralization = societal_value_monthly_move
+			global_nobles_estate_power = 0.1
+		}
+		years = 2
+	}
+
+	new_corpus_juris_civilis = {
+		country_modifier = {
+			pop_join_rebel_threshold = -0.03
+			government_size = 1
+			country_cabinet_efficiency = 0.1
+		}
+		years = 2
+	}
+}
+

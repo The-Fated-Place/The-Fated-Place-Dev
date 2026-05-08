@@ -1,0 +1,98 @@
+﻿is_adjacent_to_owned_or_subject_owns = {
+	custom_tooltip = {
+		text = is_adjacent_to_owned_or_subject_owns
+		any_neighbor_location = {
+			OR = {
+				owner ?= scope:actor 
+				owner ?= { 
+					exists = overlord
+					overlord = scope:actor 
+				}
+			}
+		}
+	}
+}
+
+is_coastal_within_range = { 
+	custom_tooltip = {
+		text = is_coastal_within_range
+		
+		is_coastal = yes
+		within_colonial_range_of = scope:actor
+	}
+}
+
+
+has_midgame_manufactory_building = {
+	any_buildings_in_location = {
+		building_type = {
+			has_tag = midgame_manufactory
+		}
+	}
+}
+
+has_land_military_building = {
+	any_buildings_in_location = {
+		building_type = {
+			building_manpower_produced > 0
+		}
+	}
+}
+
+has_military_producing_building = {
+	any_buildings_in_location = {
+		OR = {
+			building_produced_goods = goods:weaponry
+			building_produced_goods = goods:firearms		
+			building_produced_goods = goods:cannons		
+		}
+	}
+}
+
+has_any_guild_building = {
+	any_buildings_in_location = {
+		building_type = {
+			has_tag = guild
+		}
+	}
+}
+
+owner_owns_no_copies_of_building = {
+	custom_tooltip = {
+		text = owner_owns_no_copies_of_building_tt
+		owner = {
+			not = {
+				any_owned_location = {
+					has_building = building_type:$type$
+				}
+			}
+		}
+	}
+}
+
+
+has_great_or_unique_palace = {
+	any_buildings_in_location = {
+		building_type = {
+			has_tag = unique_palace
+		}
+	}
+}
+
+show_production_building_trigger = { 
+	any_buildings_in_location = {
+		OR = {
+			building_category = consumer_goods_category
+			building_category = weapons_industry_category
+			building_category = basic_industry_category
+		}
+		count > 10	
+	}
+}
+
+is_no_longer_capital = {
+	location = {
+		is_capital = no
+		owner ?= { in_civil_war = no }
+	}	
+}

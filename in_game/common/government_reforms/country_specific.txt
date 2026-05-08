@@ -1,0 +1,41 @@
+﻿cult_of_rhya = {
+    age = age_1_traditions
+    government = theocracy
+    major = yes
+
+    potential = {
+        tag = CRH
+    }
+
+    allow = {
+
+    }
+
+    country_modifier = {
+        blocked_from_conversion = yes
+    }
+
+    years = 2
+}
+
+cult_of_ulric = {
+    age = age_1_traditions
+    government = theocracy
+    major = yes
+
+    potential = {
+        tag = CUL
+
+    }
+
+    allow = {
+
+    }
+
+    country_modifier = {
+        blocked_from_conversion = yes
+        allows_cult_buildings = yes
+    }
+
+    years = 2
+}

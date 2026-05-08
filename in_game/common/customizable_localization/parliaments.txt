@@ -1,0 +1,73 @@
+﻿country_flavor_parliament = {
+	type = country
+
+    text = {
+        localization_key = country_flavor_parliament_stadsraad
+        trigger = {
+            culture = culture:jutone
+        }
+    }
+	text = {
+		localization_key = country_flavor_parliament_council
+		trigger = {
+			parliament_type = parliament_type:council
+		}
+	}
+	text = {
+		localization_key = country_flavor_parliament
+		fallback = yes
+	}
+}
+
+
+country_flavor_court = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_court
+		fallback = yes
+	}
+}
+
+
+country_flavor_cabinet = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_cabinet
+		fallback = yes
+	}
+}
+
+country_flavor_cabinet_holder = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_cabinet_holder
+		fallback = yes
+	}
+}
+
+
+country_flavor_official = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_official_swedish
+		trigger = {
+			culture = culture:swedish
+		}
+	}
+
+	text = {
+		localization_key = country_flavor_official_monarchy
+		trigger = {
+			government_type = government_type:monarchy
+		}
+	}
+
+	text = {
+		localization_key = country_flavor_official
+		fallback = yes
+	}
+}

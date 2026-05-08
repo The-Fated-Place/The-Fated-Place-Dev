@@ -1,0 +1,107 @@
+locations = {
+    Marienburg = { rank = city 		town_setup = imperial_coastal_city }
+    Altdorf = { rank = city 		town_setup = imperial_coastal_city }
+    Mordheim = { rank = city 		town_setup = imperial_city }
+    Middenheim = { rank = city 		town_setup = imperial_city }
+    Salzenmund = { rank = city 		town_setup = imperial_coastal_city }
+    Kemperbad = { rank = city 		town_setup = imperial_coastal_city }
+    Nuln = { rank = city 		town_setup = imperial_coastal_city }
+    Ubersreik = { rank = city 		town_setup = imperial_city }
+    Delberz = { rank = city 		town_setup = imperial_city }
+    Wolfenburg = { rank = city 		town_setup = imperial_city }
+    Hergig = { rank = city 		town_setup = imperial_city }
+    Talabheim = { rank = city 		town_setup = imperial_city }
+    Kusel = { rank = city 		town_setup = imperial_city }
+    Bechafen = { rank = city 		town_setup = imperial_city }
+    Krugenheim = { rank = city 		town_setup = imperial_city }
+    Wurtbad = { rank = city 		town_setup = imperial_city }
+    Carroburg = { rank = city 		town_setup = imperial_coastal_city }
+    Dunkelburg = { rank = city 		town_setup = imperial_city }
+    Wissenburg = { rank = city 		town_setup = imperial_city }
+    Pfeildorf = { rank = city 		town_setup = imperial_city }
+    Averheim = { rank = city 		town_setup = imperial_city }
+    Streissen = { rank = city 		town_setup = imperial_city }
+
+    Klessen = { rank = town 		town_setup = imperial_coastal_town }
+    Kalkaat = { rank = town 		town_setup = imperial_coastal_town }
+    Zandt = { rank = town 		town_setup = imperial_coastal_town }
+    Leydenhoven = { rank = town 		town_setup = imperial_coastal_town }
+    Scheinfeld = { rank = town 		town_setup = imperial_coastal_town }
+    Schilderheim = { rank = town 		town_setup = imperial_coastal_town }
+    Holthusen = { rank = town 		town_setup = imperial_town }
+    Eilhart = { rank = town 		town_setup = imperial_town }
+    Helmgart = { rank = town 		town_setup = imperial_town }
+    Bogenhafen = { rank = town 		town_setup = imperial_town }
+    Aarnau = { rank = town 		town_setup = imperial_coastal_town }
+    Hargendorf = { rank = town 		town_setup = imperial_coastal_town }
+    Dietershafen = { rank = town 		town_setup = imperial_coastal_town }
+    Pugsblatter = { rank = town 		town_setup = imperial_coastal_town }
+    Norden = { rank = town 		town_setup = imperial_coastal_town }
+    Oldenlitz = { rank = town 		town_setup = imperial_town }
+    Beeckerhoven = { rank = town 		town_setup = imperial_town }
+    Norderingen = { rank = town 		town_setup = imperial_town }
+    Frote = { rank = town 		town_setup = imperial_town }
+    Warrenburg = { rank = town 		town_setup = imperial_town }
+    Schoninghagen = { rank = town 		town_setup = imperial_town }
+    Grimmenhagen = { rank = town 		town_setup = imperial_town }
+    Krudenwald = { rank = town 		town_setup = imperial_town }
+    Middenstag = { rank = town 		town_setup = imperial_town }
+    Ahlenhof = { rank = town 		town_setup = imperial_town }
+    Volgen = { rank = town 		town_setup = imperial_town }
+    Talagaad = { rank = town 		town_setup = imperial_town }
+    Gruyden = { rank = town 		town_setup = imperial_town }
+    Ahresdorf = { rank = town 		town_setup = imperial_town }
+    Barwedel = { rank = town 		town_setup = imperial_town }
+    Bek = { rank = town 		town_setup = imperial_town }
+    Wurzen = { rank = town 		town_setup = imperial_town }
+    Vandengart = { rank = town 		town_setup = imperial_town }
+    Lubrecht = { rank = town 		town_setup = imperial_town }
+    Ferlangen = { rank = town 		town_setup = imperial_town }
+    Grunburg = { rank = town 		town_setup = imperial_town }
+    Diesdorf = { rank = town 		town_setup = imperial_town }
+    Klessen = { rank = town 		town_setup = imperial_town }
+    Auerswald = { rank = town 		town_setup = imperial_town }
+    Stimmigen = { rank = town 		town_setup = imperial_town }
+    Grissenwald = { rank = town 		town_setup = imperial_town }
+    Lengenfeld = { rank = town 		town_setup = imperial_town }
+    Colmfahre = { rank = town 		town_setup = imperial_town }
+    Meissen = { rank = town 		town_setup = imperial_town }
+    Geschberg = { rank = town 		town_setup = imperial_town }
+    Steingart = { rank = town 		town_setup = imperial_town }
+    Agbeiten = { rank = town 		town_setup = imperial_town }
+    Wusteburg = { rank = town 		town_setup = imperial_town }
+    Lieske = { rank = town 		town_setup = imperial_town }
+    Gersdorf = { rank = town 		town_setup = imperial_town }
+    Bissendorf = { rank = town 		town_setup = imperial_town }
+    Essen_plains = { rank = town 		town_setup = imperial_town }
+    Remer = { rank = town 		town_setup = imperial_town }
+    Nagenhof = { rank = town 		town_setup = imperial_town }
+    Eisental = { rank = town 		town_setup = imperial_town }
+    Klessen = { rank = town 		town_setup = imperial_town }
+    Drakenhof = { rank = town 		town_setup = imperial_town }
+    Nachthafen = { rank = town 		town_setup = imperial_town }
+    Leicheberg = { rank = town 		town_setup = imperial_town }
+    Eicheschatten = { rank = town 		town_setup = imperial_town }
+    Pfunzig = { rank = town 		town_setup = imperial_town }
+    Schramleben = { rank = town 		town_setup = imperial_town }
+    Sigmaringen = { rank = town 		town_setup = imperial_town }
+    Hochsleben = { rank = town 		town_setup = imperial_town }
+    Grenzstadt = { rank = town 		town_setup = imperial_town }
+    Heideck = { rank = town 		town_setup = imperial_town }
+    Bieswang = { rank = town 		town_setup = imperial_town }
+    Halstedt = { rank = town 		town_setup = imperial_town }
+
+}
+building_manager = {
+    vloedmuur = { tag = MRB level = 1 location = Marienburg }
+    grand_cathedral = { tag = CMA level = 1 location = Marienburg }
+    grand_cathedral = { tag = CHA level = 1 location = Marienburg }
+    grand_cathedral = { tag = CUL level = 1 location = Talabheim }
+    grand_cathedral = { tag = CTA level = 1 location = Talabheim }
+    grand_cathedral = { tag = CSH level = 1 location = Altdorf }
+    grand_cathedral = { tag = CMO level = 1 location = Mordheim }
+    grand_cathedral = { tag = CSI level = 1 location = Altdorf }
+    manaanshaven = { tag = CMA level = 1 location = Marienburg }
+    cult_temple = { tag = CSI level = 1 location = Marienburg }
+    imperial_capital = { tag = WURT level = 1 location = Altdorf }
+}

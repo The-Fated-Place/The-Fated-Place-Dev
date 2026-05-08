@@ -1,0 +1,588 @@
+﻿country_flavor = {
+	type = country
+
+	text = {
+		localization_key = country_rank_people
+		trigger = {
+			country_type = pop
+			government_type = government_type:tribe
+		}
+	}
+
+	text = {
+		localization_key = country_rank_colony
+		trigger = {
+			is_subject_type = colonial_nation
+		}
+	}
+
+	################## EMPIRE ##################
+
+	text = {
+		localization_key = rank_empire_revolutionary
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:monarchy
+			is_revolutionary = yes
+		}
+	}
+
+
+	# Republic
+
+
+	text = {
+		localization_key = rank_empire_pirate_republic
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_republic_revolutionary
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+			is_revolutionary = yes
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_bank
+		trigger = {
+
+			country_rank_is_empire = yes
+			has_reform = government_reform:banking_country
+		}
+	}
+
+
+
+	text = {
+		localization_key = rank_empire_republic
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:republic
+		}
+	}
+
+	# Theocracy
+
+
+
+	text = {
+		localization_key = rank_empire_order
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
+		localization_key = rank_empire_abbey
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:abbey_reform
+		}
+	}
+
+
+
+	text = {
+		localization_key = rank_empire_theocracy
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:theocracy
+		}
+	}
+	
+	# Horde
+	text = {
+		localization_key = rank_empire_horde
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:steppe_horde
+		}
+	}
+
+	# Tribe
+
+
+	text = {
+		localization_key = rank_empire_tribe
+		trigger = {
+
+			country_rank_is_empire = yes
+			government_type = government_type:tribe
+		}
+	}
+
+
+	
+	# Default
+
+
+	text = {
+		localization_key = rank_empire
+		trigger = {
+
+			country_rank_is_empire = yes
+		}
+	}
+
+	################## KINGDOM ##################
+	text = {
+		localization_key = rank_kingdom_revolutionary
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:monarchy
+			is_revolutionary = yes
+		}
+	}
+
+	# Republic
+
+	text = {
+		localization_key = rank_kingdom_pirate_republic
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_republic_revolutionary
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+			is_revolutionary = yes
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_republic_judicate_reform
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			has_reform = government_reform:judicate_reform
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_conquistador
+		trigger = {
+			has_reform = government_reform:conquistador_country
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_bank
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			has_reform = government_reform:banking_country
+		}
+	}
+
+
+	text = {
+		localization_key = rank_kingdom_republic
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:republic
+		}
+	}
+
+
+	# Theocracy
+	
+
+
+	text = {
+		localization_key = rank_kingdom_order
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_abbey
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:abbey_reform
+		}
+	}
+
+
+
+	text = {
+		localization_key = rank_kingdom_theocracy
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:theocracy
+		}
+	}
+
+	# Horde
+
+	text = {
+		localization_key = rank_kingdom_horde
+		trigger = {
+			government_type = government_type:steppe_horde
+		}
+	}
+
+	# Tribe
+
+
+	text = {
+		localization_key = rank_kingdom_tribe
+		trigger = {
+
+			country_rank_is_kingdom = yes
+			government_type = government_type:tribe
+		}
+	}
+
+	# Default
+
+	text = {
+		localization_key = rank_kingdom
+		trigger = {
+
+			country_rank_is_kingdom = yes
+		}
+	}
+
+	################## DUCHY ##################
+	text = {
+		localization_key = rank_duchy_revolutionary
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:monarchy
+			is_revolutionary = yes
+		}
+	}
+	# Republic
+
+	text = {
+		localization_key = rank_duchy_pirate_republic
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+		}
+	}
+	
+	text = {
+		localization_key = rank_duchy_republic_revolutionary
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+			is_revolutionary = yes
+		}
+	}
+
+
+
+	text = {
+		localization_key = rank_duchy_bank
+		trigger = {
+
+			country_rank_is_duchy = yes
+			has_reform = government_reform:banking_country
+		}
+	}
+
+
+	text = {
+		localization_key = rank_duchy_republic
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:republic
+		}
+	}
+
+	# Theocracy
+
+	text = {
+		localization_key = rank_duchy_order
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+
+	text = {
+		localization_key = rank_duchy_abbey
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:abbey_reform
+		}
+	}
+
+	text = {
+		localization_key = rank_duchy_theocracy
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:theocracy
+		}
+	}
+
+
+
+	# Tribe
+
+
+	text = {
+		localization_key = rank_duchy_tribe
+		trigger = {
+
+			country_rank_is_duchy = yes
+			government_type = government_type:tribe
+		}
+	}
+	
+	# Default
+
+
+
+	text = {
+		localization_key = rank_duchy
+		trigger = {
+
+			country_rank_is_duchy = yes
+		}
+	}
+
+
+
+
+	################## COUNTY ##################
+	text = {
+		localization_key = rank_county_revolutionary
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:monarchy
+			is_revolutionary = yes
+		}
+	}
+	# Republic
+
+	text = {
+		localization_key = rank_county_pirate_republic
+		trigger = {
+			has_reform = government_reform:pirate_brethren_reform
+			country_rank_is_county = yes
+			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = rank_county_republic_revolutionary
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:republic
+			is_revolutionary = yes
+		}
+	}
+
+	text = {
+		localization_key = rank_county_bank
+		trigger = {
+
+			country_rank_is_county = yes
+			has_reform = government_reform:banking_country
+		}
+	}
+
+
+
+	text = {
+		localization_key = rank_county_republic
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:republic
+		}
+	}
+
+
+	# Theocracy
+
+
+	text = {
+		localization_key = rank_county_order
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
+		localization_key = rank_county_abbey
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+			has_reform = government_reform:abbey_reform
+		}
+	}
+
+
+	text = {
+		localization_key = rank_county_theocracy
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:theocracy
+		}
+	}
+
+	# Tribe
+
+	text = {
+		localization_key = rank_county_tribe
+		trigger = {
+
+			country_rank_is_county = yes
+			government_type = government_type:tribe
+		}
+	}
+	
+	# Default
+
+	text = {
+		localization_key = rank_county_landgraviate
+		trigger = {
+			country_rank_is_county = yes
+			has_reform = government_reform:landgraviate
+		}
+	}
+
+	text = {
+		localization_key = rank_county_margraviate
+		trigger = {
+			country_rank_is_county = yes
+			has_reform = government_reform:margraviate
+		}
+	}
+
+}
+country_flavor_prefix = 		{ parent = country_flavor suffix = "_prefix" 		log_loc_errors = no	if_invalid_loc = return_empty }
+country_flavor_ADJ =			{ parent = country_flavor suffix = "_ADJ" 			log_loc_errors = no if_invalid_loc = fallback_to_next_entry }
+country_flavor_ruler_suffix_female = 	{ parent = country_flavor suffix = "_ruler_suffix_female" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_ruler_suffix_male = 	{ parent = country_flavor suffix = "_ruler_suffix_male" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_ruler_female = 	{ parent = country_flavor suffix = "_ruler_female" 	log_loc_errors = no if_invalid_loc = fallback_to_next_entry }
+country_flavor_ruler_male = 	{ parent = country_flavor suffix = "_ruler_male" 	log_loc_errors = no if_invalid_loc = fallback_to_next_entry }
+
+
+country_flavor_heir = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_heir_successor
+		trigger = {
+			OR = {
+				government_type = government_type:theocracy
+				government_type = government_type:republic
+			}
+		}
+	}
+
+
+
+	text = {
+		localization_key = country_flavor_heir_crown_prince
+		trigger = {
+			country_rank_level >= 3 # kingdom
+			government_type = government_type:monarchy
+		}
+	}
+
+	text = {
+		localization_key = country_flavor_heir
+		fallback = yes
+	}
+}
+country_flavor_heir_suffix = 	{ parent = country_flavor_heir suffix = "_suffix" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_heir_suffix_female = 	{ parent = country_flavor_heir suffix = "_suffix_female" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_heir_female = 	{ parent = country_flavor_heir suffix = "_female" 	log_loc_errors = no if_invalid_loc = return_loc_key }
+
+
+country_flavor_regent = {
+	type = country
+
+
+	text = {
+		localization_key = country_flavor_regent_administrator
+		trigger = {
+			government_type = government_type:republic
+		}
+	}
+
+	text = {
+		localization_key = country_flavor_regent
+		fallback = yes
+	}
+}
+country_flavor_regent_female = 	{ parent = country_flavor_regent suffix = "_female" 	log_loc_errors = yes if_invalid_loc = return_loc_key }
+
+
+country_flavor_courtier = {
+	type = country
+
+	text = {
+		localization_key = country_flavor_courtier
+		fallback = yes
+	}
+}
+country_flavor_courtier_female = 	{ parent = country_flavor_courtier suffix = "_female" 	log_loc_errors = yes if_invalid_loc = return_loc_key }
+
+
+country_flavor_consort = {
+	type = country
+
+
+	text = {
+		localization_key = country_flavor_consort
+		fallback = yes
+	}
+}
+country_flavor_consort_suffix = 	{ parent = country_flavor_consort suffix = "_suffix" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_consort_suffix_female = 	{ parent = country_flavor_consort suffix = "_suffix_female" 	log_loc_errors = no if_invalid_loc = return_empty }
+country_flavor_consort_female = 	{ parent = country_flavor_consort suffix = "_female" 	log_loc_errors = no if_invalid_loc = return_loc_key }

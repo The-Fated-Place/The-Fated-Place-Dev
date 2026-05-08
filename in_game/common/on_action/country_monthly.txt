@@ -1,0 +1,77 @@
+﻿
+monthly_country_pulse = {
+	on_actions = {
+
+		on_annexing_subject_monthly_pulse
+		on_settle_the_frontier_monthly_pulse
+		on_fraticide_underage_succession_waiting
+	}
+	
+	random_events = {
+		10 = empires.1
+		10 = empires.2
+		10 = empires.3
+		1 = border_friction.1
+		1 = border_friction.2
+
+		chance_to_happen = 5
+	}
+	
+	
+	
+	events = {
+		#earthquake events 
+		earthquake_events.1			#Earthquake in Constantinople
+		earthquake_events.1000		#The Gallipoli Earthquake
+
+    }
+}
+
+# root = overlord
+# scope:target = subject
+on_annexing_subject_monthly_pulse = {
+	on_actions = {
+	}
+	
+	random_events = {
+		1 = subject_interaction_events.46
+		1 = subject_interaction_events.47
+		1 = subject_interaction_events.48
+		100 = 0
+
+		chance_to_happen = 1
+	}
+}
+
+on_fraticide_underage_succession_waiting = {
+	trigger = {
+		has_variable = fraticide_succession_has_child_sons
+	}
+	effect = {
+		if = {
+			limit = {
+				list_size = { name = rival_male_children value > 0 }
+			}
+			if = {
+				limit = {
+					any_in_list = {
+						list = rival_male_children
+						is_alive = yes
+						is_adult = yes
+					}
+				}
+				trigger_event_silently = succession.5
+			}
+			else = {
+				every_in_list = {
+					list = rival_male_children
+					limit = { is_alive = no }
+					remove_from_list = rival_male_children
+				}
+			}
+		}
+		else = {
+			trigger_event_silently = succession.5
+		}
+	}
+}

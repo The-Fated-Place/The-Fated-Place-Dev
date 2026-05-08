@@ -1,0 +1,17 @@
+﻿
+
+scriptorium_advance = {
+	age = age_1_traditions
+	
+	unlock_building = scriptorium
+	
+	requires = written_alphabet
+}
+
+paper_guild_advance = {
+	age = age_1_traditions
+	
+	unlock_building = paper_guild
+	
+	requires = scriptorium_advance
+}

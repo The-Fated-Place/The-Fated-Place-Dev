@@ -166,17 +166,6 @@ has_autocephalous_patriarchates = {
 	third = THIRD_HAS_AUTOCEPHALOUS_PATRIARCHATES_TRIGGER
 }
 
-has_cults = {
-	none = HAS_CULTS_TRIGGER
-	global = HAS_CULTS_TRIGGER
-	third = THIRD_HAS_CULTS_TRIGGER
-}
-
-max_cults = {
-	none = MAX_CULTS_TRIGGER
-	global = MAX_CULTS_TRIGGER
-	third = THIRD_MAX_CULTS_TRIGGER
-}
 
 max_religious_aspects = {
 	none = MAX_CHURCH_ASPECTS_TRIGGER

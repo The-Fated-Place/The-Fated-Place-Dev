@@ -1,0 +1,106 @@
+diplomacy_manager = {
+    dependency = {
+        first = TAL
+        second = KUS
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = BEK
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = BAR
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = GER
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = HERM
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = KRU
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = LIE
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = OSS
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = RAN
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = RAV
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = UNT
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = VOL
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = WELL
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = ZUR
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = BECH
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = TAL
+        second = REMER
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+    dependency = {
+        first = MID
+        second = DEL
+        subject_type = vassal		# of subject type “dominion”
+        start_date = 1360.1.1		# since 1283.1.1
+    }
+
+
+}

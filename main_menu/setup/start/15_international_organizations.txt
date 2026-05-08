@@ -1,62 +1,443 @@
 international_organization_manager = {
-    add_international_organization = { #manaan
-        type = cult
+    #The empire of man
+
+    add_international_organization = { #the empire
+        type = the_empire
         creation_date = 1.1.1
         members = {
-            TAL
+            MRB AAR GRR KLE KAL ZAN
+            LEY BRO ALM SLF LEH HAR
+            SLZ STV JUT DIE LFT
+            SKJ HUV FOR FROTE IMM SOH
+            LINZ NORD THU MID AHL MIDD
+            GRI DEL WIS GES GRIS KRE
+            MEI SCHA SONN STEI WUS AVE AGB
+            BERN BIE COL GREN HEI HOC
+            LENG PFU STREI HERM BER BRE ESK
+            DENKH GRU KOE KRUD EIC BIR DRE
+            EIN FAL GIP SAUER MORD BECH
+            EIS ESSEN FOR HEF REMER WOLF BOH
+            BOV LENK FER KURST LUB OBE
+            SMALL VAND WURZ ZUND ALTH KROP KAUNS
+            STEIN PFE WURT BLUT FLEN FRAN
+            HAL MAR SCHR SIEGF SIG WORD
+            WALD VANHA LEIC DRAK TEM NAC
+            ALT UBER STIM DUNK AUER BOGEN
+            EIL DIES GRUN HELM SCHIL STIM
+            KEMP NULN HER CSI
         }
-        laws = {
-            sigmar_policy
-        }
+
+        leader = WURT
         icon = cult_icon_manaan
         variables = {
-            cult_favor = 30
-            religion = religion:imperial_cults
+
         }
         areas = {
 
         }
-        provinces = {
 
-        }
         locations = {
+        }
 
-            testprovince2
-            testprovince3
-            testprovince4
-            testprovince5
-            testprovince6
+        Emperor = {
+            WURT
+        }
+
+        Elector_Count = {
+            ALT
+            WURT
+            MRB
+            SLZ
+            DEL
+            MID
+            AVE
+            PFE
+            WIS
+            MORD
+            WOLF
+            HER
+        }
+
+        Elector = {
+            EIC
+            CSI
+        }
+
+        Free_City = {
+            NULN
+            MID
+            KEMP
+
         }
 
     }
 
-    add_international_organization = { #sigmar
-        type = cult
+
+    # imperial provinces
+    add_international_organization = { #Westerland
+        type = imperial_province
         creation_date = 1.1.1
         members = {
-            TAL
-        }
-        laws = {
-            sigmar_policy
-        }
-        icon = cult_icon_sigmar
-        variables = {
-            cult_favor = 30
-            religion = religion:imperial_cults
-        }
-        areas = {
+            MRB
+            AAR
+            GRR
+            KLE
+            KAL
+            ZAN
+            LEY
+            BRO
+            ALM
+            SLF
+            LEH
 
+        }
+        leader = MRB
+        icon = cult_icon_manaan
+
+        areas = {
+            bitter_moors_area
+            tumble_downs_area
         }
         provinces = {
 
+
         }
         locations = {
+            Fauligmere
+            Klauperdorf
+            Smerigwaard
+            Stapelhugel
+            Tobenamedleydenhoven3
+            Leydenhoven
+            Tobenamedleydenhoven2
+            Weteringh
 
-            testprovince2
-            testprovince3
-            testprovince4
-            testprovince5
-            testprovince6
+        }
+
+    }
+
+    add_international_organization = { #Nordland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            HAR
+            SLZ
+            STV
+            JUT
+            DIE
+            LFT
+            SKJ
+            HUV
+            FOR
+            FROTE
+
+        }
+        leader = SLZ
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { #Middenheim
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            IMM
+            SOH
+            LINZ
+            NORD
+            THU
+            MID
+
+        }
+        leader = MID
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { #Middenland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            AHL
+            MIDD
+            GRI
+            DEL
+
+        }
+        leader = DEL
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+    add_international_organization = { #Wissenland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            WIS
+            GES
+            GRIS
+            KRE
+            MEI
+            SCHA
+            SONN
+            STEI
+            WUS
+
+        }
+        leader = WIS
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { # Averland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            AVE
+            AGB
+            BERN
+            BIE
+            COL
+            GREN
+            HEI
+            HOC
+            LENG
+            PFU
+            STREI
+
+        }
+        leader = AVE
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+    add_international_organization = { # Hochland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+
+            HER
+            BER
+            BRE
+            ESK
+            DENKH
+            GRU
+            KOE
+            KRUD
+
+        }
+        leader = HER
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+    add_international_organization = { # Ostermark
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            MORD
+            EIS
+            ESSEN
+            FOR
+            HEF
+
+        }
+        leader = MORD
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+            bissendorf_province
+            eastern_forest_province
+            east_dunkelkuste_province
+            poritz_province
+            nagenhof_province
+            dnierson_province
+            badenhof_province
+            tobenamed4_province
+            bahlkurk_province
+            eisental_province
+            essen_province
+            dead_woods_province
+            totensumpfe_province
+        }
+        locations = {
+        }
+
+    }
+    add_international_organization = { # Ostland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            WOLF
+            BOH
+            BOV
+            LENK
+            FER
+            KURST
+            LUB
+            OBE
+            SMALL
+            VAND
+            WURZ
+            ZUND
+
+        }
+        leader = WOLF
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+
+    add_international_organization = { # Reikland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            ALT
+            UBER
+            STIM
+            DUNK
+            AUER
+            BOGEN
+            EIL
+            DIES
+            GRUN
+            HELM
+            SCHIL
+            STIM
+
+
+        }
+        leader = ALT
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { # Solland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            ALTH
+            KROP
+            KAUNS
+            STEIN
+            PFE
+
+        }
+        leader = PFE
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { # Stirland
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            WURT
+            BLUT
+            FLEN
+            FRAN
+            HAL
+            MAR
+            SCHR
+            SIEGF
+            SIG
+            WORD
+
+        }
+        leader = WURT
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
+        }
+
+    }
+
+    add_international_organization = { # Sylvania
+        type = imperial_province
+        creation_date = 1.1.1
+        members = {
+            WALD
+            VANHA
+            LEIC
+            DRAK
+            TEM
+            NAC
+
+        }
+        leader = DRAK
+        icon = cult_icon_manaan
+
+        areas = {
+        }
+        provinces = {
+        }
+        locations = {
         }
 
     }

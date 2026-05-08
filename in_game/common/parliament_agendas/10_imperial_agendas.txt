@@ -1,0 +1,50 @@
+﻿form_imperial_province = {
+	type = international_organization
+	special_status = Elector_Count
+	special_status = Elector
+    special_status = Emperor
+	importance = 1.5
+	potential = {
+		international_organization_type = international_organization_type:the_empire
+		NOT = { has_cooldown = empire_add_province }
+	}
+	allow = {
+		is_leader_of_international_organization = scope:recipient
+        any_area = {
+            filter = {
+                owner ?= {
+                    is_member_of_international_organization_of_type = { type = imperial_province target = this }
+                }
+                NOT = { is_owned_by_international_organization = international_organization:the_empire }
+            }
+            percent >= 0.7
+        }
+    }
+	on_accept = {
+		hidden_effect = { add_cooldown = { type = empire_add_province years = INTERNATIONAL_ORGANIZATION_SAME_AGENDA_COOLDOWN_YEARS } }
+		ordered_international_organization_member = {
+			limit = {
+				has_special_status_in_international_organization = {
+					type = scope:target
+					international_organization = root
+				}
+				country_exists = this
+			}
+			order_by = {
+				value = monthly_income_trade_and_tax
+				multiply = -1	#sorting them by the lowest income ones first
+			}
+			max = 5
+			check_range_bounds = no
+			add_country_modifier = {
+				modifier = pa_hre_lessen_tax_burden_modifier
+				years = 5 
+				mode = add_and_extend
+			}
+		}
+	}
+	ai_will_do = {
+		add = 5
+	}
+	chance = 10
+}

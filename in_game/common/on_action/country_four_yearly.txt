@@ -1,0 +1,93 @@
+﻿four_yearly_country_pulse = {
+	on_actions = {
+		on_four_yearly_check_for_script
+
+	}
+	
+	events = {
+
+		privilege_events.110 #Libro d'Oro Recurring Event
+
+	}
+
+	effect = {
+
+	
+
+		random = {
+			chance = 85
+			add_cooldown = {
+				type = ai_spam_protection
+				years = 4	#4 years as it gets updated on four yearly pulse
+			}
+		}
+		
+		random = {
+			chance = 50
+			trigger_event_non_silently = {
+				on_action = four_yearly_country_pulse_50_percent
+			}
+		}
+
+		random = {
+			chance = 25
+			trigger_event_non_silently = {
+				on_action = four_yearly_country_pulse_25_percent
+			}
+		}
+
+
+	}
+	
+	random_events = {
+
+		chance_to_happen = 50
+	}
+}
+
+# This on_action has a 50% chance of triggering on four year pulse
+four_yearly_country_pulse_50_percent = { 
+	effect = {
+		four_yearly_country_pulse_50_percent_effect = yes
+	}
+	random_events = {
+
+	}
+}
+
+# This on_action has a 25% chance of triggering on four year pulse
+four_yearly_country_pulse_25_percent = { 
+	events = {
+		flavor_teu.6
+	}
+	random_events = {
+
+	}
+}
+
+on_four_yearly_check_for_script = {
+	#it is on a 4 year check on purpose as it is a heavy check and should only touch on countries with the union of crowns inheritance
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					has_country_modifier = union_of_crowns_pact_modifier
+					succession_law ?= heir_selection:union_of_crowns_succession
+				}
+				NOT = { has_mutual_scripted_relation_of_type = relation_type:union_of_crowns_pact }
+			}
+			remove_country_modifier = union_of_crowns_pact_modifier
+			change_heir_selection = heir_selection:cognatic_primogeniture
+			if = {
+				limit = { has_variable = union_of_crowns_partner }
+				var:union_of_crowns_partner = {
+					remove_trust_equilibrium = {
+						modifier = trust_union_of_crowns_pact
+						target = root
+					}
+				}
+				remove_variable = union_of_crowns_partner
+			}
+		}
+	}
+}

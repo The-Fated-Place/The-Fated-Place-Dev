@@ -1,0 +1,52 @@
+﻿schiffsgeld = {
+    type = international_organization
+    law_category = foundation
+    potential = {
+        international_organization_type = international_organization_type:imperial_province
+    }
+    allow = {
+        # NOT = { has_cooldown = union_recent_policy_change_cd }
+    }
+    locked = {
+
+    }
+    custom_tags = {  }
+    enforce_schiffsgeld = {
+        allow = {
+
+        }
+        has_parliament = yes
+        propose_effect = {
+
+        }
+        on_activate = {
+
+        }
+        wants_propose_policy = {
+
+        }
+        wants_this_policy_bias = {
+
+        }
+        wants_keep_policy = {
+
+        }
+    }
+    ignore_schiffsgeld_policy = {
+        country_modifier = {
+
+        }
+        on_activate = {
+
+        }
+        wants_propose_policy = {
+
+        }
+        wants_this_policy_bias = {
+
+        }
+        wants_keep_policy = {
+
+        }
+    }
+}

@@ -1,0 +1,12 @@
+
+
+
+countries = {
+	countries = {
+
+		# Aggressive: militarist nations that pursue wars without hesitation
+		TAL = { ai_personality = ai_aggressive }  # Ottoman Empire
+
+
+	}
+}

@@ -1,6 +1,43 @@
 dynasty_manager = {
 
+    hargenfels_dynasty = {
+        name = { name = hargenfels_dynasty }
+        dynasty_name_type = location
+        home = Hargendorf
+    }
 
+    moltke_dynasty = {
+        name = { name = moltke_dynasty }
+        dynasty_name_type = descendant
+        home = Salzenmund
+    }
+
+    gausser_dynasty = {
+        name = { name = gausser_dynasty }
+        dynasty_name_type = location
+        home = Huven
+    }
+
+    nikse_dynasty = {
+        name = { name = nikse_dynasty }
+        dynasty_name_type = patronym
+        home = Forstfast
+    }
+    gausser_dynasty = {
+        name = { name = gausser_dynasty }
+        dynasty_name_type = location
+        home = Huven
+    }
+    kohler_dynasty = {
+        name = { name = kohler_dynasty }
+        dynasty_name_type = patronym
+        home = Norden
+    }
+    macht_dynasty = {
+        name = { name = macht_dynasty }
+        dynasty_name_type = patronym
+        home = Marienburg
+    }
 
     ottilian_dynasty = {
         name = { name = ottilian_dynasty }

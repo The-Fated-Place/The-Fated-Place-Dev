@@ -1,0 +1,53 @@
+﻿religion_flavor_pulse = {
+	random_events = {
+		# Ungated — cross-religion, IO-gated, or region-specific
+
+		10 = propagate_religion_events.1
+		10 = propagate_religion_events.2
+		10 = propagate_religion_events.3
+		10 = propagate_religion_events.4
+		10 = propagate_religion_events.5
+		10 = propagate_religion_events.6
+		10 = propagate_religion_events.8
+		10 = propagate_religion_events.9
+		10 = propagate_religion_events.10
+		10 = propagate_religion_events.11
+
+		2 = laws.0001
+		2 = laws.0002
+		2 = laws.0003
+		2 = laws.0004
+		2 = laws.0005
+		2 = laws.0006
+		2 = laws.0007
+		2 = laws.0008
+		2 = laws.0009
+		2 = laws.0010
+		2 = laws.0011
+		2 = laws.0012
+		2 = laws.0013
+		2 = laws.0014
+		2 = laws.0015
+		2 = laws.0016
+		2 = laws.0018
+		2 = laws.0019
+		2 = laws.0020
+		2 = laws.0021
+		2 = laws.0022
+		2 = laws.0023
+		2 = laws.0024
+		150 = laws.0025
+		2 = laws.0026
+		2 = laws.0027
+		2 = laws.0028
+		2 = laws.0029
+		2 = laws.0030
+
+
+		chance_to_happen = 50
+	}
+	first_valid_on_action = {
+
+	}
+}
+

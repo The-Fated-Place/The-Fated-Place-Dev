@@ -1,0 +1,13 @@
+﻿# #####################################
+# # Enlightenment
+# #####################################
+enlightenment_advance = {
+	age = age_6_revolutions
+	icon = enlightenment_advance
+
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	depth = 0
+
+	allow = { has_embraced_institution = institution:civilization }
+}

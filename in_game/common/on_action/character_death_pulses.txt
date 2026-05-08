@@ -1,0 +1,128 @@
+﻿#root = country, scope:target = character who dies
+on_character_death = {
+	on_actions = {
+		on_cabinet_death
+		on_horde_pretender_death
+		on_tamil_rebel_death
+		on_prussian_crusader_death
+	}
+	effect = {
+		#Remove favored heirs from supported_heirs
+		if = {
+			limit = {
+				scope:target = {
+					has_variable = home_country
+				}
+			}
+			if = {
+				limit = { 
+					scope:target.var:home_country ?= {
+						NOT = { this = root }
+					}
+				}
+				remove_relation = {
+					type = relation_type:support_heir
+					first = this
+					second = scope:target.var:home_country
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:target = {
+					has_variable = favored_in_country
+				}
+			}
+			scope:target.var:favored_in_country ?= {
+				remove_list_variable = {
+					name = supported_heirs
+					target = scope:target
+				}
+				if = {
+					limit = {
+						has_variable = favored_heir
+						var:favored_heir = scope:target
+					}
+					remove_variable = favored_heir
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:target = {
+					has_character_modifier = pol_blocked_from_marriage_betrothal
+				}
+			}
+
+		}
+
+		if = {
+			limit = {
+				scope:target ?= { has_variable = hostage_character_country }
+			}
+			scope:target ?= {
+				var:hostage_character_country ?= {
+					save_scope_as = origin_country
+					if = {
+						limit = {
+							has_trust = { modifier = trust_offered_hostage target = root }
+						}
+						remove_trust_equilibrium = { modifier = trust_offered_hostage target = root }
+					}
+					if = {
+						limit = {
+							has_opinion = { modifier = opinion_offered_hostage target = root }
+						}
+						remove_opinion = { modifier = opinion_offered_hostage target = root }
+					}
+				}
+			}
+			root ?= {
+				if = {
+					limit = {
+						has_trust = { modifier = trust_offered_hostage target = scope:origin_country }
+					}
+					remove_trust_equilibrium = { modifier = trust_offered_hostage target = scope:origin_country }
+				}
+				if = {
+					limit = {
+						has_opinion = { modifier = opinion_offered_hostage target = scope:origin_country }
+					}
+					remove_opinion = { modifier = opinion_offered_hostage target = scope:origin_country }
+				}
+			}
+		}
+
+
+	}
+}
+
+on_cabinet_death = {
+	trigger = {
+		scope:target = { in_cabinet = yes }
+	}
+	effect = {
+		if = {
+			limit = { scope:target = { has_character_modifier = head_of_the_cabinet_modifier } }
+			remove_head_of_cabinet_country_effect = yes
+		}
+	}
+}
+
+on_horde_pretender_death = {
+	trigger = {
+		scope:target = {
+			exists = var:scope_horde_pretender_var
+			var:scope_horde_pretender_var = {
+				NOT = { has_variable = horde_civil_war_can_end }
+			}
+		}
+	}
+	effect = {
+		scope:target = {
+			var:scope_horde_pretender_var = {
+				trigger_event_silently = horde_civil_war.3
+			}
+		}
+	}
+}

@@ -1,0 +1,134 @@
+﻿# Light infantry: units with barely any armor. Usually ranged attackers too, though not guaranteed to be in the early ages
+# Heavy infantry: robust units in heavy armor. Usually melee attackers
+# Light cavalry: mounted units which strength is speed and which use barely any armor. Good for flanking
+# Heavy cavalry: mounted units which breach frontal into the enemy rows and can withstand a lot of punishment. Become obsolete with Age of Revolutions
+# Artillery: currently all the cannons and mortar units which are used for siege and combat alike
+# Auxiliary: currently all the supply units which ensure that your troops do not starve
+
+
+a_light_infantry = {
+	category = army_light_infantry
+	buildable = no
+	empty = yes
+	hide = yes
+}
+
+a_heavy_infantry = {
+	category = army_heavy_infantry
+	buildable = no
+	empty = yes
+	hide = yes
+
+}
+
+
+a_heavy_cavalry = {
+	category = army_heavy_cavalry
+	buildable = no
+	empty = yes
+	hide = yes
+	
+	impact = { 
+		jungle = 0.10
+		wetlands = 0.10
+		mountains = 0.10
+	}
+	combat = { 
+		jungle = -0.10
+		wetlands = -0.10
+		mountains = -0.10
+	}
+	
+}
+
+
+a_light_cavalry = {
+	category = army_light_cavalry
+	buildable = no
+	empty = yes
+	hide = yes
+
+	impact = { 
+		jungle = 0.10
+		wetlands = 0.10
+		mountains = 0.10
+	}
+	combat = { 
+		jungle = -0.10
+		wetlands = -0.10
+		mountains = -0.10
+	}
+	
+}
+
+
+a_age_1_traditions_light_infantry = {
+	copy_from = a_light_infantry
+	hide = yes
+	buildable = no
+	max_strength = 0.5
+	combat_power = 1
+
+	maintenance_demand =  early_infantry_maintenance
+	construction_demand = early_infantry_construction
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_heavy_infantry = {
+	copy_from = a_heavy_infantry
+	hide = yes
+	buildable = no
+	max_strength = 0.5
+	combat_power = 1
+
+
+	maintenance_demand =  early_infantry_maintenance
+	construction_demand = early_infantry_construction
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_light_cavalry = {
+	copy_from = a_light_cavalry
+	hide = yes
+
+	buildable = no
+	max_strength = 0.2
+	combat_power = 4
+
+
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_heavy_cavalry = {
+	copy_from = a_heavy_cavalry
+	hide = yes
+
+	buildable = no
+	max_strength = 0.2
+	combat_power = 4
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_auxiliary = {
+	category = army_auxiliary
+	hide = yes
+	buildable = no
+	max_strength = 0.05
+	combat_power = 0.25
+
+	age = "age_1_traditions"
+}
+
+a_age_1_traditions_artillery = {
+	category = army_artillery
+	hide = yes
+	buildable = no
+	max_strength = 0.1
+	combat_power = 2
+	
+	bombard_efficiency = 0.1
+	
+	artillery_barrage = 1
+
+	age = "age_1_traditions"
+}

@@ -1,0 +1,74 @@
+﻿
+
+imperial_town = {
+	brewery = 2
+	tools_guild = 1
+	paper_guild = 1
+	cloth_guild = 1
+	weapon_guild = 1
+	tannery = 1
+	glass_guild = 1
+	granary = 1
+	mason = 1
+	pottery_guild = 1
+	marketplace = 1
+}
+
+imperial_coastal_town = {
+	brewery = 2
+	tools_guild = 1
+	paper_guild = 1
+	cloth_guild = 1
+	weapon_guild = 1
+	tannery = 1
+	jewelry_guild = 1
+	granary = 1
+	wharf = 1
+	naval_supplies_guild = 1
+	marketplace = 2
+	castle = 1
+	mason = 1
+	pottery_guild = 1
+}
+
+
+imperial_city = {
+	brewery = 3
+	tools_guild = 2
+	mason = 2
+	pottery_guild = 2
+	furniture_guild = 1
+	paper_guild = 1
+	cloth_guild = 1
+	weapon_guild = 2
+	glass_guild = 1
+	distillers_guild = 1
+	jewelry_guild = 1
+	dyes_guild = 1
+	scriptorium = 1
+	granary = 2
+	marketplace = 2
+	castle = 1
+}
+
+imperial_coastal_city = {
+	brewery = 3
+	tools_guild = 2
+	paper_guild = 1
+	cloth_guild = 1
+	weapon_guild = 2
+	glass_guild = 1
+	distillers_guild = 1
+	jewelry_guild = 1
+	dyes_guild = 1
+	scriptorium = 1
+	naval_supplies_guild = 2
+	granary = 2
+	marketplace = 2
+	wharf = 1
+	castle = 1
+	mason = 2
+	pottery_guild = 2
+	furniture_guild = 1
+}
+

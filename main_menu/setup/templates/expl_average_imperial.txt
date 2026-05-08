@@ -1,0 +1,8 @@
+﻿discovered_regions = {
+    southern_empire
+    northern_empire
+    sea_of_claws
+}
+
+discovered_areas = {
+}

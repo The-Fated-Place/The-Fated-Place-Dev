@@ -19,10 +19,6 @@
  # you can also join compound names like this so they can have a unique form in some languages:
  # name_michael.name_angel.north_italian_language: "Michelangelo"
  #
-
- name_malerion: "Malerion"
- name_ottilia: "Ottilia"
-
  name_aaron: "Aaron"
  name_aaron.coptic_language: "Aron"
  name_aaron.hebrew_language: "Aharon"
@@ -40,6 +36,7 @@
  name_abdullah.south_arabic_language: "'Abd Allāh"
  #
  name_abel: "Abel"
+ name_abel.latvian_dialect: "Âbels"
  name_abel.hungarian_language: "Ábel"
  name_abel.occitan_language: "Abèl"
  #
@@ -55,7 +52,8 @@
  name_abraham.albanian_language: "Aibrami"
  name_abraham.arabic_language: "'Ibrāhīm" # إبراهيم
  name_abraham.arpitan_dialect: "Abram"
- name_abraham.baltic_language: "Abraomas" # Lithuanian
+ name_abraham.baltic_language: "Abraomas"
+ name_abraham.latvian_dialect: "Abrahams"
  name_abraham.basque_language: "Abrahan"
  name_abraham.beja_language: "Ibrahim"
  name_abraham.brythonic_language: "Abram" # Welsh
@@ -88,7 +86,7 @@
  name_abraham.south_arabic_language: "'Ibrāhīm" # إبراهيم
  name_abraham.south_cushitic_language: "Ibrahim"
  name_abraham.south_italian_language: "Abramo" # Tuscan
- name_abraham.south_slavic_language: "Avram"
+ name_abraham.serbo_croatian_language: "Avram"
  name_abraham.swahili_language: "Ibrâhîm"
  name_abraham.spanish_language: "Abraham"
  name_abraham.tamazight_language: "Ibrahim"
@@ -136,6 +134,8 @@
  name_abundius.south_italian_language: "Abbondanzio"
  name_abundius.south_italian_language.diminutive: "Abbondio"
  #
+ name_acciaiolo: "Acciaiolo"
+ #
  name_achilles: "Achilles"
  name_achilles.north_italian_language: "Achille"
  name_achilles.south_italian_language: "Achille"
@@ -164,6 +164,8 @@
  name_adalhard.south_italian_language.diminutive: "Lealdo"
  #
  name_adam: "Adam" # English, French & Occitan
+ name_adam.baltic_language: "Adomas"
+ name_adam.latvian_dialect: "Âdams"
  name_adam.arpitan_dialect: "Âdam"
  name_adam.dalmatian_dialect: "Adam"
  name_adam.hungarian_language: "Ádám"
@@ -222,6 +224,8 @@
  name_adeodatus.spanish_language: "Diosdado"
  #
  name_adolf: "Adolf"
+ name_adolf.baltic_language: "Adolfas"
+ name_adolf.latvian_dialect: "Ādolfs"
  name_adolf.english_language: "Adulf"
  name_adolf.french_language: "Adolphe"
  name_adolf.german_language: "Adolph"
@@ -450,7 +454,8 @@
  name_albert.albanian_language: "Alberti"
  name_albert.arabic_language: "Ālbart" # البرت
  name_albert.arpitan_dialect: "Arbèrt"
- name_albert.baltic_language: "Albertas" # Lithuanian
+ name_albert.baltic_language: "Albertas"
+ name_albert.latvian_dialect: "Alberts"
  name_albert.basque_language: "Alberto"
  name_albert.basque_language.alternative: "Adalberto"
  name_albert.belarusian_dialect: "Vojtech"
@@ -555,7 +560,8 @@
  name_alexander.albanian_language: "Aleksandër"
  name_alexander.arabic_language: "Iskandar" # إسكندر
  name_alexander.arpitan_dialect: "Alèxandro"
- name_alexander.baltic_language: "Aleksandras" # Lithuanian
+ name_alexander.baltic_language: "Aleksandras" 
+ name_alexander.latvian_dialect: "Aleksandrs" 
  name_alexander.basque_language: "Alejandro"
  name_alexander.belarusian_dialect: "Aliaksandr" # Аляксандр Belarusian
  name_alexander.bulgarian_language: "Aleksandǎr" # Александър
@@ -576,18 +582,18 @@
  name_alexander.novgorodian_dialect: "Oleksandrŭ"
  name_alexander.portuguese_language: "Alexandre"
  name_alexander.polish_dialect: "Aleksander"
- name_alexander.west_slavic_language: "Aleksander"
  name_alexander.romanian_language: "Alexandru"
  name_alexander.ruthenian_language: "Oleksandr" # Олександр Russian
  name_alexander.scottish_gaelic_dialect: "Alasdair"
  name_alexander.south_italian_language: "Alessandro" # Tuscan
- name_alexander.south_slavic_language: "Aleksandar"
  name_alexander.serbo_croatian_language: "Aleksandar"
  name_alexander.spanish_language: "Alejandro"
  name_alexander.tamazight_language: "Aselkar"
  name_alexander.turkish_language: "İskender"
+ name_alexander.west_slavic_language: "Aleksander"
  #
  name_alexandra: "Alexandra" # English & Occitan
+ name_alexandra.baltic_language: "Aleksandra"
  name_alexandra.bulgarian_language.diminutive: "Aleksandrina"
  name_alexandra.church_slavonic_language.diminutive: "Aleksandrina"
  name_alexandra.greek_language: "Alexándra"
@@ -605,7 +611,7 @@
  name_alexis: "Alexis"
  name_alexis.albanian_language: "Aleksio"
  name_alexis.arabic_language: "Alīksīs" # أليكسيس
- name_alexis.baltic_language: "Aleksis" # Lithuanian
+ name_alexis.baltic_language: "Aleksis"
  name_alexis.basque_language: "Alesio"
  name_alexis.belarusian_dialect: "Aliaksei" # Аляксей Belarusian
  name_alexis.brythonic_language: "Alecsis"
@@ -628,9 +634,9 @@
  name_alexis.portuguese_language: "Aleixo"
  name_alexis.ruthenian_language: "Oleksiy" # Ukrainian Олексі́й 
  name_alexis.scandinavian_language: "Alexis"
- name_alexis.serbo_croatian_language: "Alexa"
+ name_alexis.serbian_dialect: "Aleksije"
+ name_alexis.serbo_croatian_language: "Aleksej"
  name_alexis.south_italian_language: "Alessio"
- name_alexis.south_slavic_language: "Aleksije" 
  name_alexis.spanish_language: "Alejo"
  name_alexis.turkish_language: "Aleksei"
  name_alexis.west_slavic_language: "Aleksy" # Polish
@@ -665,7 +671,8 @@
  name_alice.arabic_language: "Alyas" # ألياس
  name_alice.armenian_language: "Alidz"
  name_alice.arpitan_dialect: "Alisa"
- name_alice.baltic_language: "Alica" # Lithuanian
+ name_alice.baltic_language: "Alica"
+ name_alice.latvian_dialect: "Alise"
  name_alice.basque_language: "Alizia"
  name_alice.brythonic_language: "Alis" # Welsh
  name_alice.breton_dialect: "Aliks"
@@ -686,7 +693,7 @@
  name_alice.portuguese_language: "Alice"
  name_alice.scandinavian_language: "Alice"
  name_alice.scottish_gaelic_dialect: "Ailís" # Scottish Gaelic
- name_alice.south_slavic_language: "Alisa"
+ name_alice.serbo_croatian_language: "Alisa"
  name_alice.spanish_language: "Alicia"
  name_alice.turkish_language: "Elis"
  #
@@ -718,7 +725,7 @@
  name_alphonse.albanian_language: "Alfons"
  name_alphonse.arabic_language: "Adfuns" # الفنس
  name_alphonse.aragonese_dialect: "Alifonso"
- name_alphonse.baltic_language: "Alfonsas" # Lithuanian
+ name_alphonse.baltic_language: "Alfonsas"
  name_alphonse.basque_language: "Alfontso"
  name_alphonse.brythonic_language: "Alffons" # Welsh
  name_alphonse.catalan_dialect: "Alfons"
@@ -741,7 +748,7 @@
  name_alphonse.sicilian_dialect: "Alfonzu"
  name_alphonse.south_italian_language: "Alfonso"
  name_alphonse.south_italian_language.diminutive: "Alfonsino"
- name_alphonse.south_slavic_language: "Alfons"
+ name_alphonse.serbo_croatian_language: "Alfons"
  name_alphonse.spanish_language: "Alfonso"
  name_alphonse.spanish_language.diminutive: "Alonso" # Should be alternative
  name_alphonse.turkish_language: "Alfons"
@@ -795,6 +802,7 @@
  name_amadeus.arpitan_dialect: "Amèdê"
  name_amadeus.baltic_language: "Amadėjus"
  name_amadeus.bulgarian_language: "Amadej" # Амадей
+ name_amadeus.czechslovak_language: "Omodej"
  name_amadeus.east_slavic_language: "Amadej" # Russian (Амадей)
  name_amadeus.french_language: "Amédée"
  name_amadeus.hungarian_language: "Amádé"
@@ -883,6 +891,7 @@
  name_an.jin_language: "Ghan"
  #
  name_anastasia: "Anastasia" # Latin, North Italian, South Italian & Spanish
+ name_anastasia.baltic_language: "Anastasíja"
  name_anastasia.greek_language: "Anastasía"
  name_anastasia.west_slavic_language: "Anastazja"
  #
@@ -922,6 +931,7 @@
  name_andrew.albanian_language: "Andrea"
  name_andrew.arabic_language: "Andraws" # أندروس
  name_andrew.baltic_language: "Andrius"
+ name_andrew.latvian_dialect: "Andrejs"
  name_andrew.baltic_language.latvian: "Andris" # Latvian
  name_andrew.basque_language: "Andres"
  name_andrew.belarusian_dialect: "Andrei" # Андрэй Belarusian
@@ -953,14 +963,13 @@
  name_andrew.ruthenian_language: "Andrii" # Андрі́й Ukrainian
  name_andrew.scandinavian_language: "Anders"
  name_andrew.scottish_gaelic_dialect: "Aindrea" # Scottish Gaelic
+ name_andrew.serbian_dialect: "Andrija" # Андрија Serbian
  name_andrew.serbo_croatian_language: "Andrej"
- name_andrew.serbo_croatian_language.alternative: "Andrija"
  name_andrew.south_italian_language: "Andrea" # Tuscan
  name_andrew.south_italian_language.diminutive: "Andreotto"
  name_andrew.dalmatian_dialect: "Andreas"
  name_andrew.sardinian_dialect: "Andrìa"
  name_andrew.sicilian_dialect: "Andrìa"
- name_andrew.south_slavic_language: "Andrija" # Андрија Serbian
  name_andrew.spanish_language: "Andrés"
  name_andrew.turkish_language: "Andrea"
  name_andrew.west_slavic_language: "Andrzej"
@@ -1019,6 +1028,7 @@
  name_angela.spanish_language: "Ángela"
  #
  name_angelica: "Angelica"
+ name_angelica.baltic_language: "Anželika"
  name_angelica.hungarian_language: "Angyalka"
  #
  name_anglesa: "Anglesa" # Basque, Catalan & Spanish
@@ -1086,7 +1096,8 @@
  name_anthony.arpitan_dialect: "Antouèno"
  name_anthony.arabic_language: "Antūn" # أنطون
  name_anthony.aragonese_dialect: "Antón"
- name_anthony.baltic_language: "Antanas" # Lithuanian
+ name_anthony.baltic_language: "Antanas"
+ name_anthony.latvian_dialect: "Antons"
  name_anthony.basque_language: "Antton"
  name_anthony.belarusian_dialect: "Anton" # Антон Belarusian
  name_anthony.bulgarian_language: "Andon"
@@ -1121,7 +1132,7 @@
  name_anthony.dalmatian_dialect: "Tuone"
  name_anthony.sardinian_dialect: "Antoni"
  name_anthony.sicilian_dialect: "Antoniu"
- name_anthony.south_slavic_language: "Antun" 
+ name_anthony.serbo_croatian_language: "Antun" 
  name_anthony.spanish_language: "Antonio"
  name_anthony.turkish_language: "Anton"
  name_anthony.west_slavic_language: "Antoni" # Polish
@@ -1159,6 +1170,7 @@
  name_anund: "Anund"
  #
  name_apollonia: "Apollonia" # Dutch, English, Greek (Απολλωνία), Latin, Low German, North Italian, South Italian, Swedish & Upper German
+ name_apollonia.baltic_language: "Apolonija"
  name_apollonia.catalan_dialect: "Apoŀlònia"
  name_apollonia.danish_dialect: "Abelone"
  name_apollonia.french_language: "Apolline"
@@ -1185,7 +1197,8 @@
  #
  name_archibald: "Archibald"
  name_archibald.arabic_language: "Arshibal" # أرشيبالد
- name_archibald.baltic_language: "Archibaldas" # Lithuanian
+ name_archibald.baltic_language: "Archibaldas"
+ name_archibald.latvian_dialect: "Archibalds"
  name_archibald.french_language: "Archambaud"
  name_archibald.german_language: "Archimbald"
  name_archibald.greek_language: "Archibáldos" # Αρχιμπάλντος
@@ -1229,7 +1242,8 @@
  #
  name_arnold: "Arnold"
  name_arnold.arpitan_dialect: "Arnôd"
- name_arnold.baltic_language: "Arnoldas" # Lithuanian
+ name_arnold.baltic_language: "Arnoldas" 
+ name_arnold.latvian_dialect: "Arnolds" 
  name_arnold.basque_language: "Arnaut"
  name_arnold.catalan_dialect: "Arnau" 
  name_arnold.dutch_dialect: "Arnout"
@@ -1424,7 +1438,7 @@
  name_aurelia: "Aurelia" # Latin, North Italian, South Italian & Spanish
  name_aurelia.arpitan_dialect: "Ôrelia"
  name_aurelia.french_language: "Aurélie"
- name_aurelia.hungaria_language: "Aranka"
+ name_aurelia.hungarian_language: "Aranka"
  #
  name_aurelius: "Aurelius"
  name_aurelius.spanish_language: "Aurelio"
@@ -1550,7 +1564,8 @@
  name_balian.spanish_language: "Balián"
  #
  name_balthazar: "Balthazar" # Arabic (بالتازار), Dutch, English, French, Latin, Low German & Upper German
- name_balthazar.baltic_language: "Baltazaras" # Lithuanian
+ name_balthazar.baltic_language: "Baltazaras"
+ name_balthazar.latvian_dialect: "Baltazars"
  name_balthazar.basque_language: "Baltasar"
  name_balthazar.belarusian_dialect: "Baltazar" # Балтазар Belarusian
  name_balthazar.east_slavic_language: "Baltasar" # Валтазар Russian
@@ -1622,6 +1637,7 @@
  name_baptiste_f.spanish_language: "Baptista"
  #
  name_barbara: "Barbara" # English, French & Latin
+ name_barbara.baltic_language: "Barbora"
  name_barbara.east_slavic_language: "Varvara"
  name_barbara.french_language.diminutive: "Barbe"
  name_barbara.greek_language: "Barbàra"
@@ -1713,7 +1729,7 @@
  name_basil.ruthenian_language: "Vasyl" # Ukrainian
  name_basil.ruthenian_language.diminutive: "Vasylko" # Ukrainian
  name_basil.south_italian_language: "Basilio"
- name_basil.south_slavic_language: "Vasilij"
+ name_basil.serbo_croatian_language: "Vasilij"
  name_basil.spanish_language: "Basilio"
  #
  name_bassianus: "Bassianus"
@@ -1783,7 +1799,8 @@
  name_benedict: "Benedict" # Arabic (بينيديكت), English, Occitan
  name_benedict.albanian_language: "Benedikt"
  name_benedict.arpitan_dialect: "Benêt"
- name_benedict.baltic_language: "Benediktas" # Lithuanian
+ name_benedict.baltic_language: "Benediktas"
+ name_benedict.latvian_dialect: "Bendiks"
  name_benedict.basque_language: "Benedikt"
  name_benedict.catalan_dialect: "Benet"
  name_benedict.danish_dialect: "Bent"
@@ -1895,7 +1912,8 @@
  name_bernard.albanian_language: "Bernard"
  name_bernard.arabic_language: "Bernard" # بيرنارد
  name_bernard.arpitan_dialect: "Barnârd"
- name_bernard.baltic_language: "Bernardas" # Lithuanian
+ name_bernard.baltic_language: "Bernardas"
+ name_bernard.latvian_dialect: "Bernards"
  name_bernard.basque_language: "Bernart"
  name_bernard.brythonic_language: "Bernard" # Welsh
  name_bernard.dutch_dialect: "Barend"
@@ -1919,7 +1937,7 @@
  name_bernard.south_italian_language.diminutive: "Bernardetto"
  name_bernard.sardinian_dialect: "Bennardu"
  name_bernard.sicilian_dialect: "Binnardu"
- name_bernard.south_slavic_language: "Bernard"
+ name_bernard.serbo_croatian_language: "Bernard"
  name_bernard.spanish_language: "Bernardo"
  name_bernard.spanish_language.diminutive: "Bernal"
  name_bernard.tamazight_language: "Bernard"
@@ -2081,8 +2099,8 @@
  name_bogdana.bulgarian_language.diminutive: "Dana"
  #
  name_bogomil: "Bogomil"
- name_bogomil.west_slavic_language: "Bogumił"
  name_bogomil.czechslovak_language: "Bohumil"
+ name_bogomil.west_slavic_language: "Bogumił"
  #
  name_bogumila: "Bogumiła"
  name_bogumila.bulgarian_language: "Bogomilia"
@@ -2126,7 +2144,8 @@
  name_boniface.albanian_language: "Bonifac"
  name_boniface.arabic_language: "Bonifas" # بونيفاس
  name_boniface.arpitan_dialect: "Bonifaço"
- name_boniface.baltic_language: "Bonifacas" # Lithuanian
+ name_boniface.baltic_language: "Bonifacas"
+ name_boniface.latvian_dialect: "Bonifācijs"
  name_boniface.basque_language: "Bonifazio"
  name_boniface.belarusian_dialect: "Banyfatsiy" # Баніфацый Belarusian
  name_boniface.dutch_dialect: "Bonifatius"
@@ -2230,7 +2249,7 @@
  name_boyle.portuguese_language: "Boyle"
  name_boyle.scandinavian_language: "Bojle"
  name_boyle.south_italian_language: "Boile" # Tuscan
- name_boyle.south_slavic_language: "Boil"
+ name_boyle.serbo_croatian_language: "Boil"
  name_boyle.spanish_language: "Boile"
  name_boyle.tamazight_language: "Boyle"
  name_boyle.turkish_language: "Boyil"
@@ -2293,7 +2312,7 @@
  name_brian.portuguese_language: "Brião"
  name_brian.scandinavian_language: "Brynolf"
  name_brian.south_italian_language: "Briano" # Tuscan
- name_brian.south_slavic_language: "Brijan"
+ name_brian.serbo_croatian_language: "Brijan"
  name_brian.spanish_language: "Brian"
  name_brian.turkish_language: "Bryan"
  #
@@ -2540,6 +2559,7 @@
  #
  name_casimir: "Casimir"
  name_casimir.baltic_language: "Kazimieras"
+ name_casimir.latvian_dialect: "Kazimiers"
  name_casimir.czechslovak_language: "Kazimír"
  name_casimir.german_language: "Kasimir"
  name_casimir.hungarian_language: "Kázmér"
@@ -2605,6 +2625,8 @@
  #
  name_catherine: "Catherine" # English & French
  name_catherine.arpitan_dialect: "Catèlena"
+ name_catherine.baltic_language: "Kotryna"
+ name_catherine.latvian_dialect: "Katarīna"
  name_catherine.basque_language: "Katalina"
  name_catherine.basque_language.diminutive: "Katalin" # Should be alternative
  name_catherine.brythonic_language: "Katerine"
@@ -2770,6 +2792,8 @@
  name_charles.spanish_language: "Carlos"
  name_charles.west_slavic_language: "Karol"
  #
+ name_charles.name_michael: "Carl Michael"
+ #
  name_charlotte: "Charlotte"
  name_charlotte.basque_language: "Karlota"
  name_charlotte.catalan_dialect: "Carlota"
@@ -2860,6 +2884,7 @@
  name_christiana.west_slavic_language: "Krystyna"
  #
  name_christine: "Christine"
+ name_christine.baltic_language: "Kristina"
  name_christine.basque_language: "Kristina"
  name_christine.bulgarian_language: "Hristina"
  name_christine.church_slavonic_language: "Hristina"
@@ -2879,7 +2904,7 @@
  name_christine.scandinavian_language: "Kristina"
  name_christine.scandinavian_language.alternative: "Cristina"
  name_christine.south_italian_language: "Cristina"
- name_christine.south_slavic_language: "Kristina"
+ name_christine.serbo_croatian_language: "Kristina"
  name_christine.spanish_language: "Cristina"
  #
  name_christopher: "Christopher"
@@ -3045,7 +3070,7 @@
  name_conon.scandinavian_language: "Konon"
  name_conon.south_italian_language: "Conone"
  name_conon.sicilian_dialect: "Cununi"
- name_conon.south_slavic_language: "Konon"
+ name_conon.serbo_croatian_language: "Konon"
  name_conon.spanish_language: "Conón"
  name_conon.turkish_language: "Konon"
  name_conon.west_slavic_language: "Konon" # Polish
@@ -3095,7 +3120,8 @@
  name_constantine.albanian_language: "Kostandin"
  name_constantine.arabic_language: "Qustantin" # قسطنطين
  name_constantine.armenian_language: "Gosdantin"
- name_constantine.baltic_language: "Konstantinas" # Lithuanian
+ name_constantine.baltic_language: "Konstantinas"
+ name_constantine.latvian_dialect: "Konstantīns"
  name_constantine.basque_language: "Konstantino"
  name_constantine.belarusian_dialect: "Kanstantsin" # Канстанцін Belarusian
  name_constantine.bulgarian_language: "Konstantin"
@@ -3121,10 +3147,9 @@
  name_constantine.romanian_language: "Constantin"
  name_constantine.romanian_language.diminutive: "Costin"
  name_constantine.ruthenian_language: "Kostyantyn" # Костянтин Ukrainian
- name_constantine.serbo_croatian_language: "Konstantin"
  name_constantine.scandinavian_language: "Konstantin"
+ name_constantine.serbo_croatian_language: "Konstantin"
  name_constantine.south_italian_language: "Costantino" # Tuscan
- name_constantine.south_slavic_language: "Konstantin"
  name_constantine.spanish_language: "Constantino"
  name_constantine.turkish_language: "Kostantin"
  #
@@ -3264,6 +3289,8 @@
  name_dai.wu_language: "Te"
  name_dai.kejia_language: "Tai"
  #
+ name_daina: "Daina"
+ #
  name_dalmatius: "Dalmatius"
  name_dalmatius.basque_language: "Dalmacio"
  name_dalmatius.catalan_dialect: "Dalmau"
@@ -3336,7 +3363,7 @@
  name_dardan: "Dardan"
  #
  name_daria: "Daria" # Latin, North Italian, Occitan & South Italian
- name_daria.czechoslovak_language: "Darja"
+ name_daria.czechslovak_language: "Darja"
  name_daria.east_slavic_language: "Daría"
  name_daria.spanish_language: "Daría"
  name_daria.ruthenian_language: "Daría"
@@ -3408,6 +3435,7 @@
  name_demetrius.georgian_language: "Demetre"
  name_demetrius.greek_language: "Dēmêtrios"
  name_demetrius.hungarian_language: "Dömötör"
+ name_demetrius.hungarian_language.alternative: "Demeter"
  name_demetrius.north_italian_language: "Demetrio"
  name_demetrius.novgorodian_dialect: "Dĭmitrę"
  name_demetrius.occitan_language: "Demètri"
@@ -3461,7 +3489,7 @@
  name_despoina.north_italian_language: "Despina"
  name_despoina.portuguese_language: "Despina"
  name_despoina.south_italian_language: "Despina"
- name_despoina.south_slavic_language: "Despina"
+ name_despoina.serbo_croatian_language: "Despina"
  name_despoina.spanish_language: "Despina"
  #
  name_dermot: "Dermot"
@@ -3789,7 +3817,7 @@
  name_dusan: "Dušan"
  #
  name_dusana: "Dušana"
- name_dusana.serbo_croatian.diminutive: "Dušica"
+ name_dusana.serbo_croatian_language.diminutive: "Dušica"
  name_dusana.west_slavic_language: "Dušana"
 #
  name_eadred: "Eadred"
@@ -3805,7 +3833,8 @@
  name_edgar: "Edgar"
  name_edgar.albanian_language: "Edgari"
  name_edgar.arabic_language: "Adghar" # أدغار
- name_edgar.baltic_language: "Edgaras" # Lithuanian
+ name_edgar.baltic_language: "Edgaras" 
+ name_edgar.latvian_dialect: "Edgars" 
  name_edgar.basque_language: "Eguzkiar"
  name_edgar.brythonic_language: "Edern" # Welsh
  name_edgar.east_slavic_language: "Yedgar" # Едгар Russian
@@ -3818,13 +3847,15 @@
  name_edgar.occitan_language: "Edgari"
  name_edgar.spanish_language: "Edgardo"
  #
- name_edith: "Edith" # English, German & Hungarian
+ name_edith: "Edith" # English & German
+ name_edith.hungarian_language: "Edit"
  #
  name_ednevet: "Ednevet"
  name_ednevet.brythonic_language: "Ednyfed" # Welsh
  #
  name_edmond: "Edmond" # Albanian, Arab (إدموند), East Slavic (Эдмунд Russian), Finnish, French, Occitan (also in Catalan) & Turkish
- name_edmond.baltic_language: "Edmundas" # Lithuanian
+ name_edmond.baltic_language: "Edmundas" 
+ name_edmond.latvian_dialect: "Edmunds" 
  name_edmond.basque_language: "Edmundo"
  name_edmond.brythonic_language: "Edmyg" # Welsh
  name_edmond.english_language: "Edmund"
@@ -3882,7 +3913,7 @@
  name_egidia: "Egidia"
  #
  name_egil: "Egil"
- name_egil.baltic_language: "Egīls"
+ name_egil.latvian_dialect: "Egīls"
  name_egil.icelandic_dialect: "Egill"
  #
  name_egilhard: "Egilhard"
@@ -3908,6 +3939,7 @@
  #
  name_eleanor: "Eleanor"
  name_eleanor.arpitan_dialect: "Léonora"
+ name_eleanor.baltic_language: "Eleonora"
  name_eleanor.breton_dialect: "Eleonora"
  name_eleanor.basque_language: "Leonor"
  name_eleanor.brythonic_language: "Elinor"
@@ -3993,6 +4025,8 @@
  name_elizabeth: "Elizabeth"
  name_elizabeth.armenian_language: "Zabel"
  name_elizabeth.arpitan_dialect: "Èlisabèt"
+ name_elizabeth.baltic_language: "Elžbieta"
+ name_elizabeth.latvian_dialect: "Elizabete"
  name_elizabeth.basque_language: "Elisabet"
  name_elizabeth.bulgarian_language: "Elisaveta"
  name_elizabeth.catalan_dialect: "Elisabet"
@@ -4014,7 +4048,6 @@
  name_elizabeth.german_language: "Elisabeth"
  name_elizabeth.german_language.alternative: "Liesbeth"
  name_elizabeth.hungarian_language: "Erzsébet"
- name_elizabeth.lithuanian_dialect: "Elżbieta"
  name_elizabeth.north_italian_language: "Elisabetta"
  name_elizabeth.north_italian_language.diminutive: "Lisabetta"
  name_elizabeth.north_italian_language.alternative: "Isabella"
@@ -4145,7 +4178,7 @@
  name_epifanio.hungarian_language: "Epiphaniosz"
  name_epifanio.latin_language: "Epiphanius"
  name_epifanio.portuguese_language: "Epifânio"
- name_epifanio.south_slavic_language: "Epifanije"
+ name_epifanio.serbo_croatian_language: "Epifanije"
  name_epifanio.west_slavic_language: "Epifaniusz"
  #
  name_er: "Ér" #兒
@@ -4381,6 +4414,7 @@
  #
  name_eve: "Eva" # Bulgarian, Greek, Latin, Low German, North Italian, Portuguese, Romanian, Serbo-Croat, South Italian South Slavic, Swedish, Upper German
  name_eve.arpitan_dialect: "Èva"
+ name_eve.baltic_language: "Ieva"
  name_eve.basque_language: "Eba"
  name_eve.catalan_dialect: "Eva"
  name_eve_dogon_language: "Hawa"
@@ -4687,7 +4721,7 @@
  name_fountain.sicilian_dialect: "Funtana"
  #
  name_franca: "Franca" # Latin, North Italian, South Italian & Spanish
- name_franca.south_slavic_language: "Franka"
+ name_franca.serbo_croatian_language: "Franka"
  name_franca.west_slavic_language: "Francka"
  #
  name_frances: "Frances"
@@ -4925,6 +4959,10 @@
  name_galileo.north_italian_language: "Galileo"
  name_galileo.south_italian_language: "Galileo"
  #
+ name_galina: "Galina"
+ name_galina.latvian_dialect: "Gaļina"
+ name_galina.latvian_dialect.alternative: "Galīne"
+ #
  name_gallagher: "Gallagher"
  name_gallagher.gaelic_language: "Gallchobair"
  name_gallagher.gaelic_language.genitive: "Gallchobhair"
@@ -5011,6 +5049,7 @@
  name_george.armenian_language: "Kevork"
  name_george.arpitan_dialect: "Jôrjo"
  name_george.baltic_language: "Jurgis"
+ name_george.latvian_dialect: "Juris"
  name_george.basque_language: "Jurgi"
  name_george.bulgarian_language: "Georgi"
  name_george.catalan_dialect: "Jordi"
@@ -5126,6 +5165,8 @@
  name_gerlach: "Gerlach"
  #
  name_gertrude: "Gertrude"
+ name_gertrude.baltic_language: "Gertrūda"
+ name_gertrude.latvian_dialect: "Ģertrūde"
  name_gertrude.catalan_dialect: "Gertrudis"
  name_gertrude.dutch_dialect: "Geertruida"
  name_gertrude.dutch_dialect.diminutive: "Geertje"
@@ -5139,6 +5180,8 @@
  name_gervase.north_italian_language: "Gervasio"
  name_gervase.occitan_language: "Gervasi"
  name_gervase.south_italian_language: "Gervasio"
+ #
+ name_geza: "Géza"
  #
  name_ghidda: "Ghidda"
  #
@@ -5676,6 +5719,7 @@
  name_heilwig: "Heilwig"
  #
  name_helen: "Helen"
+ name_helen.baltic_language: "Ilona"
  name_helen.basque_language: "Helena"
  name_helen.brythonic_language: "Elen"
  name_helen.catalan_dialect: "Helena"
@@ -5766,6 +5810,8 @@
  name_henrietta.spanish_language: "Enriqueta"
  #
  name_henry: "Henrik"
+ name_henry.baltic_language: "Henrikas"
+ name_henry.latvian_dialect: "Henrijs"
  name_henry.basque_language: "Henrike"
  name_henry.brythonic_language: "Harri"
  name_henry.breton_dialect: "Herri"
@@ -6243,6 +6289,7 @@
  #
  name_ingrid: "Ingrid"
  name_ingrid.diminutive: "Inga"
+ name_ingrid.baltic_language: "Inga"
  name_ingrid.finnish_language: "Inkeri"
  name_ingrid.norwegian_dialect: "Ingfrid"
  #
@@ -6363,6 +6410,8 @@
  name_james.arpitan_dialect: "Jâque"
  name_james.arabic_language: "Ya'qūb"
  name_james.aramaic_language: "Ya'qūb"
+ name_james.baltic_language: "Jokūbas"
+ name_james.latvian_dialect: "Jēkabs"
  name_james.basque_language: "Jakue"
  name_james.belarusian_dialect: "Yakau" # Якаў Belarusian
  name_james.catalan_dialect: "Jaume"
@@ -6692,7 +6741,10 @@
  name_john.arabic_language: "Yaḥyā"
  name_john.arabic_language.alternative: "Yūḥannā"
  name_john.arpitan_dialect: "Jian"
- name_john.baltic_language: "Jaunutis"
+ name_john.baltic_language: "Jonas"
+ name_john.baltic_language.alternative: "Jaunutis"
+ name_john.latvian_dialect.alternative: "Hanss"
+ name_john.latvian_dialect: "Jānis"
  name_john.basque_language: "Joanes"
  name_john.brythonic_language: "Ifan"
  name_john.welsh: "Evan" # welsh culture
@@ -6978,7 +7030,8 @@
  name_julius: "Julius"
  name_julius.arpitan_dialect: "Julio"
  name_julius.french_language: "Jules"
- name_julius_latin_language: "Iulius"
+ name_julius.hungarian_language: "Gyula"
+ name_julius.latin_language: "Iulius"
  name_julius.north_italian_language: "Giulio"
  name_julius.occitan_language: "Juli"
  name_julius.romanian_language: "Iuliu"
@@ -7145,6 +7198,8 @@
  name_lai.kejia_language: "Lai"
  name_lai.jin_language: "Lai"
  #
+ name_laima: "Laima"
+ #
  name_lambert: "Lambert" # English & French
  name_lambert.dutch_dialect: "Lammert"
  name_lambert.german_language: "Lamprecht"
@@ -7190,6 +7245,8 @@
  name_lanfrank: "Lanfrank"
  name_lanfrank.north_italian_language: "Lanfranco"
  name_lanfrank.south_italian_language: "Lanfranco"
+ #
+ name_larisa: "Larisa"
  #
  name_latron: "Latron"
  name_latron.basque_language: "Ladron"
@@ -7461,6 +7518,8 @@
  name_licinia: "Licinia" # English, Latin, North Italian, South Italian & Spanish
  #
  name_lieta: "Lieta"
+ #
+ name_ligita: "Ligita"
  #
  name_lillian: "Lillian"
  name_lillian.bulgarian_language: "Lilyana"
@@ -7786,7 +7845,7 @@
  name_lulach.north_italian_language: "Lulacco" # Lombard
  name_lulach.portuguese_language: "Lulaco"
  name_lulach.scandinavian_language: "Lulak"
- name_lulach.south_slavic_language: "Lulak"
+ name_lulach.serbo_croatian_language: "Lulak"
  name_lulach.spanish_language: "Lulaco"
  name_lulach.turkish_language: "Lulak"
  name_lulach.west_slavic_language: "Lulak" # Polish
@@ -7858,6 +7917,7 @@
  name_lycus.south_italian_language: "Litto"
  #
  name_lydia: "Lydia"
+ name_lydia.baltic_language: "Lidija"
  name_lydia.bulgarian_language: "Lidiya"
  name_lydia.church_slavonic_language: "Lidiya"
  name_lydia.north_italian_language: "Lidia"
@@ -7890,7 +7950,7 @@
  name_macarius.east_slavic_language: "Makariy" # Макарий Russian
  name_macarius.novgorodian_dialect: "Makarĭi"
  name_macarius.ruthenian_language: "Makarii" # Макарій Ukrainian
- name_macarius.south_slavic_language: "Makarije"
+ name_macarius.serbo_croatian_language: "Makarije"
  name_macarius.spanish_language: "Macario"
  #
  name_macbeth: "Macbeth"
@@ -7908,6 +7968,8 @@
  #
  name_madeleine: "Madeleine" # English & French
  name_madeleine.arpitan_dialect: "Madelêna"
+ name_madeleine.baltic_language: "Magdalena"
+ name_madeleine.latvian_dialect: "Madalēna"
  name_madeleine.basque_language: "Magdalena"
  name_madeleine.catalan_dialect: "Magdalena"
  name_madeleine.german_language: "Magdalena"
@@ -7981,7 +8043,7 @@
  name_malcolm.greek_language: "Malkolm" # Μάλκολμ
  name_malcolm.latin_language: "Maelcolmus" # medieval church Latin
  name_malcolm.north_italian_language: "Malcolmo" # Lombard
- name_malcolm.south_slavic_language: "Malkolm"
+ name_malcolm.serbo_croatian_language: "Malkolm"
  name_malcolm.turkish_language: "Malkolm"
  #
  name_malley: "Malley"
@@ -8062,6 +8124,7 @@
  name_margaret: "Margaret"
  name_margaret.armenian_language.diminutive: "Reta"
  name_margaret.arpitan_dialect: "Margarèta"
+ name_margaret.baltic_language: "Margarita"
  name_margaret.basque_language: "Margarita"
  name_margaret.brythonic_language: "Marc'harid"
  name_margaret.catalan_dialect: "Margarida"
@@ -8108,6 +8171,7 @@
  name_marianus.spanish_language: "Mariano"
  #
  name_marine: "Marine"
+ name_marine.baltic_language: "Marina"
  name_marine.basque_language: "Marina"
  name_marine.catalan_dialect: "Marina"
  name_marine.latin_language: "Marina"
@@ -8183,7 +8247,8 @@
  name_martin.frisian_language: "Marten"
  name_martin.galician_dialect: "Martiño"
  name_martin.hungarian_language: "Márton"
- name_martin.lithuanian_dialect: "Martynas"
+ name_martin.baltic_language: "Martynas"
+ name_martin.latvian_dialect: "Mārtiņš"
  name_martin.north_italian_language: "Martino"
  name_martin.portuguese_language: "Martim"
  name_martin.portuguese_language.patronym: "Martins"
@@ -8202,6 +8267,7 @@
  name_mary.arabic_language: "Maryam"
  name_mary.armenian_language: "Mariyam"
  name_mary.arpitan_dialect: "Maria"
+ name_mary.baltic_language: "Marija"
  name_mary.basque_language.diminutive: "Miren" # Should be alternative
  name_mary.brythonic_language: "Mair"
  name_mary.breton_dialect: "Mari"
@@ -8258,12 +8324,14 @@
  #
  name_mattea: "Mattea" # English, North & South Italian
  name_mattea.french_language: "Mattéa"
- name_mattea.serbo_croatian_language: "Mateja"
- name_mattea.south_slavic_language: "Matija"
+ name_mattea.serbian_dialect: "Mateja"
+ name_mattea.serbo_croatian_language: "Matija"
  name_mattea.spanish_language: "Matea"
  #
  name_matthew: "Matthew"
  name_matthew.arpitan_dialect: "Matéy"
+ name_matthew.baltic_language: "Motiejus"
+ name_matthew.latvian_dialect: "Matvejs"
  name_matthew.belarusian_dialect: "Matvei" # Матвей Belarusian
  name_matthew.czechslovak_language: "Matěj"
  name_matthew.east_slavic_language: "Matveiy" # Матвей Russian
@@ -8290,7 +8358,9 @@
  name_matthias: "Matthias"
  name_matthias.albanian_language: "Matias"
  name_matthias.arabic_language: "Mattiyas" # متياس
- name_matthias.baltic_language: "Matijas" # Lithuanian
+ name_matthias.baltic_language: "Matas"
+ name_matthias.baltic_language.alternative: "Matijas"
+ name_matthias.latvian_dialect: "Matīss"
  name_matthias.basque_language: "Matias"
  name_matthias.brythonic_language: "Mathias" # Welsh
  name_matthias.catalan_dialect: "Maties"
@@ -8325,7 +8395,8 @@
  name_maurice.albanian_language: "Maurici"
  name_maurice.arabic_language: "Mawris" # موريس
  name_maurice.arpitan_dialect: "Môris"
- name_maurice.baltic_language: "Mauricijus" # Lithuanian
+ name_maurice.baltic_language: "Mauricijus"
+ name_maurice.latvian_dialect: "Māris"
  name_maurice.basque_language: "Maurixe"
  name_maurice.brythonic_language: "Meurig" # Welsh
  name_maurice.czechslovak_language: "Móric"
@@ -8344,7 +8415,7 @@
  name_maurice.occitan_language: "Maurici" # Also in Catalan
  name_maurice.portuguese_language: "Maurício"
  name_maurice.scandinavian_language: "Mauritz"
- name_maurice.south_slavic_language: "Mauricij"
+ name_maurice.serbo_croatian_language: "Mauricij"
  name_maurice.spanish_language: "Mauricio"
  name_maurice.turkish_language: "Mauris"
  name_maurice.west_slavic_language: "Maurici" # Polish
@@ -8377,7 +8448,7 @@
  name_maxentius.occitan_language: "Maxenç"
  name_maxentius.portuguese_language: "Magêncio"
  name_maxentius.south_italian_language: "Massenzio"
- name_maxentius.south_slavic_language: "Maksencije"
+ name_maxentius.serbo_croatian_language: "Maksencije"
  name_maxentius.bulgarian_language: "Maksencij"
  name_maxentius.spanish_language: "Majencio"
  name_maxentius.west_slavic_language: "Maksencjusz"
@@ -8402,7 +8473,7 @@
  name_maximus.south_italian_language: "Massimo"
  name_maximus.novgorodian_dialect: "Maksimŭ"
  name_maximus.ruthenian_language: "Maksym"
- name_maximus.south_slavic_language: "Maksim"
+ name_maximus.serbo_croatian_language: "Maksim"
  name_maximus.spanish_language: "Máximo"
  name_maximus.west_slavic_language: "Maksym"
  name_maximus.west_slavic_language.diminutive: "Maks"
@@ -8554,7 +8625,8 @@
  name_michael.albanian_language: "Mihal"
  name_michael.arabic_language: "Mīkhā'īl" # ميخائيل
  name_michael.arpitan_dialect: "Mechiél"
- name_michael.baltic_language: "Mykolas" # Lithuanian
+ name_michael.baltic_language: "Mykolas"
+ name_michael.latvian_dialect: "Miķelis"
  name_michael.basque_language: "Mikel"
  name_michael.belarusian_dialect: "Mikhail" # Міхаіл Belarusian
  name_michael.brythonic_language: "Mihangel" # Welsh
@@ -8611,6 +8683,8 @@
  #
  name_mieszko: "Mieszko"
  name_mieszko.german_language: "Miesko"
+ #
+ name_milda: "Milda"
  #
  name_milano: "Milano" # Brythonic, Greek, North Italian, Romanian, South Italian & Turkish
  name_milano.basque_language: "Milan"
@@ -8744,6 +8818,9 @@
  name_molloy.gaelic_language: "Maolmhuadh"
  name_molloy.gaelic_language.genitive: "Maolmhuaidh"
  #
+ name_monica: "Monica"
+ name_monica.baltic_language: "Monika"
+ #
  name_montanaro: "Montanaro"
  name_montanaro.spanish_language: "Montañero"
  #
@@ -8780,8 +8857,8 @@
  name_moses.turkish_language: "Musa"
  #
  name_moymar: "Moymar"
- name_moymar.latin_language: "Moymarus"
  name_moymar.czechslovak_language: "Mojmír"
+ name_moymar.latin_language: "Moymarus"
  #
  name_mstislav: "Mstislav"
  name_mstislav.belarusian_dialect: "Mstyslav" # Мсціслаў Belarusian
@@ -8813,7 +8890,7 @@
  name_muhammad.persian_language: "Muhammaḏ"
  name_muhammad.portuguese_language: "Maomé"
  name_muhammad.south_arabic_language: "Muḥammad" # محمد
- name_muhammad.south_slavic_language: "Muhamed"
+ name_muhammad.serbo_croatian_language: "Muhamed"
  name_muhammad.spanish_language: "Mahoma"
  name_muhammad.scandinavian_language: "Muhammed"
  name_muhammad.turkish_language: "Mehmed"
@@ -8854,7 +8931,7 @@
  name_murray.japanese_language: "Marei" # マレイ
  name_murray.latin_language: "Murrayus" # classical Latin
  name_murray.mandarin_language: "Mǔréi" # 穆瑞
- name_murray.south_slavic_language: "Marej"
+ name_murray.serbo_croatian_language: "Marej"
  #
  name_murtagh: "Murtagh"
  name_murtagh.gaelic_language: "Muirchertach"
@@ -8983,7 +9060,7 @@
  name_nicetas.novgorodian_dialect: "Nikĭta"
  name_nicetas.ruthenian_language: "Mykyta" # Мики́та Ukrainian
  name_nicetas.south_italian_language: "Niceta"
- name_nicetas.south_slavic_language: "Nikita"
+ name_nicetas.serbo_croatian_language: "Nikita"
  name_nicetas.spanish_language: "Niceto"
  #
  name_nicholas: "Nicholas"
@@ -9152,6 +9229,10 @@
  name_odhar.gaelic_language: "Odhar"
  name_odhar.gaelic_language.genitive: "Uidhir"
  #
+ name_odilia: "Odilia"
+ name_odilia.baltic_language: "Otilija"
+ name_odilia.latvian_dialect: "Otīlija"
+ #
  name_odoacer: "Odoacer"
  name_odoacer.spanish_language: "Odoacro"
  name_odoacer.west_slavic_language: "Otakar"
@@ -9164,7 +9245,7 @@
  #
  name_olaf: "Olaf"
  name_olaf.arabic_language: "Olaaf" # أولاف
- name_olaf.baltic_language: "Olafs" # Lithuanian
+ name_olaf.baltic_language: "Olafs"
  name_olaf.catalan_dialect: "Olau"
  name_olaf.english_language: "Aulay"
  name_olaf.finnish_language: "Olavi"
@@ -9429,7 +9510,8 @@
  name_paul.albanian_language: "Pal"
  name_paul.arabic_language: "Bulus" # بولس
  name_paul.arpitan_dialect: "Pol"
- name_paul.baltic_language: "Povilas" # Lithuanian
+ name_paul.baltic_language: "Povilas" 
+ name_paul.latvian_dialect: "Pāvils" 
  name_paul.belarusian_dialect: "Pavel" # Павел Belarusian
  name_paul.brythonic_language: "Pawl" # Welsh
  name_paul.bulgarian_language: "Pavel"
@@ -9450,11 +9532,11 @@
  name_paul.portuguese_language: "Paulo"
  name_paul.ruthenian_language: "Pavlo" # Павло Ukrainian
  name_paul.scandinavian_language: "Pål"
+ name_paul.serbian_dialect: "Pavle"
  name_paul.serbo_croatian_language: "Pavao"
  name_paul.south_italian_language: "Paolo"
  name_paul.sardinian_dialect: "Pàulu"
  name_paul.sicilian_dialect: "Pàulu"
- name_paul.south_slavic_language: "Pavle"
  name_paul.spanish_language: "Pablo"
  name_paul.turkish_language: "Pavlus"
  name_paul.west_slavic_language: "Paweł" # Polish
@@ -9482,7 +9564,7 @@
  name_paulinus.portuguese_language: "Paulino"
  name_paulinus.south_italian_language: "Paolino"
  name_paulinus.spanish_language: "Paulino"
- name_paulinus.south_slavic_language: "Pavlin"
+ name_paulinus.serbo_croatian_language: "Pavlin"
  name_paulinus.west_slavic_language: "Paulin"
  #
  name_payn: "Payn"
@@ -9562,6 +9644,8 @@
  name_peter: "Peter"
  name_peter.aragonese_dialect: "Pero"
  name_peter.arpitan_dialect: "Piérro"
+ name_peter.baltic_language: "Petras"
+ name_peter.latvian_dialect: "Pēteris"
  name_peter.basque_language: "Petri"
  name_peter.basque_language.diminutive: "Peru"
  name_peter.basque_language.gascon: "Piarres"
@@ -9771,7 +9855,7 @@
  name_polyxena.romanian_language: "Polixena"
  name_polyxena.south_italian_language: "Polissena"
  name_polyxena.spanish_language: "Políxena"
- name_polyxena.south_slavic_language: "Poliksena"
+ name_polyxena.serbo_croatian_language: "Poliksena"
  name_polyxena.turkish_language: "Poliksena"
  name_polyxena.west_slavic_language: "Poliksena"
  #
@@ -9837,7 +9921,7 @@
  name_prokop.portuguese_language: "Procópio"
  name_prokop.ruthenian_language: "Prokopii" # Прокопій Ukrainian
  name_prokop.south_italian_language: "Procopio"
- name_prokop.south_slavic_language: "Prokopije"
+ name_prokop.serbo_croatian_language: "Prokopije"
  name_prokop.spanish_language: "Procopio"
  #
  name_prosdocimus: "Prosdocimus" # Latin
@@ -10080,6 +10164,8 @@
  #
  name_ramla: "Ramla"
  #
+ name_rasa: "Rasa"
+ #
  name_rashida: "Rashīda"
  name_rashida.maghrebi_dialect: "Rachida"
  #
@@ -10117,6 +10203,8 @@
  name_raphaella.south_italian_language: "Raffaella"
  name_raphaella.sicilian_dialect: "Rafaela"
  name_raphaella.spanish_language: "Rafaela"
+ #
+ name_rappold: "Rappold"
  #
  name_raven: "Ravan"
  name_raven.english_language: "Raven"
@@ -10252,7 +10340,8 @@
  name_richard: "Richard"
  name_richard.albanian_language: "Rikard"
  name_richard.arabic_language: "Richard" # ريتشارد
- name_richard.baltic_language: "Ričardas" # Lithuanian
+ name_richard.baltic_language: "Ričardas" 
+ name_richard.latvian_dialect: "Ričards" 
  name_richard.basque_language: "Rikard"
  name_richard.brythonic_language: "Rhisiart" # Welsh
  name_richard.catalan_dialect: "Ricard"
@@ -10288,18 +10377,21 @@
  name_riddag: "Riddag"
  #
  name_rikissa: "Rikissa"
+ name_rikissa.low_german_dialect: "Rixa" # western_pomeranian
  name_rikissa.west_slavic_language: "Ryksa"
  name_rikissa.west_slavic_language.alternative: "Rycheza"
- name_rikissa.low_german_dialect: "Rixa" # western_pomeranian
  #
  name_risabelle: "Risabelle"
  name_risabelle.north_italian_language: "Risabella"
  name_risabelle.south_italian_language: "Risabella"
  name_risabelle.sicilian_dialect: "Risabbella"
  #
+ name_rita: "Rita"
+ #
  name_robert: "Robert" # English & French
  name_robert.arpitan_dialect: "Robèrt"
- name_robert.baltic_language: "Robertas" # Lithuanian
+ name_robert.baltic_language: "Robertas"
+ name_robert.latvian_dialect: "Roberts"
  name_robert.basque_language: "Roberto"
  name_robert.brythonic_language: "Rhobert" # Welsh
  name_robert.catalan_dialect: "Robert"
@@ -10309,6 +10401,7 @@
  name_robert.gaelic_language: "Raibeart"
  name_robert.german_language: "Ruprecht"
  name_robert.greek_language: "Robértos" # Ροβέρτος
+ name_robert.hungarian_language: "Róbert"
  name_robert.icelandic_dialect: "Hrobjart"
  name_robert.japanese_language: "Robāto" # ロバート
  name_robert.latin_language: "Robertus"
@@ -10336,6 +10429,7 @@
  name_roderick: "Roderick"
  name_roderick.basque_language: "Errodrigo"
  name_roderick.belarusian_dialect: "Rurik" # Рурык Belarusian
+ name_roderick.bulgarian_language: "Rjurik"
  name_roderick.brythonic_language: "Rhodri"
  name_roderick.catalan_dialect: "Roderic"
  name_roderick.east_slavic_language: "Rurik" # Рюрик Russian
@@ -10350,6 +10444,7 @@
  name_roderick.scandinavian_language: "Hrǿríkr"
  name_roderick.scots_dialect: "Rory"
  name_roderick.south_italian_language: "Roderigo"
+ name_roderick.serbo_croatian_language: "Rjurik"
  name_roderick.spanish_language: "Rodrigo"
  name_roderick.spanish_language.patronym: "Rodríguez"
  name_roderick.spanish_language.diminutive: "Ruy"
@@ -10381,7 +10476,7 @@
  name_roger.portuguese_language: "Rogério"
  name_roger.south_italian_language: "Ruggero"
  name_roger.south_italian_language.diminutive: "Gerio"
- name_roger.south_slavic_language: "Rudjer"
+ name_roger.serbo_croatian_language: "Rudjer"
  name_roger.spanish_language: "Rogelio"
  name_roger.turkish_language: "Rojer"
  # 
@@ -10520,6 +10615,10 @@
  #
  name_rusudan: "Rusudan"
  #
+ name_ruth: "Ruth"
+ name_ruth.baltic_language: "Rūta"
+ name_ruth.latvian_dialect: "Ruta"
+ #
  name_ryan: "Ryan"
  name_ryan.gaelic_language: "Rian"
  name_ryan.gaelic_language.genitive: "Riain"
@@ -10594,7 +10693,7 @@
  #
  name_samson: "Samson"
  #
- name_salomon: "Salomon" # English, French (+Arpitan) & Hungarian
+ name_salomon: "Salomon" # English & French (+Arpitan)
  name_salomon.arabic_language: "Sulaymān" # سليمان
  name_salomon.baltic_language: "Saliamonas" # Lithuanian
  name_salomon.breton_dialect: "Salaun"
@@ -10606,6 +10705,7 @@
  name_salomon.gaelic_language: "Solamh" # Scottish Gaelic
  name_salomon.greek_language: "Solomôn" # Σολομών
  name_salomon.hebrew_language: "Solomon"
+ name_salomon.hungarian_language: "Salamon"
  name_salomon.japanese_language: "Soromon" # ソロモン
  name_salomon.latin_language: "Solomōn"
  name_salomon.mandarin_language: "Suǒluómén" # 所罗门
@@ -10694,7 +10794,7 @@
  name_scipio.occitan_language: "Scipion"
  name_scipio.portuguese_language: "Cipião"
  name_scipio.south_italian_language: "Scipione"
- name_scipio.south_slavic_language: "Scipion"
+ name_scipio.serbo_croatian_language: "Scipion"
  name_scipio.spanish_language: "Escipión"
  name_scipio.west_slavic_language: "Scypion"
  #
@@ -10982,6 +11082,7 @@
  name_silvester.west_slavic_language: "Sylwester"
  #
  name_silvia: "Silvia" # English, German, Latin, North Italian, Portuguese, Romanian South Italian & Spanish
+ name_silvia.baltic_language: "Silvija"
  name_silvia.bulgarian_language: "Silviya"
  name_silvia.bulgarian_language.diminutive: "Silva"
  name_silvia.catalan_dialect: "Sílvia"
@@ -11066,6 +11167,9 @@
  name_sobeslav.spanish_language: "Sobeslao"
  name_sobeslav.west_slavic_language: "Sobiesław"
  #
+ name_solveig: "Solveig"
+ name_solveig.baltic_language: "Solveiga"
+ #
  name_song: "Sòng" #宋
  name_song.southern_mandarin_dialect: "Sōng"
  name_song.qin_dialect: "Sūng"
@@ -11099,6 +11203,7 @@
  name_somerled.gaelic_language: "Somhairle"
  #
  name_sophia: "Sophia"
+ name_sophia.baltic_language: "Sofija"
  name_sophia.bulgarian_language: "Sofija"
  name_sophia.coptic_language: "Sofia"
  name_sophia.church_slavonic_language: "Sofija"
@@ -11150,7 +11255,8 @@
  name_stanislava: "Stanislava"
  name_stanislava.romanian_language: "Stana"
  name_stanislava.serbo_croatian_language.diminutive: "Stana"
- name_stanislava.lithuanian_dialect: "Stanislova"
+ name_stanislava.baltic_language: "Stanislova"
+ name_stanislava.latvian_dialect: "Staņislava"
  name_stanislava.west_slavic_language: "Stanisława"
  #
  name_sten: "Sten"
@@ -11286,7 +11392,7 @@
  name_sveva: "Sveva"
  #
  name_svetlana: "Svetlana"
- name_svetlana.czechoslovak_language: "Světlana"
+ name_svetlana.czechslovak_language: "Světlana"
  name_svetlana.serbo_croatian_language: "Svjetlana"
  name_svetlana.ruthenian_language: "Svitlana"
  #
@@ -11410,6 +11516,7 @@
  name_tao1.kejia_language: "Thò"
  #
  name_tatiana: "Tatiana"
+ name_tatiana.baltic_language: "Tatjana"
  name_tatiana.east_slavic_language: "Tatyana"
  name_tatiana.east_slavic_language.alternative: "Tanya"
  name_tatiana.ruthenian_language: "Tetiana"
@@ -11552,7 +11659,7 @@
  name_theodosia.north_italian_language: "Teodosia"
  name_theodosia.portuguese_language: "Teodósia"
  name_theodosia.south_italian_language: "Teodosia"
- name_theodosia.south_slavic_language: "Teodozija"
+ name_theodosia.serbo_croatian_language: "Teodozija"
  name_theodosia.spanish_language: "Teodosia"
  name_theodosia.ruthenian_language: "Feodosiya"
  name_theodosia.west_slavic_language: "Teodozja"
@@ -11596,11 +11703,12 @@
  name_theudulf: "Theudulf"
  name_theudulf.dutch_dialect: "Theodolf"
  #
- name_thomas: "Tomas"
+ name_thomas: "Thomas"
  name_thomas.albanian_language: "Toma"
  name_thomas.arabic_language: "Tuma" # توما
  name_thomas.arpitan_dialect: "Tomas"
- name_thomas.baltic_language: "Tomas" # Lithuanian
+ name_thomas.baltic_language: "Tomas"
+ name_thomas.latvian_dialect: "Tomass" 
  name_thomas.basque_language: "Tomas"
  name_thomas.brythonic_language: "Tomos" # Welsh
  name_thomas.catalan_dialect: "Tomàs"
@@ -11879,7 +11987,7 @@
  name_urraca.basque_language: "Urraka"
  name_urraca.french_language: "Urraque"
  name_urraca.galician_dialect: "Orraca"
- name_urraca.south_slavic_language: "Uraka"
+ name_urraca.serbo_croatian_language: "Uraka"
  name_urraca.west_slavic_language: "Urraka"
  #
  name_ursa: "Ursa" # Latin
@@ -11952,7 +12060,7 @@
  name_valerian.ruthenian_language: "Valerii" # Валерій Ukrainian
  name_valerian.south_italian_language: "Valeriano"
  name_valerian.spanish_language: "Valeriano"
- name_valerian.south_slavic_language: "Valerijan"
+ name_valerian.serbo_croatian_language: "Valerijan"
  name_valerian.west_slavic_language: "Walerian" # Polish
  #
  name_valor: "Valor" # Catalan, Latin, Portuguese & Spanish
@@ -11993,12 +12101,14 @@
  name_verena: "Verena"
  #
  name_veronica: "Veronica"
+ name_veronica.baltic_language: "Veronika"
  #
  name_vezian: "Vezian"
  #
  name_viago: "Viago" # North Italian & South Italian
  #
  name_victoria: "Victoria" # Latin, English & Spanish
+ name_victoria.baltic_language: "Viktorija"
  name_victoria.french_language: "Victoire"
  name_victoria.galician_dialect: "Vitoria"
  name_victoria.german_language: "Viktoria"
@@ -12056,6 +12166,8 @@
  #
  name_vissarion: "Vissarion"
  name_vissarion.serbo_croatian_language: "Visarion"
+ #
+ name_vita: "Vita"
  #
  name_vital: "Vital" # French & Portuguese
  name_vital.east_slavic_language: "Vitalij"
@@ -12221,6 +12333,9 @@
  name_waltrude.latin_language: "Waldetrudis"
  name_waltrude.low_german_dialect: "Wiltrud"
  name_waltrude.spanish_language: "Valdetrudis"
+ #
+ name_wanda: "Wanda"
+ name_wanda.baltic_language: "Vanda"
  #
  name_wandelberta: "Wandelberta"
  name_wandelberta.north_italian_language: "Guandelberta"
@@ -12609,7 +12724,8 @@
  name_xavier: "Xavier"
  name_xavier.albanian_language: "Xhavjer"
  name_xavier.arabic_language: "Zāfir" # زافير
- name_xavier.baltic_language: "Ksavjeras" # Lithuanian
+ name_xavier.baltic_language: "Ksavjeras"
+ name_xavier.latvian_dialect: "Šavjērs"
  name_xavier.basque_language: "Xabier"
  name_xavier.catalan_dialect: "Xavier"
  name_xavier.east_slavic_language: "Ksavier" # Ксавьер Russian
@@ -12630,9 +12746,9 @@
  name_xaviera: "Xaviera"
  #
  name_xenia: "Xenia"
+ name_xenia.czechslovak_language: "Xenie"
  name_xenia.greek_language: "Xénia"
  name_xenia.west_slavic_language: "Ksenia"
- name_xenia.czechoslovak_language: "Xenie"
  #
  name_xwaja: "Xwāja"
  name_xwaja.arabic_language: "Ḵawājā"
@@ -13195,6 +13311,7 @@
  #
  name_yolande: "Yolande" # English & French
  name_yolande.arpitan_dialect: "Yolanda"
+ name_yolande.baltic_language: "Jolanta"
  name_yolande.basque_language: "Violante"
  name_yolande.breton_dialect: "Jolanda"
  name_yolande.bulgarian_language: "Yolanda"
@@ -13579,6 +13696,8 @@
  name_zi4.kejia_language: "Chhṳ"
  name_zi4.jin_language: "Zi"
  #
+ name_zita: "Zita"
+ #
  name_zivko: "Živko"
  name_zivko.bulgarian_language: "Zhivko"
  name_zivko.church_slavonic_language: "Zhivko"
@@ -13586,6 +13705,7 @@
  name_zlata: "Zlata"
  #
  name_zoe: "Zoe" # English, Greek, Low German, North Italian, South Italian, Spanish & Upper German
+ name_zoe.baltic_language: "Zoja"
  name_zoe.dutch_dialect: "Zoë"
  name_zoe.greek_language: "Zoê"
  #
@@ -15585,34 +15705,47 @@
  name_wati: "Wātī"
  #Mongolian
  name_abaqa: "Abaqa"
+ name_ajashiri: "Ajashiri"
+ name_ajul: "Ajul"
  name_alghu: "Alghu"
+ name_alguncha: "Alguncha"
  name_anbarchi: "Anbarchi"
  name_arghun: "Arghun"
  name_ariq: "Ariq"
  name_arpa: "Arpa"
+ name_arug: "Arug"
+ name_ayachi: "Ayachi"
  name_aylangir: "Aylangir"
  name_baidar: "Baidar"
  name_bartan: "Bartan"
  name_bayan: "Bayan"
  name_baydu: "Baydu"
+ name_belgutei: "Belgutei"
  name_berke: "Berke"
  name_boke: "Böke"
+ name_bolot: "Bolot"
  name_buqa: "Buqa"
  name_buri: "Büri"
  name_burgul: "Burgul"
  name_buzan: "Buzan"
+ name_chahur: "Chahur"
  name_changshi: "Changshi"
+ name_cherik: "Cherik"
  name_danishmendji: "Danishmendji"
  name_duwa: "Duwa"
  name_ebugen: "Ebugen"
  name_eljigidey: "Eljigidey"
+ name_emugen: "Emügen"
  name_erumduli: "Erumduli"
  name_esen: "Esen"
  name_gaykhatu: "Gaikhalt"
  name_genghis: "Činggis"
  name_ghazan: "Ghazan"
+ name_hachiun: "Hachiun"
+ name_hugeci: "Hügeči"
  name_hulegu: "Hülegü"
  name_ichil: "Ichil"
+ name_jibugen: "Jibugen"
  name_jinzhier: "Jinzhier"
  name_kadan: "Kadan"
  name_kaidu: "Kaidu"
@@ -15621,42 +15754,58 @@
  name_khabul: "Khabul"
  name_khaduli: "Khaduli"
  name_khashin: "Khashin"
+ name_khuchun: "Khuchun"
+ name_khulahur: "Khulahur"
  name_koke: "Köke"
  name_konchek: "Könchek"
+ name_kumun: "Kumun"
  name_majartai: "Majartai"
+ name_melig: "Melig" #Perhaps a mongolian version of Malik
  name_mingqan: "Mingqan"
  name_mongke: "Möngke"
+ name_munanzi: "Munanzi"
  name_naghachu: "Naghachu"
+ name_nayan: "Nayan"
  name_negubei: "Negübei"
  name_ogedei: "Ögedei"
  name_oljaitu: "Öljaitü"
+ name_onggiradai: "Onggiradai"
  name_orug: "Orüg"
  name_pulad: "Pulad"
  name_qadaqchi: "Qadaqchi"
  name_qara_hulegu: "Qara Hülegü"
  name_qarachar: "Qarachar"
  name_qazan: "Qazan"
+ name_qongur: "Qong'ur"
  name_quli: "Qulï"
  name_sarban: "Sarban"
  name_sartaq: "Sartaq"
+ name_shigdur: "Shigdür"
+ name_shilieman: "Shilieman"
  name_sogai: "Sogai"
  name_sose: "Söse"
  name_suqu_sechen: "Suqu Sechen"
  name_surgan: "Surgan"
  name_surguda: "Surguda"
+ name_taghachar: "Taghachar"
  name_taliqu: "Taliqu"
  name_tamashirin: "Tamashirin"
  name_taraghai: "Taraghai"
  name_tartu: "Tartu"
  name_tekuder: "Tögöldör"
+ name_temuge: "Temüge"
  name_temur: "Temür"
+ name_temurchi: "Temürchi"
  name_todar: "Todar"
  name_tode: "Töde"
  name_toqta: "Toqta"
  name_tole: "Töle"
  name_tughluq: "Tughluq"
+ name_tuhu: "Tuhu"
  name_tumbinai: "Tumbinai"
  name_ulaghchi: "Ulaghchi"
+ name_vajravarmi: "Vaǰravarmi"
+ name_yanashiri: "Yanashiri"
  name_yasaur: "Yasa'ur"
  name_yesu: "Yesü"
  name_yesun: "Yesün"

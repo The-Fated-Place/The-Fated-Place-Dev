@@ -1,0 +1,51 @@
+﻿
+a_villagers = {
+    copy_from = a_age_1_traditions_light_infantry
+
+    strength_damage_taken = 0.2
+    morale_damage_taken = 0.2
+
+
+    buildable = no
+    levy = yes
+    gfx_tags = { light_tag }
+}
+
+
+a_villagers_halfling = {
+    copy_from = a_age_1_traditions_light_infantry
+
+    strength_damage_taken = 0.2
+    morale_damage_taken = 0.2
+    food_storage_per_strength = 10
+
+
+    buildable = no
+    levy = yes
+    gfx_tags = { light_tag }
+}
+
+a_horse_villagers = {
+    copy_from = a_age_1_traditions_light_cavalry
+
+    strength_damage_taken = 0.2
+    morale_damage_taken = 0.2
+
+
+    buildable = no
+    levy = yes
+    gfx_tags = { light_tag }
+}
+
+a_pony_riders_halfling = {
+    copy_from = a_age_1_traditions_light_cavalry
+
+    strength_damage_taken = 0.2
+    morale_damage_taken = 0.2
+    food_storage_per_strength = 10
+
+
+    buildable = no
+    levy = yes
+    gfx_tags = { light_tag }
+}

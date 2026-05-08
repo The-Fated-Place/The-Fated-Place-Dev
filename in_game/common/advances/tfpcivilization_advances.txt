@@ -1,0 +1,271 @@
+﻿#Written Alphabet
+  written_alphabet = {
+  	age = age_1_traditions
+  	icon = abacus_advance
+  	depth = 0
+  	research_cost = 2.0
+
+
+  	global_max_literacy = 5
+      global_monthly_literacy = 0.01
+      allow = { has_embraced_institution = institution:civilization }
+
+  	starting_technology_level = 2
+ }
+
+mapmaking = {
+	age = age_1_traditions
+	icon = maritime_advance_age_4
+	requires = written_alphabet
+
+	research_cost = 1.0
+	may_explore = yes
+	unlock_law = immigration_law
+    starting_technology_level = 2
+}
+
+codified_laws = {
+	age = age_1_traditions
+	icon = scholasticism
+
+	requires = written_alphabet
+
+	research_cost = 2.0
+	has_codified_laws = yes
+	allow_council_parliament = yes
+
+	starting_technology_level = 2
+}
+
+subjects_advance = {
+	age = age_1_traditions
+	icon = diplomatic_influence
+	research_cost = 2.5
+
+	allow_subjects = yes
+	unlock_subject_type = vassal
+
+	requires = codified_laws
+    starting_technology_level = 2
+}
+
+cultural_acceptance_advance = {
+	age = age_1_traditions
+	icon = cultural_acceptance_advance
+	cultures_capacity = 1
+	starting_technology_level = 3
+	requires = cultural_traditions_law_advance
+}
+
+# colonies = {
+# 	age = age_1_traditions
+# 	icon = colonies
+# 	requires = mapmaking
+#
+# 	research_cost = 1.0
+# 	can_colonize = yes
+#     starting_technology_level = 2
+# }
+
+
+taxation_advance = {
+	age = age_1_traditions
+	icon = genoese_banking_traditions
+	research_cost = 2.5
+	enable_taxation = yes
+	has_stability_investment = yes
+
+	unlock_law = coin_laws
+
+	requires = codified_laws
+    starting_technology_level = 2
+}
+
+#Agriculture
+agriculture_advance = {
+	age = age_1_traditions
+	research_cost = 2.0
+	can_extract_wheat = yes
+	can_extract_maize = yes
+	can_extract_potato = yes
+	can_extract_rice = yes
+	can_extract_millet = yes
+	can_extract_legumes = yes
+
+    allow = { has_embraced_institution = institution:civilization }
+
+	depth = 0
+
+	starting_technology_level = 1
+}
+
+city_building_advance = {
+	age = age_1_traditions
+	icon = city_building_advance
+	research_cost = 2.0
+	can_build_cities = yes
+
+	requires = agriculture_advance
+}
+
+road_building = {
+	age = age_1_traditions
+	icon = road_building
+	research_cost = 2.0
+	has_road_building = yes
+
+	unlock_road_type = gravel_road
+
+	requires = city_building_advance
+}
+
+#Organized Religion
+organized_religion = {
+    age = age_1_traditions
+
+    global_clergy_city_desired_pop = 0.05
+    global_clergy_max_literacy = 5
+
+    allow = { has_embraced_institution = institution:civilization }
+
+    depth = 0
+    starting_technology_level = 2
+
+}
+
+
+mining_advance = {
+    age = age_1_traditions
+    icon = efficient_mining
+
+    starting_technology_level = 1
+    depth = 0
+    research_cost = 2.0
+    allow = { has_embraced_institution = institution:civilization }
+    can_extract_stone = yes
+    can_extract_marble = yes
+
+}
+
+metallurgy  = {
+    age = age_1_traditions
+
+    requires = mining_advance
+    research_cost = 2.0
+
+    unlock_building = tools_guild
+    starting_technology_level = 2
+
+}
+
+
+
+mining_law_advance = {
+    age = age_1_traditions
+    icon = laws
+    requires = mining_advance
+    starting_technology_level = 1
+
+    unlock_law = mining_law
+}
+
+bronze_working = {
+    age = age_1_traditions
+    icon = serbian_mining
+    requires = metallurgy
+    research_cost = 2.0
+
+    can_extract_copper = yes
+    can_extract_tin = yes
+    can_extract_lead = yes
+    starting_technology_level = 1
+
+}
+
+iron_working = {
+    icon = efficient_mining
+    age = age_1_traditions
+    requires = metallurgy
+    research_cost = 2.0
+    starting_technology_level = 1
+
+    allow = {
+        has_embraced_institution = institution:civilization
+    }
+
+    can_extract_coal = yes
+    can_extract_iron = yes
+    unlock_building = bog_iron_smelter
+}
+
+local_smelters_advance = {
+    age = age_1_traditions
+    requires = iron_working
+    unlock_building = local_smelters
+}
+
+advanced_mining  = {
+    age = age_1_traditions
+    icon = serbian_mining
+    requires = iron_working
+    research_cost = 2.0
+
+    can_extract_saltpeter = yes
+    can_extract_alum = yes
+
+}
+
+fine_metals_mining = {
+    age = age_1_traditions
+    requires = bronze_working
+    research_cost = 2.0
+    starting_technology_level = 2
+
+    can_extract_goods_gold = yes
+    can_extract_silver = yes
+    can_extract_mercury = yes
+}
+
+library_advance = {
+	age = age_1_traditions
+
+	requires = scriptorium_advance
+
+	unlock_building = library
+}
+
+ship_building_advance = {
+    age = age_1_traditions
+    icon = ship_building_advance
+    research_cost = 2.0
+
+    allow = {
+        has_embraced_institution = institution:civilization
+        AND = {
+            culture = { has_culture_group = culture_group:imperial_group }
+            OR = {
+                country_rank = country_rank:rank_kingdom
+                country_rank = country_rank:rank_empire
+                has_special_status_in_international_organization = {
+                    type = special_status:Free_City
+                    international_organization = international_organization:the_empire
+                }
+                has_special_status_in_international_organization = {
+                    type = special_status:Elector_Count
+                    international_organization = international_organization:the_empire
+                }
+                has_special_status_in_international_organization = {
+                    type = special_status:Elector
+                    international_organization = international_organization:the_empire
+                }
+            }
+
+        }
+
+    }
+    ship_build_speed = 0.1
+    depth = 0
+
+    starting_technology_level = 2
+}
+

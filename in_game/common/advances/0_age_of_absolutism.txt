@@ -1,0 +1,12 @@
+﻿# ##########################
+# # Manufactories
+# ##########################
+
+manufactories_advance = {
+	age = age_5_absolutism
+
+	global_max_rgo_size_modifier = 0.10
+	depth = 0
+
+	allow = { has_embraced_institution = institution:civilization }
+}

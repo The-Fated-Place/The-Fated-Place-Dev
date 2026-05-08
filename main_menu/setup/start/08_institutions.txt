@@ -1,28 +1,1393 @@
- locations={
+locations = {
+    Talabheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bachra = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bad_Dankerode = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bad_Tenzala = {
+        civilization = yes
+        black_powder = yes
+    }
+    Breitblatt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grossreiche = {
+        civilization = yes
+        black_powder = yes
+    }
+    Harferfahre = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hernhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Klarfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kutzleben = {
+        civilization = yes
+        black_powder = yes
+    }
+    Liebstadt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sprotau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sumpfrand = {
+        civilization = yes
+        black_powder = yes
+    }
+    Talagaad = {
+        civilization = yes
+        black_powder = yes
+    }
+    Urhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vateresche = {
+        civilization = yes
+        black_powder = yes
+    }
+    Waldfahrt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kusel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dreetz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lochrafurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Uckrofurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bek = {
+        civilization = yes
+        black_powder = yes
+    }
+    Freital = {
+        civilization = yes
+        black_powder = yes
+    }
+    Viernau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Garndorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Torpin = {
+        civilization = yes
+        black_powder = yes
+    }
+    Werder = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gersdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dohna = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sabritz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Radische = {
+        civilization = yes
+        black_powder = yes
+    }
+    Krugenheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hazelhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Trautenau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lieske = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ossino = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gostahof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zutzen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ranganhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ravenstein = {
+        civilization = yes
+        black_powder = yes
+    }
+    Klepzig = {
+        civilization = yes
+        black_powder = yes
+    }
+    Unterbaum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Volgen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Brasthof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Esselfurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Priestlicheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ripdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sudenheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zeder = {
+        civilization = yes
+        black_powder = yes
+    }
+    Welleborn = {
+        civilization = yes
+        black_powder = yes
+    }
+    Missen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sydow = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zurin = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sarno = {
+        civilization = yes
+        black_powder = yes
+    }
+    Marienburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Aarnau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hollum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gorrsel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Klessen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kalkaat = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zandt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Halsdorp = {
+        civilization = yes
+        black_powder = yes
+    }
+    Leydenhoven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Broekwater = {
+        civilization = yes
+        black_powder = yes
+    }
+    Almshoven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Salfen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lehmburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Salzenmund = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tettens = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hohenaspe = {
+        civilization = yes
+        black_powder = yes
+    }
+    Odisheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tobenamedsilverhills1 = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tobenamedsilverhills2 = {
+        civilization = yes
+        black_powder = yes
+    }
+    Silbertief = {
+        civilization = yes
+        black_powder = yes
+    }
+    Beeckerhoven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Oldenlitz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hargendorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Massenfels = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hargensumpf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schlaghugel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Forstfast = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kronven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Skogholm = {
+        civilization = yes
+        black_powder = yes
+    }
+    Voervinholm = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tyrvad = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zelebhorn = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vesterrup = {
+        civilization = yes
+        black_powder = yes
+    }
+    Auld_Troldved = {
+        civilization = yes
+        black_powder = yes
+    }
+    Frote = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dunsen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Marklohe = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dorfmark = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dunkelkiefer = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wulfhaven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schadelbruck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Leihafen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dietershafen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Broghur = {
+        civilization = yes
+        black_powder = yes
+    }
+    Skovby = {
+        civilization = yes
+        black_powder = yes
+    }
+    Stavern = {
+        civilization = yes
+        black_powder = yes
+    }
+    Alfhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Luftberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Skjaldberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Seuchenshof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Huven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Norden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kriedeklippe = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schuten = {
+        civilization = yes
+        black_powder = yes
+    }
+    Salzmorast = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pugsblatter = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nysted = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dreizack = {
+        civilization = yes
+        black_powder = yes
+    }
+    Heiligdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nordenwacht = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wilhelmskoog = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ockholm = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wittigholm = {
+        civilization = yes
+        black_powder = yes
+    }
+    Manaansheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Holzbeck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Immelscheid = {
+        civilization = yes
+        black_powder = yes
+    }
+    Oberholzbeck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sohk = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hovelhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schoninghagen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Jagerhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pritzstock = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grubentreich = {
+        civilization = yes
+        black_powder = yes
+    }
+    Thugenheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Elsterweld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hunxe = {
+        civilization = yes
+        black_powder = yes
+    }
+    Norderingen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Solzheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Middenheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gladbeich = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lindenheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Warrenburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grevenfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Arenberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Scheinfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nupstedt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Uder = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hupstedt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Carroburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Barenfahre = {
+        civilization = yes
+        black_powder = yes
+    }
+    Senden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Anseldorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Punzen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Rosche = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mittlemund = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kammendun = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ahlenhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bad_Hohne = {
+        civilization = yes
+        black_powder = yes
+    }
+    Suderberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Middenstag = {
+        civilization = yes
+        black_powder = yes
+    }
+    Untergard = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grimmenhagen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Fintel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Harsum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Delberz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Turmgever = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schwarzmarkt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Althausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Fluorin = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kroppenleben = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kauns = {
+        civilization = yes
+        black_powder = yes
+    }
+    Madau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Erbshausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mendelhofe = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mecklenthal = {
+        civilization = yes
+        black_powder = yes
+    }
+    Steingart = {
+        civilization = yes
+        black_powder = yes
+    }
+    Krossbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vals = {
+        civilization = yes
+        black_powder = yes
+    }
+    Taalszahne = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pfeildorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bernau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Elzach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tannau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wildenhugel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sollweg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mecklenburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Rosenhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wissenburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dotternbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Haigenbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Rohrhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Geschberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grissenwald = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kreutzhofen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Meissen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Auggen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Heisenberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tierhugel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sonnefurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wusteburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nuln = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ambostein = {
+        civilization = yes
+        black_powder = yes
+    }
+    Segeldorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wurstheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Averheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Monheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ruhgsdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sorghof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tannfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Agbeiten = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bernloch = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bieswang = {
+        civilization = yes
+        black_powder = yes
+    }
+    Colmfahre = {
+        civilization = yes
+        black_powder = yes
+    }
+    Volsbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grenzstadt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Heideck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Willenfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hochsleben = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lengenfeld = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gebenbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mantel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pfunzig = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dietfurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Essing = {
+        civilization = yes
+        black_powder = yes
+    }
+    Streissen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dachbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Eining = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pilsach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Siegenhausen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hergig = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dunstigfurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Muden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Stockse = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vodf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bergendorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ahresdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wannsingen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Breder = {
+        civilization = yes
+        black_powder = yes
+    }
+    Esk = {
+        civilization = yes
+        black_powder = yes
+    }
+    Denkh = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gruyden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Barwedel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Koerin = {
+        civilization = yes
+        black_powder = yes
+    }
+    Krudenwald = {
+        civilization = yes
+        black_powder = yes
+    }
+    Selmigerholz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Eicheschatten = {
+        civilization = yes
+        black_powder = yes
+    }
+    Birnbaum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dreiflussen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Einsamholz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Fallenblatt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gipfel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sauerapfel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mordheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bissendorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tauer = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bechafen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dorna = {
+        civilization = yes
+        black_powder = yes
+    }
+    Munkenhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Reitwein = {
+        civilization = yes
+        black_powder = yes
+    }
+    Rugenbuttel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Eisental = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mielau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Essen_plains = {
+        civilization = yes
+        black_powder = yes
+    }
+    Fortenhaf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Gerdouen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Rheden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Elbing = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nagenhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Buckow = {
+        civilization = yes
+        black_powder = yes
+    }
+    Weiler = {
+        civilization = yes
+        black_powder = yes
+    }
+    Remer = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zeisholz = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wolfenburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dassel = {
+        civilization = yes
+        black_powder = yes
+    }
+    Felde = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grunackern = {
+        civilization = yes
+        black_powder = yes
+    }
+    Melbeck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wendorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bohsenfels = {
+        civilization = yes
+        black_powder = yes
+    }
+    Boven = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lenkster = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ferlangen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Aukrug = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dunkelpfad = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kurst = {
+        civilization = yes
+        black_powder = yes
+    }
+    Levudaldorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lubrecht = {
+        civilization = yes
+        black_powder = yes
+    }
+    Obelstein = {
+        civilization = yes
+        black_powder = yes
+    }
+    Salkalten = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vandengart = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grenzburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wurzen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dorog = {
+        civilization = yes
+        black_powder = yes
+    }
+    Zundap = {
+        civilization = yes
+        black_powder = yes
+    }
+    Wurtbad = {
+        civilization = yes
+        black_powder = yes
+    }
+    Biberhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Julbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Oberwill = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tarshof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Blutdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kircham = {
+        civilization = yes
+        black_powder = yes
+    }
+    Flensburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Lochen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ramsau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Franzen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Chrobok = {
+        civilization = yes
+        black_powder = yes
+    }
+    Russbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Halstedt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tenneck = {
+        civilization = yes
+        black_powder = yes
+    }
+    Leicheberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Naubonum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Marberg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Oehling = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nachthafen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Pfaffbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schramleben = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hutten = {
+        civilization = yes
+        black_powder = yes
+    }
+    Siegfriedhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Sigmaringen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Tempelhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Vanhaldenhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Worden = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kelham = {
+        civilization = yes
+        black_powder = yes
+    }
+    Nussbach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Waldenhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Egling = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hundhum = {
+        civilization = yes
+        black_powder = yes
+    }
+    Mikalsdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Regakhof = {
+        civilization = yes
+        black_powder = yes
+    }
+    Thyrnau = {
+        civilization = yes
+        black_powder = yes
+    }
+    Altdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Blutroch = {
+        civilization = yes
+        black_powder = yes
+    }
+    Braunwurt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bundesmarkt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Frederheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Furtild = {
+        civilization = yes
+        black_powder = yes
+    }
+    Geldrecht = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grossbad = {
+        civilization = yes
+        black_powder = yes
+    }
+    Kaldach = {
+        civilization = yes
+        black_powder = yes
+    }
+    Teufelfeuer = {
+        civilization = yes
+        black_powder = yes
+    }
+    Walfen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Auerswald = {
+        civilization = yes
+        black_powder = yes
+    }
+    Hahnbrandt = {
+        civilization = yes
+        black_powder = yes
+    }
+    Bogenhafen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Dunkelburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schattenlas = {
+        civilization = yes
+        black_powder = yes
+    }
+    Diesdorf = {
+        civilization = yes
+        black_powder = yes
+    }
+    Eilhart = {
+        civilization = yes
+        black_powder = yes
+    }
+    Grunburg = {
+        civilization = yes
+        black_powder = yes
+    }
+    Helmgart = {
+        civilization = yes
+        black_powder = yes
+    }
+    Schilderheim = {
+        civilization = yes
+        black_powder = yes
+    }
+    Stimmigen = {
+        civilization = yes
+        black_powder = yes
+    }
+    Ubersreik = {
+        civilization = yes
+        black_powder = yes
+    }
 
-	testprovince1 = {
-		feudalism = yes
-		legalism = yes
-	}
-	testprovince2 = {
-		feudalism = yes
-		legalism = yes
-	}
-	testprovince3 = {
-		feudalism = yes
-		legalism = yes
-	}
-	testprovince4 = {
-		feudalism = yes
-		legalism = yes
-	}
-	testprovince5 = {
-		feudalism = yes
-		legalism = yes
-	}
-	testprovince6 = {
-		feudalism = yes
-		legalism = yes
-	}
+
 
 }

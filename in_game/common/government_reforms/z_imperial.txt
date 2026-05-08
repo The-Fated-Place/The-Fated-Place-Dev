@@ -1,0 +1,35 @@
+﻿elector_count = {
+	government = monarchy
+
+    allow = {
+        has_special_status_in_international_organization = {
+            type = special_status:Elector_Count
+            international_organization = international_organization:the_empire
+        }
+    }
+
+	country_modifier = {
+		global_crown_estate_power = 0.1
+		monthly_towards_aristocracy = societal_value_monthly_move
+		monthly_towards_absolutism = societal_value_monthly_move
+	}
+	years = 2
+}
+
+imperial_elector = {
+
+    allow = {
+        has_special_status_in_international_organization = {
+            type = special_status:Elector
+            international_organization = international_organization:the_empire
+        }
+    }
+
+    country_modifier = {
+        global_crown_estate_power = 0.1
+        monthly_towards_aristocracy = societal_value_monthly_move
+        monthly_towards_absolutism = societal_value_monthly_move
+    }
+    years = 2
+}
+

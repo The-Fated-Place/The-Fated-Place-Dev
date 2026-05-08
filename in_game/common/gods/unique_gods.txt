@@ -1,0 +1,33 @@
+﻿sotek = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = SOTEK_GOD
+    }
+    country_modifier = {
+    }
+}
+
+the_great_maw = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = THE_GREAT_MAW_GOD
+    }
+}
+
+ze_lady = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = ZE_LADY_GOD
+    }
+}
+
+the_great_horned_rat = {
+    icon = _default
+    religion = {
+        religion = imperial_cults
+        name_key = THE_GREAT_HORNED_RAT_GOD
+    }
+}

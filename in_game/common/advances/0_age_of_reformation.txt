@@ -1,0 +1,14 @@
+﻿###############################
+# Confessionalism
+###############################
+
+confessionalism_advance = {
+	icon = pop_promotion_speed_age_4
+	age = age_4_reformation
+
+	global_pop_conversion_speed = 0.01
+
+	depth = 0
+
+	allow = { has_embraced_institution = institution:civilization }
+}

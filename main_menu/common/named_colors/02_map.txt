@@ -1,4 +1,4 @@
-colors = {
+﻿colors = {
     map_debug = rgb { 255 0 255 }
 
     # Reikbasin
@@ -15,7 +15,8 @@ colors = {
     map_middenland = rgb { 153 173 238 }
     map_drakwald = rgb { 135 11 44 }
     map_ostland = rgb { 128 0 255 }
-    map_gazani = rgb { 65 61 62}
+
+    map_dwarf = rgb { 65 61 62}
     map_imperialhalfling = rgb { 255 223 196}
     map_imperialogre = rgb { 34 139 34}
     map_mootish = rgb { 210 180 140}

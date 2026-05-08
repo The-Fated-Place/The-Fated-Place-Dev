@@ -1,29 +1,9 @@
-imperial_cults = {
+﻿imperial_cults = {
     color = map_reikland
     group = old_world_cults
 
     language = reikspiel_language
 
-    max_cults = 3
-
-    definition_modifier = {
-        tolerance_heretic = 1
-
-        global_max_literacy = 5
-        can_have_monasteries = yes
-    }
-
-    tags = { buddhist_gfx }
-}
-
-sigmarian_heresy = {
-    color = map_talabecland
-    group = old_world_cults
-
-    language = reikspiel_language
-
-
-    max_cults = 3
 
     definition_modifier = {
         tolerance_heretic = 1

@@ -1,0 +1,28 @@
+﻿country_can_start_exploration_trigger = {
+    modifier:may_explore = yes
+    OR = {
+        is_ai = no
+        AND = {
+            country_tax_base > 30
+            OR = {
+                has_game_rule = all_countries_explore
+                trigger_if = {
+                    limit = {
+                        has_game_rule = western_exploration_only
+                    }
+                    not = { has_preference_tag = "warfare" }
+                    OR = {
+                        capital.continent = continent:old_world
+                        and = {
+                            is_subject = yes
+                            overlord = {
+                                capital.continent = continent:old_world
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

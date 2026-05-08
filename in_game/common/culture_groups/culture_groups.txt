@@ -1,11 +1,77 @@
+#Species Groups
+
 human_group = {}
 
-imperial_group = {}
+dwarf_group = {
 
-dwarf_group = {}
+}
 
-halfling_group = {}
+halfling_group = {
+
+}
 
 ogre_group = {}
 
 elf_group = {}
+
+# Tech Groups
+
+imperial_group = {}
+
+norscan_group = {}
+
+
+# Heritage groups
+
+asoborn_group = {}
+
+brigundian_group = {}
+
+cherusen_group = {}
+
+endal_group = {}
+
+fennone_group = {}
+
+jutone_group = {}
+
+menogoth_group = {}
+
+merogen_group = {}
+
+norsii_group = {}
+
+ostagoth_group = {}
+
+taleuten_group = {}
+
+teutogen_group = {}
+
+thuringian_group = {}
+
+udoses_group = {}
+
+unberogen_group = {}
+
+ungol_group = {}
+
+# Bridge Groups
+
+northern_imperial_group = {}
+
+southern_imperial_group = {}
+
+middenland_group = {}
+
+mootish_group = {}
+
+nordland_group = {}
+
+ostland_group = {}
+
+
+# Special Groups
+
+cosmopolitan_group = {}
+
+shugengan_group = {}

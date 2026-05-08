@@ -1,0 +1,23 @@
+﻿#modded
+rijkers_isle_modifier = {
+    game_data = {
+        category = location
+    }
+    local_food_capacity = 500
+    local_defensive = 0.25
+    local_garrison_size = 0.05
+    local_integration_speed_modifier = -0.5
+}
+
+upgraded_rijkers_isle_modifier = {
+    game_data = {
+        category = location
+    }
+    local_food_capacity = 1000
+    local_defensive = 0.5
+    local_garrison_size = 0.2
+    local_integration_speed_modifier = -1
+    hostile_fleet_attrition = 1
+}
+
+

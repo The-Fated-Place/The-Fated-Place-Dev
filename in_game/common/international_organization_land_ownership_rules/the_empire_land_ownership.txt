@@ -1,0 +1,30 @@
+﻿the_empire_land_ownership = {
+
+	# applied to locations that are owned by the international organization
+	modifier = {
+	}
+	
+	# root = location, recipient = international organization
+	can_add_trigger = {
+		always = no #Handled through Imperial Parliament
+	}
+	
+	# root = location, recipient = international organization
+	can_remove_trigger = {
+		always = no #Handled through Imperial parliament
+	}
+	
+	# root = location, recipient = international organization
+	on_added = {
+	}
+	
+	# root = location, recipient = international organization
+	on_removed = {
+	}
+	
+	# root = location, recipient = international organization
+	ai_desire_to_add = {
+	}
+
+	owned_location_color = rgb { 75 190 115 }
+}

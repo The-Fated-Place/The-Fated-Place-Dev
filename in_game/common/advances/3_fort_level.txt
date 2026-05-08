@@ -1,0 +1,12 @@
+﻿@fort_limit_modifier_increase = 0.1
+
+fort_limit_1_advance = {
+	age = age_1_traditions
+	icon = defensive_mentality
+    potential = {
+        culture = { has_culture_group = culture_group:imperial_group }
+    }
+	requires = castle_advance
+
+	fort_limit_modifier = @fort_limit_modifier_increase
+}

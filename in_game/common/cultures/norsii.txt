@@ -1,26 +1,25 @@
-norsii_culture = {
-	language = norsii_language # language or dialect
+norsii = {
+    language = reikspiel_language # language or dialect
 
-	color = map_norsii # jomini color
+    color = map_stirland # jomini color
 
-	tags = { european_gfx } # gfx tags
+    tags = { european_gfx } # gfx tags
 
-	country_modifier = {
+    country_modifier = {
 
-	}
-	location_modifier = {
+    }
+    location_modifier = {
 
-	}
-	character_modifier = {
+    }
+    character_modifier = {
 
-	}
+    }
 
-	opinions = {
-		danish_gfx = enemy # enemy, negative, neutral, positive, kindred
-	}
+    opinions = {
 
-	culture_groups = {
-		human_group
+    }
 
-	}
+    culture_groups = {
+        human_group
+    }
 }
